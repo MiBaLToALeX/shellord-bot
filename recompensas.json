@@ -1,0 +1,803 @@
+[
+  {
+    "tipo": 0,
+    "recompensa": "xp"
+  },
+  {
+    "tipo": 1,
+    "recompensa": "energia"
+  },
+  {
+    "tipo": 2,
+    "recompensa": "creditos"
+  },
+  {
+    "tipo": 3,
+    "recompensa": "especial"
+  },
+  {
+    "tipo": 4,
+    "recompensa": "item",
+    "item_id": "pocion_1",
+    "emoji": "🍵",
+    "indice": 0
+  },
+  {
+    "tipo": 5,
+    "recompensa": "item",
+    "item_id": "pocion_2",
+    "emoji": "🍵",
+    "indice": 1
+  },
+  {
+    "tipo": 6,
+    "recompensa": "item",
+    "item_id": "pocion_3",
+    "emoji": "🍵",
+    "indice": 2
+  },
+  {
+    "tipo": 7,
+    "recompensa": "item",
+    "item_id": "tickets",
+    "emoji": "🎁",
+    "indice": 1,
+    "mensaje": "Has obtenido 1 🎫 ticket"
+  },
+  {
+    "tipo": 8,
+    "recompensa": "item",
+    "item_id": "key_1",
+    "emoji": "🗝",
+    "indice": 0,
+    "mensaje": "Has obtenido +1 llave azul de puerta lógica AND"
+  },
+  {
+    "tipo": 9,
+    "recompensa": "item",
+    "item_id": "key_2",
+    "emoji": "🗝",
+    "indice": 1,
+    "mensaje": "Has obtenido +1 llave mazmorra tóxica"
+  },
+  {
+    "tipo": 10,
+    "recompensa": "item",
+    "item_id": "key_3",
+    "emoji": "🗝",
+    "indice": 2,
+    "mensaje": "Has obtenido +1 llave mazmorra dorada"
+  },
+  {
+    "tipo": 11,
+    "recompensa": "item",
+    "item_id": "key_4",
+    "emoji": "🗝",
+    "indice": 3,
+    "mensaje": "Has obtenido +1 llave naranja de puerta lógica NOT"
+  },
+  {
+    "tipo": 12,
+    "recompensa": "item",
+    "item_id": "key_5",
+    "emoji": "🗝",
+    "indice": 4,
+    "mensaje": "Has obtenido +1 llave roja de puerta lógica NAND"
+  },
+  {
+    "tipo": 13,
+    "recompensa": "item",
+    "item_id": "key_6",
+    "emoji": "🗝",
+    "indice": 5,
+    "mensaje": "Has obtenido +1 llave púrpura de puerta lógica NOR y XNOR"
+  },
+  {
+    "tipo": 14,
+    "recompensa": "item",
+    "item_id": "daga_acuafilo",
+    "emoji": "🗡",
+    "indice": 1
+  },
+  {
+    "tipo": 15,
+    "recompensa": "item",
+    "item_id": "key_7",
+    "emoji": "🗝",
+    "indice": 0,
+    "mensaje": "Has obtenido +1 llave mazmorra Equinos Oscuros",
+    "vol": 3
+  },
+  {
+    "tipo": 16,
+    "recompensa": "item",
+    "item_id": "escudo_azul",
+    "emoji": "🛡",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 17,
+    "recompensa": "item",
+    "item_id": "key_shocklin",
+    "emoji": "🗝",
+    "indice": 2,
+    "mensaje": "Has obtenido +1 llave mazmorra Shocklin",
+    "vol": 3
+  },
+  {
+    "tipo": 18,
+    "recompensa": "item",
+    "item_id": "espada_shocklin",
+    "emoji": "🗡",
+    "indice": 0,
+    "vol": 2
+  },
+  {
+    "tipo": 19,
+    "recompensa": "item",
+    "item_id": "escudo_shocklin",
+    "emoji": "🛡",
+    "indice": 0,
+    "vol": 2
+  },
+  {
+    "tipo": 20,
+    "recompensa": "item",
+    "item_id": "key_abisal",
+    "emoji": "🗝",
+    "indice": 3,
+    "mensaje": "Has obtenido +1 llave mazmorra Abisal",
+    "vol": 3
+  },
+  {
+    "tipo": 21,
+    "recompensa": "item",
+    "item_id": "pocion_fenix",
+    "emoji": "🍵",
+    "indice": 0,
+    "vol": 3
+  },
+  {
+    "tipo": 22,
+    "recompensa": "item",
+    "item_id": "antidoto",
+    "emoji": "🍵",
+    "indice": 1,
+    "vol": 3
+  },
+  {
+    "tipo": 23,
+    "recompensa": "item",
+    "item_id": "pocion_regenerativa",
+    "emoji": "🍵",
+    "indice": 4,
+    "vol": 3
+  },
+  {
+    "tipo": 24,
+    "recompensa": "item",
+    "item_id": "pocion_holoescudo",
+    "emoji": "🍵",
+    "indice": 5,
+    "vol": 3
+  },
+  {
+    "tipo": 25,
+    "recompensa": "item",
+    "item_id": "pocion_overflow",
+    "emoji": "🍵",
+    "indice": 2,
+    "vol": 3
+  },
+  {
+    "tipo": 26,
+    "recompensa": "item",
+    "item_id": "pocion_invisibilidad",
+    "emoji": "🍵",
+    "indice": 3,
+    "vol": 3
+  },
+  {
+    "tipo": 27,
+    "recompensa": "item",
+    "item_id": "escudo_abismal",
+    "emoji": "🛡",
+    "indice": 1,
+    "vol": 2
+  },
+  {
+    "tipo": 28,
+    "recompensa": "item",
+    "item_id": "key_glitch",
+    "emoji": "🗝",
+    "indice": 4,
+    "mensaje": "Has obtenido +1 llave mazmorra del Rey Glitch",
+    "vol": 3
+  },
+  {
+    "tipo": 29,
+    "recompensa": "item",
+    "item_id": "key_anfibio",
+    "emoji": "🗝",
+    "indice": 15,
+    "mensaje": "Has obtenido +1 llave mazmorra anfibio",
+    "vol": 3
+  },
+  {
+    "tipo": 30,
+    "recompensa": "item",
+    "item_id": "key_orbix",
+    "emoji": "🗝",
+    "indice": 16,
+    "mensaje": "Has obtenido +1 llave mazmorra de Orbix",
+    "vol": 3
+  },
+  {
+    "tipo": 31,
+    "recompensa": "item",
+    "item_id": "key_sinthia",
+    "emoji": "🗝",
+    "indice": 17,
+    "mensaje": "Has obtenido +1 llave mazmorra de Sínthia",
+    "vol": 3
+  },
+  {
+    "tipo": 32,
+    "recompensa": "item",
+    "item_id": "key_plantibora",
+    "emoji": "🗝",
+    "indice": 18,
+    "mensaje": "Has obtenido +1 llave mazmorra plantíboras",
+    "vol": 3
+  },
+  {
+    "tipo": 33,
+    "recompensa": "item",
+    "item_id": "tridenthor",
+    "emoji": "🗡",
+    "indice": 1,
+    "vol": 4
+  },
+  {
+    "tipo": 34,
+    "recompensa": "item",
+    "item_id": "orbe_azul",
+    "emoji": "🔮",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 35,
+    "recompensa": "item",
+    "item_id": "orbe_toxico",
+    "emoji": "🔮",
+    "indice": 1,
+    "vol": 1
+  },
+  {
+    "tipo": 36,
+    "recompensa": "item",
+    "item_id": "escudo_toxico",
+    "emoji": "🛡",
+    "indice": 1,
+    "vol": 1
+  },
+  {
+    "tipo": 37,
+    "recompensa": "item",
+    "item_id": "daga_toxica",
+    "emoji": "🗡",
+    "indice": 2,
+    "vol": 1
+  },
+  {
+    "tipo": 38,
+    "recompensa": "item",
+    "item_id": "espada_toxica",
+    "emoji": "🗡",
+    "indice": 3,
+    "vol": 1
+  },
+  {
+    "tipo": 39,
+    "recompensa": "item",
+    "item_id": "plasmithia",
+    "emoji": "🔫",
+    "indice": 0,
+    "vol": 4
+  },
+  {
+    "tipo": 40,
+    "recompensa": "skill",
+    "skill_id": "escaner",
+    "emoji": "🔎",
+    "indice": 0,
+    "vol": 2,
+    "mensaje": "¡Has desbloqueado la skill escaner!"
+  },
+  {
+    "tipo": 41,
+    "recompensa": "item",
+    "item_id": "block_energy",
+    "emoji": "🔋",
+    "indice": 0,
+    "vol": 1,
+    "mensaje": "¡Has obtenido un bloque de energía!"
+  },
+  {
+    "tipo": 42,
+    "recompensa": "item",
+    "item_id": "karniguada",
+    "emoji": "🗡",
+    "indice": 0,
+    "vol": 4
+  },
+  {
+    "tipo": 43,
+    "recompensa": "item",
+    "item_id": "karniscudo",
+    "emoji": "🛡",
+    "indice": 0,
+    "vol": 4
+  },
+  {
+    "tipo": 44,
+    "recompensa": "xp_oficio"
+  },
+  {
+    "tipo": 45,
+    "recompensa": "item",
+    "item_id": "key_saurica",
+    "emoji": "🗝",
+    "indice": 14,
+    "mensaje": "Has obtenido +1 llave mazmorra Sáurica",
+    "vol": 3
+  },
+  {
+    "tipo": 46,
+    "recompensa": "skill",
+    "skill_id": "liberacion",
+    "emoji": "🔎",
+    "indice": 0,
+    "vol": 2,
+    "mensaje": "¡Has desbloqueado la habilidad Liberación!"
+  },
+  {
+    "tipo": 47,
+    "recompensa": "skill",
+    "skill_id": "purificar",
+    "emoji": "🔎",
+    "indice": 0,
+    "vol": 2,
+    "mensaje": "¡Has desbloqueado la habilidad Purificar!"
+  },
+  {
+    "tipo": 48,
+    "recompensa": "item",
+    "item_id": "key_felina",
+    "emoji": "🗝",
+    "indice": 6,
+    "mensaje": "Has obtenido +1 llave mazmorra Felina",
+    "vol": 3
+  },
+  {
+    "tipo": 49,
+    "recompensa": "item",
+    "item_id": "key_oeste",
+    "emoji": "🗝",
+    "indice": 19,
+    "mensaje": "Has obtenido +1 llave mazmorra Oeste",
+    "vol": 3
+  },
+  {
+    "tipo": 50,
+    "recompensa": "item",
+    "item_id": "key_felina_2",
+    "emoji": "🗝",
+    "indice": 6,
+    "mensaje": "Has obtenido +1 llave puerta X-2 Felina",
+    "vol": 3
+  },
+  {
+    "tipo": 51,
+    "recompensa": "item",
+    "item_id": "key_felina_3",
+    "emoji": "🗝",
+    "indice": 6,
+    "mensaje": "Has obtenido +1 llave puerta Y-1 Felina",
+    "vol": 3
+  },
+  {
+    "tipo": 52,
+    "recompensa": "item",
+    "item_id": "key_felina_4",
+    "emoji": "🗝",
+    "indice": 6,
+    "mensaje": "Has obtenido +1 llave puerta Y-2 Felina",
+    "vol": 3
+  },
+  {
+    "tipo": 53,
+    "recompensa": "item",
+    "item_id": "key_felina_5",
+    "emoji": "🗝",
+    "indice": 6,
+    "mensaje": "Has obtenido +1 llave puerta X-1 Felina",
+    "vol": 3
+  },
+  {
+    "tipo": 54,
+    "recompensa": "item",
+    "item_id": "key_felina_6",
+    "emoji": "🗝",
+    "indice": 6,
+    "mensaje": "Has obtenido +1 llave puerta secreta Felina",
+    "vol": 3
+  },
+  {
+    "tipo": 55,
+    "recompensa": "item",
+    "item_id": "key_desierto",
+    "emoji": "🗝",
+    "indice": 20,
+    "mensaje": "Has obtenido +1 llave mazmorra del Desierto",
+    "vol": 3
+  },
+  {
+    "tipo": 56,
+    "recompensa": "item",
+    "item_id": "orbe_dorado",
+    "emoji": "🔮",
+    "indice": 2,
+    "vol": 1
+  },
+  {
+    "tipo": 57,
+    "recompensa": "item",
+    "item_id": "escudo_dorado",
+    "emoji": "🛡",
+    "indice": 2,
+    "vol": 1
+  },
+  {
+    "tipo": 58,
+    "recompensa": "item",
+    "item_id": "espada_dorada",
+    "emoji": "🗡",
+    "indice": 4,
+    "vol": 1
+  },
+  {
+    "tipo": 59,
+    "recompensa": "item",
+    "item_id": "revolver_dobo",
+    "emoji": "🔫",
+    "indice": 1,
+    "vol": 4,
+    "mensaje": "Has obtenido +1 Revolver Dobo"
+  },
+  {
+    "tipo": 60,
+    "recompensa": "item",
+    "item_id": "espada_canubis",
+    "emoji": "🗡",
+    "indice": 2,
+    "vol": 4,
+    "mensaje": "Has obtenido +1 Espada Canubis"
+  },
+  {
+    "tipo": 61,
+    "recompensa": "item",
+    "item_id": "dagas_crhimait",
+    "emoji": "🗡",
+    "indice": 3,
+    "vol": 4,
+    "mensaje": "Has obtenido +1 Dagas Crhimait"
+  },
+  {
+    "tipo": 62,
+    "recompensa": "item",
+    "item_id": "hachas_bisu",
+    "emoji": "🗡",
+    "indice": 4,
+    "mensaje": "Has obtenido +1 Hachas Bisu",
+    "vol": 4
+  },
+  {
+    "tipo": 63,
+    "recompensa": "item",
+    "item_id": "baston_buzu",
+    "emoji": "🗡",
+    "indice": 5,
+    "vol": 4,
+    "mensaje": "Has obtenido +1 Baston Buzu"
+  },
+  {
+    "tipo": 64,
+    "recompensa": "item",
+    "item_id": "ficha_e",
+    "emoji": "⚙️",
+    "indice": 28,
+    "vol": 5,
+    "mensaje": "Has obtenido +1 Ficha E"
+  },
+  {
+    "tipo": 65,
+    "recompensa": "item",
+    "item_id": "ficha_d",
+    "emoji": "⚙️",
+    "indice": 28,
+    "vol": 5,
+    "mensaje": "Has obtenido +1 Ficha D"
+  },
+  {
+    "tipo": 66,
+    "recompensa": "item",
+    "item_id": "ficha_c",
+    "emoji": "⚙️",
+    "indice": 28,
+    "vol": 5,
+    "mensaje": "Has obtenido +1 Ficha C"
+  },
+  {
+    "tipo": 67,
+    "recompensa": "item",
+    "item_id": "ficha_b",
+    "emoji": "⚙️",
+    "indice": 28,
+    "vol": 5,
+    "mensaje": "Has obtenido +1 Ficha B"
+  },
+  {
+    "tipo": 68,
+    "recompensa": "item",
+    "item_id": "ficha_a",
+    "emoji": "⚙️",
+    "indice": 28,
+    "vol": 5,
+    "mensaje": "Has obtenido +1 Ficha A"
+  },
+  {
+    "tipo": 69,
+    "recompensa": "item",
+    "item_id": "ficha_s",
+    "emoji": "⚙️",
+    "indice": 28,
+    "vol": 5,
+    "mensaje": "Has obtenido +1 Ficha S"
+  },
+  {
+    "tipo": 70,
+    "recompensa": "item",
+    "item_id": "ficha_m",
+    "emoji": "⚙️",
+    "indice": 28,
+    "vol": 5,
+    "mensaje": "Has obtenido +1 Ficha MAX"
+  },
+  {
+    "tipo": 71,
+    "recompensa": "skill",
+    "emoji": "🔎",
+    "indice": 0,
+    "skill_id": "revivir",
+    "vol": 2,
+    "mensaje": "¡Has desbloqueado la habilidad Revivir!"
+  },
+  {
+    "tipo": 72,
+    "recompensa": "skill",
+    "emoji": "🔎",
+    "indice": 0,
+    "skill_id": "levantar",
+    "vol": 2,
+    "mensaje": "¡Has desbloqueado la habilidad Levantar!"
+  },
+  {
+    "tipo": 73,
+    "recompensa": "skill",
+    "emoji": "🔎",
+    "indice": 0,
+    "skill_id": "volar",
+    "vol": 2,
+    "mensaje": "¡Has desbloqueado la habilidad Volar!"
+  },
+  {
+    "tipo": 74,
+    "recompensa": "skill",
+    "emoji": "🔎",
+    "indice": 0,
+    "skill_id": "bucear",
+    "vol": 2,
+    "mensaje": "¡Has desbloqueado la habilidad Bucear!"
+  },
+  {
+    "tipo": 75,
+    "recompensa": "item",
+    "item_id": "key_krabits",
+    "emoji": "🗝",
+    "indice": 22,
+    "vol": 3,
+    "mensaje": "Has obtenido +1 llave mazmorra Krabits"
+  },
+  {
+    "tipo": 76,
+    "recompensa": "item",
+    "item_id": "martillo_krabit",
+    "emoji": "🗡",
+    "indice": 6,
+    "vol": 4
+  },
+  {
+    "tipo": 77,
+    "recompensa": "item",
+    "item_id": "key_krabits_2",
+    "emoji": "🗝",
+    "indice": 22,
+    "vol": 3,
+    "mensaje": "Has obtenido +1 llave mazmorra Krabits - El faro"
+  },
+  {
+    "tipo": 78,
+    "recompensa": "item",
+    "item_id": "arco_krabit",
+    "emoji": "🏹",
+    "indice": 0,
+    "vol": 4
+  },
+  {
+    "tipo": 79,
+    "recompensa": "item",
+    "item_id": "escudo_krabit",
+    "emoji": "🛡",
+    "indice": 1,
+    "vol": 4
+  },
+  {
+    "tipo": 80,
+    "recompensa": "item",
+    "item_id": "key_subterranea",
+    "emoji": "🗝",
+    "indice": 23,
+    "vol": 3,
+    "mensaje": "Has obtenido +1 llave de la mazmorra Subterránea"
+  },
+  {
+    "tipo": 81,
+    "recompensa": "item",
+    "item_id": "key_fortaleza",
+    "emoji": "🗝",
+    "indice": 7,
+    "vol": 3,
+    "mensaje": "Has obtenido +1 llave de la Fortaleza demoníaca"
+  },
+  {
+    "tipo": 82,
+    "recompensa": "item",
+    "item_id": "key_rocosa",
+    "emoji": "🗝",
+    "indice": 3,
+    "vol": 1,
+    "mensaje": "Has obtenido +1 llave rocosa"
+  },
+  {
+    "tipo": 83,
+    "recompensa": "item",
+    "item_id": "key_fortaleza_2",
+    "emoji": "🗝",
+    "indice": 5,
+    "vol": 3,
+    "mensaje": "Has obtenido +1 llave de la Fortaleza demoníaca - Los errantes"
+  },
+  {
+    "tipo": 84,
+    "recompensa": "item",
+    "item_id": "orbe_rocoso",
+    "emoji": "🔮",
+    "indice": 3,
+    "vol": 1
+  },
+  {
+    "tipo": 85,
+    "recompensa": "skill",
+    "emoji": "🔎",
+    "indice": 0,
+    "vol": 2,
+    "mensaje": "¡Has desbloqueado la habilidad Atadura!",
+    "skill_id": "atadura"
+  },
+  {
+    "tipo": 86,
+    "recompensa": "skill",
+    "emoji": "🔎",
+    "indice": 0,
+    "skill_id": "salto",
+    "vol": 2,
+    "mensaje": "¡Has desbloqueado la habilidad Salto!"
+  },
+  {
+    "tipo": 87,
+    "recompensa": "item",
+    "item_id": "escudo_rocoso",
+    "emoji": "🛡",
+    "indice": 3,
+    "vol": 1
+  },
+  {
+    "tipo": 88,
+    "recompensa": "item",
+    "item_id": "lanza_demoniaca",
+    "emoji": "🗡",
+    "indice": 7,
+    "vol": 1
+  },
+  {
+    "tipo": 89,
+    "recompensa": "item",
+    "item_id": "espada_demoniaca",
+    "emoji": "🗡",
+    "indice": 8,
+    "vol": 1
+  },
+  {
+    "tipo": 90,
+    "recompensa": "item",
+    "item_id": "espada_errante",
+    "emoji": "🗡",
+    "indice": 9,
+    "vol": 1
+  },
+  {
+    "tipo": 91,
+    "recompensa": "item",
+    "item_id": "hacha_demoniaca",
+    "emoji": "🗡",
+    "indice": 10,
+    "vol": 1
+  },
+  {
+    "tipo": 92,
+    "recompensa": "item",
+    "item_id": "key_nido",
+    "emoji": "🗝",
+    "indice": 24,
+    "mensaje": "Has obtenido +1 llave nido",
+    "vol": 3
+  },
+  {
+    "tipo": 93,
+    "recompensa": "item",
+    "item_id": "pala_raspadora",
+    "emoji": "🗡",
+    "indice": 7,
+    "vol": 4
+  },
+  {
+    "tipo": 94,
+    "recompensa": "skill",
+    "emoji": "🔎",
+    "indice": 0,
+    "skill_id": "excavar",
+    "vol": 2,
+    "mensaje": "¡Has desbloqueado la habilidad Excavar!"
+  },
+  {
+    "tipo": 95,
+    "recompensa": "skill",
+    "emoji": "🔎",
+    "indice": 0,
+    "skill_id": "capturar",
+    "vol": 2,
+    "mensaje": "¡Has desbloqueado la habilidad Capturar!"
+  },
+  {
+    "tipo": 96,
+    "recompensa": "skill",
+    "emoji": "🔎",
+    "indice": 0,
+    "vol": 2,
+    "skill_id": "invocar",
+    "mensaje": "¡Has desbloqueado la habilidad Invocar!"
+  }
+]

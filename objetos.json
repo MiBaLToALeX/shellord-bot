@@ -1,0 +1,962 @@
+[
+  {
+    "id": "daga_zafiro",
+    "dmg_min": 1,
+    "dmg_max": 2,
+    "atk": 1,
+    "def": 0,
+    "nivel": 10,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "emoji": "🗡",
+    "indice": 0,
+    "vol": 1,
+    "dmg_bonus_pct": 1,
+    "dmg_bonus_fijo": false
+  },
+  {
+    "id": "daga_acuafilo",
+    "dmg_min": 1,
+    "dmg_max": 5,
+    "atk": 1,
+    "def": 0,
+    "nivel": 10,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "emoji": "🗡",
+    "indice": 1,
+    "vol": 1,
+    "dmg_bonus_pct": 1,
+    "dmg_bonus_fijo": false
+  },
+  {
+    "id": "escudo_azul",
+    "atk": 0,
+    "def": 1,
+    "nivel": 10,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "escudo",
+    "emoji": "🛡",
+    "indice": 0,
+    "vol": 1,
+    "def_bonus_pct": 2,
+    "def_bonus_fijo": true
+  },
+  {
+    "id": "espada_shocklin",
+    "dmg_min": 5,
+    "dmg_max": 10,
+    "atk": 1,
+    "def": 0,
+    "nivel": 10,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "emoji": "🗡",
+    "indice": 0,
+    "vol": 2,
+    "dmg_bonus_pct": 1,
+    "dmg_bonus_fijo": false
+  },
+  {
+    "id": "escudo_shocklin",
+    "atk": 0,
+    "def": 2,
+    "nivel": 10,
+    "energia_max_bonus": 100,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "escudo",
+    "emoji": "🛡",
+    "indice": 0,
+    "vol": 2,
+    "def_bonus_pct": 5,
+    "def_bonus_fijo": true
+  },
+  {
+    "id": "escudo_abismal",
+    "atk": 0,
+    "def": 2,
+    "nivel": 10,
+    "rango": "D",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "escudo",
+    "emoji": "🛡",
+    "indice": 1,
+    "vol": 2,
+    "def_bonus_pct": 8,
+    "def_bonus_fijo": true
+  },
+  {
+    "id": "tridenthor",
+    "dmg_min": 28,
+    "dmg_max": 38,
+    "atk": 2,
+    "def": 0,
+    "nivel": 10,
+    "rango": "D",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "emoji": "🗡",
+    "indice": 1,
+    "vol": 4,
+    "dmg_bonus_pct": 2,
+    "dmg_bonus_fijo": false
+  },
+  {
+    "id": "orbe_azul",
+    "atk": 0,
+    "def": 0,
+    "nivel": 10,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "orbe_magico",
+    "emoji": "🔮",
+    "indice": 0,
+    "vol": 1,
+    "dmg_bonus_pct": 1,
+    "def_bonus_pct": 1
+  },
+  {
+    "id": "orbe_toxico",
+    "atk": 0,
+    "def": 0,
+    "nivel": 10,
+    "rango": "D",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "orbe_magico",
+    "emoji": "🔮",
+    "indice": 1,
+    "vol": 1,
+    "dmg_bonus_pct": 2,
+    "def_bonus_pct": 2,
+    "dmg_bonus_fijo": false,
+    "def_bonus_fijo": false
+  },
+  {
+    "id": "orbe_dorado",
+    "atk": 0,
+    "def": 0,
+    "nivel": 10,
+    "rango": "C",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "orbe_magico",
+    "emoji": "🔮",
+    "indice": 2,
+    "vol": 1,
+    "dmg_bonus_pct": 3,
+    "def_bonus_pct": 3,
+    "dmg_bonus_fijo": false,
+    "def_bonus_fijo": false
+  },
+  {
+    "id": "daga_toxica",
+    "dmg_min": 20,
+    "dmg_max": 45,
+    "atk": 2,
+    "def": 0,
+    "nivel": 10,
+    "rango": "D",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "emoji": "🗡",
+    "indice": 2,
+    "vol": 1,
+    "dmg_bonus_pct": 2,
+    "dmg_bonus_fijo": false
+  },
+  {
+    "id": "espada_toxica",
+    "dmg_min": 28,
+    "dmg_max": 45,
+    "atk": 2,
+    "def": 0,
+    "nivel": 10,
+    "rango": "D",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "emoji": "🗡",
+    "indice": 3,
+    "vol": 1,
+    "dmg_bonus_pct": 2,
+    "dmg_bonus_fijo": false
+  },
+  {
+    "id": "escudo_toxico",
+    "atk": 0,
+    "def": 2,
+    "nivel": 10,
+    "rango": "D",
+    "energia_max_bonus": 120,
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "escudo",
+    "emoji": "🛡",
+    "indice": 1,
+    "vol": 1,
+    "def_bonus_pct": 7,
+    "def_bonus_fijo": true
+  },
+  {
+    "id": "plasmithia",
+    "dmg_min": 28,
+    "dmg_max": 50,
+    "atk": 2,
+    "def": 0,
+    "nivel": 10,
+    "rango": "D",
+    "alcance": "R2",
+    "equipable": true,
+    "tipo": "arma",
+    "emoji": "🔫",
+    "indice": 0,
+    "vol": 4,
+    "dmg_bonus_pct": 2,
+    "dmg_bonus_fijo": false
+  },
+  {
+    "id": "pico",
+    "dmg_min": 1,
+    "atk": 1,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "emoji": "🗡",
+    "indice": 0,
+    "vol": 5
+  },
+  {
+    "id": "pala_raspadora",
+    "dmg_min": 180,
+    "atk": 4,
+    "def": 0,
+    "nivel": 10,
+    "rango": "B",
+    "alcance": "R1",
+    "equipable": true,
+    "tipo": "arma",
+    "emoji": "🗡",
+    "indice": 7,
+    "vol": 4,
+    "dmg_max": 200,
+    "dmg_bonus_pct": 4,
+    "energia_max_bonus": 400,
+    "def_bonus_fijo": false
+  },
+  {
+    "id": "espada_ancestral",
+    "nivel": 10,
+    "dmg_min": 200,
+    "dmg_max": 290,
+    "critico_pct": 10,
+    "atk": 8,
+    "def": 0,
+    "rango": "S",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "emoji": "🗡",
+    "indice": 1,
+    "vol": 5,
+    "dmg_bonus_pct": 10,
+    "dmg_bonus_fijo": false,
+    "int_bonus_pct": 10,
+    "formula": [
+      {
+        "id_objeto": "ficha_s",
+        "cantidad": 10
+      },
+      {
+        "id_objeto": "rare_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "rare_03",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "rare_04",
+        "cantidad": 1
+      }
+    ],
+    "energia_max_bonus": 900
+  },
+  {
+    "id": "escudo_ancestral",
+    "nivel": 10,
+    "rango": "S",
+    "energia_max_bonus": 1000,
+    "atk": 0,
+    "def": 2,
+    "esquiva_pct": 10,
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "escudo",
+    "emoji": "🛡",
+    "indice": 0,
+    "vol": 5,
+    "def_bonus_pct": 35,
+    "def_bonus_fijo": true
+  },
+  {
+    "id": "karniguada",
+    "nivel": 10,
+    "dmg_min": 45,
+    "dmg_max": 50,
+    "critico_pct": 2,
+    "atk": 2,
+    "def": 0,
+    "rango": "D",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "emoji": "🗡",
+    "indice": 0,
+    "vol": 4,
+    "dmg_bonus_pct": 2,
+    "dmg_bonus_fijo": false
+  },
+  {
+    "id": "karniscudo",
+    "nivel": 10,
+    "rango": "D",
+    "energia_max_bonus": 200,
+    "atk": 0,
+    "def": 2,
+    "int_bonus_pct": 2,
+    "esquiva_pct": 2,
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "escudo",
+    "emoji": "🛡",
+    "indice": 0,
+    "vol": 4,
+    "def_bonus_pct": 10,
+    "def_bonus_fijo": true
+  },
+  {
+    "id": "escudo_dorado",
+    "atk": 0,
+    "def": 2,
+    "nivel": 10,
+    "rango": "C",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "escudo",
+    "emoji": "🛡",
+    "energia_max_bonus": 300,
+    "critico_pct": 3,
+    "int_bonus_pct": 3,
+    "def_bonus_fijo": true,
+    "esquiva_pct": 3,
+    "vol": 1,
+    "indice": 2,
+    "def_bonus_pct": 12
+  },
+  {
+    "id": "espada_dorada",
+    "atk": 3,
+    "nivel": 10,
+    "rango": "C",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "formula": [
+      {
+        "id_objeto": "gold",
+        "cantidad": 3
+      },
+      {
+        "id_objeto": "ficha_c",
+        "cantidad": 3
+      },
+      {
+        "id_objeto": "rare_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "spray",
+        "cantidad": 1
+      }
+    ],
+    "emoji": "🗡",
+    "vol": 1,
+    "indice": 4,
+    "dmg_bonus_pct": 3,
+    "dmg_min": 88,
+    "dmg_max": 104,
+    "energia_max_bonus": 250,
+    "critico_pct": 3,
+    "dmg_bonus_fijo": false,
+    "def": 0
+  },
+  {
+    "id": "espada_dorada_2",
+    "atk": 3,
+    "def": 0,
+    "nivel": 10,
+    "rango": "C",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "formula": [
+      {
+        "id_objeto": "espada_dorada",
+        "cantidad": 25
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 3
+      }
+    ],
+    "emoji": "🗡",
+    "vol": 1,
+    "indice": 5,
+    "critico_pct": 6,
+    "energia_max_bonus": 300,
+    "dmg_min": 104,
+    "dmg_max": 125,
+    "dmg_bonus_fijo": false,
+    "dmg_bonus_pct": 3,
+    "int_bonus_pct": 3
+  },
+  {
+    "id": "espada_dorada_3",
+    "atk": 3,
+    "def": 0,
+    "nivel": 10,
+    "rango": "C",
+    "alcance": "R1",
+    "equipable": true,
+    "tipo": "arma",
+    "formula": [
+      {
+        "id_objeto": "espada_dorada_2",
+        "cantidad": 30
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 3
+      }
+    ],
+    "vol": 1,
+    "emoji": "🗡",
+    "indice": 6,
+    "dmg_min": 129,
+    "dmg_max": 204,
+    "critico_pct": 8,
+    "dmg_bonus_pct": 3,
+    "dmg_bonus_fijo": false,
+    "int_bonus_pct": 6,
+    "energia_max_bonus": 500
+  },
+  {
+    "id": "revolver_dobo",
+    "atk": 3,
+    "def": 0,
+    "nivel": 10,
+    "rango": "C",
+    "alcance": "R2",
+    "equipable": true,
+    "tipo": "arma",
+    "formula": [
+      {
+        "id_objeto": "ficha_c",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "gold",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "rare_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 1
+      }
+    ],
+    "emoji": "🔫",
+    "vol": 4,
+    "indice": 1,
+    "dmg_min": 50,
+    "dmg_max": 92,
+    "dmg_bonus_fijo": false,
+    "dmg_bonus_pct": 3,
+    "critico_pct": 2,
+    "energia_max_bonus": 120
+  },
+  {
+    "id": "espada_canubis",
+    "atk": 3,
+    "def": 0,
+    "nivel": 10,
+    "rango": "C",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "formula": [
+      {
+        "id_objeto": "ficha_c",
+        "cantidad": 3
+      },
+      {
+        "id_objeto": "gold",
+        "cantidad": 4
+      },
+      {
+        "id_objeto": "rare_01",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 1
+      }
+    ],
+    "dmg_min": 108,
+    "dmg_max": 125,
+    "dmg_bonus_pct": 3,
+    "energia_max_bonus": 300,
+    "cura_bonus_pct": 2,
+    "emoji": "🗡",
+    "vol": 4,
+    "indice": 2,
+    "dmg_bonus_fijo": false
+  },
+  {
+    "id": "dagas_crhimait",
+    "atk": 3,
+    "def": 0,
+    "nivel": 10,
+    "rango": "C",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "formula": [
+      {
+        "id_objeto": "ficha_c",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "gold",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "rare_01",
+        "cantidad": 1
+      }
+    ],
+    "emoji": "🗡",
+    "vol": 4,
+    "indice": 3,
+    "dmg_min": 88,
+    "dmg_max": 113,
+    "energia_max_bonus": 270,
+    "critico_pct": 3,
+    "huida_bonus_pct": 3,
+    "dmg_bonus_pct": 3,
+    "dmg_bonus_fijo": false
+  },
+  {
+    "id": "hachas_bisu",
+    "atk": 3,
+    "def": 0,
+    "nivel": 10,
+    "rango": "C",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "formula": [
+      {
+        "id_objeto": "ficha_c",
+        "cantidad": 2
+      }
+    ],
+    "emoji": "🗡",
+    "vol": 4,
+    "indice": 4,
+    "dmg_min": 96,
+    "dmg_max": 104,
+    "energia_max_bonus": 250,
+    "dmg_bonus_pct": 3,
+    "dmg_bonus_fijo": false
+  },
+  {
+    "id": "baston_buzu",
+    "atk": 3,
+    "def": 0,
+    "nivel": 10,
+    "rango": "C",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "formula": [
+      {
+        "id_objeto": "ficha_c",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "rare_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 1
+      }
+    ],
+    "emoji": "🗡",
+    "vol": 4,
+    "indice": 5,
+    "int_bonus_pct": 3,
+    "cura_bonus_pct": 4,
+    "huida_bonus_pct": 4,
+    "energia_max_bonus": 280,
+    "dmg_min": 46,
+    "dmg_max": 75,
+    "vel_bonus_pct": 3,
+    "dmg_bonus_pct": 3,
+    "dmg_bonus_fijo": false
+  },
+  {
+    "id": "martillo_krabit",
+    "atk": 4,
+    "def": 0,
+    "nivel": 10,
+    "rango": "B",
+    "alcance": "R1",
+    "equipable": true,
+    "tipo": "arma",
+    "formula": [
+      {
+        "id_objeto": "ficha_b",
+        "cantidad": 4
+      },
+      {
+        "id_objeto": "key_krabits_2",
+        "cantidad": 1
+      }
+    ],
+    "emoji": "🗡",
+    "dmg_bonus_fijo": false,
+    "dmg_bonus_pct": 4,
+    "dmg_min": 213,
+    "dmg_max": 320,
+    "energia_max_bonus": 400,
+    "def_bonus_fijo": true,
+    "def_bonus_pct": 5,
+    "per_bonus_pct": 4,
+    "huida_bonus_pct": 4,
+    "indice": 6,
+    "vol": 4
+  },
+  {
+    "id": "arco_krabit",
+    "atk": 4,
+    "def": 0,
+    "nivel": 10,
+    "rango": "B",
+    "alcance": "R2",
+    "equipable": true,
+    "tipo": "arma",
+    "formula": [
+      {
+        "id_objeto": "ficha_b",
+        "cantidad": 4
+      },
+      {
+        "id_objeto": "key_krabits_2",
+        "cantidad": 1
+      }
+    ],
+    "dmg_max": 200,
+    "dmg_min": 153,
+    "energia_max_bonus": 500,
+    "dmg_bonus_fijo": false,
+    "dmg_bonus_pct": 5,
+    "critico_pct": 4,
+    "huida_bonus_pct": 4,
+    "vol": 4,
+    "emoji": "🏹",
+    "indice": 0
+  },
+  {
+    "id": "escudo_krabit",
+    "atk": 0,
+    "def": 3,
+    "nivel": 10,
+    "rango": "B",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "escudo",
+    "formula": [
+      {
+        "id_objeto": "ficha_b",
+        "cantidad": 4
+      },
+      {
+        "id_objeto": "key_krabits_2",
+        "cantidad": 1
+      }
+    ],
+    "emoji": "🛡",
+    "vol": 4,
+    "indice": 1,
+    "def_bonus_fijo": true,
+    "energia_max_bonus": 500,
+    "int_bonus_pct": 4,
+    "cura_bonus_pct": 4,
+    "vel_bonus_pct": 4,
+    "def_bonus_pct": 20
+  },
+  {
+    "id": "orbe_rocoso",
+    "atk": 0,
+    "def": 0,
+    "nivel": 10,
+    "rango": "B",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "orbe_magico",
+    "emoji": "🔮",
+    "vol": 1,
+    "indice": 3,
+    "dmg_bonus_pct": 4,
+    "def_bonus_pct": 4,
+    "energia_max_bonus": 400
+  },
+  {
+    "id": "escudo_rocoso",
+    "atk": 0,
+    "def": 4,
+    "nivel": 10,
+    "rango": "B",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "escudo",
+    "formula": [
+      {
+        "id_objeto": "ficha_b",
+        "cantidad": 4
+      },
+      {
+        "id_objeto": "key_rocosa",
+        "cantidad": 2
+      }
+    ],
+    "energia_max_bonus": 600,
+    "emoji": "🛡",
+    "vol": 1,
+    "indice": 3,
+    "def_bonus_fijo": true,
+    "def_bonus_pct": 22,
+    "cura_bonus_pct": 5
+  },
+  {
+    "id": "lanza_demoniaca",
+    "atk": 4,
+    "def": 0,
+    "nivel": 10,
+    "rango": "B",
+    "alcance": "R1",
+    "equipable": true,
+    "tipo": "arma",
+    "formula": [
+      {
+        "id_objeto": "ficha_b",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "key_fortaleza",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "key_rocosa",
+        "cantidad": 1
+      }
+    ],
+    "emoji": "🗡",
+    "vol": 1,
+    "indice": 7,
+    "castigo_pct": 1,
+    "dmg_min": 260,
+    "dmg_max": 300,
+    "energia_max_bonus": 666,
+    "dmg_bonus_pct": 3,
+    "vel_bonus_pct": 4
+  },
+  {
+    "id": "espada_demoniaca",
+    "atk": 4,
+    "def": 0,
+    "nivel": 10,
+    "rango": "B",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "formula": [
+      {
+        "id_objeto": "ficha_b",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "key_fortaleza",
+        "cantidad": 2
+      }
+    ],
+    "emoji": "🗡",
+    "vol": 1,
+    "indice": 8,
+    "dmg_min": 269,
+    "dmg_max": 324,
+    "energia_max_bonus": 400,
+    "dmg_bonus_pct": 3,
+    "esquiva_pct": 2,
+    "critico_pct": 2,
+    "int_bonus_pct": 4
+  },
+  {
+    "id": "espada_errante",
+    "atk": 4,
+    "def": 0,
+    "nivel": 10,
+    "rango": "B",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "formula": [
+      {
+        "id_objeto": "ficha_b",
+        "cantidad": 4
+      },
+      {
+        "id_objeto": "key_fortaleza",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "key_fortaleza_2",
+        "cantidad": 1
+      }
+    ],
+    "emoji": "🗡",
+    "vol": 1,
+    "indice": 9,
+    "dmg_min": 275,
+    "dmg_max": 300,
+    "dmg_bonus_pct": 4,
+    "energia_max_bonus": 555,
+    "cura_bonus_pct": 4,
+    "int_bonus_pct": 4,
+    "huida_bonus_pct": 4,
+    "vel_bonus_pct": 4,
+    "per_bonus_pct": 4,
+    "castigo_tipo": "quemadura",
+    "castigo_pct": 1,
+    "castigo_seg": 30
+  },
+  {
+    "id": "hacha_demoniaca",
+    "atk": 4,
+    "def": 0,
+    "nivel": 10,
+    "rango": "B",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "formula": [
+      {
+        "id_objeto": "ficha_b",
+        "cantidad": 4
+      },
+      {
+        "id_objeto": "key_fortaleza",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "key_fortaleza_2",
+        "cantidad": 2
+      }
+    ],
+    "emoji": "🗡",
+    "vol": 1,
+    "indice": 10,
+    "dmg_min": 290,
+    "dmg_max": 310,
+    "dmg_bonus_pct": 4,
+    "critico_pct": 4,
+    "energia_max_bonus": 800,
+    "def_bonus_fijo": true,
+    "def_bonus_pct": 4
+  },
+  {
+    "id": "pergamino_estela",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "📜",
+    "vol": 1,
+    "indice": 0,
+    "skill": "estela"
+  },
+  {
+    "id": "pergamino_salto",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "emoji": "📜",
+    "skill": "salto",
+    "vol": 1,
+    "indice": 0
+  },
+  {
+    "id": "pergamino_excavar",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "emoji": "📜",
+    "skill": "excavar",
+    "vol": 1,
+    "indice": 0
+  },
+  {
+    "id": "pergamino_atadura",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "emoji": "📜",
+    "skill": "atadura",
+    "vol": 1,
+    "indice": 0
+  }
+]

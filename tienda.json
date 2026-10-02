@@ -1,0 +1,771 @@
+[
+  {
+    "id": "pocion_1",
+    "precio": 20,
+    "emoji": "🍵",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "id": "pocion_2",
+    "precio": 50,
+    "emoji": "🍵",
+    "indice": 1,
+    "vol": 1
+  },
+  {
+    "id": "pocion_3",
+    "precio": 50,
+    "emoji": "🍵",
+    "indice": 2,
+    "vol": 1
+  },
+  {
+    "id": "tickets",
+    "precio": 10,
+    "emoji": "🎁",
+    "indice": 1,
+    "vol": 1
+  },
+  {
+    "id": "trampa",
+    "precio": 300,
+    "emoji": "💣",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "id": "cam",
+    "precio": 10,
+    "emoji": "🧿",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "id": "daga_zafiro",
+    "precio": 100,
+    "emoji": "🗡",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "id": "ganzua",
+    "precio": 25,
+    "emoji": "🗝️",
+    "indice": 0,
+    "vol": 2
+  },
+  {
+    "id": "pocion_fenix",
+    "precio": 75,
+    "emoji": "🍵",
+    "indice": 0,
+    "vol": 3
+  },
+  {
+    "id": "antidoto",
+    "precio": 50,
+    "emoji": "🍵",
+    "indice": 1,
+    "vol": 3
+  },
+  {
+    "id": "pocion_regenerativa",
+    "precio": 25,
+    "emoji": "🍵",
+    "indice": 4,
+    "vol": 3
+  },
+  {
+    "id": "pocion_holoescudo",
+    "precio": 50,
+    "emoji": "🍵",
+    "indice": 5,
+    "vol": 3
+  },
+  {
+    "id": "pocion_overflow",
+    "precio": 75,
+    "emoji": "🍵",
+    "indice": 2,
+    "vol": 3
+  },
+  {
+    "id": "pocion_invisibilidad",
+    "precio": 35,
+    "emoji": "🍵",
+    "indice": 3,
+    "vol": 3
+  },
+  {
+    "id": "pocion_optymus",
+    "precio": 100,
+    "emoji": "🍵",
+    "indice": 6,
+    "vol": 3
+  },
+  {
+    "id": "pocion_citrica",
+    "precio": 75,
+    "emoji": "🍵",
+    "indice": 8,
+    "vol": 3
+  },
+  {
+    "id": "pocion_precision",
+    "precio": 50,
+    "emoji": "🍵",
+    "indice": 9,
+    "vol": 3
+  },
+  {
+    "id": "pocion_cuantico",
+    "precio": 1000,
+    "emoji": "🍵",
+    "indice": 7,
+    "vol": 3
+  },
+  {
+    "id": "piedra_gremio",
+    "precio": 500,
+    "emoji": "💎",
+    "indice": 0,
+    "vol": 2
+  },
+  {
+    "id": "pocion_olvido",
+    "precio": 250,
+    "emoji": "🍵",
+    "indice": 10,
+    "vol": 3
+  },
+  {
+    "id": "pico",
+    "precio": 10,
+    "emoji": "🗡",
+    "indice": 0,
+    "vol": 5
+  },
+  {
+    "id": "block_energy",
+    "precio": 10,
+    "emoji": "🔋",
+    "indice": 0,
+    "vol": 1,
+    "solo_venta": true
+  },
+  {
+    "id": "condensador",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 0,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "nucleo",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 1,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "nanofibra",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 2,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "tornillo",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 3,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "tuerca",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 4,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "rare_01",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 5,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "board_01",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 6,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "eye_01",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 7,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "board_02",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 8,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "board_03",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 9,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "cable_01",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 10,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "cable_02",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 11,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "servo",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 12,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "ventilador",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 13,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "board_04",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 14,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "board_05",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 15,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "rare_02",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 16,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "rare_03",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 17,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "rare_04",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 18,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "skull",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 19,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "led",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 20,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "fab_01",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 21,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "fab_02",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 22,
+    "vol": 5
+  },
+  {
+    "id": "gold",
+    "precio": 50,
+    "emoji": "⚙️",
+    "indice": 23,
+    "vol": 5
+  },
+  {
+    "id": "fab_03",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 24,
+    "vol": 5
+  },
+  {
+    "id": "tinte",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 25,
+    "vol": 5
+  },
+  {
+    "id": "spray",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 26,
+    "vol": 5
+  },
+  {
+    "id": "board_06",
+    "precio": 10,
+    "emoji": "⚙️",
+    "indice": 27,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "ticket_premium",
+    "precio": 7777,
+    "emoji": "💳",
+    "indice": 0,
+    "vol": 3
+  },
+  {
+    "id": "key_7",
+    "precio": 10,
+    "emoji": "🗝",
+    "indice": 0,
+    "vol": 3,
+    "solo_venta": true
+  },
+  {
+    "id": "key_saurica",
+    "precio": 50,
+    "emoji": "🗝",
+    "indice": 14,
+    "vol": 3
+  },
+  {
+    "id": "key_invernal",
+    "precio": 50,
+    "emoji": "🗝",
+    "indice": 1,
+    "vol": 3
+  },
+  {
+    "id": "escudo_shocklin",
+    "precio": 1000,
+    "emoji": "🛡",
+    "indice": 0,
+    "vol": 2,
+    "solo_venta": true
+  },
+  {
+    "id": "karniscudo",
+    "precio": 2000,
+    "emoji": "🛡",
+    "indice": 0,
+    "vol": 4,
+    "solo_venta": true
+  },
+  {
+    "id": "avatar_doble",
+    "tipo": "avatar",
+    "avatar_id": "avatar_doble",
+    "precio": 4000,
+    "emoji": "🕹",
+    "indice": 10,
+    "vol": 5,
+    "moneda": "pc"
+  },
+  {
+    "id": "avatar_pistolero",
+    "tipo": "avatar",
+    "avatar_id": "avatar_pistolero",
+    "precio": 30000,
+    "emoji": "🕹",
+    "indice": 22,
+    "vol": 5,
+    "moneda": "creditos"
+  },
+  {
+    "id": "avatar_polar",
+    "tipo": "avatar",
+    "avatar_id": "avatar_polar",
+    "precio": 1,
+    "emoji": "🕹",
+    "indice": 21,
+    "vol": 5,
+    "moneda": "objeto",
+    "objeto_precio_id": "ficha_e"
+  },
+  {
+    "id": "avatar_rapero",
+    "precio": 21000,
+    "emoji": "🕹",
+    "indice": 24,
+    "vol": 5,
+    "moneda": "objeto",
+    "objeto_precio_id": "ficha_c",
+    "tipo": "avatar",
+    "avatar_id": "avatar_rapero"
+  },
+  {
+    "id": "avatar_indio",
+    "precio": 25000,
+    "emoji": "🕹",
+    "indice": 37,
+    "vol": 5,
+    "tipo": "avatar",
+    "avatar_id": "avatar_indio",
+    "moneda": "objeto",
+    "objeto_precio_cantidad": 2,
+    "objeto_precio_id": "ficha_c"
+  },
+  {
+    "id": "key_felina",
+    "precio": 300,
+    "emoji": "🗝",
+    "indice": 6,
+    "vol": 3
+  },
+  {
+    "id": "key_3",
+    "precio": 10,
+    "emoji": "🗝",
+    "indice": 2,
+    "vol": 1,
+    "solo_venta": true
+  },
+  {
+    "id": "escudo_dorado",
+    "precio": 3000,
+    "emoji": "🛡",
+    "indice": 2,
+    "vol": 1,
+    "solo_venta": true
+  },
+  {
+    "id": "espada_dorada",
+    "precio": 3000,
+    "emoji": "🗡",
+    "indice": 4,
+    "vol": 1,
+    "solo_venta": true
+  },
+  {
+    "id": "espada_dorada_2",
+    "precio": 6000,
+    "emoji": "🗡",
+    "indice": 5,
+    "vol": 1,
+    "solo_venta": true
+  },
+  {
+    "id": "espada_dorada_3",
+    "precio": 12000,
+    "emoji": "🗡",
+    "indice": 6,
+    "vol": 1,
+    "solo_venta": true
+  },
+  {
+    "id": "espada_canubis",
+    "precio": 3000,
+    "emoji": "🗡",
+    "indice": 2,
+    "vol": 4,
+    "solo_venta": true
+  },
+  {
+    "id": "revolver_dobo",
+    "precio": 2200,
+    "emoji": "🔫",
+    "indice": 1,
+    "vol": 4,
+    "solo_venta": true
+  },
+  {
+    "id": "dagas_crhimait",
+    "precio": 2700,
+    "emoji": "🗡",
+    "indice": 3,
+    "vol": 4,
+    "solo_venta": true
+  },
+  {
+    "id": "hachas_bisu",
+    "precio": 2500,
+    "emoji": "🗡",
+    "indice": 4,
+    "vol": 4,
+    "solo_venta": true
+  },
+  {
+    "id": "baston_buzu",
+    "precio": 2800,
+    "emoji": "🗡",
+    "indice": 5,
+    "vol": 4,
+    "solo_venta": true
+  },
+  {
+    "id": "ficha_e",
+    "precio": 1000,
+    "emoji": "⚙️",
+    "indice": 28,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "ficha_d",
+    "precio": 2000,
+    "emoji": "⚙️",
+    "indice": 28,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "ficha_c",
+    "precio": 3000,
+    "emoji": "⚙️",
+    "indice": 28,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "ficha_b",
+    "precio": 4000,
+    "emoji": "⚙️",
+    "indice": 28,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "ficha_a",
+    "precio": 5000,
+    "emoji": "⚙️",
+    "indice": 28,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "ficha_s",
+    "precio": 6000,
+    "emoji": "⚙️",
+    "indice": 28,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "ficha_m",
+    "precio": 7000,
+    "emoji": "⚙️",
+    "indice": 28,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "key_koliseo",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 21,
+    "vol": 3
+  },
+  {
+    "id": "avatar_doctor",
+    "precio": 1,
+    "emoji": "🕹",
+    "indice": 31,
+    "vol": 5,
+    "tipo": "avatar",
+    "avatar_id": "avatar_doctor",
+    "moneda": "objeto",
+    "objeto_precio_id": "ficha_e"
+  },
+  {
+    "id": "key_krabits",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 22,
+    "vol": 3
+  },
+  {
+    "id": "martillo_krabit",
+    "precio": 4000,
+    "emoji": "🗡",
+    "indice": 6,
+    "vol": 4,
+    "solo_venta": true
+  },
+  {
+    "id": "arco_krabit",
+    "precio": 4000,
+    "emoji": "🏹",
+    "indice": 0,
+    "vol": 4,
+    "solo_venta": true
+  },
+  {
+    "id": "escudo_krabit",
+    "precio": 4000,
+    "emoji": "🛡",
+    "indice": 1,
+    "vol": 4,
+    "solo_venta": true
+  },
+  {
+    "id": "key_krabits_2",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 22,
+    "vol": 3,
+    "solo_venta": true
+  },
+  {
+    "id": "key_fortaleza",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 7,
+    "vol": 3,
+    "solo_venta": true
+  },
+  {
+    "id": "key_fortaleza_2",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 5,
+    "vol": 3,
+    "solo_venta": true
+  },
+  {
+    "id": "lanza_demoniaca",
+    "precio": 4000,
+    "emoji": "🗡",
+    "indice": 7,
+    "vol": 1,
+    "solo_venta": true
+  },
+  {
+    "id": "hacha_demoniaca",
+    "precio": 4000,
+    "emoji": "🗡",
+    "indice": 10,
+    "vol": 1,
+    "solo_venta": true
+  },
+  {
+    "id": "espada_demoniaca",
+    "precio": 4000,
+    "emoji": "🗡",
+    "indice": 8,
+    "vol": 1,
+    "solo_venta": true
+  },
+  {
+    "id": "espada_errante",
+    "precio": 4000,
+    "emoji": "🗡",
+    "indice": 9,
+    "vol": 1,
+    "solo_venta": true
+  },
+  {
+    "id": "key_nido",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 24,
+    "vol": 3,
+    "solo_venta": true
+  },
+  {
+    "id": "pala_raspadora",
+    "precio": 4000,
+    "emoji": "🗡",
+    "indice": 7,
+    "vol": 4,
+    "solo_venta": true
+  },
+  {
+    "id": "pergamino_excavar",
+    "precio": 1000,
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1,
+    "solo_venta": true
+  },
+  {
+    "id": "pergamino_salto",
+    "precio": 1000,
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1,
+    "solo_venta": true
+  },
+  {
+    "id": "pergamino_estela",
+    "precio": 1000,
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1,
+    "solo_venta": true
+  },
+  {
+    "id": "pergamino_atadura",
+    "precio": 1000,
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1,
+    "solo_venta": true
+  }
+]

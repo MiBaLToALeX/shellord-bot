@@ -1,0 +1,925 @@
+[
+  {
+    "mazmorra": "default",
+    "max_enemigos": 2,
+    "entradas": [
+      {
+        "desde": 1,
+        "hasta": 2,
+        "label": "ultra raro (0.02%)"
+      },
+      {
+        "desde": 3,
+        "hasta": 7,
+        "label": "super raro (0.05%)"
+      },
+      {
+        "desde": 8,
+        "hasta": 17,
+        "label": "muy raro (0.1%)",
+        "rangos": {
+          "E": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index": 4
+          }
+        }
+      },
+      {
+        "desde": 18,
+        "hasta": 67,
+        "label": "raro (0.5%)",
+        "rangos": {
+          "E": {
+            "is_boss": false,
+            "vol": 2,
+            "enemy_index_min": 8,
+            "enemy_index_max": 10
+          }
+        }
+      },
+      {
+        "desde": 68,
+        "hasta": 167,
+        "label": "poco común (1%)",
+        "rangos": {
+          "E": {
+            "is_boss": true,
+            "enemy_index_min": 0,
+            "enemy_index_max": 2
+          }
+        }
+      },
+      {
+        "desde": 168,
+        "hasta": 367,
+        "label": "poco común+ (2%)",
+        "rangos": {
+          "E": {
+            "enemy_index": 6
+          }
+        }
+      },
+      {
+        "desde": 368,
+        "hasta": 867,
+        "label": "común bueno (5%)"
+      },
+      {
+        "desde": 868,
+        "hasta": 1867,
+        "label": "común (10%)"
+      },
+      {
+        "desde": 1868,
+        "hasta": 3867,
+        "label": "frecuente (20%)",
+        "rangos": {
+          "E": {
+            "enemy_index": 7
+          }
+        }
+      },
+      {
+        "desde": 3868,
+        "hasta": 7367,
+        "label": "muy frecuente (35%)",
+        "rangos": {
+          "E": {
+            "enemy_index_min": 3,
+            "enemy_index_max": 5
+          }
+        }
+      },
+      {
+        "desde": 7368,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "E": {
+            "enemy_index_min": 0,
+            "enemy_index_max": 2
+          },
+          "D": {
+            "enemy_index_min": 24,
+            "enemy_index_max": 28,
+            "vol": 2
+          },
+          "C": {
+            "is_boss": false,
+            "enemy_index_min": 2,
+            "enemy_index_max": 2,
+            "vol": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "and",
+    "max_enemigos": 1,
+    "entradas": [
+      {
+        "desde": 1,
+        "hasta": 2,
+        "label": "muy raro (0.1%)",
+        "rangos": {
+          "E": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index": 0
+          }
+        }
+      },
+      {
+        "desde": 100,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "E": {
+            "enemy_index_min": 0,
+            "enemy_index_max": 1,
+            "vol": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "equinos",
+    "max_enemigos": 1,
+    "entradas": [
+      {
+        "desde": 1,
+        "hasta": 2,
+        "label": "muy raro (0.1%)",
+        "rangos": {
+          "E": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index": 4
+          },
+          "D": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index": 4
+          }
+        }
+      },
+      {
+        "desde": 100,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "E": {
+            "enemy_index_min": 8,
+            "enemy_index_max": 10,
+            "vol": 2
+          },
+          "D": {
+            "enemy_index_min": 8,
+            "enemy_index_max": 10,
+            "vol": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "shocklin",
+    "max_enemigos": 2,
+    "entradas": [
+      {
+        "desde": 1,
+        "hasta": 2,
+        "label": "muy raro (0.1%)",
+        "rangos": {
+          "E": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index": 18
+          },
+          "D": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index": 18
+          }
+        }
+      },
+      {
+        "desde": 100,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "E": {
+            "enemy_index_min": 46,
+            "enemy_index_max": 50,
+            "vol": 2
+          },
+          "D": {
+            "enemy_index_min": 46,
+            "enemy_index_max": 50,
+            "vol": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "glitch",
+    "max_enemigos": 2,
+    "entradas": [
+      {
+        "desde": 1,
+        "hasta": 2,
+        "label": "muy raro (0.1%)",
+        "rangos": {
+          "D": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index": 15
+          }
+        }
+      },
+      {
+        "desde": 3,
+        "hasta": 25,
+        "label": "muy raro (0.25%)",
+        "rangos": {
+          "D": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index": 14
+          }
+        }
+      },
+      {
+        "desde": 100,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "D": {
+            "enemy_index_min": 28,
+            "enemy_index_max": 33,
+            "vol": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "abisal",
+    "max_enemigos": 2,
+    "entradas": [
+      {
+        "desde": 1,
+        "hasta": 2,
+        "label": "muy raro (0.1%)",
+        "rangos": {
+          "D": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index": 28
+          }
+        }
+      },
+      {
+        "desde": 100,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "D": {
+            "enemy_index_min": 26,
+            "enemy_index_max": 27,
+            "vol": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "anfibio",
+    "max_enemigos": 2,
+    "entradas": [
+      {
+        "desde": 1,
+        "hasta": 2,
+        "label": "muy raro (0.1%)",
+        "rangos": {
+          "D": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index": 25
+          }
+        }
+      },
+      {
+        "desde": 100,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "D": {
+            "enemy_index_min": 58,
+            "enemy_index_max": 59,
+            "vol": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "toxica",
+    "max_enemigos": 1,
+    "entradas": [
+      {
+        "desde": 100,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "D": {
+            "is_boss": true,
+            "enemy_index_min": 3,
+            "enemy_index_max": 5,
+            "vol": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "orbix",
+    "max_enemigos": 2,
+    "entradas": [
+      {
+        "desde": 1,
+        "hasta": 2,
+        "label": "muy raro (0.1%)",
+        "rangos": {
+          "D": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index": 20
+          }
+        }
+      },
+      {
+        "desde": 3,
+        "hasta": 25,
+        "label": "raro (0.25%)",
+        "rangos": {
+          "D": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index": 19
+          }
+        }
+      },
+      {
+        "desde": 100,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "D": {
+            "enemy_index_min": 51,
+            "enemy_index_max": 54,
+            "vol": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "sinthia",
+    "max_enemigos": 2,
+    "entradas": [
+      {
+        "desde": 1,
+        "hasta": 2,
+        "label": "muy raro (0.1%)",
+        "rangos": {
+          "D": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index": 20
+          }
+        }
+      },
+      {
+        "desde": 100,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "D": {
+            "enemy_index_min": 51,
+            "enemy_index_max": 54,
+            "vol": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "invernal",
+    "max_enemigos": 3,
+    "entradas": [
+      {
+        "desde": 1,
+        "hasta": 800,
+        "label": "muy raro (0.1%)",
+        "rangos": {
+          "E": {
+            "enemy_index": 11,
+            "vol": 1
+          },
+          "D": {
+            "enemy_index": 11,
+            "vol": 1
+          },
+          "C": {
+            "enemy_index": 11,
+            "vol": 1
+          },
+          "B": {
+            "enemy_index": 11,
+            "vol": 1
+          },
+          "A": {
+            "enemy_index": 11,
+            "vol": 1
+          },
+          "S": {
+            "enemy_index": 11,
+            "vol": 1
+          }
+        }
+      },
+      {
+        "desde": 801,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "E": {
+            "enemy_index_min": 8,
+            "enemy_index_max": 10,
+            "vol": 1
+          },
+          "D": {
+            "enemy_index_min": 8,
+            "enemy_index_max": 10,
+            "vol": 1
+          },
+          "C": {
+            "enemy_index_min": 8,
+            "enemy_index_max": 10,
+            "vol": 1
+          },
+          "B": {
+            "enemy_index_min": 8,
+            "enemy_index_max": 10,
+            "vol": 1
+          },
+          "A": {
+            "enemy_index_min": 8,
+            "enemy_index_max": 10,
+            "vol": 1
+          },
+          "S": {
+            "enemy_index_min": 8,
+            "enemy_index_max": 10,
+            "vol": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "plantibora",
+    "max_enemigos": 2,
+    "entradas": [
+      {
+        "desde": 1,
+        "hasta": 2,
+        "label": "muy raro (0.1%)",
+        "rangos": {
+          "D": {
+            "is_boss": true,
+            "vol": 4,
+            "enemy_index": 4
+          }
+        }
+      },
+      {
+        "desde": 3,
+        "hasta": 25,
+        "label": "raro (0.25%)",
+        "rangos": {
+          "D": {
+            "is_boss": true,
+            "vol": 4,
+            "enemy_index": 3
+          }
+        }
+      },
+      {
+        "desde": 100,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "D": {
+            "enemy_index_min": 6,
+            "enemy_index_max": 9,
+            "vol": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "saurica",
+    "max_enemigos": 2,
+    "entradas": [
+      {
+        "desde": 3868,
+        "hasta": 7367,
+        "label": "muy frecuente (35%)",
+        "rangos": {
+          "E": {
+            "enemy_index_min": 37,
+            "enemy_index_max": 37,
+            "vol": 2
+          },
+          "D": {
+            "enemy_index_min": 37,
+            "enemy_index_max": 40,
+            "vol": 2
+          },
+          "C": {
+            "enemy_index_min": 41,
+            "enemy_index_max": 41,
+            "vol": 2
+          },
+          "B": {
+            "enemy_index_min": 42,
+            "enemy_index_max": 42,
+            "vol": 2
+          },
+          "A": {
+            "enemy_index_min": 43,
+            "enemy_index_max": 43,
+            "vol": 2
+          },
+          "S": {
+            "enemy_index_min": 44,
+            "enemy_index_max": 45,
+            "vol": 2
+          }
+        }
+      },
+      {
+        "desde": 7368,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "E": {
+            "enemy_index_min": 35,
+            "enemy_index_max": 36,
+            "vol": 2
+          },
+          "D": {
+            "enemy_index_min": 38,
+            "enemy_index_max": 40,
+            "vol": 2
+          },
+          "C": {
+            "enemy_index_min": 41,
+            "enemy_index_max": 41,
+            "vol": 2
+          },
+          "B": {
+            "enemy_index_min": 42,
+            "enemy_index_max": 42,
+            "vol": 2
+          },
+          "A": {
+            "enemy_index_min": 43,
+            "enemy_index_max": 43,
+            "vol": 2
+          },
+          "S": {
+            "enemy_index_min": 44,
+            "enemy_index_max": 44,
+            "vol": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "flags_f",
+    "max_enemigos": 2,
+    "entradas": [
+      {
+        "desde": 3868,
+        "hasta": 7367,
+        "label": "muy frecuente (35%)",
+        "rangos": {
+          "E": {
+            "is_boss": true,
+            "enemy_index_min": 10,
+            "enemy_index_max": 10,
+            "vol": 2
+          },
+          "D": {
+            "is_boss": true,
+            "enemy_index_min": 9,
+            "enemy_index_max": 9,
+            "vol": 4
+          },
+          "C": {
+            "is_boss": false,
+            "enemy_index_min": 41,
+            "enemy_index_max": 41,
+            "vol": 2
+          },
+          "B": {
+            "is_boss": true,
+            "enemy_index_min": 10,
+            "enemy_index_max": 10,
+            "vol": 1
+          },
+          "A": {
+            "is_boss": true,
+            "enemy_index_min": 12,
+            "enemy_index_max": 12,
+            "vol": 1
+          },
+          "S": {
+            "is_boss": true,
+            "enemy_index_min": 20,
+            "enemy_index_max": 20,
+            "vol": 1
+          }
+        }
+      },
+      {
+        "desde": 7368,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "E": {
+            "is_boss": true,
+            "enemy_index_min": 1,
+            "enemy_index_max": 1,
+            "vol": 1
+          },
+          "D": {
+            "is_boss": true,
+            "enemy_index_min": 19,
+            "enemy_index_max": 19,
+            "vol": 2
+          },
+          "C": {
+            "is_boss": true,
+            "enemy_index_min": 6,
+            "enemy_index_max": 6,
+            "vol": 1
+          },
+          "B": {
+            "is_boss": true,
+            "enemy_index_min": 10,
+            "enemy_index_max": 10,
+            "vol": 1
+          },
+          "A": {
+            "is_boss": true,
+            "enemy_index_min": 12,
+            "enemy_index_max": 12,
+            "vol": 1
+          },
+          "S": {
+            "is_boss": true,
+            "enemy_index_min": 20,
+            "enemy_index_max": 20,
+            "vol": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "felina",
+    "max_enemigos": 2,
+    "entradas": [
+      {
+        "desde": 1,
+        "hasta": 2,
+        "label": "muy raro (0.1%)",
+        "rangos": {
+          "C": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index": 2
+          }
+        }
+      },
+      {
+        "desde": 3,
+        "hasta": 25,
+        "label": "raro (0.25%)",
+        "rangos": {
+          "C": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index": 1
+          }
+        }
+      },
+      {
+        "desde": 7368,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "C": {
+            "is_boss": false,
+            "enemy_index_min": 2,
+            "enemy_index_max": 4,
+            "vol": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "oeste",
+    "max_enemigos": 2,
+    "entradas": [
+      {
+        "desde": 7368,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "C": {
+            "is_boss": false,
+            "enemy_index_min": 11,
+            "enemy_index_max": 11,
+            "vol": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "oeste_a",
+    "max_enemigos": 2,
+    "entradas": [
+      {
+        "desde": 7368,
+        "hasta": 10000,
+        "label": "casi siempre (>50%)",
+        "rangos": {
+          "C": {
+            "is_boss": false,
+            "enemy_index_min": 10,
+            "enemy_index_max": 10,
+            "vol": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "mazmorra": "koliseo",
+    "max_enemigos": 1,
+    "entradas": [
+      {
+        "desde": 4001,
+        "hasta": 10000,
+        "label": "60%",
+        "rangos": {
+          "E": {
+            "is_boss": true,
+            "enemy_index_min": 18,
+            "enemy_index_max": 18,
+            "vol": 2
+          },
+          "D": {
+            "is_boss": true,
+            "enemy_index_min": 4,
+            "enemy_index_max": 4,
+            "vol": 4
+          },
+          "C": {
+            "is_boss": true,
+            "enemy_index_min": 21,
+            "enemy_index_max": 22,
+            "vol": 2
+          },
+          "S": {
+            "vol": 2,
+            "is_boss": true,
+            "enemy_index_min": 12,
+            "enemy_index_max": 12
+          },
+          "B": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index_min": 12,
+            "enemy_index_max": 12
+          },
+          "A": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index_min": 12,
+            "enemy_index_max": 12
+          }
+        }
+      },
+      {
+        "desde": 1,
+        "hasta": 2000,
+        "label": "20%",
+        "rangos": {
+          "C": {
+            "vol": 2,
+            "enemy_index_min": 5,
+            "enemy_index_max": 5,
+            "is_boss": true
+          },
+          "S": {
+            "vol": 2,
+            "enemy_index_min": 12,
+            "enemy_index_max": 12,
+            "is_boss": true
+          },
+          "E": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index_min": 18,
+            "enemy_index_max": 18
+          },
+          "D": {
+            "is_boss": true,
+            "vol": 4,
+            "enemy_index_min": 4,
+            "enemy_index_max": 4
+          },
+          "B": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index_min": 12,
+            "enemy_index_max": 12
+          },
+          "A": {
+            "is_boss": true,
+            "vol": 2,
+            "enemy_index_min": 12,
+            "enemy_index_max": 12
+          }
+        }
+      },
+      {
+        "desde": 2001,
+        "hasta": 4000,
+        "label": "20%",
+        "rangos": {
+          "E": {
+            "is_boss": true,
+            "vol": 1,
+            "enemy_index_min": 21,
+            "enemy_index_max": 21
+          },
+          "D": {
+            "is_boss": true,
+            "vol": 1,
+            "enemy_index_min": 21,
+            "enemy_index_max": 21
+          },
+          "C": {
+            "is_boss": true,
+            "vol": 1,
+            "enemy_index_min": 21,
+            "enemy_index_max": 21
+          },
+          "B": {
+            "is_boss": true,
+            "vol": 1,
+            "enemy_index_min": 21,
+            "enemy_index_max": 21
+          },
+          "A": {
+            "is_boss": true,
+            "vol": 1,
+            "enemy_index_min": 21,
+            "enemy_index_max": 21
+          },
+          "S": {
+            "is_boss": true,
+            "vol": 1,
+            "enemy_index_min": 21,
+            "enemy_index_max": 21
+          }
+        }
+      }
+    ]
+  }
+]
