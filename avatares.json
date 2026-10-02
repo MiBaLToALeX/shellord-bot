@@ -1,0 +1,1074 @@
+[
+  {
+    "id": "avatar_default",
+    "nombre": "ShellOrd",
+    "descripcion": "El avatar original del sistema",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 0,
+    "formula": []
+  },
+  {
+    "id": "avatar_zafiro",
+    "nombre": "ShellOrd Zafiro",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 1,
+    "energia_max_bonus": 100,
+    "dmg_fijo": 10,
+    "def_fijo": 10,
+    "vel_bonus_pct": 2,
+    "formula": [
+      {
+        "id_objeto": "condensador",
+        "cantidad": 10
+      },
+      {
+        "id_objeto": "nucleo",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "nanofibra",
+        "cantidad": 10
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_03",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tinte",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "led",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "tornillo",
+        "cantidad": 10
+      },
+      {
+        "id_objeto": "tuerca",
+        "cantidad": 10
+      }
+    ],
+    "elemento": "agua"
+  },
+  {
+    "id": "avatar_castigador",
+    "nombre": "ShellOrd Castigador",
+    "descripcion": "El avatar que castiga a los enemigos.",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 2,
+    "energia_max_bonus": 50,
+    "per_bonus_pct": 1,
+    "dmg_fijo": 5,
+    "dmg_bonus_pct": 5,
+    "dmg_bonus_fijo": true,
+    "formula": [
+      {
+        "id_objeto": "tornillo",
+        "cantidad": 5
+      },
+      {
+        "id_objeto": "tuerca",
+        "cantidad": 5
+      },
+      {
+        "id_objeto": "fab_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tinte",
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": "avatar_g",
+    "nombre": "ShellOrd Guardian del Guadiana",
+    "descripcion": "El avatar que protege el Guadiana. Edición Limitada",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 3,
+    "dmg_bonus_pct": 1,
+    "dmg_bonus_fijo": true,
+    "formula": []
+  },
+  {
+    "id": "avatar_gs",
+    "nombre": "ShellOrd Guardian SIRA",
+    "descripcion": "El avatar que protege SIRA. Edición Limitada",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 4,
+    "def_bonus_pct": 1,
+    "def_bonus_fijo": true,
+    "formula": []
+  },
+  {
+    "id": "avatar_intergalactico",
+    "nombre": "ShellOrd Intergaláctico",
+    "descripcion": "Avatar de origen interestelar que proporciona gran velocidad y daños al portador. ",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 5,
+    "energia_max_bonus": 900,
+    "dmg_fijo": 50,
+    "dmg_bonus_pct": 100,
+    "dmg_bonus_fijo": true,
+    "vel_bonus_pct": 10,
+    "formula": [
+      {
+        "id_objeto": "nucleo",
+        "cantidad": 6
+      },
+      {
+        "id_objeto": "condensador",
+        "cantidad": 100
+      },
+      {
+        "id_objeto": "nanofibra",
+        "cantidad": 100
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 100
+      },
+      {
+        "id_objeto": "board_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "board_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "eye_01",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "ventilador",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "skull",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tinte",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_03",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tornillo",
+        "cantidad": 90
+      },
+      {
+        "id_objeto": "tuerca",
+        "cantidad": 90
+      },
+      {
+        "id_objeto": "led",
+        "cantidad": 2
+      }
+    ],
+    "elemento": "oscuridad",
+    "skill": "rapidez"
+  },
+  {
+    "id": "avatar_thrayos",
+    "nombre": "ShellOrd Thrayos",
+    "descripcion": "Avatar de luz que potencia el impulso del portador. Otorga la skill Impulso de Luz.",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 6,
+    "energia_max_bonus": 300,
+    "dmg_fijo": 30,
+    "dmg_bonus_pct": 1,
+    "dmg_bonus_fijo": false,
+    "skill": "impulso_luz",
+    "formula": [
+      {
+        "id_objeto": "condensador",
+        "cantidad": 25
+      },
+      {
+        "id_objeto": "nucleo",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "nanofibra",
+        "cantidad": 25
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 25
+      },
+      {
+        "id_objeto": "gold",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tinte",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_03",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tornillo",
+        "cantidad": 30
+      },
+      {
+        "id_objeto": "tuerca",
+        "cantidad": 30
+      },
+      {
+        "id_objeto": "led",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "ficha_c",
+        "cantidad": 1
+      }
+    ],
+    "elemento": "luz"
+  },
+  {
+    "id": "avatar_rocoso",
+    "nombre": "ShellOrd Rocoso",
+    "descripcion": "Avatar formado de roca que permite absorber grandes impactos. ",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 7,
+    "energia_max_bonus": 500,
+    "dmg_fijo": 40,
+    "def_fijo": 40,
+    "def_bonus_pct": 4,
+    "def_bonus_fijo": true,
+    "antirobo": true,
+    "formula": [
+      {
+        "id_objeto": "nucleo",
+        "cantidad": 4
+      },
+      {
+        "id_objeto": "condensador",
+        "cantidad": 40
+      },
+      {
+        "id_objeto": "nanofibra",
+        "cantidad": 40
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 50
+      },
+      {
+        "id_objeto": "board_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "board_03",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "board_05",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "eye_01",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "servo",
+        "cantidad": 4
+      },
+      {
+        "id_objeto": "skull",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tinte",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_03",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tornillo",
+        "cantidad": 40
+      },
+      {
+        "id_objeto": "tuerca",
+        "cantidad": 40
+      }
+    ],
+    "elemento": "tierra",
+    "neutralizador_pct": 4,
+    "skill": "protector",
+    "skills": [
+      "pesadez",
+      "levantar"
+    ]
+  },
+  {
+    "id": "avatar_toxico",
+    "nombre": "ShellOrd Tóxico",
+    "descripcion": "Avatar letal que provoca grandes daños y es capaz de neutralizar cualquier estado. ",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 8,
+    "energia_max_bonus": 200,
+    "dmg_fijo": 20,
+    "dmg_bonus_pct": 20,
+    "dmg_bonus_fijo": true,
+    "neutralizador_pct": 20,
+    "per_bonus_pct": 20,
+    "formula": [
+      {
+        "id_objeto": "nucleo",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "condensador",
+        "cantidad": 20
+      },
+      {
+        "id_objeto": "nanofibra",
+        "cantidad": 20
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 20
+      },
+      {
+        "id_objeto": "board_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "board_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "eye_01",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "skull",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tinte",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_03",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tornillo",
+        "cantidad": 20
+      },
+      {
+        "id_objeto": "tuerca",
+        "cantidad": 20
+      }
+    ],
+    "skill": "veneno",
+    "elemento": "aire"
+  },
+  {
+    "id": "avatar_diamantino",
+    "nombre": "ShellOrd Diamantino",
+    "descripcion": "Avatar muy resistente a los golpes. ",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 9,
+    "energia_max_bonus": 100,
+    "dmg_fijo": 10,
+    "def_fijo": 10,
+    "def_bonus_pct": 10,
+    "def_bonus_fijo": true,
+    "neutralizador_pct": 10,
+    "vel_bonus_pct": 5,
+    "antirobo": true,
+    "antihackeo": true,
+    "skill": "coraza",
+    "formula": [
+      {
+        "id_objeto": "nucleo",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "condensador",
+        "cantidad": 10
+      },
+      {
+        "id_objeto": "nanofibra",
+        "cantidad": 10
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 10
+      },
+      {
+        "id_objeto": "board_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "board_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "eye_01",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "ventilador",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "skull",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tinte",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_03",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tornillo",
+        "cantidad": 10
+      },
+      {
+        "id_objeto": "tuerca",
+        "cantidad": 10
+      },
+      {
+        "id_objeto": "led",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "spray",
+        "cantidad": 1
+      }
+    ],
+    "elemento": "luz"
+  },
+  {
+    "id": "avatar_doble",
+    "nombre": "Agente Doble ShellOrd",
+    "descripcion": "Avatar agil con grandes habilidades de sabotaje. ",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 10,
+    "energia_max_bonus": 400,
+    "dmg_fijo": 25,
+    "def_fijo": 25,
+    "dmg_bonus_pct": 5,
+    "dmg_bonus_fijo": true,
+    "def_bonus_pct": 5,
+    "def_bonus_fijo": true,
+    "neutralizador_pct": 25,
+    "vel_bonus_pct": 15,
+    "antirobo": true,
+    "antihackeo": true,
+    "skill": "sabotaje",
+    "formula": [
+      {
+        "id_objeto": "nucleo",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "condensador",
+        "cantidad": 40
+      },
+      {
+        "id_objeto": "nanofibra",
+        "cantidad": 40
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 50
+      },
+      {
+        "id_objeto": "board_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "board_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "eye_01",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "ventilador",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "skull",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tinte",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "fab_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_03",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tornillo",
+        "cantidad": 40
+      },
+      {
+        "id_objeto": "tuerca",
+        "cantidad": 40
+      },
+      {
+        "id_objeto": "led",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "spray",
+        "cantidad": 2
+      }
+    ],
+    "elemento": "tierra"
+  },
+  {
+    "id": "avatar_vigilante",
+    "nombre": "ShellOrd Vigilante",
+    "descripcion": "Avatar justiciero con grandes reflejos y dotes de sigilo. ",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 11,
+    "energia_max_bonus": 750,
+    "dmg_fijo": 50,
+    "def_fijo": 25,
+    "dmg_bonus_pct": 1,
+    "dmg_bonus_fijo": false,
+    "neutralizador_pct": 25,
+    "vel_bonus_pct": 5,
+    "skill": "invisible",
+    "formula": [
+      {
+        "id_objeto": "nucleo",
+        "cantidad": 5
+      },
+      {
+        "id_objeto": "condensador",
+        "cantidad": 50
+      },
+      {
+        "id_objeto": "nanofibra",
+        "cantidad": 50
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 50
+      },
+      {
+        "id_objeto": "board_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "board_03",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "eye_01",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "ventilador",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "skull",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tinte",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "cable_01",
+        "cantidad": 5
+      },
+      {
+        "id_objeto": "fab_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_03",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tornillo",
+        "cantidad": 50
+      },
+      {
+        "id_objeto": "tuerca",
+        "cantidad": 50
+      },
+      {
+        "id_objeto": "spray",
+        "cantidad": 1
+      }
+    ],
+    "elemento": "oscuridad"
+  },
+  {
+    "id": "avatar_igneo",
+    "nombre": "ShellOrd Ígneo",
+    "descripcion": "Avatar de fuego capaz de calcinar cualquier enemigo. ",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 12,
+    "energia_max_bonus": 800,
+    "dmg_fijo": 60,
+    "def_fijo": 30,
+    "dmg_bonus_pct": 50,
+    "dmg_bonus_fijo": true,
+    "def_bonus_pct": 5,
+    "def_bonus_fijo": true,
+    "skill": "llamarada",
+    "formula": [
+      {
+        "id_objeto": "nucleo",
+        "cantidad": 5
+      },
+      {
+        "id_objeto": "condensador",
+        "cantidad": 50
+      },
+      {
+        "id_objeto": "nanofibra",
+        "cantidad": 50
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 50
+      },
+      {
+        "id_objeto": "board_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "board_03",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "eye_01",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "ventilador",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "skull",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tinte",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "cable_01",
+        "cantidad": 5
+      },
+      {
+        "id_objeto": "fab_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_03",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tornillo",
+        "cantidad": 50
+      },
+      {
+        "id_objeto": "tuerca",
+        "cantidad": 50
+      },
+      {
+        "id_objeto": "spray",
+        "cantidad": 1
+      }
+    ],
+    "elemento": "fuego"
+  },
+  {
+    "id": "avatar_pistolero",
+    "nombre": "ShellOrd Pistolero",
+    "descripcion": "Avatar más rapido y con más puntería de todo el Oeste. ",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 22,
+    "energia_max_bonus": 300,
+    "dmg_fijo": 30,
+    "dmg_bonus_pct": 15,
+    "dmg_bonus_fijo": true,
+    "per_bonus_pct": 15,
+    "vel_bonus_pct": 15,
+    "skill": "desarmar",
+    "formula": [
+      {
+        "id_objeto": "nucleo",
+        "cantidad": 3
+      },
+      {
+        "id_objeto": "condensador",
+        "cantidad": 30
+      },
+      {
+        "id_objeto": "nanofibra",
+        "cantidad": 30
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 30
+      },
+      {
+        "id_objeto": "board_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "board_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "eye_01",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "ventilador",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "skull",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tinte",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "fab_01",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_02",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "fab_03",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "tornillo",
+        "cantidad": 30
+      },
+      {
+        "id_objeto": "tuerca",
+        "cantidad": 30
+      }
+    ],
+    "elemento": "aire"
+  },
+  {
+    "id": "avatar_polar",
+    "nombre": "ShellOrd Polar",
+    "formula": [
+      {
+        "id_objeto": "ficha_e",
+        "cantidad": 1
+      }
+    ],
+    "emoji": "🕹",
+    "vol": 5,
+    "dmg_bonus_fijo": true,
+    "def_bonus_fijo": true,
+    "dmg_bonus_pct": 10,
+    "dmg_fijo": 10,
+    "def_bonus_pct": 10,
+    "def_fijo": 10,
+    "energia_max_bonus": 100,
+    "vel_bonus_pct": 10,
+    "per_bonus_pct": 10,
+    "int_bonus_pct": 10,
+    "neutralizador_pct": 10,
+    "descripcion": "Fabricado para soportar las zonas invernales. Edición Limitada.",
+    "indice": 21,
+    "elemento": "agua"
+  },
+  {
+    "id": "avatar_rapero",
+    "nombre": "ShellOrd Rapero",
+    "formula": [
+      {
+        "id_objeto": "ficha_c",
+        "cantidad": 1
+      }
+    ],
+    "emoji": "🕹",
+    "vol": 5,
+    "energia_max_bonus": 300,
+    "dmg_fijo": 25,
+    "indice": 24,
+    "skill": "breakdance",
+    "descripcion": "Este avatar fue fabricado en la gran ciudad. Tiene mucha calle y flow",
+    "antirobo": true,
+    "dmg_bonus_fijo": false,
+    "per_bonus_pct": 12,
+    "vel_bonus_pct": 12,
+    "def_fijo": 12
+  },
+  {
+    "id": "avatar_indio",
+    "nombre": "ShellOrd Indio",
+    "formula": [
+      {
+        "id_objeto": "ficha_c",
+        "cantidad": 2
+      }
+    ],
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 37,
+    "antihackeo": true,
+    "antirobo": true,
+    "dmg_bonus_fijo": true,
+    "neutralizador_pct": 15,
+    "int_bonus_pct": 30,
+    "energia_max_bonus": 300,
+    "dmg_fijo": 25,
+    "vel_bonus_pct": 15,
+    "skill": "rabia",
+    "descripcion": "Este avatar cuando esta enfadado puede incrementar sus daños",
+    "elemento": "tierra"
+  },
+  {
+    "id": "avatar_faraon",
+    "nombre": "ShellOrd Faraón",
+    "formula": [
+      {
+        "id_objeto": "ficha_c",
+        "cantidad": 3
+      },
+      {
+        "id_objeto": "nucleo",
+        "cantidad": 3
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 30
+      },
+      {
+        "id_objeto": "led",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "gold",
+        "cantidad": 3
+      }
+    ],
+    "elemento": "luz",
+    "descripcion": "Este avatar de rango C es capaz de crear maldiciones y mantener a raya a cualquier enemigo que se interponga",
+    "skill": "maldicion",
+    "indice": 18,
+    "vol": 5,
+    "emoji": "🕹",
+    "dmg_bonus_pct": 30,
+    "dmg_fijo": 30,
+    "energia_max_bonus": 300,
+    "neutralizador_pct": 15,
+    "per_bonus_pct": 3,
+    "def_bonus_pct": 3,
+    "def_bonus_fijo": true,
+    "dmg_bonus_fijo": true,
+    "def_fijo": 15,
+    "int_bonus_pct": 3
+  },
+  {
+    "id": "avatar_prisma",
+    "nombre": "ShellOrd Prisma",
+    "formula": [
+      {
+        "id_objeto": "ficha_m",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "nucleo",
+        "cantidad": 7
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 70
+      },
+      {
+        "id_objeto": "led",
+        "cantidad": 2
+      }
+    ],
+    "elemento": "luz",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 15,
+    "dmg_fijo": 70,
+    "energia_max_bonus": 7000,
+    "dmg_bonus_pct": 100,
+    "def_fijo": 70,
+    "dmg_bonus_fijo": true,
+    "def_bonus_fijo": true,
+    "def_bonus_pct": 10,
+    "antihackeo": true,
+    "antirobo": true,
+    "descripcion": "Este avatar de rango MAX tiene un enorme poder capaz de destruir a cualquier enemigo",
+    "neutralizador_pct": 50,
+    "vel_bonus_pct": 25,
+    "per_bonus_pct": 25,
+    "int_bonus_pct": 25,
+    "skill": "rayo_destructor",
+    "skills": [
+      "volar",
+      "ultra_energia",
+      "revivir",
+      "liberacion"
+    ]
+  },
+  {
+    "id": "avatar_doctor",
+    "nombre": "Doctor ShellOrd",
+    "formula": [
+      {
+        "id_objeto": "ficha_e",
+        "cantidad": 1
+      }
+    ],
+    "descripcion": "Este avatar tiene muchos conocimientos en curar y revivir aliados",
+    "elemento": "luz",
+    "emoji": "🕹",
+    "vol": 5,
+    "skill": "curar",
+    "skills": [
+      "medicina",
+      "revivir"
+    ],
+    "indice": 31,
+    "energia_max_bonus": 1000,
+    "int_bonus_pct": 25,
+    "neutralizador_pct": 90
+  },
+  {
+    "id": "avatar_hechizero",
+    "nombre": "ShellOrd Hechizero",
+    "formula": [
+      {
+        "id_objeto": "ficha_s",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "nucleo",
+        "cantidad": 6
+      },
+      {
+        "id_objeto": "led",
+        "cantidad": 4
+      }
+    ],
+    "elemento": "oscuridad",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 16,
+    "skill": "invocar",
+    "skills": [
+      "capturar",
+      "curar",
+      "revivir"
+    ],
+    "descripcion": "Este avatar permite invocar y lanzar hechizos",
+    "energia_max_bonus": 1200,
+    "def_fijo": 60,
+    "def_bonus_fijo": true,
+    "def_bonus_pct": 15,
+    "int_bonus_pct": 20,
+    "dmg_bonus_fijo": false,
+    "dmg_bonus_pct": 1,
+    "dmg_fijo": 60,
+    "neutralizador_pct": 30
+  }
+]
