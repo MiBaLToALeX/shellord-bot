@@ -1,0 +1,38 @@
+[
+  {
+    "id": "explorador",
+    "nombre": "Explorador",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 20,
+    "dialogo": "Saludos, viajero. Tengo mercancía que no encontrarás en ninguna tienda. ¿Quieres echar un vistazo?",
+    "vende": [
+      {
+        "id": "key_nido",
+        "precio": 100
+      },
+      {
+        "id": "pala_raspadora",
+        "precio": 3000
+      },
+      {
+        "id": "pergamino_salto",
+        "precio": 1000
+      },
+      {
+        "id": "pergamino_excavar",
+        "precio": 1000
+      },
+      {
+        "id": "pergamino_atadura",
+        "precio": 1000
+      }
+    ],
+    "compra": [
+      {
+        "id": "antidoto",
+        "precio": 100
+      }
+    ]
+  }
+]

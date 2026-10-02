@@ -1,0 +1,629 @@
+[
+    {
+        "id": "q_mov_001",
+        "nombre": "El caminante",
+        "tipo": "num_movimientos",
+        "descripcion": "Realiza 10 movimientos",
+        "requisitos": { "num_movimientos": 10 },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_mov_002",
+        "nombre": "El caminante II",
+        "tipo": "num_movimientos",
+        "descripcion": "Realiza 50 movimientos",
+        "requisitos": { "num_movimientos": 50 },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_mov_003",
+        "nombre": "El caminante III",
+        "tipo": "num_movimientos",
+        "descripcion": "Realiza 100 movimientos",
+        "requisitos": { "num_movimientos": 100 },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_mov_004",
+        "nombre": "El caminante IV",
+        "tipo": "num_movimientos",
+        "descripcion": "Realiza 500 movimientos",
+        "requisitos": { "num_movimientos": 500 },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_mov_005",
+        "nombre": "El caminante V",
+        "tipo": "num_movimientos",
+        "descripcion": "Realiza 1000 movimientos",
+        "requisitos": { "num_movimientos": 1000 },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_buy_001",
+        "nombre": "Comprador",
+        "tipo": "comprar_objeto",
+        "descripcion": "Realiza tu primera compra en Intercambios",
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_sell_001",
+        "nombre": "Vendedor",
+        "tipo": "vender_objeto",
+        "descripcion": "Realiza tu primera venta en Intercambios",
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_total_001",
+        "nombre": "Misionero novato",
+        "tipo": "completar_misiones",
+        "descripcion": "Completa 2 misiones",
+        "requisitos": {
+            "num_misiones": 2
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_total_002",
+        "nombre": "Misionero novato II",
+        "tipo": "completar_misiones",
+        "descripcion": "Completa 5 misiones",
+        "requisitos": {
+            "num_misiones": 5
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_total_003",
+        "nombre": "Misionero veterano",
+        "tipo": "completar_misiones",
+        "descripcion": "Completa 10 misiones",
+        "requisitos": {
+            "num_misiones": 10
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_total_004",
+        "nombre": "Misionero veterano II",
+        "tipo": "completar_misiones",
+        "descripcion": "Completa 20 misiones",
+        "requisitos": {
+            "num_misiones": 20
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_total_005",
+        "nombre": "Misionero maestro",
+        "tipo": "completar_misiones",
+        "descripcion": "Completa 50 misiones",
+        "requisitos": {
+            "num_misiones": 50
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_total_006",
+        "nombre": "Misionero experto",
+        "tipo": "completar_misiones",
+        "descripcion": "Completa 100 misiones",
+        "requisitos": {
+            "num_misiones": 100
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_equip_001",
+        "nombre": "Mi primer arma",
+        "tipo": "equipar_arma",
+        "descripcion": "Equipa tu primer arma",
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_equip_002",
+        "nombre": "Mi primer escudo",
+        "tipo": "equipar_escudo",
+        "descripcion": "Equipa tu primer escudo",
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_equip_003",
+        "nombre": "Mi primer orbe",
+        "tipo": "equipar_orbe",
+        "descripcion": "Equipa tu primer orbe",
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_lvl_001",
+        "nombre": "Mi primer nivel",
+        "tipo": "alcanzar_nivel",
+        "descripcion": "Alcanza el nivel 2",
+        "requisitos": {
+            "nivel": 2
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_lvl_002",
+        "nombre": "Saltarín novato",
+        "tipo": "alcanzar_nivel",
+        "descripcion": "Alcanza el nivel 5",
+        "requisitos": {
+            "nivel": 5
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_lvl_003",
+        "nombre": "¡Primer ascenso! — Subo mi primer rango",
+        "tipo": "alcanzar_nivel",
+        "descripcion": "Alcanza el nivel 11",
+        "requisitos": {
+            "nivel": 11
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_lvl_004",
+        "nombre": "¡Me siento Hacker!",
+        "tipo": "alcanzar_nivel",
+        "descripcion": "Alcanza el nivel 25",
+        "requisitos": {
+            "nivel": 25
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_lvl_005",
+        "nombre": "El Pro Hacker llegó",
+        "tipo": "alcanzar_nivel",
+        "descripcion": "Alcanza el nivel 35",
+        "requisitos": {
+            "nivel": 35
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_lvl_006",
+        "nombre": "Soy de la Élite",
+        "tipo": "alcanzar_nivel",
+        "descripcion": "Alcanza el nivel 50",
+        "requisitos": {
+            "nivel": 50
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_lvl_007",
+        "nombre": "Un Semidiós",
+        "tipo": "alcanzar_nivel",
+        "descripcion": "Alcanza el nivel 80",
+        "requisitos": {
+            "nivel": 80
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_lvl_008",
+        "nombre": "El Todopoderoso",
+        "tipo": "alcanzar_nivel",
+        "descripcion": "Alcanza el nivel 100",
+        "requisitos": {
+            "nivel": 100
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_upequip_001",
+        "nombre": "Forjador supremo",
+        "tipo": "mejorar_arma",
+        "descripcion": "Mejora un arma al nivel máximo",
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_upequip_002",
+        "nombre": "Baluarte supremo",
+        "tipo": "mejorar_escudo",
+        "descripcion": "Mejora un escudo al nivel máximo",
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_upequip_003",
+        "nombre": "Custodio del Orbe",
+        "tipo": "mejorar_orbe",
+        "descripcion": "Mejora un orbe al nivel máximo",
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_escape",
+        "nombre": "El arte de huir",
+        "tipo": "escapar_enemigo",
+        "descripcion": "Escapa de un enemigo",
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_dung_002",
+        "nombre": "Explorador invernal",
+        "tipo": "descubrir_mapa",
+        "descripcion": "Entra al mapa Invernal",
+        "requisitos": {
+            "id_mazmorra": "invernal"
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_dung_001",
+        "nombre": "Fosa AND",
+        "tipo": "descubrir_mapa",
+        "descripcion": "Descubre las ruinas sumergidas de AND",
+        "requisitos": {
+            "id_mazmorra": "and"
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_dung_003",
+        "nombre": "Los Equinos Oscuros",
+        "tipo": "descubrir_mapa",
+        "descripcion": "Descubre el mapa de los equinos oscuros",
+        "requisitos": {
+            "id_mazmorra": "equinos"
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_dung_004",
+        "nombre": "El territorio Shocklin",
+        "tipo": "descubrir_mapa",
+        "descripcion": "Descubre el mapa de los Shocklins",
+        "requisitos": {
+            "id_mazmorra": "shocklin"
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_dung_005",
+        "nombre": "Reino de los Glitchs",
+        "tipo": "descubrir_mapa",
+        "descripcion": "Descubre el reino de los Glitchs",
+        "requisitos": {
+            "id_mazmorra": "glitch"
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_dung_006",
+        "nombre": "Contacto con Anfibios",
+        "tipo": "descubrir_mapa",
+        "descripcion": "Descubre el mapa anfibio",
+        "requisitos": {
+            "id_mazmorra": "anfibio"
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_dung_007",
+        "nombre": "Los tóxicos",
+        "tipo": "descubrir_mapa",
+        "descripcion": "Descubre el mapa más tóxico",
+        "requisitos": {
+            "id_mazmorra": "toxica"
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_dung_008",
+        "nombre": "Colmena corrupta",
+        "tipo": "descubrir_mapa",
+        "descripcion": "Explora la colmena corrupta de Orbix",
+        "requisitos": {
+            "id_mazmorra": "orbix"
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_dung_009",
+        "nombre": "El abismo",
+        "tipo": "descubrir_mapa",
+        "descripcion": "Descubre el mapa abisal",
+        "requisitos": {
+            "id_mazmorra": "abisal"
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_dung_010",
+        "nombre": "La Sala de Juegos",
+        "tipo": "descubrir_mapa",
+        "descripcion": "Descubre la sala de juegos de Sinthia",
+        "requisitos": {
+            "id_mazmorra": "sinthia"
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_dung_011",
+        "nombre": "Vivero Voraz",
+        "tipo": "descubrir_mapa",
+        "descripcion": "Descubre el invernadero",
+        "requisitos": {
+            "id_mazmorra": "plantibora"
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_dung_012",
+        "nombre": "ShellOrd Park",
+        "tipo": "descubrir_mapa",
+        "descripcion": "Descubre el parque sáurico",
+        "requisitos": {
+            "id_mazmorra": "saurica"
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_collect_001",
+        "nombre": "¡Soy minero!",
+        "tipo": "recolectar_objeto",
+        "descripcion": "Extrae 1 bloque de energía",
+        "requisitos": {
+            "id_objeto": "block_energy",
+            "cantidad": 1
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_collect_002",
+        "nombre": "¡Soy minero! II",
+        "tipo": "recolectar_objeto",
+        "descripcion": "Extrae 5 bloques de energía",
+        "requisitos": {
+            "id_objeto": "block_energy",
+            "cantidad": 5
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_collect_003",
+        "nombre": "¡Soy minero! III",
+        "tipo": "recolectar_objeto",
+        "descripcion": "Extrae 10 bloques de energía",
+        "requisitos": {
+            "id_objeto": "block_energy",
+            "cantidad": 10
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_collect_004",
+        "nombre": "¡Soy minero! IV",
+        "tipo": "recolectar_objeto",
+        "descripcion": "Extrae 50 bloques de energía",
+        "requisitos": {
+            "id_objeto": "block_energy",
+            "cantidad": 50
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_collect_005",
+        "nombre": "¡Soy minero! V",
+        "tipo": "recolectar_objeto",
+        "descripcion": "Extrae 100 bloques de energía",
+        "requisitos": {
+            "id_objeto": "block_energy",
+            "cantidad": 100
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_collect_006",
+        "nombre": "Se te ha caido un tornillo",
+        "tipo": "recolectar_objeto",
+        "descripcion": "Recoge 1 tornillo",
+        "requisitos": {
+            "id_objeto": "tornillo",
+            "cantidad": 1
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_collect_007",
+        "nombre": "Ni un tornillo se escapa",
+        "tipo": "recolectar_objeto",
+        "descripcion": "Recoge 10 tornillos",
+        "requisitos": {
+            "id_objeto": "tornillo",
+            "cantidad": 10
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_collect_008",
+        "nombre": "Operación tuercas",
+        "tipo": "recolectar_objeto",
+        "descripcion": "Recoge 10 tuercas",
+        "requisitos": {
+            "id_objeto": "tuerca",
+            "cantidad": 10
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_collect_009",
+        "nombre": "El condensador",
+        "tipo": "recolectar_objeto",
+        "descripcion": "Acaba con el enemigo y recoge 1 condensador cuántico",
+        "requisitos": {
+            "id_objeto": "condensador",
+            "cantidad": 1
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_collect_010",
+        "nombre": "Los condensadores",
+        "tipo": "recolectar_objeto",
+        "descripcion": "Acaba con los enemigos y recoge 10 condensadores cuánticos",
+        "requisitos": {
+            "id_objeto": "condensador",
+            "cantidad": 10
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_collect_011",
+        "nombre": "Latido de un bot",
+        "tipo": "recolectar_objeto",
+        "descripcion": "Acaba con el enemigo y recoge 1 núcleo de fusión",
+        "requisitos": {
+            "id_objeto": "nucleo",
+            "cantidad": 1
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_collect_012",
+        "nombre": "Hilos del Futuro",
+        "tipo": "recolectar_objeto",
+        "descripcion": "Acaba con los enemigos y recoge 10 nanofibras",
+        "requisitos": {
+            "id_objeto": "nanofibra",
+            "cantidad": 10
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_get_001",
+        "nombre": "El boleto de la suerte",
+        "tipo": "conseguir_objeto",
+        "descripcion": "Consigue 1 ticket",
+        "requisitos": {
+            "id_objeto": "tickets",
+            "cantidad": 1
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_get_002",
+        "nombre": "El boleto de la suerte II",
+        "tipo": "conseguir_objeto",
+        "descripcion": "Consigue 5 tickets",
+        "requisitos": {
+            "id_objeto": "tickets",
+            "cantidad": 5
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_get_003",
+        "nombre": "El boleto de la suerte III",
+        "tipo": "conseguir_objeto",
+        "descripcion": "Consigue 10 tickets",
+        "requisitos": {
+            "id_objeto": "tickets",
+            "cantidad": 10
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_get_004",
+        "nombre": "El boleto de la suerte IV",
+        "tipo": "conseguir_objeto",
+        "descripcion": "Consigue 50 tickets",
+        "requisitos": {
+            "id_objeto": "tickets",
+            "cantidad": 50
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_get_005",
+        "nombre": "El boleto de la suerte V",
+        "tipo": "conseguir_objeto",
+        "descripcion": "Consigue 100 tickets",
+        "requisitos": {
+            "id_objeto": "tickets",
+            "cantidad": 100
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_get_005",
+        "nombre": "Doctor",
+        "tipo": "conseguir_objeto",
+        "descripcion": "Consigue 1 Antídoto cuántico",
+        "requisitos": {
+            "id_objeto": "antidoto",
+            "cantidad": 1
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_get_005",
+        "nombre": "El médico",
+        "tipo": "conseguir_objeto",
+        "descripcion": "Consigue 1 Poción ultra energética",
+        "requisitos": {
+            "id_objeto": "pocion_2",
+            "cantidad": 1
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_get_006",
+        "nombre": "Voy hacer un avatar",
+        "tipo": "conseguir_objeto",
+        "descripcion": "Consigue 1 tejido y cuero blanco",
+        "requisitos": {
+            "id_objeto": "fab_02",
+            "cantidad": 1
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_get_007",
+        "nombre": "Cambiando colores",
+        "tipo": "conseguir_objeto",
+        "descripcion": "Consigue 1 tinte multicolor",
+        "requisitos": {
+            "id_objeto": "tinte",
+            "cantidad": 1
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_get_008",
+        "nombre": "Necesitamos tela",
+        "tipo": "conseguir_objeto",
+        "descripcion": "Consigue 1 tela blanca",
+        "requisitos": {
+            "id_objeto": "fab_03",
+            "cantidad": 1
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_get_009",
+        "nombre": "No me gusta el color",
+        "tipo": "conseguir_objeto",
+        "descripcion": "Consigue 1 Spray de pintura Multi-Metal",
+        "requisitos": {
+            "id_objeto": "spray",
+            "cantidad": 1
+        },
+        "recompensa_tipo": 3
+    },
+    {
+        "id": "q_get_010",
+        "nombre": "Oro parece",
+        "tipo": "conseguir_objeto",
+        "descripcion": "Consigue 1 Lingote de oro",
+        "requisitos": {
+            "id_objeto": "gold",
+            "cantidad": 1
+        },
+        "recompensa_tipo": 3
+    }
+]
