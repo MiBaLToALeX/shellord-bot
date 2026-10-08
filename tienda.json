@@ -767,5 +767,13 @@
     "indice": 0,
     "vol": 1,
     "solo_venta": true
+  },
+  {
+    "id": "key_pirata",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 11,
+    "vol": 3,
+    "solo_venta": true
   }
 ]
