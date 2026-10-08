@@ -1070,5 +1070,36 @@
     "dmg_bonus_pct": 1,
     "dmg_fijo": 60,
     "neutralizador_pct": 30
+  },
+  {
+    "id": "avatar_trampero",
+    "nombre": "ShellOrd Trampero",
+    "formula": [
+      {
+        "id_objeto": "ficha_a",
+        "cantidad": 5
+      }
+    ],
+    "elemento": "tierra",
+    "emoji": "🕹",
+    "vol": 5,
+    "skill": "tramposo",
+    "descripcion": "Este avatar es un estratega que te permite tener un control total sobre las trampas que colocas",
+    "antirobo": true,
+    "dmg_bonus_fijo": true,
+    "int_bonus_pct": 15,
+    "skills": [
+      "rotar",
+      "atraer",
+      "enganchar",
+      "atadura",
+      "trampificacion"
+    ],
+    "neutralizador_pct": 10,
+    "vel_bonus_pct": 5,
+    "energia_max_bonus": 1000,
+    "indice": 27,
+    "dmg_fijo": 50,
+    "dmg_bonus_pct": 50
   }
 ]
