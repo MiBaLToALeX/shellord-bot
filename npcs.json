@@ -34,5 +34,29 @@
         "precio": 100
       }
     ]
+  },
+  {
+    "id": "pirata",
+    "nombre": "Pirata Sangremar",
+    "emoji": "🕹️",
+    "dialogo": "¡Ahoy, grumete! ¿Qué tesoro buscas hoy?",
+    "vende": [
+      {
+        "id": "key_pirata",
+        "precio": 1000
+      },
+      {
+        "id": "gold",
+        "precio": 50
+      }
+    ],
+    "compra": [
+      {
+        "id": "gold",
+        "precio": 50
+      }
+    ],
+    "vol": 5,
+    "indice": 27
   }
 ]
