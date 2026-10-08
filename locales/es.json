@@ -358,5 +358,7 @@
     "OBJECT_NAME_PERGAMINO_SALTO": "Pergamino: Salto",
     "OBJECT_DESC_PERGAMINO_SALTO": "Pergamino ancestral que enseña la habilidad Salto. Úsalo para aprenderla.",
     "OBJECT_NAME_PERGAMINO_ATADURA": "Pergamino: Atadura",
-    "OBJECT_DESC_PERGAMINO_ATADURA": "Pergamino ancestral que enseña la habilidad Atadura. Úsalo para aprenderla."
+    "OBJECT_DESC_PERGAMINO_ATADURA": "Pergamino ancestral que enseña la habilidad Atadura. Úsalo para aprenderla.",
+    "SKILL_NAME_TRAMPOSO": "Tramposo",
+    "SKILL_DESC_TRAMPOSO": "Pasiva. Al explotar una de tus trampas, si hay otra tuya a 2 casillas o menos, el enemigo es arrastrado hasta ella y la hace explotar también, en área. Cada trampa de la cadena dobla el daño (hasta ×16). No arrastra a enemigos pesados ni indesplazables."
 }
