@@ -469,7 +469,6 @@
           "mensaje": "Gatiko sana a sus aliados"
         },
         "mazmorras": [
-          "default",
           "felina"
         ],
         "drops_cazador": [
@@ -528,7 +527,6 @@
         "atk_extra": 300,
         "def_fijo": 25,
         "mazmorras": [
-          "default",
           "felina"
         ],
         "drops_cazador": [
