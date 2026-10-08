@@ -799,5 +799,14 @@
     "vol": 2,
     "skill_id": "invocar",
     "mensaje": "¡Has desbloqueado la habilidad Invocar!"
+  },
+  {
+    "tipo": 97,
+    "recompensa": "item",
+    "item_id": "key_pirata",
+    "emoji": "🗝",
+    "indice": 11,
+    "vol": 3,
+    "mensaje": "Has obtenido +1 llave mazmorra Piratas"
   }
 ]
