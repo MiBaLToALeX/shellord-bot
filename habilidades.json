@@ -1,0 +1,164 @@
+[
+  {
+    "id": "golpe_vampirico",
+    "nombre": "Golpe vampírico",
+    "emoji": "🩸",
+    "descripcion": "Debilita al objetivo y se potencia a sí mismo.",
+    "efectos": [
+      {
+        "efecto": "debilidad",
+        "objetivo": "objetivo",
+        "valor": 20,
+        "turnos": 2
+      },
+      {
+        "efecto": "potencia",
+        "objetivo": "lanzador",
+        "valor": 30,
+        "turnos": 2
+      }
+    ]
+  },
+  {
+    "id": "impulso_luz",
+    "nombre": "Impulso de Luz",
+    "emoji": "☀️",
+    "descripcion": "Aplica el estado Turbo, que incrementa el daño en 40% durante 1 minuto. No puede usarse de nuevo hasta pasado 5 minutos",
+    "recarga_seg": 300,
+    "efectos": [
+      {
+        "efecto": "turbo",
+        "valor": 40,
+        "tiempo": 60,
+        "mensaje": "☀️ ¡Impulso de Luz! Tu daño aumenta un {valor} % durante 60 segundos."
+      }
+    ]
+  },
+  {
+    "id": "coraza",
+    "nombre": "Coraza",
+    "emoji": "🛡️",
+    "descripcion": "Duplica la DEF plana del jugador durante 30 segundos. Tiempo de espera: 1 minuto.",
+    "recarga_seg": 60,
+    "efectos": [
+      {
+        "efecto": "coraza",
+        "valor": 1,
+        "tiempo": 30,
+        "mensaje": "🛡️ ¡Coraza! Tu defensa se duplica durante 30 segundos."
+      }
+    ]
+  },
+  {
+    "id": "rabia",
+    "nombre": "Rabia",
+    "emoji": "🔥",
+    "descripcion": "Aumenta el daño un 2% por nivel durante 30 segundos. Tiempo de espera: 5 minutos.",
+    "recarga_seg": 300,
+    "efectos": [
+      {
+        "efecto": "rabia",
+        "valor": 0,
+        "por_nivel_pct": 200,
+        "tiempo": 30,
+        "mensaje": "🔥 ¡Rabia! +{valor} % de daño durante 30 segundos."
+      }
+    ]
+  },
+  {
+    "id": "medicina",
+    "nombre": "Medicina",
+    "emoji": "💊",
+    "descripcion": "Aumenta un 20% tus curas durante 60 segundos. Recarga: 2 minutos.",
+    "recarga_seg": 120,
+    "efectos": [
+      {
+        "efecto": "medicina",
+        "valor": 20,
+        "tiempo": 60,
+        "mensaje": "💊 ¡Medicina! Tus curas aumentan un {valor} % durante 60 segundos."
+      }
+    ]
+  },
+  {
+    "id": "alquimista",
+    "nombre": "Alquimista",
+    "emoji": "🧪",
+    "descripcion": "Durante 30s, las pociones de buff o cura que uses afectan también en área (radio 2) a los jugadores de tu mismo mapa. Recarga: 2 minutos.",
+    "recarga_seg": 120,
+    "efectos": [
+      {
+        "efecto": "alquimista",
+        "valor": 0,
+        "tiempo": 30,
+        "mensaje": "🧪 ¡Alquimista! Durante 30 s tus pociones de cura y mejora también afectan a los jugadores a 2 casillas."
+      }
+    ]
+  },
+  {
+    "id": "transmutar",
+    "nombre": "Transmutar",
+    "emoji": "🌈",
+    "descripcion": "Durante 60s golpeas con el elemento que gana al del enemigo (más daño) y te defiendes con ese elemento (menos daño recibido). Recarga: 5 minutos.",
+    "recarga_seg": 300,
+    "efectos": [
+      {
+        "efecto": "transmutar",
+        "valor": 0,
+        "tiempo": 60,
+        "mensaje": "🌈 ¡Transmutar! Durante 60 s golpeas con el elemento que gana al enemigo y te defiendes con ventaja."
+      }
+    ]
+  },
+  {
+    "id": "repartir",
+    "nombre": "Repartir",
+    "emoji": "🤝",
+    "descripcion": "Durante 30s, el daño que recibas se reparte entre los jugadores en radio 2, reduciendo el golpe que asumes. Recarga: 2 minutos.",
+    "recarga_seg": 120,
+    "efectos": [
+      {
+        "efecto": "repartir",
+        "valor": 0,
+        "tiempo": 30,
+        "mensaje": "🤝 ¡Repartir! Durante 30 s el daño que recibas se divide con los jugadores a 2 casillas."
+      }
+    ]
+  },
+  {
+    "id": "trampificacion",
+    "nombre": "Trampificación",
+    "emoji": "🪤",
+    "descripcion": "Tus 3 siguientes trampas que exploten hacen un 1 % más de daño por cada nivel tuyo y (nivel / 5) + 2 de daño fijo. Recarga: 5 minutos.",
+    "recarga_seg": 300,
+    "efectos": [
+      {
+        "efecto": "trampero2",
+        "valor": 0,
+        "por_nivel_pct": 100,
+        "turnos": 3,
+        "mensaje": "🪤 ¡Trampificación! Tus 3 siguientes trampas hacen +{valor} % de daño"
+      },
+      {
+        "efecto": "trampero",
+        "valor": 2,
+        "por_nivel_pct": 20,
+        "turnos": 3,
+        "mensaje": "y +{valor} de daño fijo."
+      }
+    ]
+  },
+  {
+    "id": "purificar",
+    "nombre": "Purificar",
+    "emoji": "✨",
+    "descripcion": "Elimina todos los estados activos de inmediato. \nTiempo de espera: 2 minutos.",
+    "recarga_seg": 120,
+    "efectos": [
+      {
+        "accion": "purificar",
+        "mensaje": "✨ ¡Purificar! Todos tus estados activos han sido eliminados."
+      }
+    ]
+  }
+]

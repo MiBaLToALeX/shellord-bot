@@ -1,0 +1,132 @@
+[
+  {
+    "id": "potencia",
+    "nombre": "Potencia",
+    "emoji": "💪",
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "atk_pct": 1
+    },
+    "descripcion": "+VALOR% de daño en sus golpes."
+  },
+  {
+    "id": "poder",
+    "nombre": "Poder",
+    "emoji": "⚡",
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "atk_fijo": 1
+    },
+    "descripcion": "+VALOR de daño fijo en sus golpes."
+  },
+  {
+    "id": "resistente",
+    "nombre": "Resistente",
+    "emoji": "🧱",
+    "gasta": "recibir",
+    "turnos": 3,
+    "componentes": {
+      "def_fija": 1
+    },
+    "descripcion": "+VALOR de DEF fija al recibir golpes."
+  },
+  {
+    "id": "debilidad",
+    "nombre": "Debilidad",
+    "emoji": "😵",
+    "perjuicio": true,
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "def_pct": -1
+    },
+    "descripcion": "Pierde VALOR% de su DEF."
+  },
+  {
+    "id": "holoescudo",
+    "nombre": "Holoescudo",
+    "emoji": "🛡️",
+    "gasta": "recibir",
+    "turnos": 2,
+    "componentes": {
+      "dano_recibido_pct": 1
+    },
+    "descripcion": "Recibe VALOR% menos de daño."
+  },
+  {
+    "id": "critico",
+    "nombre": "Crítico",
+    "emoji": "🎯",
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "critico_pct": 1
+    },
+    "descripcion": "+VALOR% de probabilidad de crítico."
+  },
+  {
+    "id": "turbo",
+    "nombre": "Turbo",
+    "emoji": "☀️",
+    "nativo": true,
+    "descripcion": "+VALOR% de ATK (Impulso de Luz)."
+  },
+  {
+    "id": "rabia",
+    "nombre": "Rabia",
+    "emoji": "🔥",
+    "nativo": true,
+    "descripcion": "+VALOR% de ATK."
+  },
+  {
+    "id": "coraza",
+    "nombre": "Coraza",
+    "emoji": "🛡️",
+    "nativo": true,
+    "descripcion": "Duplica la DEF plana."
+  },
+  {
+    "id": "medicina",
+    "nombre": "Medicina",
+    "emoji": "💊",
+    "nativo": true,
+    "descripcion": "Las curas aumentan un VALOR%."
+  },
+  {
+    "id": "alquimista",
+    "nombre": "Alquimista",
+    "emoji": "🧪",
+    "nativo": true,
+    "descripcion": "Las pociones de cura y mejora también afectan a los jugadores a 2 casillas."
+  },
+  {
+    "id": "transmutar",
+    "nombre": "Transmutar",
+    "emoji": "🌈",
+    "nativo": true,
+    "descripcion": "Golpea con el elemento que gana al enemigo y se defiende con ventaja."
+  },
+  {
+    "id": "repartir",
+    "nombre": "Repartir",
+    "emoji": "🤝",
+    "nativo": true,
+    "descripcion": "El daño que recibe se divide con los jugadores a 2 casillas."
+  },
+  {
+    "id": "trampero",
+    "nombre": "Trampero",
+    "emoji": "🪤",
+    "nativo": true,
+    "descripcion": "+VALOR de daño fijo en sus trampas (se gasta al explotar)."
+  },
+  {
+    "id": "trampero2",
+    "nombre": "Trampero II",
+    "emoji": "🪤",
+    "nativo": true,
+    "descripcion": "+VALOR% de daño en sus trampas (se gasta al explotar)."
+  }
+]
