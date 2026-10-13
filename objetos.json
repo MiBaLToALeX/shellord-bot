@@ -1071,5 +1071,44 @@
     "skill": "atadura",
     "vol": 1,
     "indice": 0
+  },
+  {
+    "id": "baston_pinbot",
+    "atk": 5,
+    "def": 5,
+    "nivel": 10,
+    "rango": "A",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "tipos_avatar": [
+      "invocador",
+      "sanador"
+    ],
+    "emoji": "🗡",
+    "vol": 4,
+    "dmg_bonus_fijo": false,
+    "energia_max_bonus": 1500,
+    "cura_bonus_pct": 5,
+    "huida_bonus_pct": 5,
+    "int_bonus_pct": 5,
+    "def_bonus_fijo": true,
+    "def_bonus_pct": 5,
+    "castigo_tipo": "quemadura",
+    "castigo_seg": 10,
+    "castigo_pct": 5,
+    "indice": 9,
+    "danos_elementales": [
+      {
+        "min": 180,
+        "max": 200
+      },
+      {
+        "min": 120,
+        "max": 140
+      }
+    ],
+    "dmg_min": 180,
+    "dmg_max": 200
   }
 ]

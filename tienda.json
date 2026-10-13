@@ -799,5 +799,13 @@
     "indice": 26,
     "vol": 3,
     "solo_venta": true
+  },
+  {
+    "id": "baston_pinbot",
+    "precio": 5000,
+    "emoji": "🗡",
+    "indice": 9,
+    "vol": 4,
+    "solo_venta": true
   }
 ]
