@@ -160,5 +160,21 @@
         "mensaje": "✨ ¡Purificar! Todos tus estados activos han sido eliminados."
       }
     ]
+  },
+  {
+    "id": "oscuridad",
+    "nombre": "Oscuridad",
+    "emoji": "🌑",
+    "descripcion": "Sume en la oscuridad a todos sus rivales de la sala: quedan ciegos (fallan la mitad de sus ataques), atacan sin elemento y ven el mapa en blanco y negro durante 20 s.",
+    "recarga_seg": 120,
+    "efectos": [
+      {
+        "efecto": "oscuridad",
+        "objetivo": "objetivos",
+        "radio": 99,
+        "valor": 50,
+        "tiempo": 20
+      }
+    ]
   }
 ]

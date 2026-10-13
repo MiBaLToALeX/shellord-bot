@@ -78,42 +78,48 @@
     "nombre": "Rabia",
     "emoji": "🔥",
     "nativo": true,
-    "descripcion": "+VALOR% de ATK."
+    "descripcion": "+VALOR% de ATK.",
+    "segundos": 60
   },
   {
     "id": "coraza",
     "nombre": "Coraza",
     "emoji": "🛡️",
     "nativo": true,
-    "descripcion": "Duplica la DEF plana."
+    "descripcion": "Duplica la DEF plana.",
+    "segundos": 60
   },
   {
     "id": "medicina",
     "nombre": "Medicina",
     "emoji": "💊",
     "nativo": true,
-    "descripcion": "Las curas aumentan un VALOR%."
+    "descripcion": "Las curas aumentan un VALOR%.",
+    "segundos": 60
   },
   {
     "id": "alquimista",
     "nombre": "Alquimista",
     "emoji": "🧪",
     "nativo": true,
-    "descripcion": "Las pociones de cura y mejora también afectan a los jugadores a 2 casillas."
+    "descripcion": "Las pociones de cura y mejora también afectan a los jugadores a 2 casillas.",
+    "segundos": 60
   },
   {
     "id": "transmutar",
     "nombre": "Transmutar",
     "emoji": "🌈",
     "nativo": true,
-    "descripcion": "Golpea con el elemento que gana al enemigo y se defiende con ventaja."
+    "descripcion": "Golpea con el elemento que gana al enemigo y se defiende con ventaja.",
+    "segundos": 60
   },
   {
     "id": "repartir",
     "nombre": "Repartir",
     "emoji": "🤝",
     "nativo": true,
-    "descripcion": "El daño que recibe se divide con los jugadores a 2 casillas."
+    "descripcion": "El daño que recibe se divide con los jugadores a 2 casillas.",
+    "segundos": 60
   },
   {
     "id": "trampero",
@@ -128,5 +134,600 @@
     "emoji": "🪤",
     "nativo": true,
     "descripcion": "+VALOR% de daño en sus trampas (se gasta al explotar)."
+  },
+  {
+    "id": "infeccion",
+    "nombre": "Infección",
+    "emoji": "☣️",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Pierde VALOR de energía cada vez que ataca."
+  },
+  {
+    "id": "sobrecarga",
+    "nombre": "Sobrecarga",
+    "emoji": "⚡",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Pierde VALOR de energía cada vez que ataca."
+  },
+  {
+    "id": "radiacion",
+    "nombre": "Radiación",
+    "emoji": "☢️",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Pierde VALOR de energía cada vez que ataca."
+  },
+  {
+    "id": "quemado",
+    "nombre": "Quemado",
+    "emoji": "🔥",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Pierde un VALOR% de su energía cada vez que ataca."
+  },
+  {
+    "id": "desgarre",
+    "nombre": "Desgarre",
+    "emoji": "🩸",
+    "nativo": true,
+    "perjuicio": true,
+    "segundos": 30,
+    "descripcion": "Pierde VALOR de energía cada vez que ataca."
+  },
+  {
+    "id": "desintegracion",
+    "nombre": "Desintegración",
+    "emoji": "💥",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Pierde un 10 % de su energía máxima cada vez que ataca."
+  },
+  {
+    "id": "irradiacion",
+    "nombre": "Irradiación",
+    "emoji": "☢️",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Pierde un VALOR% de su energía cada vez que ataca."
+  },
+  {
+    "id": "confusion",
+    "nombre": "Confusión",
+    "emoji": "😵‍💫",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "A veces se golpea a sí mismo al atacar."
+  },
+  {
+    "id": "zombificacion",
+    "nombre": "Zombificación",
+    "emoji": "🧟",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "A veces se golpea a sí mismo al atacar."
+  },
+  {
+    "id": "distorsion",
+    "nombre": "Distorsión",
+    "emoji": "🌀",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "VALOR% de probabilidad de fallar el ataque; al andar va en una dirección al azar."
+  },
+  {
+    "id": "cortocircuito",
+    "nombre": "Cortocircuito",
+    "emoji": "⚡",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "VALOR% de probabilidad de fallar el ataque."
+  },
+  {
+    "id": "interferencia",
+    "nombre": "Interferencia",
+    "emoji": "📡",
+    "nativo": true,
+    "perjuicio": true,
+    "segundos": 30,
+    "descripcion": "VALOR% de probabilidad de fallar el ataque."
+  },
+  {
+    "id": "aturdido",
+    "nombre": "Aturdido",
+    "emoji": "💫",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Sus ataques fallan."
+  },
+  {
+    "id": "neutralizado",
+    "nombre": "Neutralizado",
+    "emoji": "🛑",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "No puede atacar hasta que el enemigo ataque."
+  },
+  {
+    "id": "ralentizado",
+    "nombre": "Ralentizado",
+    "emoji": "⏳",
+    "nativo": true,
+    "perjuicio": true,
+    "segundos": 10,
+    "descripcion": "No puede atacar mientras dure."
+  },
+  {
+    "id": "paralizado",
+    "nombre": "Paralizado",
+    "emoji": "🐢",
+    "nativo": true,
+    "perjuicio": true,
+    "segundos": 10,
+    "descripcion": "No puede atacar mientras dure."
+  },
+  {
+    "id": "inmovilizacion",
+    "nombre": "Inmovilizado",
+    "emoji": "🔒",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "No puede atacar."
+  },
+  {
+    "id": "inamovible",
+    "nombre": "Inamovible",
+    "emoji": "⚓",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "No puede moverse ni ser desplazado."
+  },
+  {
+    "id": "pegajoso",
+    "nombre": "Pegajoso",
+    "emoji": "🕸️",
+    "nativo": true,
+    "perjuicio": true,
+    "segundos": 10,
+    "descripcion": "No puede moverse."
+  },
+  {
+    "id": "tuerto",
+    "nombre": "Tuerto",
+    "emoji": "🩸",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "-VALOR de alcance."
+  },
+  {
+    "id": "erosion",
+    "nombre": "Erosión",
+    "emoji": "🧪",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Cada golpe que recibe le quita un VALOR% de energía máxima (irrecuperable)."
+  },
+  {
+    "id": "erosion2",
+    "nombre": "Erosión II",
+    "emoji": "🧪",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Cada golpe que recibe le quita un VALOR% del daño como energía máxima (irrecuperable)."
+  },
+  {
+    "id": "reduccion",
+    "nombre": "Reducción",
+    "emoji": "📉",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Su energía máxima baja un VALOR%."
+  },
+  {
+    "id": "reduccion_def",
+    "nombre": "Reducción de DEF",
+    "emoji": "🔻",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Pierde VALOR de DEF (se gasta al recibir golpes)."
+  },
+  {
+    "id": "fatiga",
+    "nombre": "Fatiga",
+    "emoji": "😴",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Sus críticos y curas bajan un VALOR%."
+  },
+  {
+    "id": "anticura",
+    "nombre": "Anticura",
+    "emoji": "🚫",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "No puede curarse."
+  },
+  {
+    "id": "encriptado",
+    "nombre": "Encriptado",
+    "emoji": "🔐",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "No puede usar objetos del inventario (se gasta al recibir golpes)."
+  },
+  {
+    "id": "desconexion",
+    "nombre": "Desconexión",
+    "emoji": "🔌",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Sus golpes hacen 1 de daño y pierde su defensa en %."
+  },
+  {
+    "id": "corrosion",
+    "nombre": "Corrosión",
+    "emoji": "🧫",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "El ácido se come su armadura: cada golpe que recibe le quita un VALOR% de DEF (se acumula, hasta el 100 %)."
+  },
+  {
+    "id": "rebote",
+    "nombre": "Rebote",
+    "emoji": "🏐",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Cada golpe que recibe le empuja."
+  },
+  {
+    "id": "perfusion",
+    "nombre": "Perfusión",
+    "emoji": "💞",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Al recibir golpes, cura a los enemigos cercanos un VALOR% del daño."
+  },
+  {
+    "id": "atraccion",
+    "nombre": "Atracción",
+    "emoji": "🧲",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Los enemigos lo atraen al atacarle."
+  },
+  {
+    "id": "muerte",
+    "nombre": "Apocalipsis",
+    "emoji": "☄️",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Si el enemigo que lo lanzó sigue vivo cuando se acaba, muere."
+  },
+  {
+    "id": "placajemortal",
+    "nombre": "Placaje mortal",
+    "emoji": "🩻",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Si no se mueve de casilla en 40 s, muere."
+  },
+  {
+    "id": "regeneracion",
+    "nombre": "Regeneración",
+    "emoji": "🔄",
+    "nativo": true,
+    "descripcion": "Recupera VALOR de energía cada vez que ataca."
+  },
+  {
+    "id": "optimizacion",
+    "nombre": "Optimización",
+    "emoji": "🔥",
+    "nativo": true,
+    "descripcion": "+VALOR% de daño en sus golpes."
+  },
+  {
+    "id": "suertudo",
+    "nombre": "Suerte",
+    "emoji": "🍀",
+    "nativo": true,
+    "descripcion": "Más fácil sacar crítico (VALOR)."
+  },
+  {
+    "id": "precision",
+    "nombre": "Precisión",
+    "emoji": "🎯",
+    "nativo": true,
+    "descripcion": "Falla un VALOR% menos sus ataques."
+  },
+  {
+    "id": "overclock",
+    "nombre": "Overclock",
+    "emoji": "⚙️",
+    "nativo": true,
+    "descripcion": "+VALOR% de ATK (a cambio de defensa)."
+  },
+  {
+    "id": "invisibilidad",
+    "nombre": "Invisibilidad",
+    "emoji": "👻",
+    "nativo": true,
+    "descripcion": "Los enemigos fallan un VALOR% de sus ataques contra él."
+  },
+  {
+    "id": "invisible_skill",
+    "nombre": "Invisible",
+    "emoji": "👻",
+    "nativo": true,
+    "segundos": 30,
+    "descripcion": "Los enemigos fallan todos sus ataques contra él."
+  },
+  {
+    "id": "energico",
+    "nombre": "Enérgico",
+    "emoji": "⚡",
+    "nativo": true,
+    "descripcion": "Sus habilidades cuestan menos energía (VALOR%)."
+  },
+  {
+    "id": "pesado",
+    "nombre": "Pesado",
+    "emoji": "🪨",
+    "nativo": true,
+    "descripcion": "Inmune a empujes y desplazamientos."
+  },
+  {
+    "id": "huesped",
+    "nombre": "Huésped",
+    "emoji": "🦠",
+    "nativo": true,
+    "descripcion": "+VALOR de energía máxima y VALOR2% de resistencia."
+  },
+  {
+    "id": "curandero",
+    "nombre": "Curandero",
+    "emoji": "💊",
+    "nativo": true,
+    "descripcion": "Sus curas aumentan un VALOR% (se gasta al recibir golpes)."
+  },
+  {
+    "id": "reenvio",
+    "nombre": "Reenvío",
+    "emoji": "🔁",
+    "nativo": true,
+    "descripcion": "Devuelve al atacante un VALOR% del daño que recibe."
+  },
+  {
+    "id": "vampirismo",
+    "nombre": "Vampirismo",
+    "emoji": "🧛",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Al golpear pierde un VALOR% del daño que hace, y con eso se curan sus rivales a VALOR2 casillas."
+  },
+  {
+    "id": "reductor",
+    "nombre": "Reductor",
+    "emoji": "🛡️",
+    "nativo": true,
+    "descripcion": "Reduce el daño que recibe entre VALOR y VALOR2."
+  },
+  {
+    "id": "paroimpar",
+    "nombre": "Par o impar",
+    "emoji": "🎲",
+    "nativo": true,
+    "descripcion": "Sus golpes pares (o impares) hacen más daño."
+  },
+  {
+    "id": "libre",
+    "nombre": "Escape",
+    "emoji": "🏃",
+    "nativo": true,
+    "descripcion": "Puede alejarse de un enemigo pegado a él (se pierde al andar)."
+  },
+  {
+    "id": "protector",
+    "nombre": "Protector",
+    "emoji": "🛡️",
+    "nativo": true,
+    "segundos": 60,
+    "descripcion": "+10 % de defensa y recibe parte de los golpes dirigidos a sus aliados."
+  },
+  {
+    "id": "pacto",
+    "nombre": "Pacto",
+    "emoji": "🩸",
+    "nativo": true,
+    "segundos": 60,
+    "descripcion": "Sus golpes hacen el triple de daño."
+  },
+  {
+    "id": "rapidez",
+    "nombre": "Rapidez",
+    "emoji": "🏃",
+    "nativo": true,
+    "segundos": 30,
+    "descripcion": "Se mueve más deprisa."
+  },
+  {
+    "id": "vuelo",
+    "nombre": "Vuelo",
+    "emoji": "🕊️",
+    "nativo": true,
+    "segundos": 60,
+    "descripcion": "Puede atacar a los enemigos en vuelo."
+  },
+  {
+    "id": "buceo",
+    "nombre": "Buceo",
+    "emoji": "🤿",
+    "nativo": true,
+    "segundos": 60,
+    "descripcion": "Puede atacar a los enemigos en inmersión."
+  },
+  {
+    "id": "oscuridad",
+    "nombre": "Oscuridad",
+    "emoji": "🌑",
+    "nativo": true,
+    "perjuicio": true,
+    "segundos": 20,
+    "descripcion": "Ciego: falla un VALOR% de sus ataques, ataca sin elemento (neutral) y ve el mapa en blanco y negro."
+  },
+  {
+    "id": "escudo_barrera",
+    "nombre": "Escudo de barrera",
+    "emoji": "🔰",
+    "nativo": true,
+    "descripcion": "Un escudo de VALOR de energía que se come los golpes antes que su energía."
+  },
+  {
+    "id": "vitalidad",
+    "nombre": "Vitalidad",
+    "emoji": "💗",
+    "nativo": true,
+    "descripcion": "+VALOR de energía máxima mientras dura."
+  },
+  {
+    "id": "alcance",
+    "nombre": "Alcance",
+    "emoji": "🔭",
+    "nativo": true,
+    "descripcion": "+VALOR de alcance."
+  },
+  {
+    "id": "debil",
+    "nombre": "Débil",
+    "emoji": "🦴",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Cada golpe que recibe le quita un VALOR% más de resistencia (se acumula, hasta el 100 %)."
+  },
+  {
+    "id": "dureza",
+    "nombre": "Dureza",
+    "emoji": "🗿",
+    "nativo": true,
+    "descripcion": "Cada golpe que recibe le da un VALOR% más de resistencia (se acumula)."
+  },
+  {
+    "id": "inpotencia",
+    "nombre": "Inpotencia",
+    "emoji": "🥀",
+    "nativo": true,
+    "descripcion": "Quien le golpea pierde un VALOR% de daño por cada golpe que le da (se acumula, hasta el 90 %)."
+  },
+  {
+    "id": "sinresis",
+    "nombre": "Sin resistencia",
+    "emoji": "🕳️",
+    "nativo": true,
+    "descripcion": "Quien le golpea pierde un VALOR% de resistencia por cada golpe que le da (se acumula)."
+  },
+  {
+    "id": "placaje",
+    "nombre": "Placaje",
+    "emoji": "🚷",
+    "nativo": true,
+    "descripcion": "+VALOR% de placaje: más difícil alejarse de su lado."
+  },
+  {
+    "id": "tp_mortal",
+    "nombre": "Teletransporte mortal",
+    "emoji": "☠️",
+    "nativo": true,
+    "descripcion": "Quien le daña sale teletransportado (y muere si choca con un muro)."
+  },
+  {
+    "id": "distribuir",
+    "nombre": "Distribuir",
+    "emoji": "🔗",
+    "nativo": true,
+    "descripcion": "Reparte un VALOR% del daño que recibe entre todos los que estén a VALOR2 casillas."
+  },
+  {
+    "id": "elemental",
+    "nombre": "Elemental",
+    "emoji": "🌈",
+    "nativo": true,
+    "descripcion": "Su elemento cambia con cada golpe que recibe."
+  },
+  {
+    "id": "deshacer",
+    "nombre": "Deshacer",
+    "emoji": "🗑️",
+    "nativo": true,
+    "descripcion": "Con cada golpe que recibe, quien le golpea pierde VALOR turno(s) de sus efectos."
+  },
+  {
+    "id": "veneno",
+    "nombre": "Veneno",
+    "emoji": "☠️",
+    "nativo": true,
+    "perjuicio": true,
+    "segundos": 30,
+    "descripcion": "Pierde VALOR de energía cada vez que ataca."
+  },
+  {
+    "id": "quemadura",
+    "nombre": "Quemadura",
+    "emoji": "🔥",
+    "nativo": true,
+    "perjuicio": true,
+    "segundos": 30,
+    "descripcion": "Pierde VALOR de energía cada vez que ataca."
+  },
+  {
+    "id": "electrocucion",
+    "nombre": "Electrocución",
+    "emoji": "⚡",
+    "nativo": true,
+    "perjuicio": true,
+    "segundos": 30,
+    "descripcion": "Pierde VALOR de energía cada vez que ataca."
+  },
+  {
+    "id": "cegado",
+    "nombre": "Cegado",
+    "emoji": "🌫️",
+    "nativo": true,
+    "perjuicio": true,
+    "segundos": 10,
+    "descripcion": "No puede atacar."
+  },
+  {
+    "id": "desarmado",
+    "nombre": "Desarmado",
+    "emoji": "🪓",
+    "nativo": true,
+    "perjuicio": true,
+    "segundos": 30,
+    "descripcion": "Sin arma: sus golpes hacen el mínimo."
+  },
+  {
+    "id": "atado",
+    "nombre": "Atado",
+    "emoji": "⛓️",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "No puede moverse."
+  },
+  {
+    "id": "ejecutar",
+    "nombre": "Ejecutar",
+    "emoji": "🎯",
+    "nativo": true,
+    "perjuicio": true,
+    "segundos": 30,
+    "descripcion": "Recibe un VALOR% más de daño."
+  },
+  {
+    "id": "oxidado",
+    "nombre": "Oxidado",
+    "emoji": "🟫",
+    "nativo": true,
+    "perjuicio": true,
+    "descripcion": "Su arma pierde filo: un VALOR% menos de ATK y la mitad de VALOR menos de crítico; además ataca y se mueve más despacio."
   }
 ]

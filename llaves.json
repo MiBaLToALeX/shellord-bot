@@ -235,7 +235,8 @@
     "rango_requerido": "E",
     "bienvenida_emoji": "🪐",
     "bienvenida_vol": 2,
-    "bienvenida_indice": 14
+    "bienvenida_indice": 14,
+    "evento": true
   },
   {
     "id": "key_saurica",
@@ -252,7 +253,8 @@
     "rango_requerido": "E",
     "bienvenida_emoji": "🪐",
     "bienvenida_vol": 2,
-    "bienvenida_indice": 0
+    "bienvenida_indice": 0,
+    "evento": true
   },
   {
     "id": "key_flags",
