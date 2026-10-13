@@ -176,5 +176,22 @@
         "tiempo": 20
       }
     ]
+  },
+  {
+    "id": "luna_llena",
+    "nombre": "Luna llena",
+    "emoji": "🐺",
+    "descripcion": "Aumenta un 50% de daños en área de 2 casillas durante 30s",
+    "efectos": [
+      {
+        "efecto": "potencia",
+        "tiempo": 30,
+        "valor": 50,
+        "radio": 2,
+        "objetivo": "objetivos",
+        "mensaje": "+{valor} % de daño en area de 2 casillas durante 30 segundos."
+      }
+    ],
+    "recarga_seg": 60
   }
 ]

@@ -415,8 +415,8 @@
     "portal_vol": 2,
     "portal_indice": 4,
     "mazmorra": "mythos",
-    "nivel_min": 50,
-    "nivel_max": 50,
+    "nivel_min": 55,
+    "nivel_max": 55,
     "rango_requerido": "A",
     "emoji_vol": 3,
     "emoji_indice": 8
