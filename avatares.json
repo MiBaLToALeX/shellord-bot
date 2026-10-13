@@ -6,7 +6,8 @@
     "emoji": "🕹",
     "vol": 5,
     "indice": 0,
-    "formula": []
+    "formula": [],
+    "tipo": "dps"
   },
   {
     "id": "avatar_zafiro",
@@ -60,7 +61,8 @@
         "cantidad": 10
       }
     ],
-    "elemento": "agua"
+    "elemento": "agua",
+    "tipo": "dps"
   },
   {
     "id": "avatar_castigador",
@@ -91,7 +93,8 @@
         "id_objeto": "tinte",
         "cantidad": 1
       }
-    ]
+    ],
+    "tipo": "dps"
   },
   {
     "id": "avatar_g",
@@ -102,7 +105,8 @@
     "indice": 3,
     "dmg_bonus_pct": 1,
     "dmg_bonus_fijo": true,
-    "formula": []
+    "formula": [],
+    "tipo": "protector"
   },
   {
     "id": "avatar_gs",
@@ -113,7 +117,8 @@
     "indice": 4,
     "def_bonus_pct": 1,
     "def_bonus_fijo": true,
-    "formula": []
+    "formula": [],
+    "tipo": "protector"
   },
   {
     "id": "avatar_intergalactico",
@@ -194,7 +199,8 @@
       }
     ],
     "elemento": "oscuridad",
-    "skill": "rapidez"
+    "skill": "rapidez",
+    "tipo": "dps"
   },
   {
     "id": "avatar_thrayos",
@@ -254,7 +260,8 @@
         "cantidad": 1
       }
     ],
-    "elemento": "luz"
+    "elemento": "luz",
+    "tipo": "dps"
   },
   {
     "id": "avatar_rocoso",
@@ -341,7 +348,8 @@
     "skills": [
       "pesadez",
       "levantar"
-    ]
+    ],
+    "tipo": "tanque"
   },
   {
     "id": "avatar_toxico",
@@ -415,7 +423,8 @@
       }
     ],
     "skill": "veneno",
-    "elemento": "aire"
+    "elemento": "aire",
+    "tipo": "dps"
   },
   {
     "id": "avatar_diamantino",
@@ -504,7 +513,8 @@
         "cantidad": 1
       }
     ],
-    "elemento": "luz"
+    "elemento": "luz",
+    "tipo": "tanque"
   },
   {
     "id": "avatar_doble",
@@ -595,7 +605,8 @@
         "cantidad": 2
       }
     ],
-    "elemento": "tierra"
+    "elemento": "tierra",
+    "tipo": "controlador"
   },
   {
     "id": "avatar_vigilante",
@@ -682,7 +693,8 @@
         "cantidad": 1
       }
     ],
-    "elemento": "oscuridad"
+    "elemento": "oscuridad",
+    "tipo": "dps"
   },
   {
     "id": "avatar_igneo",
@@ -769,7 +781,8 @@
         "cantidad": 1
       }
     ],
-    "elemento": "fuego"
+    "elemento": "fuego",
+    "tipo": "dps"
   },
   {
     "id": "avatar_pistolero",
@@ -847,7 +860,8 @@
         "cantidad": 30
       }
     ],
-    "elemento": "aire"
+    "elemento": "aire",
+    "tipo": "dps"
   },
   {
     "id": "avatar_polar",
@@ -873,7 +887,8 @@
     "neutralizador_pct": 10,
     "descripcion": "Fabricado para soportar las zonas invernales. Edición Limitada.",
     "indice": 21,
-    "elemento": "agua"
+    "elemento": "agua",
+    "tipo": "protector"
   },
   {
     "id": "avatar_rapero",
@@ -895,7 +910,8 @@
     "dmg_bonus_fijo": false,
     "per_bonus_pct": 12,
     "vel_bonus_pct": 12,
-    "def_fijo": 12
+    "def_fijo": 12,
+    "tipo": "controlador"
   },
   {
     "id": "avatar_indio",
@@ -919,7 +935,8 @@
     "vel_bonus_pct": 15,
     "skill": "rabia",
     "descripcion": "Este avatar cuando esta enfadado puede incrementar sus daños",
-    "elemento": "tierra"
+    "elemento": "tierra",
+    "tipo": "dps"
   },
   {
     "id": "avatar_faraon",
@@ -961,7 +978,8 @@
     "def_bonus_fijo": true,
     "dmg_bonus_fijo": true,
     "def_fijo": 15,
-    "int_bonus_pct": 3
+    "int_bonus_pct": 3,
+    "tipo": "controlador"
   },
   {
     "id": "avatar_prisma",
@@ -1008,7 +1026,8 @@
       "ultra_energia",
       "revivir",
       "liberacion"
-    ]
+    ],
+    "tipo": "dps"
   },
   {
     "id": "avatar_doctor",
@@ -1031,7 +1050,8 @@
     "indice": 31,
     "energia_max_bonus": 1000,
     "int_bonus_pct": 25,
-    "neutralizador_pct": 90
+    "neutralizador_pct": 90,
+    "tipo": "sanador"
   },
   {
     "id": "avatar_hechizero",
@@ -1069,7 +1089,8 @@
     "dmg_bonus_fijo": false,
     "dmg_bonus_pct": 1,
     "dmg_fijo": 60,
-    "neutralizador_pct": 30
+    "neutralizador_pct": 30,
+    "tipo": "invocador"
   },
   {
     "id": "avatar_trampero",
@@ -1100,6 +1121,7 @@
     "energia_max_bonus": 1000,
     "indice": 27,
     "dmg_fijo": 50,
-    "dmg_bonus_pct": 50
+    "dmg_bonus_pct": 50,
+    "tipo": "controlador"
   }
 ]

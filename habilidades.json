@@ -188,8 +188,8 @@
         "tiempo": 30,
         "valor": 50,
         "radio": 2,
-        "objetivo": "objetivos",
-        "mensaje": "+{valor} % de daño en area de 2 casillas durante 30 segundos."
+        "objetivo": "aliados",
+        "mensaje": "+{valor} % de daño para ti y tus aliados a 2 casillas durante 30 segundos."
       }
     ],
     "recarga_seg": 60

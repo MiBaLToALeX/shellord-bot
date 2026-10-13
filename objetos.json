@@ -19,7 +19,8 @@
       "dps",
       "controlador",
       "apoyo",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -42,7 +43,8 @@
       "dps",
       "controlador",
       "protector",
-      "apoyo"
+      "apoyo",
+      "tanque"
     ]
   },
   {
@@ -78,7 +80,8 @@
     "dmg_bonus_fijo": false,
     "tipos_avatar": [
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -130,7 +133,8 @@
     "dmg_bonus_fijo": false,
     "tipos_avatar": [
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -202,7 +206,8 @@
       "apoyo",
       "protector",
       "controlador",
-      "dps"
+      "dps",
+      "tanque"
     ]
   },
   {
@@ -223,7 +228,8 @@
     "dmg_bonus_fijo": false,
     "tipos_avatar": [
       "protector",
-      "dps"
+      "dps",
+      "tanque"
     ]
   },
   {
@@ -262,7 +268,8 @@
       "apoyo",
       "controlador",
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -301,7 +308,8 @@
     "def_bonus_fijo": false,
     "tipos_avatar": [
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -343,7 +351,8 @@
     "energia_max_bonus": 900,
     "tipos_avatar": [
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -382,7 +391,8 @@
     "dmg_bonus_fijo": false,
     "tipos_avatar": [
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -460,7 +470,8 @@
     "def": 0,
     "tipos_avatar": [
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -494,7 +505,8 @@
     "int_bonus_pct": 3,
     "tipos_avatar": [
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -528,7 +540,8 @@
     "energia_max_bonus": 500,
     "tipos_avatar": [
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -571,7 +584,8 @@
       "dps",
       "apoyo",
       "protector",
-      "controlador"
+      "controlador",
+      "tanque"
     ]
   },
   {
@@ -612,7 +626,8 @@
     "dmg_bonus_fijo": false,
     "tipos_avatar": [
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -652,7 +667,8 @@
       "apoyo",
       "protector",
       "controlador",
-      "dps"
+      "dps",
+      "tanque"
     ]
   },
   {
@@ -680,7 +696,8 @@
     "dmg_bonus_fijo": false,
     "tipos_avatar": [
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -756,7 +773,8 @@
     "vol": 4,
     "tipos_avatar": [
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -792,7 +810,8 @@
       "protector",
       "controlador",
       "dps",
-      "apoyo"
+      "apoyo",
+      "tanque"
     ]
   },
   {
@@ -901,7 +920,8 @@
     "vel_bonus_pct": 4,
     "tipos_avatar": [
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -935,7 +955,8 @@
     "int_bonus_pct": 4,
     "tipos_avatar": [
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -978,7 +999,8 @@
     "castigo_seg": 30,
     "tipos_avatar": [
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
@@ -1016,7 +1038,8 @@
     "def_bonus_pct": 4,
     "tipos_avatar": [
       "dps",
-      "protector"
+      "protector",
+      "tanque"
     ]
   },
   {
