@@ -14,7 +14,13 @@
     "indice": 0,
     "vol": 1,
     "dmg_bonus_pct": 1,
-    "dmg_bonus_fijo": false
+    "dmg_bonus_fijo": false,
+    "tipos_avatar": [
+      "dps",
+      "controlador",
+      "apoyo",
+      "protector"
+    ]
   },
   {
     "id": "daga_acuafilo",
@@ -31,7 +37,13 @@
     "indice": 1,
     "vol": 1,
     "dmg_bonus_pct": 1,
-    "dmg_bonus_fijo": false
+    "dmg_bonus_fijo": false,
+    "tipos_avatar": [
+      "dps",
+      "controlador",
+      "protector",
+      "apoyo"
+    ]
   },
   {
     "id": "escudo_azul",
@@ -63,7 +75,11 @@
     "indice": 0,
     "vol": 2,
     "dmg_bonus_pct": 1,
-    "dmg_bonus_fijo": false
+    "dmg_bonus_fijo": false,
+    "tipos_avatar": [
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "escudo_shocklin",
@@ -111,7 +127,11 @@
     "indice": 1,
     "vol": 4,
     "dmg_bonus_pct": 2,
-    "dmg_bonus_fijo": false
+    "dmg_bonus_fijo": false,
+    "tipos_avatar": [
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "orbe_azul",
@@ -177,7 +197,13 @@
     "indice": 2,
     "vol": 1,
     "dmg_bonus_pct": 2,
-    "dmg_bonus_fijo": false
+    "dmg_bonus_fijo": false,
+    "tipos_avatar": [
+      "apoyo",
+      "protector",
+      "controlador",
+      "dps"
+    ]
   },
   {
     "id": "espada_toxica",
@@ -194,7 +220,11 @@
     "indice": 3,
     "vol": 1,
     "dmg_bonus_pct": 2,
-    "dmg_bonus_fijo": false
+    "dmg_bonus_fijo": false,
+    "tipos_avatar": [
+      "protector",
+      "dps"
+    ]
   },
   {
     "id": "escudo_toxico",
@@ -227,7 +257,13 @@
     "indice": 0,
     "vol": 4,
     "dmg_bonus_pct": 2,
-    "dmg_bonus_fijo": false
+    "dmg_bonus_fijo": false,
+    "tipos_avatar": [
+      "apoyo",
+      "controlador",
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "pico",
@@ -241,7 +277,10 @@
     "tipo": "arma",
     "emoji": "🗡",
     "indice": 0,
-    "vol": 5
+    "vol": 5,
+    "tipos_avatar": [
+      "dps"
+    ]
   },
   {
     "id": "pala_raspadora",
@@ -259,7 +298,11 @@
     "dmg_max": 200,
     "dmg_bonus_pct": 4,
     "energia_max_bonus": 400,
-    "def_bonus_fijo": false
+    "def_bonus_fijo": false,
+    "tipos_avatar": [
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "espada_ancestral",
@@ -297,7 +340,11 @@
         "cantidad": 1
       }
     ],
-    "energia_max_bonus": 900
+    "energia_max_bonus": 900,
+    "tipos_avatar": [
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "escudo_ancestral",
@@ -332,7 +379,11 @@
     "indice": 0,
     "vol": 4,
     "dmg_bonus_pct": 2,
-    "dmg_bonus_fijo": false
+    "dmg_bonus_fijo": false,
+    "tipos_avatar": [
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "karniscudo",
@@ -406,7 +457,11 @@
     "energia_max_bonus": 250,
     "critico_pct": 3,
     "dmg_bonus_fijo": false,
-    "def": 0
+    "def": 0,
+    "tipos_avatar": [
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "espada_dorada_2",
@@ -436,7 +491,11 @@
     "dmg_max": 125,
     "dmg_bonus_fijo": false,
     "dmg_bonus_pct": 3,
-    "int_bonus_pct": 3
+    "int_bonus_pct": 3,
+    "tipos_avatar": [
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "espada_dorada_3",
@@ -466,7 +525,11 @@
     "dmg_bonus_pct": 3,
     "dmg_bonus_fijo": false,
     "int_bonus_pct": 6,
-    "energia_max_bonus": 500
+    "energia_max_bonus": 500,
+    "tipos_avatar": [
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "revolver_dobo",
@@ -503,7 +566,13 @@
     "dmg_bonus_fijo": false,
     "dmg_bonus_pct": 3,
     "critico_pct": 2,
-    "energia_max_bonus": 120
+    "energia_max_bonus": 120,
+    "tipos_avatar": [
+      "dps",
+      "apoyo",
+      "protector",
+      "controlador"
+    ]
   },
   {
     "id": "espada_canubis",
@@ -540,7 +609,11 @@
     "emoji": "🗡",
     "vol": 4,
     "indice": 2,
-    "dmg_bonus_fijo": false
+    "dmg_bonus_fijo": false,
+    "tipos_avatar": [
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "dagas_crhimait",
@@ -574,7 +647,13 @@
     "critico_pct": 3,
     "huida_bonus_pct": 3,
     "dmg_bonus_pct": 3,
-    "dmg_bonus_fijo": false
+    "dmg_bonus_fijo": false,
+    "tipos_avatar": [
+      "apoyo",
+      "protector",
+      "controlador",
+      "dps"
+    ]
   },
   {
     "id": "hachas_bisu",
@@ -598,7 +677,11 @@
     "dmg_max": 104,
     "energia_max_bonus": 250,
     "dmg_bonus_pct": 3,
-    "dmg_bonus_fijo": false
+    "dmg_bonus_fijo": false,
+    "tipos_avatar": [
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "baston_buzu",
@@ -634,7 +717,11 @@
     "dmg_max": 75,
     "vel_bonus_pct": 3,
     "dmg_bonus_pct": 3,
-    "dmg_bonus_fijo": false
+    "dmg_bonus_fijo": false,
+    "tipos_avatar": [
+      "invocador",
+      "sanador"
+    ]
   },
   {
     "id": "martillo_krabit",
@@ -666,7 +753,11 @@
     "per_bonus_pct": 4,
     "huida_bonus_pct": 4,
     "indice": 6,
-    "vol": 4
+    "vol": 4,
+    "tipos_avatar": [
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "arco_krabit",
@@ -696,7 +787,13 @@
     "huida_bonus_pct": 4,
     "vol": 4,
     "emoji": "🏹",
-    "indice": 0
+    "indice": 0,
+    "tipos_avatar": [
+      "protector",
+      "controlador",
+      "dps",
+      "apoyo"
+    ]
   },
   {
     "id": "escudo_krabit",
@@ -801,7 +898,11 @@
     "dmg_max": 300,
     "energia_max_bonus": 666,
     "dmg_bonus_pct": 3,
-    "vel_bonus_pct": 4
+    "vel_bonus_pct": 4,
+    "tipos_avatar": [
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "espada_demoniaca",
@@ -831,7 +932,11 @@
     "dmg_bonus_pct": 3,
     "esquiva_pct": 2,
     "critico_pct": 2,
-    "int_bonus_pct": 4
+    "int_bonus_pct": 4,
+    "tipos_avatar": [
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "espada_errante",
@@ -870,7 +975,11 @@
     "per_bonus_pct": 4,
     "castigo_tipo": "quemadura",
     "castigo_pct": 1,
-    "castigo_seg": 30
+    "castigo_seg": 30,
+    "tipos_avatar": [
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "hacha_demoniaca",
@@ -904,7 +1013,11 @@
     "critico_pct": 4,
     "energia_max_bonus": 800,
     "def_bonus_fijo": true,
-    "def_bonus_pct": 4
+    "def_bonus_pct": 4,
+    "tipos_avatar": [
+      "dps",
+      "protector"
+    ]
   },
   {
     "id": "pergamino_estela",
