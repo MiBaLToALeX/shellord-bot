@@ -48,6 +48,10 @@
       {
         "id": "gold",
         "precio": 50
+      },
+      {
+        "id": "key_shellorween",
+        "precio": 1000
       }
     ],
     "compra": [

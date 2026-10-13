@@ -775,5 +775,29 @@
     "indice": 11,
     "vol": 3,
     "solo_venta": true
+  },
+  {
+    "id": "key_shellorween",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 25,
+    "vol": 3,
+    "solo_venta": true
+  },
+  {
+    "id": "key_mythos",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 8,
+    "vol": 3,
+    "solo_venta": true
+  },
+  {
+    "id": "key_shellorween_2",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 26,
+    "vol": 3,
+    "solo_venta": true
   }
 ]
