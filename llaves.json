@@ -406,5 +406,33 @@
     "bienvenida_indice": 6,
     "emoji_vol": 3,
     "emoji_indice": 24
+  },
+  {
+    "id": "key_mythos",
+    "nombre": "Llave mazmorra Mythos",
+    "emoji": "🗝",
+    "portal_emoji": "🌀",
+    "portal_vol": 2,
+    "portal_indice": 4,
+    "mazmorra": "mythos",
+    "nivel_min": 50,
+    "nivel_max": 50,
+    "rango_requerido": "A",
+    "emoji_vol": 3,
+    "emoji_indice": 8
+  },
+  {
+    "id": "key_shellorween",
+    "nombre": "Llave mazmorra Shellorween",
+    "emoji": "🗝",
+    "portal_emoji": "🌀",
+    "portal_vol": 2,
+    "portal_indice": 4,
+    "mazmorra": "shellorween",
+    "nivel_min": 50,
+    "nivel_max": 50,
+    "rango_requerido": "A",
+    "emoji_vol": 3,
+    "emoji_indice": 25
   }
 ]
