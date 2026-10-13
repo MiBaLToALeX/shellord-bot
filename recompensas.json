@@ -808,5 +808,40 @@
     "indice": 11,
     "vol": 3,
     "mensaje": "Has obtenido +1 llave mazmorra Piratas"
+  },
+  {
+    "tipo": 98,
+    "recompensa": "item",
+    "item_id": "key_shellorween",
+    "emoji": "🗝",
+    "indice": 25,
+    "vol": 3,
+    "mensaje": "Has obtenido +1 llave mazmorra Shellorween"
+  },
+  {
+    "tipo": 99,
+    "recompensa": "item",
+    "item_id": "key_shellorween_2",
+    "emoji": "🗝",
+    "indice": 26,
+    "mensaje": "Has obtenido +1 llave sala final de mazmorra Shellorween",
+    "vol": 3
+  },
+  {
+    "tipo": 100,
+    "recompensa": "item",
+    "item_id": "baston_pinbot",
+    "emoji": "🗡",
+    "indice": 9,
+    "vol": 4
+  },
+  {
+    "tipo": 101,
+    "recompensa": "item",
+    "item_id": "key_mythos",
+    "emoji": "🗝",
+    "indice": 8,
+    "vol": 3,
+    "mensaje": "Has obtenido +1 llave mazmorra Mythos"
   }
 ]
