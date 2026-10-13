@@ -371,5 +371,7 @@
     "OBJECT_NAME_KEY_SHELLORWEEN_2": "Llave mazmorra Shellorween - Sala final",
     "OBJECT_DESC_KEY_SHELLORWEEN_2": "Llave para acceder a la sala final de la mazmorra Shellorween",
     "OBJECT_NAME_KEY_MYTHOS": "Llave mazmorra Mythos",
-    "OBJECT_DESC_KEY_MYTHOS": "Llave para acceder a la mazmorra Mythos"
+    "OBJECT_DESC_KEY_MYTHOS": "Llave para acceder a la mazmorra Mythos",
+    "OBJECT_NAME_BASTON_PINBOT": "Baston Pinbot",
+    "OBJECT_DESC_BASTON_PINBOT": "Este baston parece tener una gema mágica capaz de provocar quemaduras"
 }
