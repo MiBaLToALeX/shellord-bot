@@ -23,8 +23,8 @@
     "id": "impulso_luz",
     "nombre": "Impulso de Luz",
     "emoji": "☀️",
-    "descripcion": "Aplica el estado Turbo, que incrementa el daño en 40% durante 1 minuto. No puede usarse de nuevo hasta pasado 5 minutos",
-    "recarga_seg": 300,
+    "descripcion": "Aplica el estado Turbo, que incrementa el daño en 40% durante 1 minuto. Recarga: 2 minutos.",
+    "recarga_seg": 120,
     "efectos": [
       {
         "efecto": "turbo",
@@ -38,7 +38,7 @@
     "id": "coraza",
     "nombre": "Coraza",
     "emoji": "🛡️",
-    "descripcion": "Duplica la DEF plana del jugador durante 30 segundos. Tiempo de espera: 1 minuto.",
+    "descripcion": "Duplica la DEF plana del jugador durante 30 segundos. Recarga: 1 minuto.",
     "recarga_seg": 60,
     "efectos": [
       {
@@ -53,8 +53,8 @@
     "id": "rabia",
     "nombre": "Rabia",
     "emoji": "🔥",
-    "descripcion": "Aumenta el daño un 2% por nivel durante 30 segundos. Tiempo de espera: 5 minutos.",
-    "recarga_seg": 300,
+    "descripcion": "Aumenta el daño un 2% por nivel durante 30 segundos. Recarga: 2 minutos.",
+    "recarga_seg": 120,
     "efectos": [
       {
         "efecto": "rabia",
@@ -69,8 +69,8 @@
     "id": "medicina",
     "nombre": "Medicina",
     "emoji": "💊",
-    "descripcion": "Aumenta un 20% tus curas durante 60 segundos. Recarga: 2 minutos.",
-    "recarga_seg": 120,
+    "descripcion": "Aumenta un 20% tus curas durante 60 segundos. Recarga: 1 minuto.",
+    "recarga_seg": 60,
     "efectos": [
       {
         "efecto": "medicina",
@@ -84,8 +84,8 @@
     "id": "alquimista",
     "nombre": "Alquimista",
     "emoji": "🧪",
-    "descripcion": "Durante 30s, las pociones de buff o cura que uses afectan también en área (radio 2) a los jugadores de tu mismo mapa. Recarga: 2 minutos.",
-    "recarga_seg": 120,
+    "descripcion": "Durante 30s, las pociones de buff o cura que uses afectan también en área (radio 2) a los jugadores de tu mismo mapa. Recarga: 1 minuto.",
+    "recarga_seg": 60,
     "efectos": [
       {
         "efecto": "alquimista",
@@ -99,8 +99,8 @@
     "id": "transmutar",
     "nombre": "Transmutar",
     "emoji": "🌈",
-    "descripcion": "Durante 60s golpeas con el elemento que gana al del enemigo (más daño) y te defiendes con ese elemento (menos daño recibido). Recarga: 5 minutos.",
-    "recarga_seg": 300,
+    "descripcion": "Durante 60s golpeas con el elemento que gana al del enemigo (más daño) y te defiendes con ese elemento (menos daño recibido). Recarga: 2 minutos.",
+    "recarga_seg": 120,
     "efectos": [
       {
         "efecto": "transmutar",
@@ -114,8 +114,8 @@
     "id": "repartir",
     "nombre": "Repartir",
     "emoji": "🤝",
-    "descripcion": "Durante 30s, el daño que recibas se reparte entre los jugadores en radio 2, reduciendo el golpe que asumes. Recarga: 2 minutos.",
-    "recarga_seg": 120,
+    "descripcion": "Durante 30s, el daño que recibas se reparte entre los jugadores en radio 2, reduciendo el golpe que asumes. Recarga: 1 minuto.",
+    "recarga_seg": 60,
     "efectos": [
       {
         "efecto": "repartir",
@@ -129,8 +129,8 @@
     "id": "trampificacion",
     "nombre": "Trampificación",
     "emoji": "🪤",
-    "descripcion": "Tus 3 siguientes trampas que exploten hacen un 1 % más de daño por cada nivel tuyo y (nivel / 5) + 2 de daño fijo. Recarga: 5 minutos.",
-    "recarga_seg": 300,
+    "descripcion": "Tus 3 siguientes trampas que exploten hacen un 1 % más de daño por cada nivel tuyo y (nivel / 5) + 2 de daño fijo. Recarga: 1 minuto.",
+    "recarga_seg": 60,
     "efectos": [
       {
         "efecto": "trampero2",
@@ -152,8 +152,8 @@
     "id": "purificar",
     "nombre": "Purificar",
     "emoji": "✨",
-    "descripcion": "Elimina todos los estados activos de inmediato. \nTiempo de espera: 2 minutos.",
-    "recarga_seg": 120,
+    "descripcion": "Elimina todos los estados activos de inmediato. Recarga: 1 minuto.",
+    "recarga_seg": 60,
     "efectos": [
       {
         "accion": "purificar",
