@@ -1137,5 +1137,21 @@
     ],
     "dmg_min": 180,
     "dmg_max": 200
+  },
+  {
+    "id": "orbe_fuego",
+    "atk": 0,
+    "def": 0,
+    "nivel": 10,
+    "rango": "A",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "orbe_magico",
+    "emoji": "🔮",
+    "vol": 1,
+    "indice": 4,
+    "energia_max_bonus": 1000,
+    "dmg_bonus_pct": 5,
+    "def_bonus_pct": 5
   }
 ]
