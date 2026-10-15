@@ -186,7 +186,7 @@
     "SKILL_NAME_ESCAPE": "Huir",
     "SKILL_DESC_ESCAPE": "Intenta escapar de los enemigos usando tu porcentaje de huida. Recarga: 30 segundos.",
     "SKILL_NAME_LEVANTAR": "Levantar",
-    "SKILL_DESC_LEVANTAR": "Levanta a un enemigo pegado a ti (no pesado ni inamovible). Vuelve a pulsarla para lanzarlo a una casilla libre a nivel/20 casillas o menos (al menos 1); si andas 3 pasos cargándolo, lo sueltas a tu lado. Recarga: 30 segundos.",
+    "SKILL_DESC_LEVANTAR": "Levanta a cualquiera pegado a ti (enemigo, invocación o jugador; no pesado ni inamovible). Mientras lo cargas no puede moverse, atacar ni usar habilidades, y nadie puede dañarlo. Vuelve a pulsarla para lanzarlo a una casilla libre a nivel/20 casillas o menos (al menos 1); si andas 3 pasos cargándolo, lo sueltas a tu lado, y a los 30 s se suelta solo. Recarga: 30 segundos.",
     "SKILL_NAME_TRANSPOSICION": "Transposición",
     "SKILL_DESC_TRANSPOSICION": "Intercambia tu posición con la de un enemigo (no pesado ni inamovible). Recarga: 30 segundos.",
     "SKILL_NAME_CAMBIAR": "Cambiar",
