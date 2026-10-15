@@ -1610,7 +1610,10 @@
         ],
         "energy_extra": 9950,
         "atk_fijo": 550,
-        "def_fijo": 55
+        "def_fijo": 55,
+        "mazmorras": [
+          "mythos"
+        ]
       }
     ]
   },
