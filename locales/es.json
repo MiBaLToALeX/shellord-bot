@@ -336,7 +336,7 @@
     "OBJECT_DESC_KEY_FORTALEZA_2": "Llave para acceder a la Fortaleza demoníaca - Los errantes",
     "MAZMORRA_NAME_FORTALEZA_2_S5": "Fortaleza demoníaca - Los errantes",
     "OBJECT_NAME_ORBE_ROCOSO": "Orbe rocoso",
-    "OBJECT_DESC_ORBE_ROCOSO": "Esfera mágica de color anarajado que ofrece gran resistencia y ofensiva; al equiparla otorga +40% daño y -40% daño recibido al máximo nivel",
+    "OBJECT_DESC_ORBE_ROCOSO": "Esfera mágica de fuego que ofrece gran resistencia y ofensiva; al equiparla otorga +40% daño y -40% daño recibido al máximo nivel",
     "OBJECT_NAME_ESCUDO_ROCOSO": "Escudo rocoso",
     "OBJECT_DESC_ESCUDO_ROCOSO": "Escudo hecho de roca del guardían que otorga gran cantidad de resistencia y energía",
     "OBJECT_NAME_ESPADA_DEMONIACA": "Espada demoníaca",
@@ -373,5 +373,7 @@
     "OBJECT_NAME_KEY_MYTHOS": "Llave mazmorra Mythos",
     "OBJECT_DESC_KEY_MYTHOS": "Llave para acceder a la mazmorra Mythos",
     "OBJECT_NAME_BASTON_PINBOT": "Baston Pinbot",
-    "OBJECT_DESC_BASTON_PINBOT": "Este baston parece tener una gema mágica capaz de provocar quemaduras"
+    "OBJECT_DESC_BASTON_PINBOT": "Este baston parece tener una gema mágica capaz de provocar quemaduras",
+    "OBJECT_NAME_ORBE_FUEGO": "Orbe de fuego",
+    "OBJECT_DESC_ORBE_FUEGO": "Esfera mágica de color anarajado que ofrece gran resistencia y ofensiva; al equiparla otorga +50% daño y -50% daño recibido al máximo nivel"
 }
