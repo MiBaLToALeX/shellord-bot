@@ -843,5 +843,13 @@
     "indice": 8,
     "vol": 3,
     "mensaje": "Has obtenido +1 llave mazmorra Mythos"
+  },
+  {
+    "tipo": 102,
+    "recompensa": "item",
+    "item_id": "orbe_fuego",
+    "emoji": "🔮",
+    "indice": 4,
+    "vol": 1
   }
 ]
