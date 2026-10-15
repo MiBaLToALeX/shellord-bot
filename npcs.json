@@ -62,5 +62,53 @@
     ],
     "vol": 5,
     "indice": 27
+  },
+  {
+    "id": "ayudante",
+    "nombre": "Nara, la Guía",
+    "emoji": "🕹️",
+    "dialogo": "¡Hola, viajero! Si te pierdes o necesitas una pista, habla conmigo. Estoy aquí para ayudarte a encontrar tu camino.",
+    "vende": [
+      {
+        "id": "pocion_1",
+        "precio": 20
+      },
+      {
+        "id": "pocion_2",
+        "precio": 50
+      },
+      {
+        "id": "pocion_3",
+        "precio": 50
+      },
+      {
+        "id": "pocion_fenix",
+        "precio": 75
+      },
+      {
+        "id": "antidoto",
+        "precio": 50
+      },
+      {
+        "id": "piedra_gremio",
+        "precio": 500
+      },
+      {
+        "id": "pocion_olvido",
+        "precio": 250
+      },
+      {
+        "id": "pico",
+        "precio": 10
+      }
+    ],
+    "compra": [
+      {
+        "id": "block_energy",
+        "precio": 10
+      }
+    ],
+    "vol": 5,
+    "indice": 13
   }
 ]
