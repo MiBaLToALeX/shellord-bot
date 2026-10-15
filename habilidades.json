@@ -193,5 +193,147 @@
       }
     ],
     "recarga_seg": 60
+  },
+  {
+    "id": "piel_gruesa",
+    "nombre": "Piel gruesa",
+    "emoji": "🐂",
+    "descripcion": "Aumenta la resistencia y rapidez del lanzador",
+    "efectos": [
+      {
+        "efecto": "holoescudo",
+        "valor": 50,
+        "hasta_marca": "agrietado",
+        "mensaje": "+{valor} de resistencias (inf)"
+      },
+      {
+        "valor": 10,
+        "efecto": "resistente",
+        "tiempo": 30,
+        "mensaje": "+{valor} de resistencias fijas por golpe recibido (30s)"
+      },
+      {
+        "efecto": "rapidez",
+        "tiempo": 30,
+        "mensaje": "Aumenta su velocidad"
+      }
+    ],
+    "recarga_seg": 120
+  },
+  {
+    "id": "cornada",
+    "nombre": "Cornada",
+    "emoji": "🐂",
+    "descripcion": "Carga contra un objetivo y le inflige daño a la vez que lo empuja",
+    "efectos": [
+      {
+        "objetivo": "objetivo",
+        "efecto": "erosion2",
+        "valor": 5,
+        "turnos": 2,
+        "mensaje": "5% de erosión por golpe recibido"
+      },
+      {
+        "accion": "empuje_2",
+        "valor": 5
+      },
+      {
+        "accion": "golpe",
+        "valor": 400,
+        "valor2": 550,
+        "objetivo": "objetivo"
+      }
+    ],
+    "recarga_seg": 30,
+    "alcance": 1
+  },
+  {
+    "id": "martillazo_mythos",
+    "nombre": "Martillazo Mythos",
+    "emoji": "⚒️",
+    "descripcion": "Lanzamiento del Martillo Mythos",
+    "efectos": [
+      {
+        "efecto": "pesado",
+        "tiempo": 20
+      },
+      {
+        "efecto": "debilidad",
+        "objetivo": "objetivos",
+        "valor": 10,
+        "radio": 2,
+        "turnos": 2
+      },
+      {
+        "accion": "golpe",
+        "valor": 400,
+        "valor2": 550,
+        "objetivo": "objetivos",
+        "radio": 2
+      },
+      {
+        "efecto": "sobrecarga",
+        "objetivo": "objetivos",
+        "radio": 2,
+        "turnos": 2,
+        "valor": 250
+      },
+      {
+        "accion": "empuje",
+        "objetivo": "objetivos",
+        "radio": 2,
+        "valor": 2
+      }
+    ],
+    "recarga_seg": 30,
+    "alcance": 6
+  },
+  {
+    "id": "sello_magico",
+    "nombre": "Sello mágico",
+    "emoji": "🟢",
+    "descripcion": "Crea un sello mágico que le da inmortalidad al lanzador",
+    "efectos": [
+      {
+        "efecto": "critico",
+        "valor": 30,
+        "turnos": 2
+      },
+      {
+        "accion": "glifo",
+        "color": "#80ff80",
+        "objetivo": "objetivo",
+        "valor2": 2,
+        "marca": "sellado",
+        "turnos": 4
+      },
+      {
+        "accion": "activar_inmortal",
+        "marca": "debilitado"
+      }
+    ],
+    "recarga_seg": 60
+  },
+  {
+    "id": "maldicion_mythos",
+    "nombre": "Maldicion Mythos",
+    "emoji": "♉",
+    "descripcion": "Maldición de Mythos",
+    "efectos": [
+      {
+        "efecto": "distribuir",
+        "objetivo": "objetivos",
+        "radio": 2,
+        "tiempo": 20,
+        "valor": 25
+      },
+      {
+        "efecto": "inamovible",
+        "objetivo": "objetivos",
+        "radio": 2,
+        "tiempo": 10
+      }
+    ],
+    "recarga_seg": 60
   }
 ]
