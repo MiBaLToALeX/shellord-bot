@@ -3,13 +3,20 @@
 </p>
 
 <p align="center">
-  <b>Un RPG de mazmorras que se juega dentro de Telegram.</b><br>
-  Explora portales, combate contra enemigos y jefes, forja tu equipo y sube de nivel con tu comunidad.
+  <b>Un juego de rol multijugador masivo en línea (MMORPG) gratuito.</b><br>
+  Explora el mundo, entra en portales y mazmorras, captura criaturas para invocarlas, forja tu equipo,
+  bátete en duelos y comercia con otros jugadores.
 </p>
 
 <p align="center">
-  <a href="https://t.me/shellord_bot"><img alt="Jugar en Telegram" src="https://img.shields.io/badge/Jugar-@shellord__bot-2CA5E0?logo=telegram&logoColor=white"></a>
-  <a href="https://t.me/shellord_leveling"><img alt="ShellOrd Leveling" src="https://img.shields.io/badge/Canal_de_juego-@shellord__leveling-9de614?logo=telegram&logoColor=white"></a>
+  <a href="https://get.microsoft.com/installer/download/9mwd6w1n8ltp?referrer=appbadge" target="_self">
+    <img src="https://get.microsoft.com/images/es%20dark.svg" width="200" alt="Descárgalo de Microsoft"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://game.mibaltoalex.com"><img alt="Jugar en el navegador" src="https://img.shields.io/badge/Jugar-game.mibaltoalex.com-35e586"></a>
+  <a href="https://t.me/shellord_bot"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@shellord__bot-2CA5E0?logo=telegram&logoColor=white"></a>
   <a href="https://t.me/shellord_channel"><img alt="Canal oficial" src="https://img.shields.io/badge/Canal_oficial-@shellord__channel-533483?logo=telegram&logoColor=white"></a>
   <a href="https://editor.mibaltoalex.com"><img alt="Editores" src="https://img.shields.io/badge/Editores-editor.mibaltoalex.com-e8c84a"></a>
 </p>
@@ -18,9 +25,9 @@
 
 ## Contenido
 
-- [Empezar a jugar](#empezar-a-jugar)
+- [Dónde se juega](#dónde-se-juega)
+- [Cómo entrar](#cómo-entrar)
 - [Qué puedes hacer](#qué-puedes-hacer)
-- [Comandos principales](#comandos-principales)
 - [Herramientas para la comunidad](#herramientas-para-la-comunidad)
 - [Contribuir con contenido](#contribuir-con-contenido)
 - [Canales y comunidad](#canales-y-comunidad)
@@ -28,87 +35,76 @@
 
 ---
 
-## Empezar a jugar
+## Dónde se juega
 
-1. Abre **[@shellord_bot](https://t.me/shellord_bot)** en Telegram y escribe `/start` para registrarte.
-2. Únete a **[ShellOrd Leveling](https://t.me/shellord_leveling)**: ahí aparecen los portales y los cofres.
-3. Mira tu perfil con `/stats` (nivel, energía, créditos, ATK, DEF…).
-4. Cuando se abra un portal, entra, muévete por el mapa con `/mapa` y `/mover` y combate con los botones.
-5. Escribe `/guia` en el bot para recibir la guía completa para nuevos jugadores.
+ShellOrd ya no se juega con comandos del bot: es un juego con su propio mapa, que se juega en:
 
-> 🛠️ Cada día a las **04:00 (hora de Madrid)** el bot entra unos minutos en mantenimiento para guardar
-> los datos. Durante ese tiempo solo responde con un aviso; en cuanto termina puedes seguir jugando.
+| | Dónde | Cómo |
+|---|---|---|
+| 🪟 | **Windows** | Descárgalo de la [Microsoft Store](https://get.microsoft.com/installer/download/9mwd6w1n8ltp?referrer=appbadge). |
+| 🌐 | **Navegador** | Entra en **[game.mibaltoalex.com](https://game.mibaltoalex.com)**, desde el ordenador o el móvil. |
+| 🤖 | **Android** | Con la app de Android. |
+| ✈️ | **Telegram** | Como mini app, desde **[@shellord_bot](https://t.me/shellord_bot)**. |
+
+Tu partida es la misma en todos: puedes empezar en uno y seguir en otro.
+
+> 🛠️ Cada día a las **04:00 (hora de Madrid)** el juego entra unos minutos en mantenimiento para guardar
+> los datos. En cuanto termina, entras solo.
+
+---
+
+## Cómo entrar
+
+Puedes jugar con una **cuenta del juego** (sin correo ni datos personales) o con tu **cuenta de Telegram**.
+
+- **Cuenta del juego:** en la pantalla de acceso, toca «Crear una». Vincula una app de autenticación del
+  móvil (Google Authenticator, Proton Authenticator, Aegis…) escaneando el código QR y guarda tu **ID**
+  (empieza por «S») y tu **clave**. Para entrar: tu ID, tu clave y el código de 6 cifras de la app.
+- **Con Telegram:** abre [@shellord_bot](https://t.me/shellord_bot) y escribe `/game`: te da tu clave de
+  acceso. En el juego, pon tu ID de Telegram y esa clave, y el código de 6 cifras que te manda el bot.
+
+Puedes recordar el dispositivo para no repetirlo durante 30 días. Al crear la cuenta y al entrar se
+aceptan los [términos de uso](https://game.mibaltoalex.com/terminos/) y la
+[política de privacidad](https://game.mibaltoalex.com/privacidad/).
 
 ---
 
 ## Qué puedes hacer
 
-### 🗺️ Portales y mazmorras
-Los portales aparecen periódicamente en el canal de juego. Cada mazmorra tiene su propio mapa con
-muros, puertas que se abren con llaves, pasajes y teletransportes (algunos invisibles), trampas
-ocultas, cofres y NPCs. Algunas mazmorras tienen varias salas y un jefe final.
+### 🗺️ El mundo, portales y mazmorras
+Un mundo isométrico dividido en zonas por rango (E, D, C, B, A, S…): subiendo de nivel desbloqueas las
+siguientes. En él están los **portales** a las mazmorras (cada uno con la insignia del elemento de sus
+enemigos), cofres, vetas que minar, yunques de forja, estaciones de carga y NPCs. Las mazmorras tienen
+muros, puertas con llave, pasajes, teletransportes, trampas ocultas, cofres y, a veces, varias salas y un
+jefe final.
 
-### ⚔️ Combate
-- **ATK** es el daño que haces y **DEF** el que absorbes; ambos suben con el nivel y el equipo.
-- La **energía** es tu vida: se recupera con el tiempo o con pociones.
-- Los enemigos tienen **elementos**, **estados** (veneno, quemadura, electrocución…), marcas,
-  inmunidades y combos: cuanto más seguido les golpeas, más daño reciben.
-- Puedes jugar en equipo con otros jugadores dentro del mismo portal.
+### ⚔️ Combate en tiempo real
+- Tocas a un enemigo para atacarlo, defiendes y usas tus **habilidades** y **objetos** desde sus barras.
+- **ATK**, **DEF** y la **energía** (tu vida) suben con el nivel, el equipo y el avatar.
+- **Elementos** en todos los ataques: Tierra → Agua → Fuego → Aire → Tierra (quien gana pega un 20 % más),
+  Oscuridad gana a los cuatro y solo pierde contra Luz, y Neutral ni gana ni pierde.
+- **Estados** (veneno, quemadura, holoescudo, pesado…) que puedes tocar para ver qué hacen, y
+  habilidades en área con forma (cono, cruz, muro, espiral…).
+- Juega en **grupo** con otros jugadores dentro de la misma mazmorra.
 
-### ✨ Habilidades
-Más de 40 habilidades activas y pasivas: curar, saltar, excavar, atraer, invocar, rebobinar,
-pactos, transmutaciones… Se aprenden con el nivel, con avatares o usando **pergaminos**.
-Consulta las tuyas con `/hab`.
+### ✨ Habilidades, avatares e invocaciones
+Más de 40 habilidades: curar, saltar, excavar, levantar y lanzar, atraer, invocar, rebobinar, pactos…
+Se aprenden con el nivel, con **pergaminos** o con los **avatares**, que además cambian tu aspecto, tu
+elemento y te dan bonificaciones. Algunos enemigos se pueden **capturar** para **invocarlos** después y
+controlarlos tú.
 
-### 🎒 Objetos y equipo
-Armas, escudos, orbes, pociones y materiales. Puedes equipar **un arma, un escudo y un orbe** a la vez;
-al equipar verás una comparación con lo que llevas puesto. Busca tus objetos con `/obj` y equipa con `/equipar`.
+### 🎒 Objetos, forja y oficios
+Armas, escudos, orbes, pociones y materiales; equipas un arma, un escudo y un orbe a la vez. Con los
+oficios de **minero**, **cazador** y **forjador** consigues materiales y fabricas armas, escudos y avatares.
 
-### 🏹 Oficios y forja
-| Oficio | Qué hace |
-|---|---|
-| ⛏️ **Minero** | Extrae bloques de energía de los muros (requiere un pico). |
-| 🏹 **Cazador** | Marca enemigos para conseguir botín extra al derrotarlos. |
-| 🔨 **Forjador** | Fabrica armas, escudos y avatares con materiales (`/forjar`). |
+### 🧑‍🤝‍🧑 NPCs, misiones y comercio
+- **NPCs** que venden, que hablan contigo y que te dan **encargos** con recompensa (vuelve con ellos para cobrar).
+- **Misiones** con recompensas de créditos, XP, objetos o habilidades.
+- Se compra **a los vendedores del mundo**: no se puede comprar en medio de una mazmorra, así que hay que ir preparado.
+- **Mercado** entre jugadores e **intercambio** directo de objetos.
 
-### 🎭 Avatares
-Cambian tu aspecto y te dan bonificaciones y habilidades propias. Elígelos con `/avatar`;
-los más avanzados se forjan.
-
-### 🐉 Capturas e invocaciones
-Algunos enemigos se pueden **capturar** e **invocar** después (`/invocar`): los controlas tú y atraen
-los ataques enemigos mientras siguen en pie.
-
-### 📋 Misiones, gremios y comercio
-- **Misiones** con recompensas de créditos, XP, objetos o habilidades (`/misiones`).
-- **Gremios** para jugar en equipo (`/gremios`).
-- **Tienda pública y subastas** entre jugadores (`/vender`, `/ventas`), además de la tienda del bot y los NPCs comerciantes.
-
-### 🎮 Extra
-Duelos **PvP** (`/pvp`), minijuegos (`/rps`, `/pptls`, `/moneda`, `/futbol`, `/bolos`),
-invitaciones con recompensa (`/invitaciones`) y ventajas **Premium**.
-
----
-
-## Comandos principales
-
-| Comando | Para qué sirve |
-|---|---|
-| `/start` | Registrarte y empezar |
-| `/guia` | Guía completa para nuevos jugadores |
-| `/stats` | Tu perfil y estadísticas |
-| `/mapa` · `/mover` | Ver el mapa del portal y moverte |
-| `/inventario` | Tu mochila |
-| `/obj` · `/equipar` | Buscar objetos y equiparte |
-| `/hab` | Tus habilidades |
-| `/oficios` · `/forjar` | Elegir oficio y fabricar |
-| `/avatar` | Elegir avatar |
-| `/invocar` | Invocar a un enemigo capturado |
-| `/misiones` | Misiones disponibles |
-| `/gremios` | Gremios |
-| `/vender` · `/ventas` | Tienda pública entre jugadores |
-| `/pvp user:<id>` | Retar a otro jugador |
-| `/invitaciones` | Tu enlace de invitación |
+### 🏆 Retos
+**Duelos PvP**, **Atrapa la bandera** por equipos en el portal de evento, **gremios** y el **ranking**.
 
 ---
 
@@ -121,10 +117,12 @@ navegador, sin instalar nada, y cargan los datos directamente de este repositori
 |---|---|---|
 | 🗺️ Mazmorras | Mapas: muros, trampas, puertas, pasajes, cofres, NPCs y enemigos | [/mazmorras/](https://editor.mibaltoalex.com/mazmorras/) |
 | 🎲 Tabla de spawn | Qué enemigos aparecen en cada mazmorra | [/spawn/](https://editor.mibaltoalex.com/spawn/) |
-| 👾 Enemigos | Estadísticas, variantes, estados y marcas | [/enemigos/](https://editor.mibaltoalex.com/enemigos/) |
-| 🤖 NPCs | Personajes, diálogos y comercio | [/npcs/](https://editor.mibaltoalex.com/npcs/) |
+| 👾 Enemigos | Estadísticas, variantes, habilidades y marcas | [/enemigos/](https://editor.mibaltoalex.com/enemigos/) |
+| ✨ Habilidades | Habilidades: qué hacen, a quién y con qué forma de área | [/habilidades/](https://editor.mibaltoalex.com/habilidades/) |
+| 🧪 Efectos | Estados y efectos (veneno, holoescudo, pesado…) | [/efectos/](https://editor.mibaltoalex.com/efectos/) |
+| 🤖 NPCs | Personajes, diálogos, encargos y comercio | [/npcs/](https://editor.mibaltoalex.com/npcs/) |
 | ⚔️ Objetos | Armas, escudos, pociones, pergaminos y fórmulas de forja | [/objetos/](https://editor.mibaltoalex.com/objetos/) |
-| 🛒 Tienda | Catálogo y precios de la tienda | [/tienda/](https://editor.mibaltoalex.com/tienda/) |
+| 🛒 Tienda | Catálogo y precios de la tienda (la vende un NPC) | [/tienda/](https://editor.mibaltoalex.com/tienda/) |
 | 🎁 Recompensas | Botín de cofres y misiones | [/recompensas/](https://editor.mibaltoalex.com/recompensas/) |
 | 🗝️ Llaves | Llaves de acceso a mazmorras | [/llaves/](https://editor.mibaltoalex.com/llaves/) |
 | 🧑‍🚀 Avatares | Avatares, sus habilidades y fórmulas | [/avatares/](https://editor.mibaltoalex.com/avatares/) |
@@ -134,22 +132,23 @@ navegador, sin instalar nada, y cargan los datos directamente de este repositori
 
 ## Contribuir con contenido
 
-Este repositorio contiene los **datos del juego**. El bot los descarga al arrancar y los vuelve a cargar
+Este repositorio contiene los **datos del juego**. El juego los descarga al arrancar y los vuelve a cargar
 cada día en el mantenimiento, así que un cambio aceptado aquí llega al juego sin reiniciar nada.
 
 ```
 ├── mazmorras/          Mapas de cada mazmorra (un JSON por mapa)
 ├── locales/            Textos traducidos (es.json, …)
 ├── enemies.json        Enemigos y sus variantes
+├── habilidades.json    Habilidades
+├── efectos.json        Estados y efectos
 ├── spawn_table.json    Apariciones por mazmorra
 ├── objetos.json        Objetos, armas, escudos y fórmulas de forja
-├── tienda.json         Tienda del bot
+├── tienda.json         Catálogo de la tienda
 ├── recompensas.json    Recompensas de cofres y misiones
 ├── llaves.json         Llaves de mazmorras
-├── misiones.json       Misiones
+├── misiones.json       Misiones y encargos
 ├── avatares.json       Avatares
-├── npcs.json           NPCs
-└── docs/               Web de las herramientas (editor.mibaltoalex.com)
+└── npcs.json           NPCs
 ```
 
 **Cómo proponer un cambio**
@@ -167,8 +166,8 @@ cada día en el mantenimiento, así que un cambio aceptado aquí llega al juego 
 
 | | Canal | Qué encontrarás |
 |---|---|---|
-| 🤖 | **[@shellord_bot](https://t.me/shellord_bot)** | El bot: aquí juegas. |
-| 🎮 | **[ShellOrd Leveling](https://t.me/shellord_leveling)** | Portales, cofres y la tienda pública. Activa las notificaciones para no perderte nada. |
+| 🎮 | **[game.mibaltoalex.com](https://game.mibaltoalex.com)** | El juego en el navegador. |
+| ✈️ | **[@shellord_bot](https://t.me/shellord_bot)** | El juego como mini app de Telegram y tu clave de acceso (`/game`). |
 | 📢 | **[ShellOrd Oficial](https://t.me/shellord_channel)** | Noticias, salón de la fama, consejos, fan art y reporte de errores. |
 | 🛠️ | **[editor.mibaltoalex.com](https://editor.mibaltoalex.com)** | Herramientas para crear contenido. |
 
