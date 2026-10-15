@@ -1511,6 +1511,106 @@
             ]
           }
         ]
+      },
+      {
+        "nombre": "Mythos",
+        "is_boss": true,
+        "def_pct": 10,
+        "exit_portal": true,
+        "elemento": "fuego",
+        "vol": 2,
+        "ia": "esquiva",
+        "habilidades": [
+          {
+            "id": "piel_gruesa",
+            "probabilidad": 100
+          },
+          {
+            "id": "cornada",
+            "probabilidad": 100
+          },
+          {
+            "id": "martillazo_mythos",
+            "probabilidad": 100
+          },
+          {
+            "id": "sello_magico",
+            "probabilidad": 100,
+            "condicion": "transformacion:1"
+          },
+          {
+            "id": "maldicion_mythos",
+            "probabilidad": 100,
+            "condicion": "transformacion:1"
+          }
+        ],
+        "botin_exit": [
+          {
+            "aleatorio": [
+              2,
+              4,
+              5,
+              6,
+              7,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              85,
+              97,
+              101
+            ]
+          },
+          {
+            "fijo": 102
+          }
+        ],
+        "drops_cazador": [
+          {
+            "id_objeto": "ficha_a",
+            "tasa": 10
+          }
+        ],
+        "rabia_atk_por_pct": 1,
+        "infligir_estados": [
+          {
+            "tipo": "estado",
+            "probabilidad": 100,
+            "valor": 0,
+            "ataques": 2,
+            "tiempo": null,
+            "condicion": "marca:glifeado",
+            "mensaje": "Mythos entra en estado debilitado",
+            "efecto": "debilitado"
+          },
+          {
+            "tipo": "erosion3",
+            "probabilidad": 100,
+            "valor": 5,
+            "ataques": 2,
+            "tiempo": null,
+            "condicion": "marca:sellado",
+            "mensaje": "Mythos aplica 5% de erosión por golpe recibido a todos los objetivos en radio a 2 casillas",
+            "valor2": 2
+          }
+        ],
+        "modo_estados": "todos",
+        "transformaciones": [
+          {
+            "emoji": "☠️",
+            "vol": 2,
+            "indice": 6,
+            "atk_bonus_pct": 100,
+            "def_bonus_pct": 20,
+            "mensaje": "Mythos libera todo su poder",
+            "nombre": "Mythos"
+          }
+        ],
+        "energy_extra": 9950,
+        "atk_fijo": 550,
+        "def_fijo": 55
       }
     ]
   },
