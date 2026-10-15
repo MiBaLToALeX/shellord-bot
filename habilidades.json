@@ -170,7 +170,7 @@
     "efectos": [
       {
         "efecto": "oscuridad",
-        "objetivo": "objetivos",
+        "objetivo": "enemigos",
         "radio": 99,
         "valor": 50,
         "tiempo": 20
@@ -259,7 +259,7 @@
       },
       {
         "efecto": "debilidad",
-        "objetivo": "objetivos",
+        "objetivo": "enemigos",
         "valor": 10,
         "radio": 2,
         "turnos": 2
@@ -268,19 +268,19 @@
         "accion": "golpe",
         "valor": 400,
         "valor2": 550,
-        "objetivo": "objetivos",
+        "objetivo": "enemigos",
         "radio": 2
       },
       {
         "efecto": "sobrecarga",
-        "objetivo": "objetivos",
+        "objetivo": "enemigos",
         "radio": 2,
         "turnos": 2,
         "valor": 250
       },
       {
         "accion": "empuje",
-        "objetivo": "objetivos",
+        "objetivo": "enemigos",
         "radio": 2,
         "valor": 2
       }
@@ -322,14 +322,14 @@
     "efectos": [
       {
         "efecto": "distribuir",
-        "objetivo": "objetivos",
+        "objetivo": "enemigos",
         "radio": 2,
         "tiempo": 20,
         "valor": 25
       },
       {
         "efecto": "inamovible",
-        "objetivo": "objetivos",
+        "objetivo": "enemigos",
         "radio": 2,
         "tiempo": 10
       }

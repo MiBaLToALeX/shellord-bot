@@ -65,6 +65,7 @@
   },
   {
     "id": "ayudante",
+    "tipo": "tienda",
     "nombre": "Nara, la Guía",
     "emoji": "🕹️",
     "dialogo": "¡Hola, viajero! Si te pierdes o necesitas una pista, habla conmigo. Estoy aquí para ayudarte a encontrar tu camino.",
