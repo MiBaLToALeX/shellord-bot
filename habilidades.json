@@ -365,14 +365,16 @@
         "objetivo": "enemigos",
         "forma": "muro",
         "radio": 1,
-        "tiempo": 20
+        "tiempo": 20,
+        "valor": 2
       },
       {
         "efecto": "tuerto",
         "objetivo": "enemigos",
         "forma": "muro",
         "radio": 1,
-        "tiempo": 20
+        "tiempo": 20,
+        "valor": 2
       }
     ],
     "recarga_seg": 60,
