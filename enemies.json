@@ -1519,7 +1519,7 @@
         "exit_portal": true,
         "elemento": "fuego",
         "vol": 2,
-        "ia": "esquiva",
+        "ia": "agresiva",
         "habilidades": [
           {
             "id": "piel_gruesa",
@@ -1613,7 +1613,8 @@
         "def_fijo": 55,
         "mazmorras": [
           "mythos"
-        ]
+        ],
+        "capturable": true
       }
     ]
   },
