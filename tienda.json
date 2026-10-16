@@ -807,5 +807,13 @@
     "indice": 9,
     "vol": 4,
     "solo_venta": true
+  },
+  {
+    "id": "key_volcan",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 23,
+    "vol": 3,
+    "solo_venta": true
   }
 ]
