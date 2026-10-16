@@ -851,5 +851,13 @@
     "emoji": "🔮",
     "indice": 4,
     "vol": 1
+  },
+  {
+    "tipo": 103,
+    "recompensa": "item",
+    "item_id": "key_volcan",
+    "emoji": "🗝",
+    "indice": 23,
+    "vol": 3
   }
 ]

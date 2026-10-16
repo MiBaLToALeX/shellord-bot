@@ -205,6 +205,49 @@
         ],
         "xp_extra": 200,
         "energia_botin": 2000
+      },
+      {
+        "nombre": "Salamandra",
+        "is_boss": false,
+        "vol": 7,
+        "mensaje_ataque": "ataca a",
+        "ia": "cobarde",
+        "elemento": "fuego",
+        "energy_extra": 5040,
+        "atk_extra": 480,
+        "botin_exit": [
+          {
+            "aleatorio": [
+              2,
+              4,
+              5,
+              6,
+              7,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26
+            ]
+          }
+        ],
+        "drops_cazador": [
+          {
+            "id_objeto": "key_volcan",
+            "tasa": 50
+          },
+          {
+            "id_objeto": "ficha_a",
+            "tasa": 10
+          }
+        ],
+        "def_extra": 10,
+        "alcance": 6,
+        "mazmorras": [
+          "volcan"
+        ],
+        "def_pct": 5
       }
     ]
   },

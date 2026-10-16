@@ -434,5 +434,19 @@
     "rango_requerido": "A",
     "emoji_vol": 3,
     "emoji_indice": 25
+  },
+  {
+    "id": "key_volcan",
+    "nombre": "Llave de la mazmorra Volcan",
+    "emoji": "🗝",
+    "portal_emoji": "🌀",
+    "portal_vol": 2,
+    "portal_indice": 4,
+    "mazmorra": "volcan",
+    "nivel_min": 60,
+    "nivel_max": 60,
+    "rango_requerido": "A",
+    "emoji_vol": 3,
+    "emoji_indice": 23
   }
 ]
