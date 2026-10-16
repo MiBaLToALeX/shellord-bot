@@ -173,6 +173,12 @@ cada día en el mantenimiento, así que un cambio aceptado aquí llega al juego 
 
 ---
 
+## Colaboradores
+
+[@Jriverof](https://github.com/Jriverof) : Ideas, Enemigos, Mazmorras, Objetos.
+
+---
+
 ## Licencia
 
 Distribuido bajo la [Licencia Apache 2.0](LICENSE).
