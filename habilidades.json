@@ -302,14 +302,10 @@
       {
         "accion": "glifo",
         "color": "#80ff80",
-        "objetivo": "objetivo",
         "valor2": 2,
-        "marca": "sellado",
-        "turnos": 4
-      },
-      {
-        "accion": "activar_inmortal",
-        "marca": "debilitado"
+        "turnos": 4,
+        "marca": "vitalidad",
+        "valor": 5000
       }
     ],
     "recarga_seg": 60
