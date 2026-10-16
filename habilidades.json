@@ -335,5 +335,64 @@
       }
     ],
     "recarga_seg": 60
+  },
+  {
+    "id": "vision",
+    "nombre": "Vision",
+    "emoji": "👁️",
+    "descripcion": "Aumenta +3 de alcance durante 20 s a los aliados pegados a ti.",
+    "efectos": [
+      {
+        "efecto": "alcance",
+        "objetivo": "aliados",
+        "forma": "mas",
+        "radio": 1,
+        "valor": 3,
+        "tiempo": 20
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 1
+  },
+  {
+    "id": "hackeo",
+    "nombre": "Hackeo",
+    "emoji": "💻",
+    "descripcion": "Permite debilitar y quitar alcance a varios enemigos durante 20s",
+    "efectos": [
+      {
+        "efecto": "debil",
+        "objetivo": "enemigos",
+        "forma": "muro",
+        "radio": 1,
+        "tiempo": 20
+      },
+      {
+        "efecto": "tuerto",
+        "objetivo": "enemigos",
+        "forma": "muro",
+        "radio": 1,
+        "tiempo": 20
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 1
+  },
+  {
+    "id": "protegidos",
+    "nombre": "Protegidos",
+    "emoji": "🔰",
+    "descripcion": "Activa una barrera para proteger a los aliados que estén a tu alrededor",
+    "efectos": [
+      {
+        "efecto": "escudo_barrera",
+        "objetivo": "aliados",
+        "forma": "anular",
+        "radio": 1,
+        "valor": 500,
+        "tiempo": 20
+      }
+    ],
+    "recarga_seg": 30
   }
 ]

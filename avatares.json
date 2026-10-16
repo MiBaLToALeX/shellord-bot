@@ -62,7 +62,7 @@
       }
     ],
     "elemento": "agua",
-    "tipo": "dps"
+    "tipo": "protector"
   },
   {
     "id": "avatar_castigador",
@@ -1099,6 +1099,14 @@
       {
         "id_objeto": "ficha_a",
         "cantidad": 5
+      },
+      {
+        "id_objeto": "key_pirata",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "key_mythos",
+        "cantidad": 1
       }
     ],
     "elemento": "tierra",
@@ -1123,5 +1131,38 @@
     "dmg_fijo": 50,
     "dmg_bonus_pct": 50,
     "tipo": "controlador"
+  },
+  {
+    "id": "avatar_volt",
+    "nombre": "ShellOrd Volt",
+    "formula": [
+      {
+        "id_objeto": "ficha_a",
+        "cantidad": 5
+      },
+      {
+        "id_objeto": "key_mythos",
+        "cantidad": 2
+      }
+    ],
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 30,
+    "elemento": "fuego",
+    "tipo": "protector",
+    "skills": [
+      "vision",
+      "protegidos"
+    ],
+    "dmg_bonus_fijo": true,
+    "neutralizador_pct": 5,
+    "descripcion": "No dudes en elegir este avatar si necesitas protección y reducir al enemigo en segundos",
+    "dmg_fijo": 50,
+    "dmg_bonus_pct": 50,
+    "vel_bonus_pct": 5,
+    "energia_max_bonus": 1000,
+    "def_fijo": 10,
+    "antihackeo": true,
+    "skill": "hackeo"
   }
 ]
