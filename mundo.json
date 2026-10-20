@@ -1,0 +1,460 @@
+{
+  "nombre": "Mundo",
+  "origen": [
+    -40,
+    0
+  ],
+  "leyenda": {
+    ".": "hierba",
+    ",": "flores",
+    "=": "camino",
+    "B": "puente",
+    "~": "agua",
+    "T": "arbol",
+    "#": "roca",
+    "b": "bosque",
+    "a": "arena",
+    "n": "nieve",
+    "c": "ceniza",
+    "k": "cristal",
+    "v": "veta",
+    "h": "hueso",
+    "x": "abismo"
+  },
+  "zonas": {
+    "E": "Pradera",
+    "D": "Bosque",
+    "C": "Desierto",
+    "B": "Tundra",
+    "A": "Tierra de ceniza",
+    "S": "Cristal",
+    "M": "Necrópolis"
+  },
+  "filas": [
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx############################################################TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTnnnnnnnnnnTnnnnnnnnnTnTTnnnnnT",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx#kkkkkkkkk#kkkk=kkkkkkkkkkkkkkcccccccccc#cccc=cccc#cccccccccnnnnnnnnnnTnnnn=nnnnTnnnnnnnnTnnnnnnnnnnnnnn=nnTTTnnnnnnnnnT",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx#k#kkkkkkk#kkkk=kkkk#kkkkkkkkk#cccccccccccccc=ccccccccccccccTnnnnnnnnnTnnnn=nnnnnnnnnnnnnTnnnnnnnnnnnTnn=nnnnnnnnnnnnnnT",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx#kkkkkkkkk#kkkk=kkkk#kkkkkkkkk#vccccccccccccc=cccc#cccccccccTnnnnnnnnnnnnnn=nnnnnnnnnnnnnTTnnnnnnnnnTnnn=nnnTnnnnnnTnnnT",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx#kkkkkk=================kkkkkk#cccccc=================ccccccTnnnnnn=================nnnnTTnnnnnnnnnTnnTT=nTnnnnnnnnnnnnT",
+    "xxxxxxxxxxxxxxxhhhhhhhhhhxxxxxxxxxxxxxxx#kkkkkkkkk#kkkk=kkkk#kkkkkkk#k#ccccccccc#cccc=cccc#ccccccc#cnnnnnnnnnnTnnnn=nnnnTnnnnnnnTTnTnnnnnnTnnnTn=nnnnnnTnnnnnnnT",
+    "xxxxxxxxxxxxhhhhhhhhhhhhhhhhxxxxxxxxxxxx#kkkkkkkkk#kkkk=kkkk#kkkkkkkkk#cccccccccccccc=cc#c#cccccccccTnnnnnnnnnTnTnn=nnnnnnTnnnnnnTnnnnnnnnnnnnnn=nnnnTnnnnnnTnnT",
+    "xxxxxxxxxhhhhhhhhhhhhhhhhhhhhhhxxxxxxxxx#kkkkkkkkk#kkkk=kkkk#kkkkkk#kk#ccccccccc#cccc=cvcc#cccccccccTnTnnnnnnnnnnvn=nnnnnnnnnnnnnTnnnnnnnnTnnnnn=nnnnnnnnnnnnnnT",
+    "xxxxxxxxhhhhhhhhhhhh=hhhhhhhhhhhxxxxxxxx#kkkkkkkkk#kkkk=kkkk#kkkkkkkkk#ccccccccc#cccc=ccccccccccccccTnnnnnnnnnTnnnn=nnnnTvnnnnnnnTnnnnnnnnnnnnnn=nnnnnnnnnnnnnnT",
+    "xxxxxxhhhhhhhhh#hhhh=hhhhhhhhhhhhhxxxxxx#k#kkk#kkk#kk##=##k##k#k###k##c#####c##c#####=#c#####c######nTTTnTnTnTTnTTT=TnTTTTnnnTTnTTnnnnnnTnnnnnnn=nnnnnnnnnnnnnnT",
+    "xxxxxhhhhhhhhhhhhhhh=hhhhhvh#hhhhhhxxxxx#kkkkkkkkk#kvkk=kkkk#kkkkkkkkkcccccccccc#cccc=cccv#cccccccccTnnnnnnnnnnnnnn=nvnnTnnnnnnnnTnnTnnnnnnnnnnn=nnnnnnnnnnnnnnT",
+    "xxxxh==============================hxxxx#kkkkkkk#k#kkkk=kkkkkkkkkkkkkkccccccccvc#ccvc=cc#c#cccccccccnnnnnnnnnnnnnnn=nnnnTnnnnnnnnTnnnnnnnnnnnnnn=nTTnnnTnnnnnnnT",
+    "xxxhh=hhhhhhh#hhh=hh=h=vhhhhhhh#hh=hhxxx#kkkkkkkkk#kkkk=kkkk#kkkkkkkkk#cccccccccccccc=ccccccccccccccTnnnnnnnnnTnnnn=nnnnTnnnnnnnnTnnnnnTnTnnnnnn=nnnnnnnnnnnnTnT",
+    "xxxhh=hhhh#hhhhhh=hh=============================================================================================================================nnnnnnnnnnnnnnT",
+    "xx#hh=vhhhhhhhhhh=#hhh=hhhhhhhhhhh=hhvxx#kkkkkkkkk#kkkk=kkkk#kkkkkkkkkcccccccccc#cccc=ccccccccccccccTnnnnnnnnnnnnnn=nnnnTnnnnnnnnTnnnnnnnnnnnnnn=nnnnTnnnnnnnnnT",
+    "xxhh#=hhhhxxxxhhh=hhhh=hhhxxxxhhhh=hhhxx#kkkkkkkkk#kkkk=kkkk#k#kkvkkkkcccvcccccc#cccc=cccccccccccvccnnnnnnnnnnTnnnn=nnnvnnnnnnnnnTnnTnnnnnnnnTnn=nnnnnnnnTnnTnnT",
+    "xxhhh=hhxxxxxxxx#=hhhh=hxxxxxxxxhh=hhhxx#k#kkkkkkkkkkkk=kkkk#kk#kvkkkk#cccc#ccccccccc=cccc#cccccccccTnnnnTnTnnTnnnn=nnnnTnnTnnnnnTTnnnnnnTnnnnnn=nnnnnnnnnnnnnnT",
+    "xxhhh=hhxxxxxxxxh=hhhh=hxxxxxxxxhh=hhhxx#kkkkkkkkk#kkkk=kvkk#kkkkkkkkkccccccccccccccc=cccc#cccccccccTnnnnnnnnnnvnnn=nnnnTnnnnnnnnTnnnnnnnnnnnnnT=nnnnnnnTnnnnnnT",
+    "xhhhv=hxxxxxxxxxx=hhhh=xxxxxxxxxxh=hhhhx##k##k#k#k#k#kk=##kk####k#####c#cc###cc##c##c=###c####c##cc#TnnnnTTnTTnnnTT=nTnnnTTnTTTnnTnnnnnnTnnnnnnn=nnnnnnnTnnnnnnT",
+    "xxhhh=hhxxxxxxxx==hhhh==xxxxxxxxhh=hhhxx#kkkkkkkkk#kkkk=kkkk#kkkkkkkkkcccccccccc#cccc=cccc#cccccvcccnnnnnnnnnnTnnnn=nnnnnnnnnnnnnTnnnnnnnTnnTnnn=nnnTnnnnnnnnnnT",
+    "xxhhh=h#xxxxxxxx=hhhhhh=xxxxxxxxhh=hhhxx#kkkkkkkkk#kkkk=kkkkkkkkkkkkkkcccccccccc#cccc=cccc#cccccccccTnnnnnnnnnTnnnn=nnnnTnnnnnnnnTnnnnTnTnnTnnnn=nnnnnnnnnnnnnnT",
+    "xxhhh=hhhhxxxx===hhhhhh===xxxxhhh#=hhhxx#kkkkkkkkkkkkkk=kkkk#kkkkkkkkk#ccccccccc#cccc=cccc#cccccccccTnTnnnnnnnTnnnn=nnnnTnnnnnnnnTnnnnnnnnnnnnTT=nnnnnnnnnnnnnnT",
+    "xx#hhhhhhh#hh==hh#hxxhhhh==hhh#hhhhhhhxx#kkkkkk=================kkkkkk#c#cccc=================ccccccnnnnnnn=================nnnnnTnnnnnnnnTnnnnn=nnnnnnnnnnnnnnT",
+    "xxx#h=hhh#hhh=hhhhxxxxhhhh=hhhhhhh=hhxxx#k#kkkkkkk#kkkk=kkkk#kkkkkkkkk#cccccccccccccc=ccccccccccccccnnnnnnnnnnTnnnn=nnnnTnnnnnnnnTnnnnnnnnnnnnnn=vnnnnTnnnnnnnTT",
+    "xxxhhhhhhhhhh=hhhhxxxxhhhh=hhhh#hhhhhxxx#kkkkkkkkvkk#kk=kkkkkkkkkkkkkkccccccccccccccc=cccc#cccccccccnnnnnnnnnnTnnnn=nnTnTnnnnnnnnTnnnnnnnnnnnnnv=TnnnnnnnnnnnnnT",
+    "xxxxhhhhhhhhh=hhhxxxxxxhhh=hhhhhhhhhxxxx#kkkkkkkkk#k#kk=kkkkkkkkkkkkkk#ccvccc#cc#ccvc=cccc#cccccccccnnnnnnnnnnnnnnn=nnnnnnnnnnnnnTnnnnnTnnnnnnnn=TnnnnnnnnnnnnnT",
+    "xxxxxh#h#hhhh=hhxxxxxxxxhh=#h#hhhhhxxxxx#kkkkkkkkk#kkkk=kkkk#kkkkkkkkk#ccccccccc#cccc=cccc#cvcccccccnnnnnnnnnnTnnnn=nnnnTnnnnnnnnTTTTTTTTTTTTTTT=TTTTTTTTTTTTTTT",
+    "xxxxxxhhhhhh#=hh#hhhhhhhhh=hhhhhhhxxxxxxTT.,.TTTT.TTTTT=TT.TT.TT,T.TTTTTbTTTbTbTTTTbb=bbTTTTbTbTbTTTaaaa#########aa=##aa#######a##aaaaaaaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxhhhhh=hhhhhhhhhhhh=hhhhhxxxxxxxxT......,..T..,.=..,.....,.....bbbbbbbbbbbbbbb=bbbbTbbbbbbbbb#aaaaaaaaa#aaaa=aaaa#aaaaaaaa#aaaaaaaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxhhhh=hhhhh#hhhh#h=hhhhxxxxxxxxxT.........T....=,...,....,,...TbbbbbbbbbTbbbb=bbTbbbbbbbbbbb#aaaaaaaaaaaaaa=aaaa#vaaaaaaa##aaaaaaaa#aaaa=aaaaaa##aaaa#a#",
+    "xxxxxxxxxhhhh=hhhhhh#hhhhh=hhh#xxxxxxxxxT.......,.T....=....,.........bbbbbbbbbbbbbbb=bbbbbbbbbbbbbb#aaaaaaaaa#aaaa=aaaaaaaaaaaaa#aaaaaaaaaaaaaa=aaaaaaaaaaa#aa#",
+    "xxxxxxxxxhhhx=hx#hxhhxhhxh=xhhhxxxxxxxxxT..,...=================.....,Tbbbbbb=================bbbbbbaaaaaaa=================aaaaa#aaaaaaaaaaaaaa=#aaaaaaaaaaaaa#",
+    "xxxxxxxxxhhhv=hhhhhhhhhhhh=hhhhxxxxxxxxxT.........,....=.....,........TbbbbbbbbbTbbbb=bbbbTbbbbbbbbb#aaaaaaa#a#aaaa=aaaa#aaaaaaaa#aaaa#aaaaaa#aa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxhhhh=hhhhhhhhhhhh=hhhhxxxxxxxxxT,..,.....T...,=....,...,...,.TbbbbbbbTbTbbbb=bbbbbbbbbbbbbb#aaaaaaaaa#aaaa=aaaaaaaaaaaaa##aaaaaaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxhhhh=hhhhhhhhh#hh=hhhhxxxxxxxxxT...,...,.T..,.=....v..,.,....bbbbbbbbbbbbbbb=bbbbbbbTbbbbbb#aaaaaaaaa#aaaa=a#aa#aaaaaaaa#aaaaaaaaaaaaaa=aaaa##aaaaaaaa#",
+    "xxxxxxxxxxxhhhhhhh#hhhhhhhhh#xxxxxxxxxxxT.........T....=...,....,.....bbbbbbbbbbTbvbb=bbbbbbbbbbbbbb#avaaaaaaa#aaaa=aaaa#aaaaaaaa#aaaaaaaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxhh=hhhhhh#hhhhh=hhxxxxxxxxxxxT.TTTTT,.T.TT..=TTT.TTT,TTTTTTbbbTTbTbbTTbTbb=TTTbTTTbbbbTbba##a###aaa###a#=##a##aa#a#a###aaaaaaaaaaaaaa=#aaaaaaaaaaaaa#",
+    "xxxxxxxxxxxh#hhhhhhhhhhhhhhhhxxxxxxxxxxxT,.,.....,..,.,=,...T.........TbbbbbbbbbTbbbb=bbbbbbbbbbbbbb#aaaaaaaaaaaaaa=aaaa#aaaaaaaa#aa#aaaaaaa#aaa=aaaaaaaaa#aa###",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT,........T....=,......,......TbbbbbbbbbTbbbb=bbbbTbbbbbbbbb#aaaaaaaaaaaaaa=aaaa#aaaaaaaa#aaaaaaaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT,........T..,.=,......,...,..bbbbbbbbbbTbbbb=bbbbTbbbbbbbbb#aaaaaaaaaaaaaa=aaaaaaaaaaaaa#aaaa#aa#aaaaaa=aaaaaaaaaa#aaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT========================================================================================================aaaaaaaaaaaa###",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT...,.,.....,..=..,,T.....,.,.TbbbbbbbbbTbbbb=bbbbTbbbbbbbbb#aaaaaaaaa#aaaa=aaaa#aaaaaaaa#aaaaaaaaaaaaaa=aaaaaaaa#aaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT...........~.,=..,.T.....,.,.TbbbbbbbbbTbvbb=bbbbTbbbbbbbbb#aaaaaaaaavaaaa=aaaa#aaavaaaa#aaaa#aaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT........,,~~~.=,...Tv......,.bbbbbvbbbbbbbbb=bbbbTbbbbbbbbb#aaaaaaaaa#aaaa=aaaa#aaaaaaaa#aaaaaaaaaaaaaa=aaaaaaaaaa#aa##",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT.........T....=....T,...v.,..TbbbbbbbbbTbbbb=bbbbTbbbbbbbbbaaaaaaaaaaaaaaa=aaaaaaaaaaaaa#aaaaaaa#aaaaaa=#aaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxTTT.T.TTTT,,TTT=,TT,,TTTTT.TTTTTbTTTbbTTbTbTb=bTTTTTTTTTTbTTaa############a=##a##a##aaaaa#aaaaaaaaaaaaaa=a#aaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT,....,.,...v,.=........,v,...bbbbbbbbbbTbbbb=bbbbTbbbvbbbbb#aaaaaaaaaaaaaa=aaaa#aaaaaaaa#aaaaaaaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT,..,.....T....=..,.T,........TbTbbbbbTbTbbbb=bbbbTbbbbbbbbb#aaaaaaaaaaaaaa=aaaaaa#aaaaaa#aaaa#aaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT.........T....=....T......,,.Tbbbbbbbbbbbbbb=bbbbTbbbbbbbbb#aaaaaaaaaaaaaa=aaaa#aaaaaaaa#aaaaaaaa#aaaaa=aaaa#aaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT......=================......bbbbbbb=================bbbbbb#avaaaa=================aaaaa#aaaaaaaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT.........T....=..,,T......,..TbbbbbbbbbTbbbb=bbbbTbbbbbbbbb#aaaaaaaaaaaaaa=aaaa#aaaaaaaa#aaaaaaaaa#aaaa=aaaaaaa#aaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT.......,,T...,=...,T.,..,...,TbvbbbbbbbTbbbb=bbbbbbbbbbbbbb#aaaaaaaaa#aaaa=aaaa#aaaaaaaa#aaaaaaaa#aaaaa=aaaaaaaaaaa#aa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT....,..,.T....=,T.......,.,..Tbbbbbbbbbbbbbb=bbbbbbbbbbbbbb#aaaaaaaaaaaaaa=aaaa#aaaaaaaa#aaaaaaaaaaaaaa=a##aaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxTTTTTTTTTTTTTTT=TTTTTTTTTTTTTTTTTTTTTTTTTTTTT=TTTTTTTTTTTTTT###############=##############aaaaaaaaaaaaa#=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx....T.....T....=...,.......,.Tbbbbbbbbbbbbbbb=bbbbbbbTbbbTbTaaaaaaaaaaaaaaa=aaaaaaaaaaaaaaaaaaaaaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.,.....,....,.T=.............TbbbbbbbbbbbTbbb=bbTbbbbbbbbbTTaaaaaaaaa##aaav=aaaaaaaaaaaaaaaaaaaaa#aaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT....T.T...,...=......,.,...,TbbbbTbbbTbbbbbb=TbbbbbbbbbbbbTaaaaaa#aaa#aaaa=aaaaa#aaaaaaaaaaaaaaaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx....,......,T.T=........T.T..TbbbbbbbbbTbbbbb=bbbbbbbbbbbbbTaaaaaaaaaaaaaaa=aaaaaaaaaaaaaaaaaaaaaa#aaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT...T.......,..=...........,.TbbbbbbTbbbbbbbb=bbbbbbbbTbbbbTaaaaaa#aaaa#aaa=aaaaaaaaaaaaaa#a#aaaaa#aaaaa=aaaaaaaaa#aaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx....,..T.......=.............Tbbbbbbbbbbbbbbb=bbbbbbTbTbbbbT#aa#aaaaa#aaaaa=aaaaaaaaaaaaaaaaaaaaaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...............=..,...,...,..Tbbbbbbbbbbbbbbb=bbbbbbbbbbbTbTaaaaaaaaa#aaaaa=aa#aaaaaaaaaaaaaaaaaaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.........,....T=vT.T.........TbbbbTbbbbTbbbbb=bbbbbbbbbbbbbTaaa#aaaaaaaaaaa=a#aaaaaaaa#aaaaaaaaaaaaaaaaa=a#aaaaaaa#aaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...TT,.........=..........,,,TbbbbbbTbbbbbbbb=TbTbbbbbbbbbbTaaaaaaaaaaaaa#a=aaaaaaaaaaaaaaaaaaaaaaaaa#aa=aaaaaaaaaaa#aa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,...,.T.,.,T...=T........,...TbbTbbbbTbbbbbbb=bbbbbbbTTbbbbTaaaaaaaaaaaaaaa=aa#aaaaaaaaaaaaaaaaaaaaaaaa#=aaaaaaaa#aaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..,............=..........,..TbbTbbbTbbbbbbbT=TbbbbbTbTTbbbTaaa#aaa#aaaa#aa=aaaaa#aaaaaaaaaaaaaaaaaaaaa#=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT..,........T..=.............TvbbbbbTbbbbbbTb=bbbbTbbbbbbbbT#aaaaaaaa#aaaaa=aaaaaaaaaaaaaaaaaaaaaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=======================================================================================================================#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.,,......,..........v,......TTbbbbbbbbvbbbbbTbbbbbbbbbbbbbbTaaaavaa##aaaaaaaaaaaaaaaaaaa#aaaa#aaaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,.....,..,,,..........,.,...TTbbbbbbbbTbbbbbTbbTbbbTbbbbTbbTaaaaaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa=aaaaaa##aaaa#a#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.T.,,,T......T.....T.........TTbbbbbbbbbTbbbbbbTbbbTbbbbbbbTaaaaa#aaaaaaaaa#aaaaaaaaaaaa#aaaaaaaaaaaaaaa=aaaaaaaaaaa#aa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.................T...T.......TbbbbbbbbTTbbbbbbbTbbTbbbbbbbbTaaaaaa#aaaaaaaaaa#aaaaaaaaaaaaaaaaaaaaaaaa#a=aaaa#aaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...,...................,.....TbbbbbbbbbbbbbbbbbbbbbbTTbbTbTTa#aaaaaaaaa#aaaaaaaaa#a#aaaaaaaaaa#aaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx........,.T.,..,......,......TbbbbbbbbbbbbbbbbbbbbbbbTTbbbbT#aaaaaaaaaaaaaaaaaaaaaa#a#aaaaaaaaaaaaaaaaaa=aaaaaaaaaaaa#a#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.,...,.......TT..T....,......TbbbbbbbbbbbbbbbbbbbbTbbbbbbbbTaaaaaaaaaaaaaaa#aaaaaaaaaaaaaaaaa#aaaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.......,..........TT....,....TbbTbbbbbbbbbTbbbbTbbbbbTbbbbbTaaaaa#aaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa=aaa#aaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT.T.T.........TT..T..........TbbTbTbbTbbbbbbbbbbbbbbbbbTbbbTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#aaaaaaaaaaaa=aa#aaaaaaaaa#a#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx....,...,.......,...,.,....,.TTbTbbbbbTbbTbbbTbbbbbbbbbbbbbTaaaaaaaaaaaa#aaaaaaaaaaa#aaaaaaa#aaaaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...,...,..............T....,.TbTbbbbbTbbbbbbbTbbbbbbTbbbbbTT#aaaaaaaaaaaaaaaaaaaaaaaa#aaaaaaaaaa##aaaaaa=aaaaaaaaaaa#aa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...T.,..,.......T.......,...,TbbbbbbbbbbbbbbbTbbbbbbbbbbbbbTaaaaaaaaaaa#aaaaaaaaaaaaaaaaaaa#aaaaaaa#aaaa=aaaaaaaaaaaaa##",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT############################################################"
+  ],
+  "rangos": [
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+  ],
+  "inicio": [
+    15,
+    40
+  ],
+  "npcs": [
+    {
+      "npc": "pirata",
+      "x": 48,
+      "y": 15
+    },
+    {
+      "npc": "ayudante",
+      "x": 18,
+      "y": 38
+    },
+    {
+      "npc": "explorador",
+      "x": 73,
+      "y": 11
+    }
+  ],
+  "portales": [
+    {
+      "x": 13,
+      "y": 4
+    },
+    {
+      "x": 5,
+      "y": 11
+    },
+    {
+      "x": 25,
+      "y": 11
+    },
+    {
+      "x": 13,
+      "y": 22
+    },
+    {
+      "x": 5,
+      "y": 4
+    },
+    {
+      "x": 25,
+      "y": 4
+    },
+    {
+      "x": 5,
+      "y": 22
+    },
+    {
+      "x": 25,
+      "y": 22
+    },
+    {
+      "x": 43,
+      "y": 4
+    },
+    {
+      "x": 35,
+      "y": 11
+    },
+    {
+      "x": 55,
+      "y": 11
+    },
+    {
+      "x": 43,
+      "y": 22
+    },
+    {
+      "x": 35,
+      "y": 4
+    },
+    {
+      "x": 55,
+      "y": 4
+    },
+    {
+      "x": 35,
+      "y": 22
+    },
+    {
+      "x": 55,
+      "y": 22
+    },
+    {
+      "x": 73,
+      "y": 4
+    },
+    {
+      "x": 65,
+      "y": 11
+    },
+    {
+      "x": 85,
+      "y": 11
+    },
+    {
+      "x": 73,
+      "y": 22
+    },
+    {
+      "x": 65,
+      "y": 4
+    },
+    {
+      "x": 85,
+      "y": 4
+    },
+    {
+      "x": 65,
+      "y": 22
+    },
+    {
+      "x": 85,
+      "y": 22
+    },
+    {
+      "x": 5,
+      "y": 38,
+      "mazmorra": "default",
+      "nombre": "Portal de principiante",
+      "rango": "E",
+      "nivel_min": 1,
+      "nivel_max": 10,
+      "emoji": "🌀",
+      "vol": 0,
+      "indice": 0
+    },
+    {
+      "x": 13,
+      "y": 31
+    },
+    {
+      "x": 25,
+      "y": 38
+    },
+    {
+      "x": 13,
+      "y": 49
+    },
+    {
+      "x": 5,
+      "y": 31
+    },
+    {
+      "x": 25,
+      "y": 31
+    },
+    {
+      "x": 5,
+      "y": 49
+    },
+    {
+      "x": 25,
+      "y": 49
+    },
+    {
+      "x": 43,
+      "y": 31
+    },
+    {
+      "x": 35,
+      "y": 38
+    },
+    {
+      "x": 55,
+      "y": 38
+    },
+    {
+      "x": 43,
+      "y": 49
+    },
+    {
+      "x": 35,
+      "y": 31
+    },
+    {
+      "x": 55,
+      "y": 31
+    },
+    {
+      "x": 35,
+      "y": 49
+    },
+    {
+      "x": 55,
+      "y": 49
+    },
+    {
+      "x": 73,
+      "y": 31
+    },
+    {
+      "x": 65,
+      "y": 38
+    },
+    {
+      "x": 85,
+      "y": 38
+    },
+    {
+      "x": 73,
+      "y": 49
+    },
+    {
+      "x": 65,
+      "y": 31
+    },
+    {
+      "x": 85,
+      "y": 31
+    },
+    {
+      "x": 65,
+      "y": 49
+    },
+    {
+      "x": 85,
+      "y": 49
+    },
+    {
+      "x": -20,
+      "y": 7
+    },
+    {
+      "x": -6,
+      "y": 22
+    },
+    {
+      "x": -35,
+      "y": 22
+    },
+    {
+      "x": -14,
+      "y": 35
+    },
+    {
+      "x": -27,
+      "y": 35
+    },
+    {
+      "x": -10,
+      "y": 10
+    },
+    {
+      "x": -31,
+      "y": 10
+    }
+  ],
+  "cofres": {
+    "por_zona": 4,
+    "respawn_seg": 900,
+    "botin": [
+      1,
+      2
+    ]
+  },
+  "vetas": {
+    "cargas": 5,
+    "respawn_seg": 600
+  }
+}

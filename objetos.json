@@ -1153,5 +1153,31 @@
     "energia_max_bonus": 1000,
     "dmg_bonus_pct": 5,
     "def_bonus_pct": 5
+  },
+  {
+    "id": "fragmento_codigo",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "🧩",
+    "vol": 1,
+    "indice": 0
+  },
+  {
+    "id": "clave_cifrado",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "B",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "🔑",
+    "vol": 1,
+    "indice": 0
   }
 ]
