@@ -729,5 +729,22 @@
     "nativo": true,
     "perjuicio": true,
     "descripcion": "Su arma pierde filo: un VALOR% menos de ATK y la mitad de VALOR menos de crítico; además ataca y se mueve más despacio."
+  },
+  {
+    "id": "linterna",
+    "nombre": "Linterna",
+    "emoji": "🔦",
+    "nativo": true,
+    "segundos": 40,
+    "descripcion": "En los mapas a oscuras ilumina VALOR casillas a su alrededor."
+  },
+  {
+    "id": "inversion",
+    "nombre": "Inversión",
+    "emoji": "🔃",
+    "nativo": true,
+    "perjuicio": true,
+    "segundos": 20,
+    "descripcion": "Al curarse pierde la energía en vez de recuperarla."
   }
 ]
