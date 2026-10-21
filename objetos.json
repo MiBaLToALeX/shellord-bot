@@ -1179,5 +1179,18 @@
     "emoji": "🔑",
     "vol": 1,
     "indice": 0
+  },
+  {
+    "id": "clave_cifrado_2",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "A",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "🗝️",
+    "vol": 1,
+    "indice": 0
   }
 ]
