@@ -746,5 +746,14 @@
     "perjuicio": true,
     "segundos": 20,
     "descripcion": "Al curarse pierde la energía en vez de recuperarla."
+  },
+  {
+    "id": "congelado",
+    "nombre": "Congelado",
+    "emoji": "🧊",
+    "nativo": true,
+    "perjuicio": true,
+    "segundos": 20,
+    "descripcion": "Ni se mueve ni ataca, y pierde su DEF en % (resistencias) mientras dura."
   }
 ]

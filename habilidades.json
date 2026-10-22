@@ -392,5 +392,879 @@
       }
     ],
     "recarga_seg": 30
+  },
+  {
+    "id": "erupcion",
+    "nombre": "Erupción",
+    "emoji": "🌋",
+    "descripcion": "Escupe un cono de lava hacia el enemigo: daño y quemaduras a todos los que pilla",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "cono",
+        "radio": 3,
+        "centro": "lanzador",
+        "animacion": "lava",
+        "accion": "golpe",
+        "valor": 300,
+        "valor2": 450
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "cono",
+        "radio": 3,
+        "centro": "lanzador",
+        "accion": "quemado",
+        "valor": 60,
+        "tiempo": 6
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 3
+  },
+  {
+    "id": "estallido_obsidiana",
+    "nombre": "Estallido de obsidiana",
+    "emoji": "🗿",
+    "descripcion": "Hace brotar esquirlas de obsidiana en un hexágono alrededor del enemigo: daño y les baja la defensa",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "hexagonal",
+        "radio": 2,
+        "animacion": "obsidiana",
+        "accion": "golpe",
+        "valor": 350,
+        "valor2": 500
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "hexagonal",
+        "radio": 2,
+        "efecto": "reduccion_def",
+        "valor": 10,
+        "turnos": 2
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "rafaga",
+    "nombre": "Ráfaga",
+    "emoji": "🌬️",
+    "descripcion": "Un golpe de viento en abanico que daña y empuja a los enemigos",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "abanico",
+        "radio": 3,
+        "centro": "lanzador",
+        "animacion": "viento",
+        "accion": "golpe",
+        "valor": 200,
+        "valor2": 300
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "abanico",
+        "radio": 3,
+        "centro": "lanzador",
+        "accion": "empuje",
+        "valor": 2
+      }
+    ],
+    "recarga_seg": 45,
+    "alcance": 3
+  },
+  {
+    "id": "torbellino",
+    "nombre": "Torbellino",
+    "emoji": "🌪️",
+    "descripcion": "Un remolino en espiral alrededor del enemigo: daña y ralentiza a los que atrapa",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "espiral",
+        "radio": 3,
+        "animacion": "torbellino",
+        "accion": "golpe",
+        "valor": 250,
+        "valor2": 350
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "espiral",
+        "radio": 3,
+        "accion": "ralentizado",
+        "tiempo": 5
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "cadena_electrica",
+    "nombre": "Cadena eléctrica",
+    "emoji": "⚡",
+    "descripcion": "Un relámpago salta en zigzag entre los enemigos: daño y los deja paralizados",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "zigzag",
+        "radio": 3,
+        "animacion": "rayo",
+        "accion": "golpe",
+        "valor": 300,
+        "valor2": 420
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "zigzag",
+        "radio": 3,
+        "accion": "paralizado",
+        "tiempo": 4
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "raices",
+    "nombre": "Raíces",
+    "emoji": "🌿",
+    "descripcion": "Raíces en forma de T brotan bajo el enemigo: daño y no se pueden mover",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "t",
+        "radio": 2,
+        "animacion": "raices",
+        "accion": "golpe",
+        "valor": 150,
+        "valor2": 250
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "t",
+        "radio": 2,
+        "accion": "inmovilizacion",
+        "turnos": 2
+      }
+    ],
+    "recarga_seg": 45,
+    "alcance": 4
+  },
+  {
+    "id": "nube_esporas",
+    "nombre": "Nube de esporas",
+    "emoji": "🍄",
+    "descripcion": "Suelta una nube de esporas en semicírculo hacia delante: infecta y ciega a los enemigos",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "semicircular",
+        "radio": 2,
+        "centro": "lanzador",
+        "animacion": "esporas",
+        "accion": "infeccion",
+        "valor": 50,
+        "tiempo": 8
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "semicircular",
+        "radio": 2,
+        "centro": "lanzador",
+        "accion": "ceguera",
+        "tiempo": 3
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 2
+  },
+  {
+    "id": "shuriken_cruzado",
+    "nombre": "Shuriken cruzado",
+    "emoji": "✴️",
+    "descripcion": "Lanza shurikens en aspa alrededor del enemigo: daño y desgarro",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "x",
+        "radio": 2,
+        "animacion": "shuriken",
+        "accion": "golpe",
+        "valor": 280,
+        "valor2": 380
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "x",
+        "radio": 2,
+        "accion": "desgarre",
+        "valor": 30,
+        "tiempo": 6
+      }
+    ],
+    "recarga_seg": 45,
+    "alcance": 5
+  },
+  {
+    "id": "senda_sombras",
+    "nombre": "Senda de sombras",
+    "emoji": "🥷",
+    "descripcion": "Tajos de sombra en L desde el lanzador: daño y los debilita",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "l",
+        "radio": 3,
+        "centro": "lanzador",
+        "animacion": "sombra",
+        "accion": "golpe",
+        "valor": 300,
+        "valor2": 400
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "l",
+        "radio": 3,
+        "centro": "lanzador",
+        "efecto": "debilidad",
+        "valor": 10,
+        "turnos": 2
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 3
+  },
+  {
+    "id": "andanada",
+    "nombre": "Andanada",
+    "emoji": "🏴‍☠️",
+    "descripcion": "Una andanada de cañonazos en rectángulo sobre el enemigo: mucho daño y los aturde",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "rectangular",
+        "radio": 2,
+        "animacion": "canonazo",
+        "accion": "golpe",
+        "valor": 350,
+        "valor2": 480
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "rectangular",
+        "radio": 2,
+        "accion": "aturdido",
+        "tiempo": 3
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 5
+  },
+  {
+    "id": "prisma_opalescente",
+    "nombre": "Prisma opalescente",
+    "emoji": "💎",
+    "descripcion": "Cristales iridiscentes brotan en un octógono alrededor del enemigo: daño y los ciega",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "octogonal",
+        "radio": 2,
+        "animacion": "prisma",
+        "accion": "golpe",
+        "valor": 300,
+        "valor2": 420
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "octogonal",
+        "radio": 2,
+        "accion": "ceguera",
+        "tiempo": 4
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "lluvia_flechas",
+    "nombre": "Lluvia de flechas",
+    "emoji": "🏹",
+    "descripcion": "Una lluvia de flechas sobre el enemigo y los de alrededor",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "cuadrada",
+        "radio": 2,
+        "animacion": "flechas",
+        "accion": "golpe",
+        "valor": 220,
+        "valor2": 320
+      }
+    ],
+    "recarga_seg": 45,
+    "alcance": 6
+  },
+  {
+    "id": "abduccion",
+    "nombre": "Abducción",
+    "emoji": "👽",
+    "descripcion": "Un haz alienígena en cruz sobre el enemigo: daño y los atrae hacia ti",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "mas",
+        "radio": 2,
+        "animacion": "abduccion",
+        "accion": "golpe",
+        "valor": 280,
+        "valor2": 380
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "mas",
+        "radio": 2,
+        "accion": "atraer",
+        "valor": 2
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "aliento_dragon",
+    "nombre": "Aliento de dragón",
+    "emoji": "🐉",
+    "descripcion": "Escupe una línea de fuego recta hacia el enemigo: daño y quemaduras a todos los de la línea",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "linea",
+        "radio": 4,
+        "centro": "lanzador",
+        "animacion": "fuego",
+        "accion": "golpe",
+        "valor": 320,
+        "valor2": 450
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "linea",
+        "radio": 4,
+        "centro": "lanzador",
+        "accion": "quemado",
+        "valor": 50,
+        "tiempo": 6
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "garras_dragon",
+    "nombre": "Garras de dragón",
+    "emoji": "🐲",
+    "descripcion": "Un zarpazo en V que se abre desde el enemigo hacia los de detrás",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "v",
+        "radio": 3,
+        "animacion": "fuego",
+        "accion": "golpe",
+        "valor": 300,
+        "valor2": 400
+      }
+    ],
+    "recarga_seg": 45,
+    "alcance": 3
+  },
+  {
+    "id": "hechizo_porcino",
+    "nombre": "Hechizo porcino",
+    "emoji": "🐷",
+    "descripcion": "Círculos mágicos en rombo alrededor del enemigo: daño y les cortocircuita el ataque",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "rombo",
+        "radio": 2,
+        "animacion": "runas",
+        "accion": "golpe",
+        "valor": 250,
+        "valor2": 350
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "rombo",
+        "radio": 2,
+        "accion": "cortocircuito",
+        "valor": 50,
+        "tiempo": 4
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "lluvia_meteoritos",
+    "nombre": "Lluvia de meteoritos",
+    "emoji": "☄️",
+    "descripcion": "Meteoritos caen en casillas alternas, como un tablero, alrededor del enemigo",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "ajedrez",
+        "radio": 3,
+        "animacion": "canonazo",
+        "accion": "golpe",
+        "valor": 300,
+        "valor2": 420
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 5
+  },
+  {
+    "id": "tajo_guerrero",
+    "nombre": "Tajo del guerrero",
+    "emoji": "⚔️",
+    "descripcion": "Un tajo curvo que barre al enemigo y a los de sus lados: daño y desgarro",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "arco",
+        "radio": 2,
+        "animacion": "sombra",
+        "accion": "golpe",
+        "valor": 350,
+        "valor2": 480
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "arco",
+        "radio": 2,
+        "accion": "desgarre",
+        "valor": 40,
+        "tiempo": 6
+      }
+    ],
+    "recarga_seg": 45,
+    "alcance": 2
+  },
+  {
+    "id": "grieta_helada",
+    "nombre": "Grieta helada",
+    "emoji": "❄️",
+    "descripcion": "Una grieta de hielo en diagonal desde el enemigo: daño y los ralentiza",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "diagonal",
+        "radio": 3,
+        "animacion": "hielo",
+        "accion": "golpe",
+        "valor": 280,
+        "valor2": 380
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "diagonal",
+        "radio": 3,
+        "accion": "ralentizado",
+        "tiempo": 5
+      }
+    ],
+    "recarga_seg": 45,
+    "alcance": 4
+  },
+  {
+    "id": "muro_escarcha",
+    "nombre": "Muro de escarcha",
+    "emoji": "🧊",
+    "descripcion": "Levanta un muro de hielo a lo ancho del enemigo: daño y los deja clavados",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "muro",
+        "radio": 2,
+        "animacion": "hielo",
+        "accion": "golpe",
+        "valor": 150,
+        "valor2": 250
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "muro",
+        "radio": 2,
+        "accion": "inmovilizacion",
+        "turnos": 2
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "ventisca",
+    "nombre": "Ventisca",
+    "emoji": "🌨️",
+    "descripcion": "Una ventisca en rombo alrededor del enemigo: daño y los paraliza de frío",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "rombo",
+        "radio": 2,
+        "animacion": "hielo",
+        "accion": "golpe",
+        "valor": 220,
+        "valor2": 320
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "rombo",
+        "radio": 2,
+        "accion": "paralizado",
+        "tiempo": 3
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "flecha_perforante",
+    "nombre": "Flecha perforante",
+    "emoji": "🏹",
+    "descripcion": "Una flecha que atraviesa a todos los que hay entre tú y el enemigo: daño y desgarro",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "flecha",
+        "radio": 3,
+        "animacion": "flechas",
+        "accion": "golpe",
+        "valor": 300,
+        "valor2": 420
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "flecha",
+        "radio": 3,
+        "accion": "desgarre",
+        "valor": 30,
+        "tiempo": 6
+      }
+    ],
+    "recarga_seg": 45,
+    "alcance": 5
+  },
+  {
+    "id": "tridente_mareas",
+    "nombre": "Tridente de las mareas",
+    "emoji": "🔱",
+    "descripcion": "Tres lenguas de agua salen de ti hacia el enemigo: daño y los empuja",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "tridente",
+        "radio": 3,
+        "centro": "lanzador",
+        "animacion": "marea",
+        "accion": "golpe",
+        "valor": 320,
+        "valor2": 440
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "tridente",
+        "radio": 3,
+        "centro": "lanzador",
+        "accion": "empuje",
+        "valor": 1
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 3
+  },
+  {
+    "id": "red_pescador",
+    "nombre": "Red de pescador",
+    "emoji": "🕸️",
+    "descripcion": "Lanza una red pirata sobre el enemigo y los de alrededor: daño y no se pueden mover",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "rejilla",
+        "radio": 2,
+        "animacion": "marea",
+        "accion": "golpe",
+        "valor": 200,
+        "valor2": 300
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "rejilla",
+        "radio": 2,
+        "accion": "inmovilizacion",
+        "turnos": 2
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "emboscada",
+    "nombre": "Emboscada",
+    "emoji": "🥷",
+    "descripcion": "Ninjas salen de las cuatro esquinas alrededor del enemigo: daño y los aturden",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "esquinas",
+        "radio": 2,
+        "animacion": "sombra",
+        "accion": "golpe",
+        "valor": 330,
+        "valor2": 450
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "esquinas",
+        "radio": 2,
+        "accion": "aturdido",
+        "tiempo": 3
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "onda_sismica",
+    "nombre": "Onda sísmica",
+    "emoji": "🪨",
+    "descripcion": "El suelo tiembla en anillos alrededor del enemigo: daño y los aturde",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "ondas",
+        "radio": 3,
+        "animacion": "sismo",
+        "accion": "golpe",
+        "valor": 300,
+        "valor2": 420
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "ondas",
+        "radio": 3,
+        "accion": "aturdido",
+        "tiempo": 2
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "agujero_negro",
+    "nombre": "Agujero negro",
+    "emoji": "🕳️",
+    "descripcion": "Abre un agujero negro sobre el enemigo que se traga la luz: daño y arrastra a los de alrededor hacia ti",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "rombo",
+        "radio": 2,
+        "animacion": "agujero_negro",
+        "accion": "golpe",
+        "valor": 300,
+        "valor2": 420
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "rombo",
+        "radio": 2,
+        "accion": "atraer",
+        "valor": 2
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "implosion",
+    "nombre": "Implosión",
+    "emoji": "🌀",
+    "descripcion": "El espacio se pliega sobre el enemigo: mucho daño en muy poco sitio",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "cuadrada",
+        "radio": 1,
+        "animacion": "agujero_negro",
+        "accion": "golpe",
+        "valor": 450,
+        "valor2": 600
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "fallo_sistema",
+    "nombre": "Fallo del sistema",
+    "emoji": "👾",
+    "descripcion": "Corrompe el código del enemigo y de los de sus lados: daño y sus ataques fallan",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "reloj",
+        "radio": 2,
+        "animacion": "glitch",
+        "accion": "golpe",
+        "valor": 260,
+        "valor2": 360
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "reloj",
+        "radio": 2,
+        "accion": "cortocircuito",
+        "valor": 50,
+        "tiempo": 6
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "inyeccion_codigo",
+    "nombre": "Inyección de código",
+    "emoji": "💉",
+    "descripcion": "Inyecta código malicioso en una red alrededor del enemigo: daño y los infecta",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "rejilla",
+        "radio": 2,
+        "animacion": "glitch",
+        "accion": "golpe",
+        "valor": 200,
+        "valor2": 300
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "rejilla",
+        "radio": 2,
+        "accion": "infeccion",
+        "valor": 60,
+        "tiempo": 8
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "onda_choque",
+    "nombre": "Onda de choque",
+    "emoji": "💥",
+    "descripcion": "Una onda de aire en media luna que dobla el espacio: daño y empuja a los enemigos",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "media_luna",
+        "radio": 3,
+        "animacion": "onda_choque",
+        "accion": "golpe",
+        "valor": 320,
+        "valor2": 440
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "media_luna",
+        "radio": 3,
+        "accion": "empuje",
+        "valor": 2
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 3
+  },
+  {
+    "id": "holograma_prismatico",
+    "nombre": "Holograma prismático",
+    "emoji": "🌈",
+    "descripcion": "Proyecta un triángulo de luz iridiscente desde ti hacia el enemigo: daño y los deslumbra",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "triangulo",
+        "radio": 3,
+        "centro": "lanzador",
+        "animacion": "holograma",
+        "accion": "golpe",
+        "valor": 280,
+        "valor2": 380
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "triangulo",
+        "radio": 3,
+        "centro": "lanzador",
+        "accion": "ceguera",
+        "tiempo": 4
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 3
+  },
+  {
+    "id": "cometa",
+    "nombre": "Cometa",
+    "emoji": "☄️",
+    "descripcion": "Un cometa cae sobre el enemigo y deja un surco de fuego hacia ti: daño y quemaduras",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "cometa",
+        "radio": 3,
+        "animacion": "lava",
+        "accion": "golpe",
+        "valor": 350,
+        "valor2": 480
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "cometa",
+        "radio": 3,
+        "accion": "quemado",
+        "valor": 60,
+        "tiempo": 6
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 5
+  },
+  {
+    "id": "congelar",
+    "nombre": "Congelar",
+    "emoji": "🧊",
+    "descripcion": "Congela al enemigo durante 20 s: no puede moverse ni atacar y pierde sus resistencias",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "rombo",
+        "radio": 0,
+        "animacion": "hielo",
+        "efecto": "congelado",
+        "valor": 0,
+        "tiempo": 20
+      }
+    ],
+    "recarga_seg": 90,
+    "alcance": 4
   }
 ]
