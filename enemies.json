@@ -2762,7 +2762,7 @@
             "efecto": "destructora"
           },
           {
-            "tipo": "golpe",
+            "tipo": "golpe_2",
             "probabilidad": 100,
             "valor": 1,
             "ataques": 0,
@@ -5572,7 +5572,7 @@
             "mensaje": "Canubis te ha desgarrado con su arma (20s)"
           },
           {
-            "tipo": "golpe",
+            "tipo": "golpe_2",
             "probabilidad": 100,
             "valor": 1,
             "ataques": 0,
@@ -9617,7 +9617,7 @@
         ],
         "infligir_estados": [
           {
-            "tipo": "golpe",
+            "tipo": "golpe_2",
             "probabilidad": 100,
             "valor": 18,
             "ataques": 0,

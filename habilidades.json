@@ -238,10 +238,10 @@
         "valor": 5
       },
       {
-        "accion": "golpe",
-        "valor": 400,
-        "valor2": 550,
-        "objetivo": "objetivo"
+        "valor": 100,
+        "valor2": 120,
+        "objetivo": "objetivo",
+        "accion": "golpe"
       }
     ],
     "recarga_seg": 30,
@@ -265,11 +265,11 @@
         "turnos": 2
       },
       {
-        "accion": "golpe",
-        "valor": 400,
-        "valor2": 550,
+        "valor": 100,
+        "valor2": 130,
         "objetivo": "enemigos",
-        "radio": 2
+        "radio": 2,
+        "accion": "golpe"
       },
       {
         "efecto": "sobrecarga",
@@ -405,9 +405,9 @@
         "radio": 3,
         "centro": "lanzador",
         "animacion": "lava",
-        "accion": "golpe",
-        "valor": 300,
-        "valor2": 450
+        "valor": 100,
+        "valor2": 130,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -433,9 +433,9 @@
         "forma": "hexagonal",
         "radio": 2,
         "animacion": "obsidiana",
-        "accion": "golpe",
-        "valor": 350,
-        "valor2": 500
+        "valor": 150,
+        "valor2": 200,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -461,9 +461,9 @@
         "radio": 3,
         "centro": "lanzador",
         "animacion": "viento",
-        "accion": "golpe",
-        "valor": 200,
-        "valor2": 300
+        "valor": 100,
+        "valor2": 120,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -488,9 +488,9 @@
         "forma": "espiral",
         "radio": 3,
         "animacion": "torbellino",
-        "accion": "golpe",
-        "valor": 250,
-        "valor2": 350
+        "valor": 100,
+        "valor2": 150,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -514,9 +514,9 @@
         "forma": "zigzag",
         "radio": 3,
         "animacion": "rayo",
-        "accion": "golpe",
-        "valor": 300,
-        "valor2": 420
+        "valor": 100,
+        "valor2": 150,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -540,9 +540,9 @@
         "forma": "t",
         "radio": 2,
         "animacion": "raices",
-        "accion": "golpe",
-        "valor": 150,
-        "valor2": 250
+        "valor": 100,
+        "valor2": 120,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -594,9 +594,9 @@
         "forma": "x",
         "radio": 2,
         "animacion": "shuriken",
-        "accion": "golpe",
-        "valor": 280,
-        "valor2": 380
+        "valor": 100,
+        "valor2": 140,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -622,9 +622,9 @@
         "radio": 3,
         "centro": "lanzador",
         "animacion": "sombra",
-        "accion": "golpe",
-        "valor": 300,
-        "valor2": 400
+        "valor": 100,
+        "valor2": 150,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -650,9 +650,9 @@
         "forma": "rectangular",
         "radio": 2,
         "animacion": "canonazo",
-        "accion": "golpe",
-        "valor": 350,
-        "valor2": 480
+        "valor": 100,
+        "valor2": 150,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -676,9 +676,9 @@
         "forma": "octogonal",
         "radio": 2,
         "animacion": "prisma",
-        "accion": "golpe",
-        "valor": 300,
-        "valor2": 420
+        "valor": 100,
+        "valor2": 150,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -702,9 +702,9 @@
         "forma": "cuadrada",
         "radio": 2,
         "animacion": "flechas",
-        "accion": "golpe",
-        "valor": 220,
-        "valor2": 320
+        "valor": 100,
+        "valor2": 130,
+        "accion": "golpe"
       }
     ],
     "recarga_seg": 45,
@@ -721,9 +721,9 @@
         "forma": "mas",
         "radio": 2,
         "animacion": "abduccion",
-        "accion": "golpe",
-        "valor": 280,
-        "valor2": 380
+        "valor": 100,
+        "valor2": 130,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -748,9 +748,9 @@
         "radio": 4,
         "centro": "lanzador",
         "animacion": "fuego",
-        "accion": "golpe",
-        "valor": 320,
-        "valor2": 450
+        "valor": 100,
+        "valor2": 150,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -776,9 +776,9 @@
         "forma": "v",
         "radio": 3,
         "animacion": "fuego",
-        "accion": "golpe",
-        "valor": 300,
-        "valor2": 400
+        "valor": 100,
+        "valor2": 130,
+        "accion": "golpe"
       }
     ],
     "recarga_seg": 45,
@@ -795,9 +795,9 @@
         "forma": "rombo",
         "radio": 2,
         "animacion": "runas",
-        "accion": "golpe",
-        "valor": 250,
-        "valor2": 350
+        "valor": 100,
+        "valor2": 120,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -822,9 +822,9 @@
         "forma": "ajedrez",
         "radio": 3,
         "animacion": "canonazo",
-        "accion": "golpe",
-        "valor": 300,
-        "valor2": 420
+        "valor": 100,
+        "valor2": 150,
+        "accion": "golpe"
       }
     ],
     "recarga_seg": 60,
@@ -841,9 +841,9 @@
         "forma": "arco",
         "radio": 2,
         "animacion": "sombra",
-        "accion": "golpe",
-        "valor": 350,
-        "valor2": 480
+        "valor": 100,
+        "valor2": 150,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -868,9 +868,9 @@
         "forma": "diagonal",
         "radio": 3,
         "animacion": "hielo",
-        "accion": "golpe",
-        "valor": 280,
-        "valor2": 380
+        "valor": 100,
+        "valor2": 130,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -894,9 +894,9 @@
         "forma": "muro",
         "radio": 2,
         "animacion": "hielo",
-        "accion": "golpe",
-        "valor": 150,
-        "valor2": 250
+        "valor": 100,
+        "valor2": 150,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -920,9 +920,9 @@
         "forma": "rombo",
         "radio": 2,
         "animacion": "hielo",
-        "accion": "golpe",
-        "valor": 220,
-        "valor2": 320
+        "valor": 100,
+        "valor2": 150,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -946,9 +946,9 @@
         "forma": "flecha",
         "radio": 3,
         "animacion": "flechas",
-        "accion": "golpe",
-        "valor": 300,
-        "valor2": 420
+        "valor": 100,
+        "valor2": 130,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -974,9 +974,9 @@
         "radio": 3,
         "centro": "lanzador",
         "animacion": "marea",
-        "accion": "golpe",
-        "valor": 320,
-        "valor2": 440
+        "valor": 100,
+        "valor2": 130,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -1001,9 +1001,9 @@
         "forma": "rejilla",
         "radio": 2,
         "animacion": "marea",
-        "accion": "golpe",
-        "valor": 200,
-        "valor2": 300
+        "valor": 100,
+        "valor2": 120,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -1027,9 +1027,9 @@
         "forma": "esquinas",
         "radio": 2,
         "animacion": "sombra",
-        "accion": "golpe",
-        "valor": 330,
-        "valor2": 450
+        "valor": 100,
+        "valor2": 150,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -1053,9 +1053,9 @@
         "forma": "ondas",
         "radio": 3,
         "animacion": "sismo",
-        "accion": "golpe",
-        "valor": 300,
-        "valor2": 420
+        "valor": 100,
+        "valor2": 150,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -1079,9 +1079,9 @@
         "forma": "rombo",
         "radio": 2,
         "animacion": "agujero_negro",
-        "accion": "golpe",
-        "valor": 300,
-        "valor2": 420
+        "valor": 100,
+        "valor2": 180,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -1105,9 +1105,9 @@
         "forma": "cuadrada",
         "radio": 1,
         "animacion": "agujero_negro",
-        "accion": "golpe",
-        "valor": 450,
-        "valor2": 600
+        "valor": 100,
+        "valor2": 180,
+        "accion": "golpe"
       }
     ],
     "recarga_seg": 60,
@@ -1124,9 +1124,9 @@
         "forma": "reloj",
         "radio": 2,
         "animacion": "glitch",
-        "accion": "golpe",
-        "valor": 260,
-        "valor2": 360
+        "valor": 100,
+        "valor2": 125,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -1151,9 +1151,9 @@
         "forma": "rejilla",
         "radio": 2,
         "animacion": "glitch",
-        "accion": "golpe",
-        "valor": 200,
-        "valor2": 300
+        "valor": 100,
+        "valor2": 125,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -1178,9 +1178,9 @@
         "forma": "media_luna",
         "radio": 3,
         "animacion": "onda_choque",
-        "accion": "golpe",
-        "valor": 320,
-        "valor2": 440
+        "valor": 100,
+        "valor2": 140,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -1205,9 +1205,9 @@
         "radio": 3,
         "centro": "lanzador",
         "animacion": "holograma",
-        "accion": "golpe",
-        "valor": 280,
-        "valor2": 380
+        "valor": 100,
+        "valor2": 125,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
@@ -1232,9 +1232,9 @@
         "forma": "cometa",
         "radio": 3,
         "animacion": "lava",
-        "accion": "golpe",
-        "valor": 350,
-        "valor2": 480
+        "valor": 100,
+        "valor2": 180,
+        "accion": "golpe"
       },
       {
         "objetivo": "enemigos",
