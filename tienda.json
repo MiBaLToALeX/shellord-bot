@@ -812,8 +812,56 @@
     "id": "key_volcan",
     "precio": 100,
     "emoji": "🗝",
-    "indice": 23,
+    "indice": 27,
     "vol": 3,
+    "solo_venta": true
+  },
+  {
+    "id": "key_felina_2",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 1,
+    "vol": 100,
+    "solo_venta": true
+  },
+  {
+    "id": "key_felina_3",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 2,
+    "vol": 100,
+    "solo_venta": true
+  },
+  {
+    "id": "key_felina_4",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 3,
+    "vol": 100,
+    "solo_venta": true
+  },
+  {
+    "id": "key_felina_5",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 0,
+    "vol": 100,
+    "solo_venta": true
+  },
+  {
+    "id": "key_felina_6",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 4,
+    "vol": 100,
+    "solo_venta": true
+  },
+  {
+    "id": "key_rocosa",
+    "precio": 100,
+    "emoji": "🗝",
+    "indice": 5,
+    "vol": 100,
     "solo_venta": true
   }
 ]

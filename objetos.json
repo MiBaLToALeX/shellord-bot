@@ -21,6 +21,9 @@
       "apoyo",
       "protector",
       "tanque"
+    ],
+    "elementos": [
+      "agua"
     ]
   },
   {
@@ -45,6 +48,9 @@
       "protector",
       "apoyo",
       "tanque"
+    ],
+    "elementos": [
+      "agua"
     ]
   },
   {
@@ -60,7 +66,15 @@
     "indice": 0,
     "vol": 1,
     "def_bonus_pct": 2,
-    "def_bonus_fijo": true
+    "def_bonus_fijo": true,
+    "elementos": [
+      "agua"
+    ],
+    "tipos_avatar": [
+      "tanque",
+      "protector",
+      "apoyo"
+    ]
   },
   {
     "id": "espada_shocklin",
@@ -98,7 +112,15 @@
     "indice": 0,
     "vol": 2,
     "def_bonus_pct": 5,
-    "def_bonus_fijo": true
+    "def_bonus_fijo": true,
+    "elementos": [
+      "agua"
+    ],
+    "tipos_avatar": [
+      "apoyo",
+      "tanque",
+      "protector"
+    ]
   },
   {
     "id": "escudo_abismal",
@@ -113,7 +135,15 @@
     "indice": 1,
     "vol": 2,
     "def_bonus_pct": 8,
-    "def_bonus_fijo": true
+    "def_bonus_fijo": true,
+    "tipos_avatar": [
+      "apoyo",
+      "tanque",
+      "protector"
+    ],
+    "elementos": [
+      "agua"
+    ]
   },
   {
     "id": "tridenthor",
@@ -135,6 +165,9 @@
       "dps",
       "protector",
       "tanque"
+    ],
+    "elementos": [
+      "agua"
     ]
   },
   {
@@ -246,7 +279,11 @@
     "indice": 1,
     "vol": 1,
     "def_bonus_pct": 7,
-    "def_bonus_fijo": true
+    "def_bonus_fijo": true,
+    "elementos": [
+      "aire",
+      "tierra"
+    ]
   },
   {
     "id": "plasmithia",
@@ -370,7 +407,12 @@
     "indice": 0,
     "vol": 5,
     "def_bonus_pct": 35,
-    "def_bonus_fijo": true
+    "def_bonus_fijo": true,
+    "tipos_avatar": [
+      "apoyo",
+      "tanque",
+      "protector"
+    ]
   },
   {
     "id": "karniguada",
@@ -411,7 +453,15 @@
     "indice": 0,
     "vol": 4,
     "def_bonus_pct": 10,
-    "def_bonus_fijo": true
+    "def_bonus_fijo": true,
+    "elementos": [
+      "tierra"
+    ],
+    "tipos_avatar": [
+      "tanque",
+      "protector",
+      "apoyo"
+    ]
   },
   {
     "id": "escudo_dorado",
@@ -430,7 +480,15 @@
     "esquiva_pct": 3,
     "vol": 1,
     "indice": 2,
-    "def_bonus_pct": 12
+    "def_bonus_pct": 12,
+    "elementos": [
+      "luz"
+    ],
+    "tipos_avatar": [
+      "protector",
+      "tanque",
+      "apoyo"
+    ]
   },
   {
     "id": "espada_dorada",
@@ -841,7 +899,15 @@
     "int_bonus_pct": 4,
     "cura_bonus_pct": 4,
     "vel_bonus_pct": 4,
-    "def_bonus_pct": 20
+    "def_bonus_pct": 20,
+    "elementos": [
+      "agua"
+    ],
+    "tipos_avatar": [
+      "apoyo",
+      "tanque",
+      "protector"
+    ]
   },
   {
     "id": "orbe_rocoso",
@@ -884,7 +950,15 @@
     "indice": 3,
     "def_bonus_fijo": true,
     "def_bonus_pct": 22,
-    "cura_bonus_pct": 5
+    "cura_bonus_pct": 5,
+    "elementos": [
+      "tierra"
+    ],
+    "tipos_avatar": [
+      "apoyo",
+      "tanque",
+      "protector"
+    ]
   },
   {
     "id": "lanza_demoniaca",
@@ -1176,9 +1250,9 @@
     "alcance": "C2C",
     "equipable": false,
     "tipo": null,
-    "emoji": "🔑",
+    "emoji": "🧩",
     "vol": 1,
-    "indice": 0
+    "indice": 1
   },
   {
     "id": "clave_cifrado_2",
@@ -1189,8 +1263,8 @@
     "alcance": "C2C",
     "equipable": false,
     "tipo": null,
-    "emoji": "🗝️",
+    "emoji": "🧩",
     "vol": 1,
-    "indice": 0
+    "indice": 2
   }
 ]
