@@ -1266,5 +1266,242 @@
     ],
     "recarga_seg": 90,
     "alcance": 4
+  },
+  {
+    "id": "rebobinado",
+    "nombre": "Rebobinado",
+    "emoji": "⏪",
+    "descripcion": "Hace retroceder el tiempo en cruz alrededor del enemigo: un golpe de ataque y les desfasa (menos crítico)",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "mas",
+        "radio": 2,
+        "animacion": "reloj",
+        "accion": "golpe",
+        "valor": 110,
+        "valor2": 140
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "mas",
+        "radio": 2,
+        "efecto": "desfasado",
+        "valor": 20,
+        "turnos": 3
+      }
+    ],
+    "recarga_seg": 45,
+    "alcance": 4
+  },
+  {
+    "id": "paradoja_temporal",
+    "nombre": "Paradoja temporal",
+    "emoji": "⌛",
+    "descripcion": "Rompe el tiempo en un rombo alrededor del enemigo: un golpe fuerte y los deja ralentizados",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "rombo",
+        "radio": 2,
+        "animacion": "temporal",
+        "accion": "golpe",
+        "valor": 150,
+        "valor2": 180
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "rombo",
+        "radio": 2,
+        "accion": "ralentizado",
+        "tiempo": 5
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "vision_futuro",
+    "nombre": "Visión del futuro",
+    "emoji": "🔮",
+    "descripcion": "Ve lo que va a pasar: más crítico y más DEF durante 3 turnos",
+    "efectos": [
+      {
+        "efecto": "eco_futuro",
+        "valor": 20,
+        "turnos": 3
+      }
+    ],
+    "recarga_seg": 90
+  },
+  {
+    "id": "llamada_espiritus",
+    "nombre": "Llamada de los espíritus",
+    "emoji": "👻",
+    "descripcion": "Los espíritus digitales salen en anillos alrededor del enemigo: un golpe y les poseen (menos daño)",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "ondas",
+        "radio": 3,
+        "animacion": "espiritu",
+        "accion": "golpe",
+        "valor": 100,
+        "valor2": 130
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "ondas",
+        "radio": 3,
+        "efecto": "poseido",
+        "valor": 25,
+        "turnos": 3
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "abrazo_espectral",
+    "nombre": "Abrazo espectral",
+    "emoji": "🫥",
+    "descripcion": "Un espectro sale de ti y roba energía a los enemigos de delante para curarte",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "semicircular",
+        "radio": 2,
+        "centro": "lanzador",
+        "animacion": "espiritu",
+        "accion": "absorcion",
+        "valor": 150,
+        "valor2": 250
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 2
+  },
+  {
+    "id": "brote_viral",
+    "nombre": "Brote viral",
+    "emoji": "🦠",
+    "descripcion": "Un virus brota en las esquinas alrededor del enemigo: un golpe y les infecta",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "esquinas",
+        "radio": 2,
+        "animacion": "virus",
+        "accion": "golpe",
+        "valor": 100,
+        "valor2": 120
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "esquinas",
+        "radio": 2,
+        "accion": "infeccion",
+        "valor": 80,
+        "tiempo": 10
+      }
+    ],
+    "recarga_seg": 45,
+    "alcance": 4
+  },
+  {
+    "id": "pandemia",
+    "nombre": "Pandemia",
+    "emoji": "🧫",
+    "descripcion": "El virus se extiende por una red alrededor del enemigo e infecta a todos los que pilla",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "rejilla",
+        "radio": 3,
+        "animacion": "virus",
+        "accion": "infeccion",
+        "valor": 60,
+        "tiempo": 12
+      }
+    ],
+    "recarga_seg": 90,
+    "alcance": 4
+  },
+  {
+    "id": "caballo_troya",
+    "nombre": "Caballo de Troya",
+    "emoji": "🐴",
+    "descripcion": "Cuela código malicioso junto al enemigo: un golpe a los de alrededor y deja una bomba escondida (Mecha o Detonar)",
+    "efectos": [
+      {
+        "objetivo": "objetivo",
+        "accion": "bomba"
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "cuadrada",
+        "radio": 1,
+        "animacion": "codigo",
+        "accion": "golpe",
+        "valor": 100,
+        "valor2": 130
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "ransomware",
+    "nombre": "Ransomware",
+    "emoji": "🔐",
+    "descripcion": "Cifra a los enemigos en un octógono alrededor del objetivo: un golpe y quedan secuestrados (menos daño y DEF)",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "octogonal",
+        "radio": 2,
+        "animacion": "candado",
+        "accion": "golpe",
+        "valor": 100,
+        "valor2": 120
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "octogonal",
+        "radio": 2,
+        "efecto": "secuestrado",
+        "valor": 25,
+        "turnos": 3
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 4
+  },
+  {
+    "id": "spyware",
+    "nombre": "Spyware",
+    "emoji": "👁️",
+    "descripcion": "Un radar espía a todos los enemigos alrededor del objetivo: un golpe y reciben más daño",
+    "efectos": [
+      {
+        "objetivo": "enemigos",
+        "forma": "cuadrada",
+        "radio": 3,
+        "animacion": "radar",
+        "accion": "golpe",
+        "valor": 80,
+        "valor2": 100
+      },
+      {
+        "objetivo": "enemigos",
+        "forma": "cuadrada",
+        "radio": 3,
+        "efecto": "espiado",
+        "valor": 30,
+        "turnos": 4
+      }
+    ],
+    "recarga_seg": 60,
+    "alcance": 5
   }
 ]

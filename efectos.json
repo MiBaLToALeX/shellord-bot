@@ -755,5 +755,66 @@
     "perjuicio": true,
     "segundos": 20,
     "descripcion": "Ni se mueve ni ataca, y pierde su DEF en % (resistencias) mientras dura."
+  },
+  {
+    "id": "espiado",
+    "nombre": "Espiado",
+    "emoji": "👁️",
+    "perjuicio": true,
+    "gasta": "recibir",
+    "turnos": 3,
+    "componentes": {
+      "dano_recibido_pct": -1
+    },
+    "descripcion": "Un spyware le vigila: recibe un VALOR% más de daño (se gasta al recibir golpes)."
+  },
+  {
+    "id": "secuestrado",
+    "nombre": "Secuestrado",
+    "emoji": "🔐",
+    "perjuicio": true,
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "atk_pct": -1,
+      "def_pct": -1
+    },
+    "descripcion": "Un ransomware le cifra: pierde un VALOR% de daño y de DEF."
+  },
+  {
+    "id": "desfasado",
+    "nombre": "Desfase temporal",
+    "emoji": "⏳",
+    "perjuicio": true,
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "critico_pct": -1
+    },
+    "descripcion": "Fuera de su tiempo: VALOR puntos menos de crítico."
+  },
+  {
+    "id": "eco_futuro",
+    "nombre": "Eco del futuro",
+    "emoji": "🔮",
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "critico_pct": 1,
+      "def_pct": 1
+    },
+    "descripcion": "Ve lo que va a pasar: VALOR puntos más de crítico y un VALOR% más de DEF."
+  },
+  {
+    "id": "poseido",
+    "nombre": "Poseído",
+    "emoji": "👻",
+    "perjuicio": true,
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "atk_pct": -1
+    },
+    "descripcion": "Un espíritu digital le posee: pierde un VALOR% de daño."
   }
 ]
