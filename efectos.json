@@ -816,5 +816,28 @@
       "atk_pct": -1
     },
     "descripcion": "Un espíritu digital le posee: pierde un VALOR% de daño."
+  },
+  {
+    "id": "gigante",
+    "nombre": "Gigante",
+    "emoji": "🗻",
+    "segundos": 60,
+    "componentes": {
+      "atk_pct": 1,
+      "def_pct": 1
+    },
+    "descripcion": "Crece (su segundo valor es la escala en %: 160 = ×1,6) y gana un VALOR% de ATK y DEF."
+  },
+  {
+    "id": "miniatura",
+    "nombre": "Miniatura",
+    "emoji": "🐜",
+    "perjuicio": true,
+    "segundos": 60,
+    "componentes": {
+      "atk_pct": -1,
+      "def_pct": -1
+    },
+    "descripcion": "Encoge (su segundo valor es la escala en %: 60 = ×0,6) y pierde un VALOR% de ATK y DEF."
   }
 ]

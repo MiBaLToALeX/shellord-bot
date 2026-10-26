@@ -1503,5 +1503,389 @@
     ],
     "recarga_seg": 60,
     "alcance": 5
+  },
+  {
+    "id": "fusion",
+    "nombre": "Fusión",
+    "emoji": "🧬",
+    "una_vez": true,
+    "descripcion": "Se funde con otro enemigo igual: suman toda su energía, ATK y DEF en uno solo, más grande. Sin reactivación.",
+    "efectos": [
+      {
+        "accion": "fusion",
+        "objetivo": "lanzador",
+        "escala": 1.6,
+        "animacion": "fusion",
+        "valor": 0
+      }
+    ]
+  },
+  {
+    "id": "gigantizacion",
+    "nombre": "Gigantización",
+    "emoji": "🗻",
+    "una_vez": true,
+    "descripcion": "Crece al ×1,6 y gana un 30 % de ATK y DEF durante 60 s. Los grandes avanzan más casillas por paso. Sin reactivación.",
+    "efectos": [
+      {
+        "accion": "gigantizar",
+        "objetivo": "lanzador",
+        "valor": 30,
+        "escala": 1.6,
+        "tiempo": 60,
+        "animacion": "gigante"
+      }
+    ]
+  },
+  {
+    "id": "division",
+    "nombre": "División",
+    "emoji": "🪞",
+    "una_vez": true,
+    "descripcion": "Crea una copia de sí mismo con un 40 % menos de todo; él pierde un 30 %. Sin reactivación.",
+    "efectos": [
+      {
+        "accion": "dividir",
+        "objetivo": "lanzador",
+        "valor": 40,
+        "valor2": 30,
+        "animacion": "division"
+      }
+    ]
+  },
+  {
+    "id": "miniaturizacion",
+    "nombre": "Miniaturización",
+    "emoji": "🐜",
+    "una_vez": true,
+    "alcance": 4,
+    "descripcion": "Encoge al objetivo al ×0,6 y le quita un 20 % de ATK y DEF durante 60 s. Sin reactivación.",
+    "efectos": [
+      {
+        "accion": "miniaturizar",
+        "objetivo": "objetivo",
+        "valor": 20,
+        "escala": 0.6,
+        "tiempo": 60,
+        "animacion": "miniatura"
+      }
+    ]
+  },
+  {
+    "id": "reflexion",
+    "nombre": "Reflexión",
+    "emoji": "🪞",
+    "recarga_seg": 45,
+    "descripcion": "Los enemigos que tienes alrededor saltan a su casilla simétrica respecto a ti: los de delante pasan a tu espalda.",
+    "efectos": [
+      {
+        "accion": "reflexion",
+        "objetivo": "enemigos",
+        "radio": 2,
+        "forma": "rombo",
+        "centro": "lanzador",
+        "animacion": "espejo",
+        "valor": 0
+      }
+    ]
+  },
+  {
+    "id": "caos_cuantico",
+    "nombre": "Caos cuántico",
+    "emoji": "🃏",
+    "recarga_seg": 60,
+    "alcance": 4,
+    "descripcion": "Baraja el campo: los enemigos de alrededor del objetivo y tú os cambiáis de sitio al azar.",
+    "efectos": [
+      {
+        "accion": "barajar",
+        "objetivo": "enemigos",
+        "radio": 2,
+        "animacion": "barajar",
+        "valor": 0
+      }
+    ]
+  },
+  {
+    "id": "parpadeo",
+    "nombre": "Parpadeo",
+    "emoji": "✨",
+    "recarga_seg": 30,
+    "descripcion": "Desapareces y apareces en una casilla libre al azar a 4 casillas o menos, con un escudo de 40 de energía.",
+    "efectos": [
+      {
+        "accion": "parpadeo",
+        "valor": 4,
+        "animacion": "parpadeo"
+      },
+      {
+        "efecto": "escudo_barrera",
+        "valor": 40,
+        "turnos": 2
+      }
+    ]
+  },
+  {
+    "id": "ladron_escudos",
+    "nombre": "Ladrón de escudos",
+    "emoji": "🔰",
+    "recarga_seg": 40,
+    "alcance": 3,
+    "descripcion": "Le robas al objetivo todo su escudo de energía y te lo quedas (3 golpes).",
+    "efectos": [
+      {
+        "accion": "robar_escudo",
+        "objetivo": "objetivo",
+        "valor": 100,
+        "animacion": "robo_escudo"
+      }
+    ]
+  },
+  {
+    "id": "descarga_escudo",
+    "nombre": "Descarga de escudo",
+    "emoji": "⚡",
+    "recarga_seg": 50,
+    "alcance": 3,
+    "descripcion": "Gastas tu escudo de energía en una descarga del 150 % de lo que tenías a los enemigos de alrededor del objetivo (nunca mata).",
+    "efectos": [
+      {
+        "accion": "descarga_escudo",
+        "objetivo": "enemigos",
+        "radio": 1,
+        "valor": 150,
+        "animacion": "descarga"
+      }
+    ]
+  },
+  {
+    "id": "bastion_energia",
+    "nombre": "Bastión de energía",
+    "emoji": "🛡️",
+    "recarga_seg": 60,
+    "descripcion": "Una cúpula de energía: tú y tus aliados a 2 casillas ganáis un escudo de 60 de energía durante 3 golpes.",
+    "efectos": [
+      {
+        "efecto": "escudo_barrera",
+        "objetivo": "aliados",
+        "radio": 2,
+        "valor": 60,
+        "turnos": 3,
+        "animacion": "cupula"
+      }
+    ]
+  },
+  {
+    "id": "paso_espejo",
+    "nombre": "Paso espejo",
+    "emoji": "👣",
+    "recarga_seg": 35,
+    "alcance": 3,
+    "descripcion": "Saltas a la casilla simétrica respecto al enemigo (a su espalda) y ganas un 25 % de daño durante 2 golpes.",
+    "efectos": [
+      {
+        "accion": "teletransportacion_3",
+        "objetivo": "objetivo",
+        "valor": 10
+      },
+      {
+        "efecto": "potencia",
+        "valor": 25,
+        "turnos": 2
+      }
+    ]
+  },
+  {
+    "id": "inversion",
+    "nombre": "Inversión",
+    "emoji": "🔁",
+    "recarga_seg": 45,
+    "alcance": 3,
+    "descripcion": "Te cambias de sitio con el enemigo y le robas la mitad de su escudo de energía.",
+    "efectos": [
+      {
+        "accion": "intercambio",
+        "objetivo": "objetivo",
+        "valor": 0
+      },
+      {
+        "accion": "robar_escudo",
+        "objetivo": "objetivo",
+        "valor": 50,
+        "animacion": "robo_escudo"
+      }
+    ]
+  },
+  {
+    "id": "dispersion",
+    "nombre": "Dispersión",
+    "emoji": "💫",
+    "recarga_seg": 50,
+    "alcance": 4,
+    "descripcion": "Los enemigos en X alrededor del objetivo salen despedidos a casillas al azar (a 3 o menos) y reciben 80 de daño.",
+    "efectos": [
+      {
+        "accion": "translocar",
+        "objetivo": "enemigos",
+        "radio": 2,
+        "forma": "x",
+        "valor": 3,
+        "valor2": 80,
+        "animacion": "translocar"
+      }
+    ]
+  },
+  {
+    "id": "asalto_fantasma",
+    "nombre": "Asalto fantasma",
+    "emoji": "🗡️",
+    "recarga_seg": 30,
+    "alcance": 5,
+    "descripcion": "Apareces a la espalda del objetivo (o a su lado) y le asestas 150 de daño.",
+    "efectos": [
+      {
+        "accion": "asalto",
+        "objetivo": "objetivo",
+        "valor2": 150,
+        "animacion": "asalto"
+      }
+    ]
+  },
+  {
+    "id": "relevo_explosivo",
+    "nombre": "Relevo explosivo",
+    "emoji": "🔄",
+    "recarga_seg": 55,
+    "alcance": 4,
+    "descripcion": "Te cambias de sitio con el enemigo más lejano de tu alrededor (octógono) y las dos casillas estallan: 90 a los enemigos pegados a ellas.",
+    "efectos": [
+      {
+        "accion": "relevo",
+        "objetivo": "enemigos",
+        "radio": 3,
+        "forma": "octogonal",
+        "centro": "lanzador",
+        "valor2": 90,
+        "animacion": "relevo"
+      }
+    ]
+  },
+  {
+    "id": "vortice",
+    "nombre": "Vórtice",
+    "emoji": "🌀",
+    "recarga_seg": 50,
+    "alcance": 4,
+    "descripcion": "Un vórtice en cruz arrastra a los enemigos hacia el objetivo y les hace 60 de daño.",
+    "efectos": [
+      {
+        "accion": "vortice",
+        "objetivo": "enemigos",
+        "radio": 3,
+        "forma": "mas",
+        "valor2": 60,
+        "animacion": "vortice"
+      }
+    ]
+  },
+  {
+    "id": "eje_inversion",
+    "nombre": "Eje de inversión",
+    "emoji": "↕️",
+    "recarga_seg": 50,
+    "descripcion": "Das la vuelta al campo: los enemigos de tu alrededor pasan al otro lado de tu fila (los de arriba abajo y al revés) y reciben 70 de daño.",
+    "efectos": [
+      {
+        "accion": "eje",
+        "objetivo": "enemigos",
+        "radio": 3,
+        "centro": "lanzador",
+        "valor2": 70,
+        "animacion": "eje"
+      }
+    ]
+  },
+  {
+    "id": "espejo_cortante",
+    "nombre": "Espejo cortante",
+    "emoji": "🔪",
+    "recarga_seg": 45,
+    "descripcion": "Los enemigos del cono de delante pasan a tu espalda cortados por el espejo: 110 de daño.",
+    "efectos": [
+      {
+        "accion": "reflexion",
+        "objetivo": "enemigos",
+        "radio": 3,
+        "forma": "cono",
+        "centro": "lanzador",
+        "valor2": 110,
+        "animacion": "espejo"
+      }
+    ]
+  },
+  {
+    "id": "caos_explosivo",
+    "nombre": "Caos explosivo",
+    "emoji": "🎴",
+    "recarga_seg": 55,
+    "alcance": 4,
+    "descripcion": "Barajas el rombo alrededor del objetivo: los enemigos y tú os cambiáis de sitio al azar, y a ellos les cuesta 60 de energía.",
+    "efectos": [
+      {
+        "accion": "barajar",
+        "objetivo": "enemigos",
+        "radio": 2,
+        "forma": "rombo",
+        "valor2": 60,
+        "animacion": "barajar"
+      }
+    ]
+  },
+  {
+    "id": "salto_cometa",
+    "nombre": "Salto cometa",
+    "emoji": "☄️",
+    "recarga_seg": 45,
+    "alcance": 5,
+    "descripcion": "Caes junto al objetivo (60 de daño) y los enemigos de su alrededor salen despedidos a 2 casillas (40 de daño).",
+    "efectos": [
+      {
+        "accion": "asalto",
+        "objetivo": "objetivo",
+        "valor2": 60,
+        "animacion": "asalto"
+      },
+      {
+        "accion": "translocar",
+        "objetivo": "enemigos",
+        "radio": 1,
+        "valor": 2,
+        "valor2": 40,
+        "animacion": "translocar"
+      }
+    ]
+  },
+  {
+    "id": "remolino_sombras",
+    "nombre": "Remolino de sombras",
+    "emoji": "🌑",
+    "recarga_seg": 60,
+    "alcance": 4,
+    "descripcion": "Las ondas de sombra arrastran a los enemigos hacia el objetivo (50 de daño) y tú desapareces a 3 casillas.",
+    "efectos": [
+      {
+        "accion": "vortice",
+        "objetivo": "enemigos",
+        "radio": 3,
+        "forma": "ondas",
+        "valor2": 50,
+        "animacion": "vortice"
+      },
+      {
+        "accion": "parpadeo",
+        "valor": 3,
+        "animacion": "parpadeo"
+      }
+    ]
   }
 ]

@@ -183,7 +183,10 @@
     "indice": 0,
     "vol": 1,
     "dmg_bonus_pct": 1,
-    "def_bonus_pct": 1
+    "def_bonus_pct": 1,
+    "elementos": [
+      "agua"
+    ]
   },
   {
     "id": "orbe_toxico",
@@ -200,7 +203,10 @@
     "dmg_bonus_pct": 2,
     "def_bonus_pct": 2,
     "dmg_bonus_fijo": false,
-    "def_bonus_fijo": false
+    "def_bonus_fijo": false,
+    "elementos": [
+      "aire"
+    ]
   },
   {
     "id": "orbe_dorado",
@@ -217,7 +223,10 @@
     "dmg_bonus_pct": 3,
     "def_bonus_pct": 3,
     "dmg_bonus_fijo": false,
-    "def_bonus_fijo": false
+    "def_bonus_fijo": false,
+    "elementos": [
+      "luz"
+    ]
   },
   {
     "id": "daga_toxica",
@@ -923,7 +932,10 @@
     "indice": 3,
     "dmg_bonus_pct": 4,
     "def_bonus_pct": 4,
-    "energia_max_bonus": 400
+    "energia_max_bonus": 400,
+    "elementos": [
+      "tierra"
+    ]
   },
   {
     "id": "escudo_rocoso",
@@ -1210,7 +1222,12 @@
       }
     ],
     "dmg_min": 180,
-    "dmg_max": 200
+    "dmg_max": 200,
+    "elementos": [
+      "fuego",
+      "tierra",
+      "aire"
+    ]
   },
   {
     "id": "orbe_fuego",
@@ -1226,7 +1243,10 @@
     "indice": 4,
     "energia_max_bonus": 1000,
     "dmg_bonus_pct": 5,
-    "def_bonus_pct": 5
+    "def_bonus_pct": 5,
+    "elementos": [
+      "fuego"
+    ]
   },
   {
     "id": "fragmento_codigo",
@@ -1266,5 +1286,31 @@
     "emoji": "🧩",
     "vol": 1,
     "indice": 2
+  },
+  {
+    "id": "clave_cifrado_3",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "S",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "🧩",
+    "vol": 1,
+    "indice": 3
+  },
+  {
+    "id": "bloque_energia",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "🔋",
+    "vol": 1,
+    "indice": 0
   }
 ]
