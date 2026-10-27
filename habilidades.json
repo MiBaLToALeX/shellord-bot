@@ -1722,7 +1722,7 @@
     "emoji": "💫",
     "recarga_seg": 50,
     "alcance": 4,
-    "descripcion": "Los enemigos en X alrededor del objetivo salen despedidos a casillas al azar (a 3 o menos) y reciben 80 de daño.",
+    "descripcion": "Los enemigos en X alrededor del objetivo salen despedidos a casillas al azar (a 3 o menos) y reciben el 80 % de tu ataque.",
     "efectos": [
       {
         "accion": "translocar",
@@ -1741,7 +1741,7 @@
     "emoji": "🗡️",
     "recarga_seg": 30,
     "alcance": 5,
-    "descripcion": "Apareces a la espalda del objetivo (o a su lado) y le asestas 150 de daño.",
+    "descripcion": "Apareces a la espalda del objetivo (o a su lado) y le asestas el 150 % de tu ataque.",
     "efectos": [
       {
         "accion": "asalto",
@@ -1757,7 +1757,7 @@
     "emoji": "🔄",
     "recarga_seg": 55,
     "alcance": 4,
-    "descripcion": "Te cambias de sitio con el enemigo más lejano de tu alrededor (octógono) y las dos casillas estallan: 90 a los enemigos pegados a ellas.",
+    "descripcion": "Te cambias de sitio con el enemigo más lejano de tu alrededor (octógono) y las dos casillas estallan: el 90 % de tu ataque a los enemigos pegados a ellas.",
     "efectos": [
       {
         "accion": "relevo",
@@ -1776,7 +1776,7 @@
     "emoji": "🌀",
     "recarga_seg": 50,
     "alcance": 4,
-    "descripcion": "Un vórtice en cruz arrastra a los enemigos hacia el objetivo y les hace 60 de daño.",
+    "descripcion": "Un vórtice en cruz arrastra a los enemigos hacia el objetivo y les hace el 60 % de tu ataque.",
     "efectos": [
       {
         "accion": "vortice",
@@ -1793,7 +1793,7 @@
     "nombre": "Eje de inversión",
     "emoji": "↕️",
     "recarga_seg": 50,
-    "descripcion": "Das la vuelta al campo: los enemigos de tu alrededor pasan al otro lado de tu fila (los de arriba abajo y al revés) y reciben 70 de daño.",
+    "descripcion": "Das la vuelta al campo: los enemigos de tu alrededor pasan al otro lado de tu fila (los de arriba abajo y al revés) y reciben el 70 % de tu ataque.",
     "efectos": [
       {
         "accion": "eje",
@@ -1810,7 +1810,7 @@
     "nombre": "Espejo cortante",
     "emoji": "🔪",
     "recarga_seg": 45,
-    "descripcion": "Los enemigos del cono de delante pasan a tu espalda cortados por el espejo: 110 de daño.",
+    "descripcion": "Los enemigos del cono de delante pasan a tu espalda cortados por el espejo: el 110 % de tu ataque.",
     "efectos": [
       {
         "accion": "reflexion",
@@ -1829,7 +1829,7 @@
     "emoji": "🎴",
     "recarga_seg": 55,
     "alcance": 4,
-    "descripcion": "Barajas el rombo alrededor del objetivo: los enemigos y tú os cambiáis de sitio al azar, y a ellos les cuesta 60 de energía.",
+    "descripcion": "Barajas el rombo alrededor del objetivo: los enemigos y tú os cambiáis de sitio al azar, y a ellos les golpea con el 60 % de tu ataque.",
     "efectos": [
       {
         "accion": "barajar",
@@ -1847,7 +1847,7 @@
     "emoji": "☄️",
     "recarga_seg": 45,
     "alcance": 5,
-    "descripcion": "Caes junto al objetivo (60 de daño) y los enemigos de su alrededor salen despedidos a 2 casillas (40 de daño).",
+    "descripcion": "Caes junto al objetivo (60 % de tu ataque) y los enemigos de su alrededor salen despedidos a 2 casillas (40 %).",
     "efectos": [
       {
         "accion": "asalto",
@@ -1871,7 +1871,7 @@
     "emoji": "🌑",
     "recarga_seg": 60,
     "alcance": 4,
-    "descripcion": "Las ondas de sombra arrastran a los enemigos hacia el objetivo (50 de daño) y tú desapareces a 3 casillas.",
+    "descripcion": "Las ondas de sombra arrastran a los enemigos hacia el objetivo (50 % de tu ataque) y tú desapareces a 3 casillas.",
     "efectos": [
       {
         "accion": "vortice",
