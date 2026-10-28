@@ -839,5 +839,296 @@
       "def_pct": -1
     },
     "descripcion": "Encoge (su segundo valor es la escala en %: 60 = ×0,6) y pierde un VALOR% de ATK y DEF."
+  },
+  {
+    "id": "coloso",
+    "nombre": "Furia del coloso",
+    "emoji": "🗿",
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "atk_pct": 1
+    },
+    "aspecto": "gigante",
+    "descripcion": "+VALOR% de daño en sus golpes. El gigante enrojece de corrupción."
+  },
+  {
+    "id": "piel_titanica",
+    "nombre": "Piel titánica",
+    "emoji": "🪨",
+    "gasta": "recibir",
+    "turnos": 3,
+    "componentes": {
+      "dano_recibido_pct": 1
+    },
+    "descripcion": "VALOR% menos de daño recibido."
+  },
+  {
+    "id": "fase_alien",
+    "nombre": "Fase dimensional",
+    "emoji": "👽",
+    "gasta": "recibir",
+    "turnos": 2,
+    "componentes": {
+      "dano_recibido_pct": 1
+    },
+    "aspecto": "fase",
+    "descripcion": "Medio fuera de esta realidad: VALOR% menos de daño recibido."
+  },
+  {
+    "id": "plasma_corrosivo",
+    "nombre": "Plasma corrosivo",
+    "emoji": "🟢",
+    "perjuicio": true,
+    "gasta": "recibir",
+    "turnos": 3,
+    "componentes": {
+      "def_pct": -1
+    },
+    "descripcion": "El plasma alienígena le come la defensa: −VALOR% de DEF."
+  },
+  {
+    "id": "parasito_xeno",
+    "nombre": "Parásito xeno",
+    "emoji": "🦠",
+    "perjuicio": true,
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "atk_pct": -1
+    },
+    "descripcion": "Nanobots alienígenas le roban fuerza: −VALOR% de daño en sus golpes."
+  },
+  {
+    "id": "analizado",
+    "nombre": "Analizado",
+    "emoji": "🎯",
+    "perjuicio": true,
+    "gasta": "recibir",
+    "turnos": 3,
+    "componentes": {
+      "def_pct": -1
+    },
+    "descripcion": "Una IA conoce sus puntos débiles: −VALOR% de DEF."
+  },
+  {
+    "id": "prediccion",
+    "nombre": "Predicción",
+    "emoji": "🧠",
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "critico_pct": 1
+    },
+    "aspecto": "ia",
+    "descripcion": "Calcula cada golpe: +VALOR% de probabilidad de crítico."
+  },
+  {
+    "id": "sobrecarga_neuronal",
+    "nombre": "Sobrecarga neuronal",
+    "emoji": "⚡",
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "atk_fijo": 1
+    },
+    "descripcion": "+VALOR de daño fijo en sus golpes."
+  },
+  {
+    "id": "red_defensiva",
+    "nombre": "Red defensiva",
+    "emoji": "🕸️",
+    "gasta": "recibir",
+    "turnos": 3,
+    "componentes": {
+      "escudo_barrera": 1
+    },
+    "descripcion": "Un escudo de energía de VALOR que se gasta antes que su energía."
+  },
+  {
+    "id": "contramedida",
+    "nombre": "Contramedida adaptativa",
+    "emoji": "🛡️",
+    "gasta": "recibir",
+    "turnos": 3,
+    "componentes": {
+      "dano_recibido_pct": 1
+    },
+    "aspecto": "ia",
+    "descripcion": "Aprende de cada golpe: VALOR% menos de daño recibido."
+  },
+  {
+    "id": "sin_elemento",
+    "nombre": "Elemento absorbido",
+    "emoji": "🕳️",
+    "nativo": true,
+    "perjuicio": true,
+    "segundos": 20,
+    "descripcion": "Las sombras le han absorbido el elemento: ataca y se defiende como neutral (sin ventaja ni desventaja)."
+  },
+  {
+    "id": "etereo",
+    "nombre": "Etéreo",
+    "emoji": "👻",
+    "nativo": true,
+    "segundos": 20,
+    "aspecto": "sombra",
+    "descripcion": "Se vuelve sombra: atraviesa muros y obstáculos al moverse."
+  },
+  {
+    "id": "manto_sombrio",
+    "nombre": "Manto sombrío",
+    "emoji": "🌘",
+    "gasta": "recibir",
+    "turnos": 3,
+    "componentes": {
+      "dano_recibido_pct": 1
+    },
+    "aspecto": "sombra",
+    "descripcion": "Envuelto en sombras: VALOR% menos de daño recibido."
+  },
+  {
+    "id": "acecho_sombrio",
+    "nombre": "Acecho sombrío",
+    "emoji": "👣",
+    "gasta": "atacar",
+    "turnos": 2,
+    "componentes": {
+      "critico_pct": 1
+    },
+    "aspecto": "sombra",
+    "descripcion": "Ataca desde las sombras: +VALOR% de probabilidad de crítico."
+  },
+  {
+    "id": "terror_oscuro",
+    "nombre": "Terror oscuro",
+    "emoji": "😱",
+    "perjuicio": true,
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "atk_pct": -1
+    },
+    "descripcion": "La oscuridad le encoge: −VALOR% de daño en sus golpes."
+  },
+  {
+    "id": "quebranto_sombrio",
+    "nombre": "Quebranto sombrío",
+    "emoji": "🖤",
+    "perjuicio": true,
+    "gasta": "recibir",
+    "turnos": 3,
+    "componentes": {
+      "def_pct": -1
+    },
+    "descripcion": "La sombra le quiebra la guardia: −VALOR% de DEF."
+  },
+  {
+    "id": "vision_nublada",
+    "nombre": "Visión nublada",
+    "emoji": "🌫️",
+    "perjuicio": true,
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "alcance": -1
+    },
+    "descripcion": "Apenas ve: −VALOR casillas de alcance."
+  },
+  {
+    "id": "nucleo_inestable",
+    "nombre": "Núcleo inestable",
+    "emoji": "☢️",
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "atk_pct": 1
+    },
+    "aspecto": "radiactivo",
+    "descripcion": "Su núcleo se sobrecalienta: +VALOR% de daño en sus golpes."
+  },
+  {
+    "id": "contaminado",
+    "nombre": "Contaminado",
+    "emoji": "☣️",
+    "perjuicio": true,
+    "gasta": "recibir",
+    "turnos": 3,
+    "componentes": {
+      "dano_recibido_pct": -1
+    },
+    "descripcion": "La radiación le debilita: recibe un VALOR% más de daño."
+  },
+  {
+    "id": "sobredosis_radiactiva",
+    "nombre": "Sobredosis radiactiva",
+    "emoji": "🧪",
+    "perjuicio": true,
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "energia_max": -1
+    },
+    "descripcion": "−VALOR de energía máxima mientras dura."
+  },
+  {
+    "id": "piel_de_mercurio",
+    "nombre": "Piel de mercurio",
+    "emoji": "🪞",
+    "gasta": "recibir",
+    "turnos": 3,
+    "componentes": {
+      "def_fija": 1
+    },
+    "aspecto": "metal_liquido",
+    "descripcion": "Metal líquido que se cierra sobre las heridas: +VALOR de DEF fija."
+  },
+  {
+    "id": "blindaje_liquido",
+    "nombre": "Blindaje líquido",
+    "emoji": "🛢️",
+    "gasta": "recibir",
+    "turnos": 3,
+    "componentes": {
+      "escudo_barrera": 1
+    },
+    "aspecto": "metal_liquido",
+    "descripcion": "Un escudo de metal líquido de VALOR que se gasta antes que su energía."
+  },
+  {
+    "id": "corrosion_liquida",
+    "nombre": "Corrosión líquida",
+    "emoji": "🧫",
+    "perjuicio": true,
+    "gasta": "recibir",
+    "turnos": 3,
+    "componentes": {
+      "def_pct": -1
+    },
+    "descripcion": "El metal líquido corroe su armadura: −VALOR% de DEF."
+  },
+  {
+    "id": "herrumbre",
+    "nombre": "Herrumbre",
+    "emoji": "🟤",
+    "perjuicio": true,
+    "gasta": "atacar",
+    "turnos": 3,
+    "componentes": {
+      "atk_fijo": -1
+    },
+    "descripcion": "Su arma se oxida: −VALOR de daño fijo en sus golpes."
+  },
+  {
+    "id": "erosion_metalica",
+    "nombre": "Erosión metálica",
+    "emoji": "⏳",
+    "perjuicio": true,
+    "gasta": "recibir",
+    "turnos": 3,
+    "componentes": {
+      "energia_max": -1
+    },
+    "descripcion": "El metal le va erosionando: −VALOR de energía máxima mientras dura."
   }
 ]

@@ -1887,5 +1887,825 @@
         "animacion": "parpadeo"
       }
     ]
+  },
+  {
+    "id": "pisoton_titanico",
+    "nombre": "Pisotón titánico",
+    "emoji": "🦶",
+    "recarga_seg": 45,
+    "descripcion": "(De enemigos) Pisa con todo su peso: el suelo alrededor del objetivo se rompe durante 20 s; quien esté encima recibe el 120 % de su ataque y sale despedido.",
+    "efectos": [
+      {
+        "accion": "destrozar",
+        "radio": 1,
+        "valor": 120,
+        "valor2": 20,
+        "animacion": "pisoton"
+      }
+    ]
+  },
+  {
+    "id": "derrumbe",
+    "nombre": "Derrumbe",
+    "emoji": "🪨",
+    "recarga_seg": 50,
+    "descripcion": "(De enemigos) Golpea el suelo y se hunde en cruz alrededor del objetivo durante 25 s; quien esté encima recibe el 80 % de su ataque y sale despedido.",
+    "efectos": [
+      {
+        "accion": "destrozar",
+        "forma": "mas",
+        "radio": 3,
+        "valor": 80,
+        "valor2": 25,
+        "animacion": "derrumbe"
+      }
+    ]
+  },
+  {
+    "id": "grieta_abisal",
+    "nombre": "Grieta abisal",
+    "emoji": "🌋",
+    "recarga_seg": 50,
+    "descripcion": "(De enemigos) Abre una grieta en línea hacia el objetivo que dura 20 s: el 100 % de su ataque a quien esté encima.",
+    "efectos": [
+      {
+        "accion": "destrozar",
+        "forma": "linea",
+        "radio": 5,
+        "valor": 100,
+        "valor2": 20,
+        "animacion": "derrumbe"
+      }
+    ]
+  },
+  {
+    "id": "jaula_de_piedra",
+    "nombre": "Jaula de piedra",
+    "emoji": "🧱",
+    "recarga_seg": 40,
+    "descripcion": "(De enemigos) Levanta muros en anillo alrededor del objetivo durante 12 s: queda encerrado.",
+    "efectos": [
+      {
+        "accion": "levantar_muros",
+        "forma": "anular",
+        "radio": 1,
+        "valor2": 12,
+        "animacion": "muro_alza"
+      }
+    ]
+  },
+  {
+    "id": "embestida_colosal",
+    "nombre": "Embestida colosal",
+    "emoji": "💥",
+    "recarga_seg": 45,
+    "descripcion": "(De enemigos) Derriba los muros alrededor del objetivo durante 20 s (se acabó cubrirse) y le golpea con el 150 % de su ataque.",
+    "efectos": [
+      {
+        "accion": "bajar_muros",
+        "radio": 2,
+        "valor2": 20,
+        "animacion": "muro_cae"
+      },
+      {
+        "accion": "golpe",
+        "objetivo": "objetivo",
+        "valor": 150,
+        "valor2": 150
+      }
+    ]
+  },
+  {
+    "id": "furia_del_coloso",
+    "nombre": "Furia del coloso",
+    "emoji": "🗿",
+    "recarga_seg": 60,
+    "descripcion": "El gigante enrojece de corrupción: +50 % de daño y 30 % menos de daño recibido durante 3 turnos.",
+    "efectos": [
+      {
+        "efecto": "coloso",
+        "valor": 50,
+        "turnos": 3,
+        "animacion": "gigante"
+      },
+      {
+        "efecto": "piel_titanica",
+        "valor": 30,
+        "turnos": 3
+      }
+    ]
+  },
+  {
+    "id": "rayo_de_plasma",
+    "nombre": "Rayo de plasma",
+    "emoji": "🟢",
+    "recarga_seg": 35,
+    "descripcion": "Una bola de plasma alienígena: el 130 % del ataque y −30 % de DEF durante 3 turnos.",
+    "efectos": [
+      {
+        "accion": "golpe",
+        "objetivo": "objetivo",
+        "valor": 130,
+        "valor2": 130,
+        "animacion": "plasma"
+      },
+      {
+        "efecto": "plasma_corrosivo",
+        "objetivo": "objetivo",
+        "valor": 30,
+        "turnos": 3
+      }
+    ]
+  },
+  {
+    "id": "nanoenjambre",
+    "nombre": "Nanoenjambre",
+    "emoji": "🦠",
+    "recarga_seg": 45,
+    "descripcion": "Suelta un enjambre de nanobots: los rivales alrededor del objetivo pierden un 25 % de daño durante 3 turnos.",
+    "efectos": [
+      {
+        "efecto": "parasito_xeno",
+        "objetivo": "enemigos",
+        "radio": 2,
+        "valor": 25,
+        "turnos": 3,
+        "animacion": "nanoenjambre"
+      }
+    ]
+  },
+  {
+    "id": "fase_dimensional",
+    "nombre": "Fase dimensional",
+    "emoji": "👽",
+    "recarga_seg": 50,
+    "descripcion": "Se sale a medias de esta realidad: 60 % menos de daño recibido durante 2 golpes.",
+    "efectos": [
+      {
+        "efecto": "fase_alien",
+        "valor": 60,
+        "turnos": 2,
+        "animacion": "xeno"
+      }
+    ]
+  },
+  {
+    "id": "abduccion_xeno",
+    "nombre": "Abducción xeno",
+    "emoji": "🛸",
+    "recarga_seg": 40,
+    "descripcion": "Un haz tractor atrae al objetivo 3 casillas y le golpea con el 80 % del ataque.",
+    "efectos": [
+      {
+        "accion": "atraer",
+        "objetivo": "objetivo",
+        "valor": 3,
+        "animacion": "abduccion"
+      },
+      {
+        "accion": "golpe",
+        "objetivo": "objetivo",
+        "valor": 80,
+        "valor2": 80
+      }
+    ]
+  },
+  {
+    "id": "terraformacion_xeno",
+    "nombre": "Terraformación xeno",
+    "emoji": "🪐",
+    "recarga_seg": 55,
+    "descripcion": "(De enemigos) Reescribe el suelo en X alrededor del objetivo: se rompe durante 25 s y quien esté encima recibe el 60 % del ataque.",
+    "efectos": [
+      {
+        "accion": "destrozar",
+        "forma": "x",
+        "radio": 2,
+        "valor": 60,
+        "valor2": 25,
+        "animacion": "xeno"
+      }
+    ]
+  },
+  {
+    "id": "escaneo_tactico",
+    "nombre": "Escaneo táctico",
+    "emoji": "🎯",
+    "recarga_seg": 35,
+    "descripcion": "Analiza al objetivo: −30 % de DEF durante 3 turnos.",
+    "efectos": [
+      {
+        "efecto": "analizado",
+        "objetivo": "objetivo",
+        "valor": 30,
+        "turnos": 3,
+        "animacion": "escaneo"
+      }
+    ]
+  },
+  {
+    "id": "prediccion",
+    "nombre": "Predicción",
+    "emoji": "🧠",
+    "recarga_seg": 50,
+    "descripcion": "Calcula cada golpe: +40 % de probabilidad de crítico durante 3 turnos.",
+    "efectos": [
+      {
+        "efecto": "prediccion",
+        "valor": 40,
+        "turnos": 3,
+        "animacion": "escaneo"
+      }
+    ]
+  },
+  {
+    "id": "red_neuronal",
+    "nombre": "Red neuronal",
+    "emoji": "🕸️",
+    "recarga_seg": 60,
+    "descripcion": "Conecta a sus aliados cercanos: un escudo de 300 y +40 de daño fijo durante 3 turnos.",
+    "efectos": [
+      {
+        "efecto": "red_defensiva",
+        "objetivo": "aliados",
+        "radio": 3,
+        "valor": 300,
+        "turnos": 3,
+        "animacion": "red_neuronal"
+      },
+      {
+        "efecto": "sobrecarga_neuronal",
+        "objetivo": "aliados",
+        "radio": 3,
+        "valor": 40,
+        "turnos": 3
+      }
+    ]
+  },
+  {
+    "id": "cortafuegos",
+    "nombre": "Cortafuegos",
+    "emoji": "🔥",
+    "recarga_seg": 40,
+    "descripcion": "(De enemigos) Levanta un muro atravesado sobre el objetivo durante 15 s: corta el paso.",
+    "efectos": [
+      {
+        "accion": "levantar_muros",
+        "forma": "muro",
+        "radio": 2,
+        "valor2": 15,
+        "animacion": "muro_alza"
+      }
+    ]
+  },
+  {
+    "id": "reescritura_entorno",
+    "nombre": "Reescritura del entorno",
+    "emoji": "💾",
+    "recarga_seg": 60,
+    "descripcion": "(De enemigos) Derriba los muros cercanos al objetivo y lo encierra en un anillo de muros nuevos durante 15 s.",
+    "efectos": [
+      {
+        "accion": "bajar_muros",
+        "radio": 3,
+        "valor2": 15,
+        "animacion": "glitch"
+      },
+      {
+        "accion": "levantar_muros",
+        "forma": "anular",
+        "radio": 2,
+        "valor2": 15,
+        "animacion": "muro_alza"
+      }
+    ]
+  },
+  {
+    "id": "contramedida_adaptativa",
+    "nombre": "Contramedida adaptativa",
+    "emoji": "🛡️",
+    "recarga_seg": 50,
+    "descripcion": "Aprende de cada golpe: 40 % menos de daño recibido durante 3 golpes.",
+    "efectos": [
+      {
+        "efecto": "contramedida",
+        "valor": 40,
+        "turnos": 3,
+        "animacion": "holograma"
+      }
+    ]
+  },
+  {
+    "id": "apagon_total",
+    "nombre": "Apagón total",
+    "emoji": "🌑",
+    "recarga_seg": 60,
+    "descripcion": "(De enemigos) Apaga la luz de la sala durante 15 s (solo se ve cerca) y los rivales a 3 casillas pierden un 20 % de daño.",
+    "efectos": [
+      {
+        "accion": "apagon",
+        "radio": 3,
+        "valor2": 15,
+        "animacion": "eclipse"
+      },
+      {
+        "efecto": "terror_oscuro",
+        "objetivo": "enemigos",
+        "radio": 3,
+        "valor": 20,
+        "turnos": 3
+      }
+    ]
+  },
+  {
+    "id": "zarpas_de_sombra",
+    "nombre": "Zarpas de sombra",
+    "emoji": "🖤",
+    "recarga_seg": 30,
+    "descripcion": "(De enemigos) Un zarpazo del 120 % de su ataque que deja el área del golpeado cubierta de sombras 10 s (no se ve lo que hay dentro).",
+    "efectos": [
+      {
+        "accion": "golpe",
+        "objetivo": "objetivo",
+        "valor": 120,
+        "valor2": 120,
+        "animacion": "sombras"
+      },
+      {
+        "accion": "oscurecer",
+        "radio": 1,
+        "valor2": 10
+      }
+    ]
+  },
+  {
+    "id": "manto_de_sombras",
+    "nombre": "Manto de sombras",
+    "emoji": "🌘",
+    "recarga_seg": 50,
+    "descripcion": "Se envuelve en sombras: 40 % menos de daño recibido durante 3 golpes.",
+    "efectos": [
+      {
+        "efecto": "manto_sombrio",
+        "valor": 40,
+        "turnos": 3,
+        "animacion": "eclipse"
+      }
+    ]
+  },
+  {
+    "id": "paso_sombrio",
+    "nombre": "Paso sombrío",
+    "emoji": "👣",
+    "recarga_seg": 45,
+    "descripcion": "Se vuelve sombra (atraviesa muros 20 s), salta a otra casilla cercana y prepara un golpe crítico (+50 %).",
+    "efectos": [
+      {
+        "efecto": "etereo",
+        "valor": 1,
+        "tiempo": 20,
+        "animacion": "sombras"
+      },
+      {
+        "accion": "parpadeo",
+        "valor": 4,
+        "animacion": "parpadeo"
+      },
+      {
+        "efecto": "acecho_sombrio",
+        "valor": 50,
+        "turnos": 2
+      }
+    ]
+  },
+  {
+    "id": "abrazo_del_vacio",
+    "nombre": "Abrazo del vacío",
+    "emoji": "🕳️",
+    "recarga_seg": 45,
+    "descripcion": "(De enemigos) Atrae al objetivo 3 casillas y le absorbe entre 150 y 300 de energía (se cura con ella).",
+    "efectos": [
+      {
+        "accion": "atraer",
+        "objetivo": "objetivo",
+        "valor": 3,
+        "animacion": "sombras"
+      },
+      {
+        "accion": "absorcion",
+        "objetivo": "objetivo",
+        "valor": 150,
+        "valor2": 300,
+        "turnos": 3
+      }
+    ]
+  },
+  {
+    "id": "devorar_luz",
+    "nombre": "Devorar la luz",
+    "emoji": "🔦",
+    "recarga_seg": 50,
+    "descripcion": "(De enemigos) Absorbe entre 200 y 400 de energía y deja el área a oscuras 12 s.",
+    "efectos": [
+      {
+        "accion": "absorcion",
+        "objetivo": "objetivo",
+        "valor": 200,
+        "valor2": 400,
+        "turnos": 4,
+        "animacion": "eclipse"
+      },
+      {
+        "accion": "oscurecer",
+        "radio": 2,
+        "valor2": 12
+      }
+    ]
+  },
+  {
+    "id": "marca_del_vacio",
+    "nombre": "Marca del vacío",
+    "emoji": "☠️",
+    "recarga_seg": 40,
+    "descripcion": "(De enemigos) Marca la casilla del objetivo con una sombra durante 15 s: consume 40 de energía cada 2 s y quita un 30 % de daño a quien esté en ella.",
+    "efectos": [
+      {
+        "accion": "marca_sombria",
+        "marca": "terror_oscuro",
+        "valor": 30,
+        "valor2": 40,
+        "tiempo": 15,
+        "animacion": "sombras"
+      }
+    ]
+  },
+  {
+    "id": "marca_quebranto",
+    "nombre": "Marca del quebranto",
+    "emoji": "🖤",
+    "recarga_seg": 40,
+    "descripcion": "(De enemigos) Marca la casilla del objetivo y las de alrededor durante 15 s: consume 20 de energía cada 2 s y quita un 30 % de DEF.",
+    "efectos": [
+      {
+        "accion": "marca_sombria",
+        "marca": "quebranto_sombrio",
+        "radio": 1,
+        "valor": 30,
+        "valor2": 20,
+        "tiempo": 15,
+        "animacion": "sombras"
+      }
+    ]
+  },
+  {
+    "id": "robo_elemental",
+    "nombre": "Robo elemental",
+    "emoji": "🌀",
+    "recarga_seg": 50,
+    "descripcion": "Absorbe el elemento del objetivo: durante 20 s ataca y se defiende como neutral. Además le roba entre 100 y 200 de energía.",
+    "efectos": [
+      {
+        "efecto": "sin_elemento",
+        "objetivo": "objetivo",
+        "valor": 1,
+        "tiempo": 20,
+        "animacion": "sombras"
+      },
+      {
+        "accion": "absorcion",
+        "objetivo": "objetivo",
+        "valor": 100,
+        "valor2": 200,
+        "turnos": 3
+      }
+    ]
+  },
+  {
+    "id": "saqueo_sombrio",
+    "nombre": "Saqueo sombrío",
+    "emoji": "🫳",
+    "recarga_seg": 50,
+    "descripcion": "(De enemigos) Las sombras le roban al objetivo hasta 2 de sus mejoras (escudos, potencia, crítico...) y se las queda.",
+    "efectos": [
+      {
+        "accion": "robar_mejoras",
+        "objetivo": "objetivo",
+        "valor": 2,
+        "animacion": "robo_escudo"
+      }
+    ]
+  },
+  {
+    "id": "nube_radiactiva",
+    "nombre": "Nube radiactiva",
+    "emoji": "☣️",
+    "recarga_seg": 45,
+    "descripcion": "Una nube radiactiva: los rivales alrededor del objetivo reciben un 25 % más de daño durante 3 turnos.",
+    "efectos": [
+      {
+        "efecto": "contaminado",
+        "objetivo": "enemigos",
+        "radio": 2,
+        "valor": 25,
+        "turnos": 3,
+        "animacion": "nube_radiactiva"
+      }
+    ]
+  },
+  {
+    "id": "pulso_nuclear",
+    "nombre": "Pulso nuclear",
+    "emoji": "💥",
+    "recarga_seg": 55,
+    "descripcion": "Un pulso del 90 % de su ataque a los rivales de alrededor, que pierden 300 de energía máxima durante 3 turnos.",
+    "efectos": [
+      {
+        "accion": "golpe",
+        "objetivo": "enemigos",
+        "radio": 2,
+        "valor": 90,
+        "valor2": 90,
+        "animacion": "pulso_nuclear"
+      },
+      {
+        "efecto": "sobredosis_radiactiva",
+        "objetivo": "enemigos",
+        "radio": 2,
+        "valor": 300,
+        "turnos": 3
+      }
+    ]
+  },
+  {
+    "id": "nucleo_inestable",
+    "nombre": "Núcleo inestable",
+    "emoji": "☢️",
+    "recarga_seg": 50,
+    "descripcion": "Su núcleo se sobrecalienta: +60 % de daño durante 3 turnos (y brilla en verde).",
+    "efectos": [
+      {
+        "efecto": "nucleo_inestable",
+        "valor": 60,
+        "turnos": 3,
+        "animacion": "geiger"
+      }
+    ]
+  },
+  {
+    "id": "lluvia_radiactiva",
+    "nombre": "Lluvia radiactiva",
+    "emoji": "🌧️",
+    "recarga_seg": 50,
+    "descripcion": "(De enemigos) Un glifo radiactivo a su alrededor (2 casillas, 30 s): quien esté dentro recibe un 30 % más de daño.",
+    "efectos": [
+      {
+        "accion": "glifo",
+        "marca": "contaminado",
+        "valor": 30,
+        "valor2": 2,
+        "turnos": 1,
+        "animacion": "nube_radiactiva"
+      }
+    ]
+  },
+  {
+    "id": "fusion_del_nucleo",
+    "nombre": "Fusión del núcleo",
+    "emoji": "🔥",
+    "recarga_seg": 60,
+    "descripcion": "(De enemigos) El núcleo funde el suelo en rombo alrededor del objetivo durante 20 s: el 100 % de su ataque a quien esté encima.",
+    "efectos": [
+      {
+        "accion": "destrozar",
+        "forma": "rombo",
+        "radio": 2,
+        "valor": 100,
+        "valor2": 20,
+        "animacion": "pulso_nuclear"
+      }
+    ]
+  },
+  {
+    "id": "bano_de_mercurio",
+    "nombre": "Baño de mercurio",
+    "emoji": "🪞",
+    "recarga_seg": 35,
+    "descripcion": "Le lanza metal líquido: el 110 % del ataque y −35 % de DEF durante 3 turnos.",
+    "efectos": [
+      {
+        "accion": "golpe",
+        "objetivo": "objetivo",
+        "valor": 110,
+        "valor2": 110,
+        "animacion": "mercurio"
+      },
+      {
+        "efecto": "corrosion_liquida",
+        "objetivo": "objetivo",
+        "valor": 35,
+        "turnos": 3
+      }
+    ]
+  },
+  {
+    "id": "charco_de_mercurio",
+    "nombre": "Charco de mercurio",
+    "emoji": "🛢️",
+    "recarga_seg": 45,
+    "descripcion": "(De enemigos) Un charco de metal líquido a su alrededor (2 casillas, 30 s): quien esté dentro pierde un 30 % de DEF.",
+    "efectos": [
+      {
+        "accion": "glifo",
+        "marca": "corrosion_liquida",
+        "valor": 30,
+        "valor2": 2,
+        "turnos": 1,
+        "animacion": "mercurio"
+      }
+    ]
+  },
+  {
+    "id": "lluvia_acida",
+    "nombre": "Lluvia ácida",
+    "emoji": "🧪",
+    "recarga_seg": 55,
+    "descripcion": "(De enemigos) El ácido corroe el suelo en X alrededor del objetivo durante 20 s (el 70 % de su ataque a quien esté encima) y oxida las armas de los rivales (−30 de daño fijo).",
+    "efectos": [
+      {
+        "accion": "destrozar",
+        "forma": "x",
+        "radio": 2,
+        "valor": 70,
+        "valor2": 20,
+        "animacion": "acido"
+      },
+      {
+        "efecto": "herrumbre",
+        "objetivo": "enemigos",
+        "radio": 2,
+        "valor": 30,
+        "turnos": 3
+      }
+    ]
+  },
+  {
+    "id": "piel_de_mercurio",
+    "nombre": "Piel de mercurio",
+    "emoji": "🪞",
+    "recarga_seg": 60,
+    "descripcion": "Se cubre de metal líquido: +80 de DEF y un escudo de 400 durante 3 golpes.",
+    "efectos": [
+      {
+        "efecto": "piel_de_mercurio",
+        "valor": 80,
+        "turnos": 3,
+        "animacion": "mercurio"
+      },
+      {
+        "efecto": "blindaje_liquido",
+        "valor": 400,
+        "turnos": 3
+      }
+    ]
+  },
+  {
+    "id": "erosion_metalica",
+    "nombre": "Erosión metálica",
+    "emoji": "⏳",
+    "recarga_seg": 50,
+    "descripcion": "Erosiona a los rivales pegados al objetivo: −300 de energía máxima durante 3 turnos.",
+    "efectos": [
+      {
+        "efecto": "erosion_metalica",
+        "objetivo": "enemigos",
+        "radio": 1,
+        "valor": 300,
+        "turnos": 3,
+        "animacion": "erosion"
+      }
+    ]
+  },
+  {
+    "id": "metal_reconstituido",
+    "nombre": "Metal reconstituido",
+    "emoji": "🔩",
+    "recarga_seg": 60,
+    "descripcion": "Su metal líquido se recompone: se cura 800 de energía.",
+    "efectos": [
+      {
+        "accion": "curar",
+        "valor": 800,
+        "animacion": "mercurio"
+      }
+    ]
+  },
+  {
+    "id": "agujero_negro_letal",
+    "nombre": "Agujero negro letal",
+    "emoji": "🕳️",
+    "recarga_seg": 90,
+    "descripcion": "(Letal, de enemigos) Abre un agujero negro en una casilla libre cerca del objetivo: durante 10 s, cada segundo atrae una casilla a los jugadores que estén a 4 casillas o menos, y quien cae en él muere. Pesado o Inamovible resisten.",
+    "efectos": [
+      {
+        "accion": "agujero_negro",
+        "valor2": 4,
+        "tiempo": 10
+      }
+    ]
+  },
+  {
+    "id": "fijacion_letal",
+    "nombre": "Fijación letal",
+    "emoji": "🎯",
+    "recarga_seg": 90,
+    "descripcion": "(Letal, de enemigos, IA) Fija una mira en la casilla de cada jugador: a los 3 s dispara y muere quien siga en ella.",
+    "efectos": [
+      {
+        "accion": "fijacion_letal",
+        "tiempo": 3
+      }
+    ]
+  },
+  {
+    "id": "lluvia_mercurio",
+    "nombre": "Lluvia de mercurio",
+    "emoji": "🪞",
+    "recarga_seg": 90,
+    "descripcion": "(Letal, de enemigos, metal líquido) Tres oleadas de gotas de mercurio sobre los jugadores y casillas al azar: cada 2,5 s caen, y aplastan a quien siga bajo su sombra.",
+    "efectos": [
+      {
+        "accion": "lluvia_mercurio",
+        "valor": 6,
+        "turnos": 3
+      }
+    ]
+  },
+  {
+    "id": "pisoton_titan",
+    "nombre": "Pisotón del titán",
+    "emoji": "🦶",
+    "recarga_seg": 90,
+    "descripcion": "(Letal, de enemigos, gigantes) Levanta el pie sobre cada jugador (3×3 casillas): a los 2,5 s pisa y aplasta a quien no haya salido de su sombra. Dos veces.",
+    "efectos": [
+      {
+        "accion": "pisoton_titan",
+        "turnos": 2
+      }
+    ]
+  },
+  {
+    "id": "sombra_devoradora",
+    "nombre": "Sombra devoradora",
+    "emoji": "🌑",
+    "recarga_seg": 90,
+    "descripcion": "(Letal, de enemigos, sombras) Charcos de sombra bajo los jugadores y al azar: a los 3 s se cierran y devoran a quien esté en ellos. Tres oleadas.",
+    "efectos": [
+      {
+        "accion": "sombra_devoradora",
+        "valor": 5,
+        "turnos": 3
+      }
+    ]
+  },
+  {
+    "id": "bombardeo_orbital",
+    "nombre": "Bombardeo orbital",
+    "emoji": "🛸",
+    "recarga_seg": 90,
+    "descripcion": "(Letal, de enemigos, alienígenas) Cuatro oleadas rápidas de haces desde la órbita sobre los jugadores y casillas al azar (cada 1,8 s): esquívalos.",
+    "efectos": [
+      {
+        "accion": "bombardeo_orbital",
+        "valor": 10,
+        "turnos": 4
+      }
+    ]
+  },
+  {
+    "id": "abduccion_letal",
+    "nombre": "Abducción letal",
+    "emoji": "👽",
+    "recarga_seg": 90,
+    "descripcion": "(Letal, de enemigos, alienígenas) A los 5 s abduce a quien esté solo (sin otro jugador a 2 casillas): hay que juntarse.",
+    "efectos": [
+      {
+        "accion": "abduccion_letal",
+        "tiempo": 5
+      }
+    ]
+  },
+  {
+    "id": "fusion_nuclear",
+    "nombre": "Fusión nuclear",
+    "emoji": "☢️",
+    "recarga_seg": 120,
+    "descripcion": "(Letal, de enemigos, radiactivos) Su núcleo estalla a los 5 s: muere quien esté a 5 casillas o menos y le vea; ponerse detrás de un muro salva.",
+    "efectos": [
+      {
+        "accion": "fusion_nuclear",
+        "valor2": 5,
+        "tiempo": 5
+      }
+    ]
   }
 ]
