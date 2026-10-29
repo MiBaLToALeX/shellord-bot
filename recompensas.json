@@ -859,5 +859,14 @@
     "emoji": "🗝",
     "indice": 23,
     "vol": 3
+  },
+  {
+    "tipo": 104,
+    "recompensa": "skill",
+    "skill_id": "montar",
+    "emoji": "🔎",
+    "indice": 0,
+    "vol": 2,
+    "mensaje": "¡Has aprendido la habilidad Montar!"
   }
 ]

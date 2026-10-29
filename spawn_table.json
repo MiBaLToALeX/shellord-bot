@@ -921,5 +921,48 @@
         }
       }
     ]
+  },
+  {
+    "mazmorra": "guarida_calojos",
+    "max_enemigos": 3,
+    "entradas": [
+      {
+        "desde": 1,
+        "hasta": 10000,
+        "label": "siempre: Calojos",
+        "rangos": {
+          "E": {
+            "is_boss": false,
+            "vol": 103,
+            "enemy_index": 0
+          },
+          "D": {
+            "is_boss": false,
+            "vol": 103,
+            "enemy_index": 0
+          },
+          "C": {
+            "is_boss": false,
+            "vol": 103,
+            "enemy_index": 0
+          },
+          "B": {
+            "is_boss": false,
+            "vol": 103,
+            "enemy_index": 0
+          },
+          "A": {
+            "is_boss": false,
+            "vol": 103,
+            "enemy_index": 0
+          },
+          "S": {
+            "is_boss": false,
+            "vol": 103,
+            "enemy_index": 0
+          }
+        }
+      }
+    ]
   }
 ]
