@@ -868,5 +868,93 @@
     "indice": 0,
     "vol": 2,
     "mensaje": "¡Has aprendido la habilidad Montar!"
+  },
+  {
+    "tipo": 105,
+    "recompensa": "item",
+    "item_id": "pagina_cronica_1",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 106,
+    "recompensa": "item",
+    "item_id": "pagina_cronica_2",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 107,
+    "recompensa": "item",
+    "item_id": "pagina_cronica_3",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 108,
+    "recompensa": "item",
+    "item_id": "pagina_cronica_4",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 109,
+    "recompensa": "item",
+    "item_id": "pagina_cronica_5",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 110,
+    "recompensa": "item",
+    "item_id": "pagina_cronica_6",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 111,
+    "recompensa": "item",
+    "item_id": "pagina_cronica_7",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 112,
+    "recompensa": "item",
+    "item_id": "pagina_cronica_8",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 113,
+    "recompensa": "item",
+    "item_id": "pagina_cronica_9",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 114,
+    "recompensa": "item",
+    "item_id": "pagina_cronica_10",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 115,
+    "recompensa": "item",
+    "item_id": "pagina_cronica_11",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
   }
 ]

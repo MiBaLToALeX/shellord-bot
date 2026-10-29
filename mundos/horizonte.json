@@ -385,6 +385,11 @@
       "npc": "domador",
       "x": 59,
       "y": 98
+    },
+    {
+      "npc": "vela",
+      "x": 52,
+      "y": 96
     }
   ],
   "portales": [

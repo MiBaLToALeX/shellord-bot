@@ -657,5 +657,134 @@
     "recompensa_tipo": 3,
     "montura": "lobo",
     "captura": "Calojo joven"
+  },
+  {
+    "id": "cronica_1",
+    "nombre": "Crónica I: La primera orden",
+    "tipo": "hablar_npc",
+    "descripcion": "Habla con Nara, la Guía, junto a la entrada del Servidor Central: ella oyó tu primera orden.",
+    "requisitos": {
+      "npc": "ayudante"
+    },
+    "recompensa_tipo": 105,
+    "entrega": "ayudante"
+  },
+  {
+    "id": "cronica_2",
+    "nombre": "Crónica II: Las puertas lógicas",
+    "tipo": "descubrir_mapa",
+    "descripcion": "Explora entero el Portal de principiante, la primera mazmorra que sellaron los ShellOrd, y vuelve con el Archivista.",
+    "requisitos": {
+      "id_mazmorra": "default"
+    },
+    "recompensa_tipo": 106,
+    "entrega": "archivista"
+  },
+  {
+    "id": "cronica_3",
+    "nombre": "Crónica III: Las grietas del Bosque",
+    "tipo": "visitar_zona",
+    "descripcion": "Llega al Bosque del Servidor Central (zona D): allí quedan grietas de la Primera Brecha. Vuelve con el Archivista.",
+    "requisitos": {
+      "mundo": "central",
+      "zona": "D"
+    },
+    "recompensa_tipo": 107,
+    "entrega": "archivista"
+  },
+  {
+    "id": "cronica_4",
+    "nombre": "Crónica IV: Lo que se llevó la tormenta",
+    "tipo": "visitar_mundo",
+    "descripcion": "Viaja a La Nube y busca a Cirro, el Vigía, en el Cúmulo Central.",
+    "requisitos": {
+      "mundo": "nube"
+    },
+    "recompensa_tipo": 108,
+    "entrega": "cirro"
+  },
+  {
+    "id": "cronica_5",
+    "nombre": "Crónica V: El Estrato Plateado",
+    "tipo": "visitar_zona",
+    "descripcion": "Sube al Estrato Plateado de La Nube (zona C) y lleva lo que encuentres a Ohm, en la Motherboard.",
+    "requisitos": {
+      "mundo": "nube",
+      "zona": "C"
+    },
+    "recompensa_tipo": 109,
+    "entrega": "ohm"
+  },
+  {
+    "id": "cronica_6",
+    "nombre": "Crónica VI: El Puente Sur",
+    "tipo": "visitar_zona",
+    "descripcion": "Recorre las pistas hasta el Puente Sur de la Motherboard (zona C) y lleva el registro a Lúmen, en la Ciudad Neón.",
+    "requisitos": {
+      "mundo": "motherboard",
+      "zona": "C"
+    },
+    "recompensa_tipo": 110,
+    "entrega": "lumen"
+  },
+  {
+    "id": "cronica_7",
+    "nombre": "Crónica VII: Luces en la Torre",
+    "tipo": "visitar_zona",
+    "descripcion": "Viaja por los cables hasta las Torres de Datos de la Ciudad Neón (zona B) y lleva la señal a Vela, en las Tierras del Horizonte.",
+    "requisitos": {
+      "mundo": "neon",
+      "zona": "B"
+    },
+    "recompensa_tipo": 111,
+    "entrega": "vela"
+  },
+  {
+    "id": "cronica_8",
+    "nombre": "Crónica VIII: Los que estaban antes",
+    "tipo": "visitar_zona",
+    "descripcion": "Cruza hasta la Cordillera de Cristal (zona B) de las Tierras del Horizonte y lleva el calco de las ruinas a la Centinela, en la Darknet.",
+    "requisitos": {
+      "mundo": "horizonte",
+      "zona": "B"
+    },
+    "recompensa_tipo": 112,
+    "entrega": "centinela"
+  },
+  {
+    "id": "cronica_9",
+    "nombre": "Crónica IX: El Sellado",
+    "tipo": "visitar_zona",
+    "descripcion": "Baja al Núcleo Cifrado de la Darknet (zona A) y lleva lo que oigas a Eco, en la Glitchnet.",
+    "requisitos": {
+      "mundo": "darknet",
+      "zona": "A"
+    },
+    "recompensa_tipo": 113,
+    "entrega": "eco"
+  },
+  {
+    "id": "cronica_10",
+    "nombre": "Crónica X: La Costura de Fallos",
+    "tipo": "visitar_zona",
+    "descripcion": "Llega a la Costura de Fallos de la Glitchnet (zona S) y busca a Atlas, en La Malla.",
+    "requisitos": {
+      "mundo": "glitchnet",
+      "zona": "S"
+    },
+    "recompensa_tipo": 114,
+    "entrega": "atlas"
+  },
+  {
+    "id": "cronica_11",
+    "nombre": "Crónica XI: La palabra del gigante",
+    "tipo": "visitar_zona",
+    "descripcion": "Llega al Núcleo Corrupto de La Malla (rango MAX) y lleva la palabra de Atlas al Archivista, en el Servidor Central.",
+    "requisitos": {
+      "mundo": "malla",
+      "zona": "M"
+    },
+    "recompensa_tipo": 115,
+    "entrega": "archivista"
   }
 ]

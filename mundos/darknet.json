@@ -198,7 +198,13 @@
     49,
     73
   ],
-  "npcs": [],
+  "npcs": [
+    {
+      "npc": "centinela",
+      "x": 45,
+      "y": 69
+    }
+  ],
   "estaciones": [
     {
       "x": 55,

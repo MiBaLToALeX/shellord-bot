@@ -114,7 +114,22 @@
       }
     ],
     "vol": 5,
-    "indice": 13
+    "indice": 13,
+    "dialogos": [
+      {
+        "encargo": "cronica_2",
+        "si": {
+          "hechas": [
+            "cronica_1"
+          ]
+        },
+        "paginas": [
+          "El Archivista te envía… Entonces ya es hora de que lo sepas.",
+          "Yo oí tu primera orden, Shellorder. La oí llegar desde el otro lado de la pantalla, como oí la de todos. Un ShellOrd solo es un programa. Contigo, es un Shellorder. A eso lo llamamos el Pacto.",
+          "Pero el Pacto hay que demostrarlo. Entra en el Portal de principiante y explóralo entero: es la primera mazmorra que sellaron los ShellOrd. Después, vuelve con el Archivista."
+        ]
+      }
+    ]
   },
   {
     "id": "domador",
@@ -172,6 +187,430 @@
           "Más allá del Valle del Alba hay mares, desiertos de silicio y cordilleras de cristal. A pie, la arena y la nieve te frenarán; con una montura, irás volando.",
           "Antes de montar, conoce el terreno: recorre el valle y vuelve. Te enseñaré la habilidad Montar."
         ]
+      }
+    ]
+  },
+  {
+    "id": "archivista",
+    "nombre": "El Archivista",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 18,
+    "tipo": "encargos",
+    "dialogo": "Guardo los registros que la Corrupción no ha conseguido borrar. Si quieres saber de dónde vienes, Shellorder, pregúntame.",
+    "dialogos": [
+      {
+        "si": {
+          "mision": "cronica_11",
+          "estado": "cobrado"
+        },
+        "paginas": [
+          "«S·[CORRUPTO]·L·L»… Así que eso dijo Atlas.",
+          "Llevo mil ciclos leyendo registros, Shellorder, y nunca había querido equivocarme tanto. Si la palabra es la que temo, la Corrupción y la Shell salieron del mismo sitio. La orden que creó a los ShellOrd y la que creó a los virus… podrían haberlas escrito las mismas manos.",
+          "Hay un último lugar donde buscar: la Necrópolis, donde descansan los datos que nadie volvió a abrir. Algunos dicen que allí una voz repite una orden que no es «proteger». Cuando estés preparado… y yo también… iremos.",
+          "Gracias, Shellorder. Por primera vez en mil ciclos, la Crónica tiene un final que todavía no conozco."
+        ]
+      },
+      {
+        "si": {
+          "mision": "cronica_4",
+          "estado": "cobrado"
+        },
+        "texto": "Las páginas que faltan están repartidas por los mundos. Quien te pagó la última sabe adónde ir. Y cuando tengas la última… vuelve. La Crónica la cierro yo."
+      },
+      {
+        "si": {
+          "mision": "cronica_4",
+          "estado": "en_curso"
+        },
+        "texto": "Viaja a La Nube (en los Servidores) y busca a Cirro, en el Cúmulo Central. Él vio la noche de la Orden."
+      },
+      {
+        "encargo": "cronica_4",
+        "si": {
+          "hechas": [
+            "cronica_3"
+          ]
+        },
+        "paginas": [
+          "Las grietas del Bosque… ya las has visto. Así empezó todo. Pero lo que pasó la noche siguiente no está en mis registros.",
+          "Aquella noche hubo una tormenta, y se llevó el registro hacia arriba, hacia La Nube. Allí vive Cirro, el Vigía. Él estaba mirando.",
+          "Ve a verle. Desde ahí, Shellorder, la Crónica ya no la cuento yo: la cuentan los que estaban allí."
+        ]
+      },
+      {
+        "si": {
+          "mision": "cronica_3",
+          "estado": "en_curso"
+        },
+        "texto": "El Bosque está al norte de la Pradera. Cuando hayas visto las grietas, vuelve."
+      },
+      {
+        "encargo": "cronica_3",
+        "si": {
+          "hechas": [
+            "cronica_2"
+          ]
+        },
+        "paginas": [
+          "Has visto un sello lógico con tus propios ojos. Bien. Ahora entenderás por qué los necesitamos.",
+          "Lee el registro 0x4F1A… o lo que queda de él. Un código que solo se copiaba. Así llegó la Corrupción.",
+          "En el Bosque todavía quedan las grietas de aquella primera brecha. Ve a verlas. Hay cosas que un registro no puede contar."
+        ]
+      },
+      {
+        "si": {
+          "mision": "cronica_2",
+          "estado": "en_curso"
+        },
+        "texto": "Nara te ha enviado al Portal de principiante. Explóralo entero: es la primera mazmorra que sellaron los ShellOrd."
+      },
+      {
+        "si": {
+          "mision": "cronica_2",
+          "estado": "sin_empezar",
+          "hechas": [
+            "cronica_1"
+          ]
+        },
+        "texto": "Nara tiene algo para ti. Habla con ella antes de volver aquí."
+      },
+      {
+        "si": {
+          "mision": "cronica_1",
+          "estado": "en_curso"
+        },
+        "texto": "Nara está junto a la entrada. Ella oyó tu primera orden: pregúntale."
+      },
+      {
+        "encargo": "cronica_1",
+        "paginas": [
+          "Ah. Un ShellOrd recién despertado. Y detrás de él… su operador. Bienvenido.",
+          "Soy el Archivista. Guardo la Crónica del Mundo Digital: lo que pasó, lo que se perdió y lo que la Corrupción intentó borrar.",
+          "La Crónica está rota, Shellorder. Sus páginas están repartidas por todos los mundos, en manos de quienes vivieron cada parte. Si quieres saber de dónde vienes, empieza por lo más cerca: Nara, la Guía, oyó tu primera orden."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cirro",
+    "nombre": "Cirro, el Vigía",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 21,
+    "tipo": "encargos",
+    "dialogo": "Desde aquí arriba lo veo todo… incluso lo que pasó la noche de la Orden. Pero no se lo cuento a cualquiera: ¿quién te envía?",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "cronica_5"
+          ]
+        },
+        "texto": "Ohm sabrá qué hacer con lo que encontraste. Yo sigo vigilando: la tormenta no se ha ido del todo."
+      },
+      {
+        "si": {
+          "mision": "cronica_5",
+          "estado": "en_curso"
+        },
+        "texto": "El Estrato Plateado está más arriba, cruzando los puentes. Cuando lo tengas, ve a la Motherboard: Ohm te espera."
+      },
+      {
+        "encargo": "cronica_5",
+        "si": {
+          "hechas": [
+            "cronica_4"
+          ]
+        },
+        "paginas": [
+          "¿El Archivista te envía? Entonces ya sabes lo de la Primera Brecha.",
+          "Yo vigilaba La Nube aquella noche. Vi caer la tormenta sobre el Servidor Central… y vi una luz: la Shell compilando al Primer Compilado. Antes del amanecer había cientos de ShellOrd.",
+          "El viento se llevó parte del registro hasta el Estrato Plateado. Si subes, lo encontrarás entre las nubes. Pero no me lo traigas a mí: llévaselo a Ohm, en la Motherboard. Él sabe leer lo que está escrito en las placas."
+        ]
+      },
+      {
+        "si": {
+          "mision": "cronica_4",
+          "estado": "en_curso"
+        },
+        "texto": "Ya sé quién te envía. Pero primero termina lo que te pidió; después hablamos."
+      }
+    ]
+  },
+  {
+    "id": "ohm",
+    "nombre": "Ohm, el Técnico",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 30,
+    "tipo": "encargos",
+    "dialogo": "Esta placa es el cuerpo del Mundo Digital: si cae, cae todo. Vuelve cuando alguien de arriba te mande a mí.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "cronica_6"
+          ]
+        },
+        "texto": "Lúmen tiene ahora lo que encontraste. Ten cuidado con ella: en Neón todo tiene precio."
+      },
+      {
+        "si": {
+          "mision": "cronica_6",
+          "estado": "en_curso"
+        },
+        "texto": "El Puente Sur está al sur del Chip Central, siguiendo las pistas. Después, a la Ciudad Neón."
+      },
+      {
+        "encargo": "cronica_6",
+        "si": {
+          "hechas": [
+            "cronica_5"
+          ]
+        },
+        "paginas": [
+          "Así que Cirro te manda. Déjame ver eso… Es un sello lógico. Así encerraron los primeros ShellOrd a la Corrupción: con puertas AND, NOT, NAND…",
+          "Pero hay algo más. Esta placa recuerda cosas. Por el Puente Sur pasa un registro muy antiguo, de cuando apareció el primer operador.",
+          "Recórrelo y llévaselo a Lúmen, en la Ciudad Neón. Ella sabrá a quién vendérselo… o a quién no."
+        ]
+      },
+      {
+        "si": {
+          "mision": "cronica_5",
+          "estado": "en_curso"
+        },
+        "texto": "Ya sé quién te envía. Pero primero termina lo que te pidió; después hablamos."
+      }
+    ]
+  },
+  {
+    "id": "lumen",
+    "nombre": "Lúmen, la Informante",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 10,
+    "tipo": "encargos",
+    "dialogo": "En la Ciudad Neón todo tiene un precio, y la información la que más. Tráeme algo que valga la pena y hablamos.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "cronica_7"
+          ]
+        },
+        "texto": "Vela tiene la señal. Si alguien puede seguirla en un mapa, es ella."
+      },
+      {
+        "si": {
+          "mision": "cronica_7",
+          "estado": "en_curso"
+        },
+        "texto": "Los cables de datos llevan a las Torres. Paga la energía y sube. Después, a las Tierras del Horizonte."
+      },
+      {
+        "encargo": "cronica_7",
+        "si": {
+          "hechas": [
+            "cronica_6"
+          ]
+        },
+        "paginas": [
+          "Mm. Un registro del Pacto, el momento en que un operador habló por primera vez con un ShellOrd. Esto vale mucho, Shellorder. Te lo cambio por un favor.",
+          "Las luces del último piso de la Torre Corporativa parpadean con un patrón. Nadie lo ha leído porque nadie llega a las Torres de Datos… salvo por cable.",
+          "Sube por los cables hasta las Torres y apunta el patrón. Pero no me lo traigas: apunta hacia el horizonte. Llévaselo a Vela, la cartógrafa de las Tierras del Horizonte."
+        ]
+      },
+      {
+        "si": {
+          "mision": "cronica_6",
+          "estado": "en_curso"
+        },
+        "texto": "Ya sé quién te envía. Pero primero termina lo que te pidió; después hablamos."
+      }
+    ]
+  },
+  {
+    "id": "vela",
+    "nombre": "Vela, la Cartógrafa",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 22,
+    "tipo": "encargos",
+    "dialogo": "He dibujado cada costa de estas tierras… menos una cosa que encontré en la Cordillera. No sé quién la hizo. ¿Te envía Lúmen?",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "cronica_8"
+          ]
+        },
+        "texto": "La Centinela tiene el calco. Yo voy a dibujar esas ruinas… por si un día desaparecen."
+      },
+      {
+        "si": {
+          "mision": "cronica_8",
+          "estado": "en_curso"
+        },
+        "texto": "La Cordillera de Cristal está al norte del Desierto de Silicio. Un consejo: ve montado."
+      },
+      {
+        "encargo": "cronica_8",
+        "si": {
+          "hechas": [
+            "cronica_7"
+          ]
+        },
+        "paginas": [
+          "La señal de la Torre… apunta a la Cordillera de Cristal. Lo sabía.",
+          "Allí encontré unas ruinas que no hizo nadie que yo conozca. No son de los ShellOrd. Son más viejas. Mucho más grandes.",
+          "Llega hasta la Cordillera, saca un calco de lo que dicen y llévaselo a la Centinela del Sellado, en la Darknet. Si hay alguien que sepa quién estuvo aquí antes, es ella."
+        ]
+      },
+      {
+        "si": {
+          "mision": "cronica_7",
+          "estado": "en_curso"
+        },
+        "texto": "Ya sé quién te envía. Pero primero termina lo que te pidió; después hablamos."
+      }
+    ]
+  },
+  {
+    "id": "centinela",
+    "nombre": "La Centinela del Sellado",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 11,
+    "tipo": "encargos",
+    "dialogo": "Alto, Shellorder. Vigilo la Clave que selló este mundo. Solo hablo con quien trae noticias de fuera.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "cronica_9"
+          ]
+        },
+        "texto": "Eco tiene lo que oíste. No te fíes de todo lo que diga: el enjambre se le está comiendo la memoria."
+      },
+      {
+        "si": {
+          "mision": "cronica_9",
+          "estado": "en_curso"
+        },
+        "texto": "El Núcleo Cifrado está más allá del Sector Corrupto. Escucha bien lo que suena allí."
+      },
+      {
+        "encargo": "cronica_9",
+        "si": {
+          "hechas": [
+            "cronica_8"
+          ]
+        },
+        "paginas": [
+          "«Nosotros guardábamos el mundo antes de la Orden»… Así que es verdad. Los guardianes de antes existieron.",
+          "Escucha bien, Shellorder. Las Claves de Cifrado no solo encierran a la Corrupción: encierran también lo que ella corrompió. Y hay algo que no te van a contar: la Clave de este mundo se cerró desde dentro.",
+          "Baja al Núcleo Cifrado y escucha. Lo que oigas, llévaselo a Eco, en la Glitchnet. Eco… fue uno de los nuestros."
+        ]
+      },
+      {
+        "si": {
+          "mision": "cronica_8",
+          "estado": "en_curso"
+        },
+        "texto": "Ya sé quién te envía. Pero primero termina lo que te pidió; después hablamos."
+      }
+    ]
+  },
+  {
+    "id": "eco",
+    "nombre": "Eco",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 0,
+    "tipo": "encargos",
+    "dialogo": "…¿me oyes? Soy… lo que queda de alguien. El enjambre se lleva mis recuerdos. Si vienes de la Darknet, date prisa.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "cronica_10"
+          ]
+        },
+        "texto": "…¿Te conozco? Lo siento. Ya no… Busca a Atlas. Eso sí lo recuerdo."
+      },
+      {
+        "si": {
+          "mision": "cronica_10",
+          "estado": "en_curso"
+        },
+        "texto": "La Costura de Fallos… más adentro. Rápido, antes de que olvide por qué te envié."
+      },
+      {
+        "encargo": "cronica_10",
+        "si": {
+          "hechas": [
+            "cronica_9"
+          ]
+        },
+        "paginas": [
+          "Lo que oíste en el Núcleo… es una orden. No es «proteger». Es otra. Yo… la oí una vez, hace mucho. Antes de que el enjambre me encontrara.",
+          "Fui un ShellOrd. Uno de los primeros. Quizá… el primero. Ya no lo recuerdo bien.",
+          "La señal que mueve a los virus pasa por la Costura de Fallos. Síguela hasta allí y después busca a Atlas, en la Malla. Él estaba antes que todos nosotros. Él sabe de dónde vino la orden."
+        ]
+      },
+      {
+        "si": {
+          "mision": "cronica_9",
+          "estado": "en_curso"
+        },
+        "texto": "Ya sé quién te envía. Pero primero termina lo que te pidió; después hablamos."
+      }
+    ]
+  },
+  {
+    "id": "atlas",
+    "nombre": "Atlas, el último guardián",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 7,
+    "tipo": "encargos",
+    "dialogo": "…Pequeño ShellOrd. Hace mucho que nadie de tu orden baja tan hondo. Habla, si alguien te ha enviado.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "cronica_11"
+          ]
+        },
+        "texto": "Ya conoces la palabra. Ahora el Archivista también. Lo que venga después… no lo sé, pequeño ShellOrd."
+      },
+      {
+        "si": {
+          "mision": "cronica_11",
+          "estado": "en_curso"
+        },
+        "texto": "El Núcleo Corrupto, al fondo de la Malla. Ven acompañado: mis hermanos no te reconocerán."
+      },
+      {
+        "encargo": "cronica_11",
+        "si": {
+          "hechas": [
+            "cronica_10"
+          ]
+        },
+        "paginas": [
+          "Eco te envía. Pobre pequeño. Fue el primero de vosotros, ¿lo sabías?",
+          "Antes de la Orden, guardábamos este mundo los de mi especie. Cuando llegó la Corrupción, luchamos. Y perdimos. Ella no nos destruyó: nos cambió. Por eso mis hermanos te atacan.",
+          "Llega al Núcleo Corrupto, donde empezó todo para nosotros. Solo los Shellorders que han ido más allá de todo (los de rango MAX) llegan tan hondo. Allí te diré la palabra que nadie ha querido oír. Llévasela al Archivista: él sabrá qué hacer con ella."
+        ]
+      },
+      {
+        "si": {
+          "mision": "cronica_10",
+          "estado": "en_curso"
+        },
+        "texto": "Ya sé quién te envía. Pero primero termina lo que te pidió; después hablamos."
       }
     ]
   }

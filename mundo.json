@@ -213,6 +213,11 @@
       "npc": "explorador",
       "x": 73,
       "y": 11
+    },
+    {
+      "npc": "archivista",
+      "x": 13,
+      "y": 36
     }
   ],
   "portales": [
