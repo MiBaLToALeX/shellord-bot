@@ -861,7 +861,10 @@
       }
     ],
     "elemento": "aire",
-    "tipo": "dps"
+    "tipo": "dps",
+    "skills": [
+      "capturar"
+    ]
   },
   {
     "id": "avatar_polar",
@@ -936,7 +939,10 @@
     "skill": "rabia",
     "descripcion": "Este avatar cuando esta enfadado puede incrementar sus daños",
     "elemento": "tierra",
-    "tipo": "dps"
+    "tipo": "dps",
+    "skills": [
+      "capturar"
+    ]
   },
   {
     "id": "avatar_faraon",
