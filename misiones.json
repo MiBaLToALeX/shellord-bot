@@ -644,7 +644,7 @@
     "requisitos": {
       "num_movimientos": 40
     },
-    "recompensa_tipo": 3
+    "recompensa_tipo": 104
   },
   {
     "id": "domar_calojo",
