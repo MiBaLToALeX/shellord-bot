@@ -115,5 +115,64 @@
     ],
     "vol": 5,
     "indice": 13
+  },
+  {
+    "id": "domador",
+    "nombre": "Domador del Valle",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 37,
+    "dialogo": "Las Tierras del Horizonte son enormes: sin montura no llegarás lejos.",
+    "dialogos": [
+      {
+        "si": {
+          "mision": "domar_calojo",
+          "estado": "cobrado"
+        },
+        "texto": "¡Ese Calojo y tú ya sois uno! Móntalo con la habilidad Montar y cruza los puentes: la arena y la nieve ya no te frenarán."
+      },
+      {
+        "si": {
+          "mision": "domar_calojo",
+          "estado": "por_cobrar"
+        },
+        "texto": "Has estado en la guarida… pero no veo ningún Calojo joven entre tus capturas. Captúralo (con la habilidad Capturar) y vuelve: entonces será tuyo."
+      },
+      {
+        "si": {
+          "mision": "domar_calojo",
+          "estado": "en_curso"
+        },
+        "texto": "La Guarida Calojos está en el Bosque de los Ecos: cruza el puente del norte. Captura un Calojo joven y vuelve conmigo."
+      },
+      {
+        "encargo": "domar_calojo",
+        "si": {
+          "hechas": [
+            "aprender_montar"
+          ]
+        },
+        "paginas": [
+          "Ya sabes montar. Ahora te falta una montura.",
+          "En el Bosque de los Ecos, al norte, hay una guarida llena de Calojos jóvenes. Son salvajes, pero si capturas uno, yo lo criaré y lo domaré para ti.",
+          "Entra en la guarida, captura un Calojo joven y vuelve. ¿Aceptas?"
+        ]
+      },
+      {
+        "si": {
+          "mision": "aprender_montar",
+          "estado": "en_curso"
+        },
+        "texto": "Camina por el valle: un buen jinete conoce el terreno antes de montar. Cuando termines, vuelve."
+      },
+      {
+        "encargo": "aprender_montar",
+        "paginas": [
+          "¡Bienvenido a las Tierras del Horizonte, viajero! Soy el domador del valle.",
+          "Más allá del Valle del Alba hay mares, desiertos de silicio y cordilleras de cristal. A pie, la arena y la nieve te frenarán; con una montura, irás volando.",
+          "Antes de montar, conoce el terreno: recorre el valle y vuelve. Te enseñaré la habilidad Montar."
+        ]
+      }
+    ]
   }
 ]
