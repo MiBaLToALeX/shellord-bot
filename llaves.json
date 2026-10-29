@@ -448,5 +448,19 @@
     "rango_requerido": "A",
     "emoji_vol": 3,
     "emoji_indice": 27
+  },
+  {
+    "id": "key_pirata",
+    "nombre": "Llave de la mazmorra Piratas",
+    "emoji": "🗝",
+    "portal_emoji": "🌀",
+    "portal_vol": 2,
+    "portal_indice": 4,
+    "mazmorra": "pirata",
+    "nivel_min": 55,
+    "nivel_max": 55,
+    "rango_requerido": "A",
+    "emoji_vol": 3,
+    "emoji_indice": 11
   }
 ]

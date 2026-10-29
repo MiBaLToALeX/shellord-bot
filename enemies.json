@@ -3,6 +3,31 @@
     "index": 0,
     "variantes": [
       {
+        "nombre": "Calojo joven",
+        "is_boss": false,
+        "vol": 103,
+        "all_dirs": true,
+        "hoja": "calojo",
+        "mensaje_ataque": "muerde a ",
+        "ia": "agresiva",
+        "elemento": "tierra",
+        "mazmorras": [
+          "guarida_calojos"
+        ],
+        "capturable": true,
+        "montable": true,
+        "montura_velocidad": 60,
+        "habilidades": [
+          {
+            "id": "luna_llena",
+            "probabilidad": 100
+          }
+        ],
+        "energy_extra": 100,
+        "atk_extra": 1,
+        "def_fijo": 1
+      },
+      {
         "nombre": "Aullador Alpha",
         "is_boss": true,
         "mensaje_ataque": "muerde a",
@@ -5208,9 +5233,6 @@
         "is_boss": true,
         "elemento": "oscuridad",
         "vol": 1,
-        "energy_fijo": 86400,
-        "def_fijo": 60,
-        "atk_fijo": 1000,
         "mazmorras": [
           "koliseo"
         ],
@@ -5242,37 +5264,6 @@
         ],
         "infligir_estados": [
           {
-            "tipo": "teletransportacion_1",
-            "probabilidad": 100,
-            "valor": 100,
-            "ataques": 0,
-            "tiempo": null,
-            "condicion": "siempre",
-            "mensaje": "Hechizero te teletransporta a tu ultima posicion",
-            "cooldown_turnos": 2
-          },
-          {
-            "tipo": "teletransportacion_2",
-            "probabilidad": 100,
-            "valor": 100,
-            "ataques": 0,
-            "tiempo": null,
-            "condicion": "siempre",
-            "mensaje": "Hechizero realiza teletransportacion simetrica",
-            "cooldown_turnos": null
-          },
-          {
-            "tipo": "teletransportacion_4",
-            "probabilidad": 100,
-            "valor": 100,
-            "ataques": 0,
-            "tiempo": null,
-            "condicion": "siempre",
-            "mensaje": "Hechizero realiza un golpe en masa de 4 casillas y los teletransporta simetricamente respecto al centro",
-            "valor2": 4,
-            "cooldown_turnos": 5
-          },
-          {
             "tipo": "glifo",
             "probabilidad": 100,
             "valor": 70,
@@ -5290,22 +5281,12 @@
             "tipo": "teletransporte_mortal",
             "probabilidad": 100,
             "valor": 0,
-            "ataques": 99,
+            "ataques": null,
             "tiempo": null,
             "condicion": "siempre",
             "mensaje": "Hechizero tiene activo su escudo del tiempo (inf)",
-            "efecto": "teletransportacion_4"
-          },
-          {
-            "tipo": "vision",
-            "probabilidad": 100,
-            "valor": 5,
-            "ataques": 3,
-            "tiempo": null,
-            "condicion": "siempre",
-            "mensaje": "Hechizero aumenta +5 de alcance (3 turnos)",
-            "cooldown_turnos": 8,
-            "espera_turnos": 8
+            "efecto": "teletransportacion_4",
+            "hasta_marca": "finito"
           },
           {
             "tipo": "placajemortal",
@@ -5314,16 +5295,17 @@
             "ataques": 0,
             "tiempo": null,
             "condicion": "siempre",
-            "mensaje": "Hechizero te ha maldecido. ¡Muevete o muere! (40s)"
+            "mensaje": "Hechizero te ha maldecido. ¡Muevete o muere! (40s)",
+            "objetivo": "objetivo",
+            "espera_turnos": 4
           }
         ],
         "modo_estados": "todos",
         "alcance": 5,
         "mensaje_ataque": "ataca a",
         "inmortal_desactivador": "mortal",
-        "xp_extra": 1000,
+        "xp_extra": 10000,
         "energia_botin": 10000,
-        "exit_portal": true,
         "botin_exit": [
           {
             "aleatorio": [
@@ -5351,7 +5333,38 @@
           {
             "fijo": 46
           }
-        ]
+        ],
+        "ia": "esquiva",
+        "atk_extra": 1000,
+        "habilidades": [
+          {
+            "id": "paradoja_temporal",
+            "probabilidad": 100
+          },
+          {
+            "id": "rebobinado",
+            "probabilidad": 100
+          },
+          {
+            "id": "fallo_sistema",
+            "probabilidad": 100
+          },
+          {
+            "id": "vortice",
+            "probabilidad": 100
+          },
+          {
+            "id": "paso_espejo",
+            "probabilidad": 100
+          },
+          {
+            "id": "inversion",
+            "probabilidad": 100
+          }
+        ],
+        "def_fijo": 70,
+        "def_pct": 15,
+        "energy_extra": 86400
       },
       {
         "nombre": "Motorista fantasma II",
