@@ -17,7 +17,8 @@
     "p": "puente",
     "#": "roca",
     "t": "arbol",
-    "v": "veta"
+    "v": "veta",
+    "O": "agujero"
   },
   "zonas": {
     "E": "Valle del Alba",
@@ -103,7 +104,7 @@
     "                                                     ppp                                              ~~aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa~~~~~~~~~~~~                              ~nnnnnnnnnnnnnnnnnk#kkknnn#nkkkkkkkk#nnn~   ",
     "                                                      pp                                             ~~~~aaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa~~~~~aaaa~~~~                            ~nn#nnnnnnnnnnnnnnkkkknn#nnnkkkkkkknnnnn~   ",
     "                                                 ~~~~~pp~~~~~~~~~ ~~                                 ~~~~~~aaaaaaaaaaaaaaaaaaaaaaaaa#aaaaaaaa~aaaaaaaaa~~~                          ~nnnn#nnnnnnnnnknnnnnnnnnnnnkkkkkknnnnnn~   ",
-    "                                              ~~~thhhthhhhfffffhh~~~~~                                    ~aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa~~                         ~nnnkknnnnn#nnkkknnnnnvnnnnkkkkkknnn#nn~~   ",
+    "                                              ~~~thhhthhhhfffffhh~~~~~                                    ~aaaaaaaaaaaaaaaaaaaaaOaaaaaaaaaaaaaaaaaaaaaaaa~~                         ~nnnkknnnnn#nnkkknnnnnvnnnnkkkkkknnn#nn~~   ",
     "                                             ~~hhhhhhhhhhhfffffhhhh~~~                             ~~      ~aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa~~                        ~~nnk#knnn#nnnkkknnnnnnn#nnkkkkkknnnnn~~    ",
     "                                             ~hhhhthhthhhhfftffhhhhh~~                            ~~~      ~aaaaaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#aa~                        ~~nnkknnnnnnn#kkk##nnn#nn##kkkkkknnnn~~~    ",
     "                                    ~~      ~thhhhhhhhhhhhhfffhhhhhhh~~~                          ~~~~     ~aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa~                       ~~~nnnnnnnnnnnnn#nnnnnnnn#nnnnnnnnn#~~~     ",
@@ -120,7 +121,7 @@
     "                             ~~hhfffffhhhhhhhhhhhhhhhhhhhhhhhhhhftfhhhhthffff~~~~            ~~~~~aaaaaaaaaaaaaaaaaaa#aaaaaaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaa~~~~aaaa~                                                             ",
     "                             ~~hhffffffhhhhhhhhhhhhhthhhhhhhhhhhfffhhhhhhffff~~~            ~~~~aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa~                                                             ",
     "                             ~hhffffffffhhhhhhhhhhhhhhhhhhhhhhhhfffhhhhhhffff~~~            ~~~aaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa                                                             ",
-    "                             ~hhfffffffthhhhhhhhhhhhhhhhhhhvhhhhfffhhhhhhffff~~~            ~~aaaaaaaaaaaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa~                                                            ",
+    "                             ~hhfffffffthhhhhhhhhhhhhhhhhhhvhhhhfffhhhhhhffff~~~            ~~aaaaaaaaaaaa#aaaaaaaaaaaaaaaaaaaaaaaaOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa~                                                            ",
     "                             ~hhhfffffhhhhhthhhhhhhhhhhhhhhhhthffffhhhhhhhfffh~~~           ~~aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa~                                                            ",
     "                            ~~thhhhhhhhhhhhhhfhhhthhhhhhhhhhhhfffffhhhhhhhhhhhhh~~           ~~aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#aaaaaaaaaaaaaaaaaaaaaaa#aaaaaa#aaaa                                                             ",
     "                           ~~hhhhhthhhhhhhhhfffhhhhhhhffffffffffffffhhhhhhhhhhhhf~            ~~~aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa~                                                             ",
@@ -139,7 +140,7 @@
     "                               ~hhthhhhhhhhtffffhhhhhhhhhhhhhhhhhhhhhffffffffffhhhhhh~~             ~aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa~~~~~                                                              ",
     "                                ~hhthhhhhhhfffffhhhhhhhhhhhhfhhhhhhhhhtfffffftthhhth~~              ~aaaaaaaa#aaaaaaaaaaaaaaaaapaaaaaaaaaaaaaaaaaaaaaaaaaa~~~~~~~                                                               ",
     "                                 ~hhhhhhhhhfffffhhhhhhhhhhfffffhhhhhhhhhhhhhhhhhhhh~~               ~~aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa~~    ~                                                                ",
-    "                                  ~~hhhhhhhfffffhhhhhhhhhhfffffthhhhthhhhhhhhhhhhh~~                 ~~aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#aaaaaaa~                                                                       ",
+    "                                  ~~hhhhhhhfffffhhhhhhhhhhfffffthhhhthhhhhhhhhhhhh~~                 ~~aaaaaaaaaaaOaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#aaaaaaa~                                                                       ",
     "                                   ~~hhhhhhfffffhhthhhhhhhffffffhhhhhhhhhhhhhhthh~~                   ~~~aaaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa~                                                                        ",
     "                                    ~hhhhhhfffffhhhhhhhhhhffffffhhhhhthhhhhhhhhhh~                     ~~~aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa~                                                                        ",
     "                                     ~hhhhhhffffhhhhhhthhhfffffffffhhh~~hhhhhhhh~~                      ~~~aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#aaaa~~                                                                        ",
@@ -188,7 +189,7 @@
     "                                                                                       ~~~~~hhhhhhhh~~~~  ~aaaaaaaaaaaaaaaaaaaaaa~~ ~~~hhhhhhhhhhh~~~~~ffffffffaaaaaaaaaffpf~~~ffhhhhhhhhhhhhh~~                                ",
     "                                                                                         ~~~~~hh~~~~~~~   ~~aaaaaaaaaaaaaaaaaaaaa~~  ~~~hhhhhhhhh~~  ~~aatfffaaaaavaaaaaftff~~~~ffhhhhhhhhhh~~~                                 ",
     "                                                                                           ~~~~~~~~~~     ~~aaaaataffffffaaaaaaaa~~   ~~~hhhhhh~~~   ~aaaaaaaaaaaaaaaaaaaaaaa~~~~~~h~~~~~~~~~                                   ",
-    "                                                                                            ~~~~~          ~~aaaafffffffffataaaaa~~    ~~~~hhh~~     ~aaaaaaaaaaapaaaaaaaaaaa~~ ~~~~~~~~~~                                      ",
+    "                                                                                            ~~~~~          ~~aaaafffffffffataaaaa~~    ~~~~hhh~~     ~aaaaaaaaaaapaaaaaaaaaOa~~ ~~~~~~~~~~                                      ",
     "                                                                                                           ~~aaaffffffffffaaaaaa~~~      ~~~~~~      ~aaaaataaaaaaaaaaaaaaaaa~~                                                 ",
     "                                                                                                            ~~tafffffffffffvaaaa~~~       ~~~~       ~~aaaaaaaaaaaaaaaaaaaaa~~                                                  ",
     "                                                                                                            ~~tffftffffffffaaaa~~~                   ~~aaaaaaaaaaaaaafaaataa~~                                                  ",
@@ -390,6 +391,11 @@
       "npc": "vela",
       "x": 52,
       "y": 96
+    },
+    {
+      "npc": "brujula",
+      "x": 60,
+      "y": 103
     }
   ],
   "portales": [

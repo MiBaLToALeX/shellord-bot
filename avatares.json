@@ -1170,5 +1170,153 @@
     "def_fijo": 10,
     "antihackeo": true,
     "skill": "hackeo"
+  },
+  {
+    "id": "avatar_detonante",
+    "nombre": "ShellOrd Detonante",
+    "formula": [
+      {
+        "id_objeto": "ficha_a",
+        "cantidad": 5
+      },
+      {
+        "id_objeto": "key_pirata",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "key_mythos",
+        "cantidad": 2
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 50
+      }
+    ],
+    "vol": 102,
+    "indice": 0,
+    "elemento": "fuego",
+    "descripcion": "Este avatar sabe lo que se hace cuando se trata de detonar cosas",
+    "all_dirs": false,
+    "skill": "bomba",
+    "skills": [
+      "detonar",
+      "cambiar",
+      "atraer",
+      "retirar",
+      "mecha"
+    ],
+    "emoji": "🕹",
+    "dmg_bonus_pct": 55,
+    "dmg_fijo": 55,
+    "energia_max_bonus": 1100,
+    "tipo": "controlador",
+    "int_bonus_pct": 5,
+    "dmg_bonus_fijo": true
+  },
+  {
+    "id": "avatar_muerte",
+    "nombre": "ShellOrd Muerte",
+    "formula": [
+      {
+        "id_objeto": "key_admin",
+        "cantidad": 1
+      }
+    ],
+    "tipo": "hibrido",
+    "elementos": [
+      "fuego",
+      "agua",
+      "tierra",
+      "aire",
+      "oscuridad",
+      "luz"
+    ],
+    "emoji": "🕹",
+    "vol": 102,
+    "skill": "paso_sombrio",
+    "skills": [
+      "invocar",
+      "rotar",
+      "atraer",
+      "ejecutar",
+      "invisible",
+      "linterna",
+      "transposicion",
+      "trueno",
+      "oscuridad",
+      "cadena_electrica",
+      "senda_sombras",
+      "lluvia_flechas",
+      "lluvia_meteoritos",
+      "tajo_guerrero",
+      "agujero_negro",
+      "vision_futuro",
+      "llamada_espiritus",
+      "abrazo_espectral",
+      "gigantizacion",
+      "miniaturizacion",
+      "caos_cuantico",
+      "parpadeo",
+      "asalto_fantasma",
+      "relevo_explosivo",
+      "vortice",
+      "caos_explosivo",
+      "remolino_sombras",
+      "grieta_abisal",
+      "escaneo_tactico",
+      "cortafuegos",
+      "reescritura_entorno",
+      "apagon_total",
+      "manto_de_sombras",
+      "robo_elemental",
+      "sombra_devoradora",
+      "fijacion_letal",
+      "agujero_negro_letal"
+    ],
+    "antirobo": true,
+    "antihackeo": true,
+    "neutralizador_pct": 100,
+    "def_bonus_pct": 25,
+    "def_bonus_fijo": true,
+    "dmg_bonus_fijo": true,
+    "dmg_bonus_pct": 100,
+    "dmg_fijo": 100,
+    "indice": 1,
+    "energia_max_bonus": 100000,
+    "descripcion": "Un avatar que se desconoce su origen"
+  },
+  {
+    "id": "avatar_umbrio",
+    "nombre": "ShellOrd Umbrío",
+    "descripcion": "Un ShellOrd nacido en la Dimensión Sombra: ve en la oscuridad y se mueve entre sombras. Se forja con recursos de la Dimensión Sombra.",
+    "emoji": "🕹",
+    "vol": 5,
+    "indice": 49,
+    "tipo": "dps",
+    "elementos": [
+      "oscuridad"
+    ],
+    "skills": [
+      "linterna",
+      "senda_sombras",
+      "manto_de_sombras",
+      "remolino_sombras"
+    ],
+    "dmg_bonus_pct": 20,
+    "energia_max_bonus": 3000,
+    "formula": [
+      {
+        "id_objeto": "fragmento_sombrio",
+        "cantidad": 25
+      },
+      {
+        "id_objeto": "esencia_glitch",
+        "cantidad": 10
+      },
+      {
+        "id_objeto": "nucleo_umbral",
+        "cantidad": 4
+      }
+    ]
   }
 ]

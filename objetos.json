@@ -378,19 +378,15 @@
     "int_bonus_pct": 10,
     "formula": [
       {
-        "id_objeto": "ficha_s",
-        "cantidad": 10
+        "id_objeto": "fragmento_ancestral",
+        "cantidad": 15
       },
       {
-        "id_objeto": "rare_02",
-        "cantidad": 1
+        "id_objeto": "nucleo_ancestral",
+        "cantidad": 3
       },
       {
-        "id_objeto": "rare_03",
-        "cantidad": 1
-      },
-      {
-        "id_objeto": "rare_04",
+        "id_objeto": "esencia_del_origen",
         "cantidad": 1
       }
     ],
@@ -421,6 +417,20 @@
       "apoyo",
       "tanque",
       "protector"
+    ],
+    "formula": [
+      {
+        "id_objeto": "fragmento_ancestral",
+        "cantidad": 15
+      },
+      {
+        "id_objeto": "nucleo_ancestral",
+        "cantidad": 3
+      },
+      {
+        "id_objeto": "esencia_del_origen",
+        "cantidad": 1
+      }
     ]
   },
   {
@@ -1469,5 +1479,335 @@
     "emoji": "📜",
     "vol": 1,
     "indice": 0
+  },
+  {
+    "id": "pagina_origen_1",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "📜",
+    "vol": 1,
+    "indice": 0
+  },
+  {
+    "id": "pagina_origen_2",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "📜",
+    "vol": 1,
+    "indice": 0
+  },
+  {
+    "id": "pagina_origen_3",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "📜",
+    "vol": 1,
+    "indice": 0
+  },
+  {
+    "id": "pagina_origen_4",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "📜",
+    "vol": 1,
+    "indice": 0
+  },
+  {
+    "id": "pagina_origen_5",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "📜",
+    "vol": 1,
+    "indice": 0
+  },
+  {
+    "id": "pagina_origen_6",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "📜",
+    "vol": 1,
+    "indice": 0
+  },
+  {
+    "id": "pagina_origen_7",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "📜",
+    "vol": 1,
+    "indice": 0
+  },
+  {
+    "id": "pagina_origen_8",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "📜",
+    "vol": 1,
+    "indice": 0
+  },
+  {
+    "id": "pagina_origen_9",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "📜",
+    "vol": 1,
+    "indice": 0
+  },
+  {
+    "id": "fragmento_ancestral",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "⚙️",
+    "vol": 5,
+    "indice": 40
+  },
+  {
+    "id": "nucleo_ancestral",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "⚙️",
+    "vol": 5,
+    "indice": 41
+  },
+  {
+    "id": "esencia_del_origen",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "⚙️",
+    "vol": 5,
+    "indice": 42
+  },
+  {
+    "id": "orbe_ancestral",
+    "atk": 0,
+    "def": 0,
+    "nivel": 10,
+    "rango": "S",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "orbe_magico",
+    "emoji": "🔮",
+    "vol": 5,
+    "indice": 0,
+    "energia_max_bonus": 1200,
+    "dmg_bonus_pct": 8,
+    "def_bonus_pct": 8,
+    "critico_pct": 5,
+    "formula": [
+      {
+        "id_objeto": "fragmento_ancestral",
+        "cantidad": 12
+      },
+      {
+        "id_objeto": "nucleo_ancestral",
+        "cantidad": 4
+      },
+      {
+        "id_objeto": "esencia_del_origen",
+        "cantidad": 2
+      }
+    ]
+  },
+  {
+    "id": "fragmento_sombrio",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "🌑",
+    "vol": 5,
+    "indice": 43
+  },
+  {
+    "id": "esencia_glitch",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "👾",
+    "vol": 5,
+    "indice": 44
+  },
+  {
+    "id": "nucleo_umbral",
+    "atk": 0,
+    "def": 0,
+    "nivel": 1,
+    "rango": "E",
+    "alcance": "C2C",
+    "equipable": false,
+    "tipo": null,
+    "emoji": "🔮",
+    "vol": 5,
+    "indice": 45
+  },
+  {
+    "id": "espada_sombria",
+    "nivel": 9,
+    "dmg_min": 170,
+    "dmg_max": 250,
+    "critico_pct": 12,
+    "atk": 7,
+    "def": 0,
+    "rango": "S",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "emoji": "🗡",
+    "indice": 46,
+    "vol": 5,
+    "dmg_bonus_pct": 8,
+    "dmg_bonus_fijo": false,
+    "energia_max_bonus": 700,
+    "tipos_avatar": [
+      "dps",
+      "hibrido"
+    ],
+    "formula": [
+      {
+        "id_objeto": "fragmento_sombrio",
+        "cantidad": 12
+      },
+      {
+        "id_objeto": "esencia_glitch",
+        "cantidad": 4
+      },
+      {
+        "id_objeto": "nucleo_umbral",
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": "escudo_glitch",
+    "nivel": 9,
+    "rango": "S",
+    "energia_max_bonus": 800,
+    "atk": 0,
+    "def": 2,
+    "esquiva_pct": 12,
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "escudo",
+    "emoji": "🛡",
+    "indice": 47,
+    "vol": 5,
+    "def_bonus_pct": 28,
+    "def_bonus_fijo": true,
+    "tipos_avatar": [
+      "apoyo",
+      "tanque",
+      "protector"
+    ],
+    "formula": [
+      {
+        "id_objeto": "fragmento_sombrio",
+        "cantidad": 12
+      },
+      {
+        "id_objeto": "esencia_glitch",
+        "cantidad": 3
+      },
+      {
+        "id_objeto": "nucleo_umbral",
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": "orbe_umbral",
+    "atk": 0,
+    "def": 0,
+    "nivel": 9,
+    "rango": "S",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "orbe_magico",
+    "emoji": "🔮",
+    "vol": 5,
+    "indice": 48,
+    "energia_max_bonus": 1000,
+    "dmg_bonus_pct": 6,
+    "def_bonus_pct": 6,
+    "critico_pct": 6,
+    "formula": [
+      {
+        "id_objeto": "fragmento_sombrio",
+        "cantidad": 10
+      },
+      {
+        "id_objeto": "esencia_glitch",
+        "cantidad": 5
+      },
+      {
+        "id_objeto": "nucleo_umbral",
+        "cantidad": 2
+      }
+    ]
   }
 ]

@@ -19,7 +19,8 @@
     "k": "cristal",
     "v": "veta",
     "h": "hueso",
-    "x": "abismo"
+    "x": "abismo",
+    "O": "agujero"
   },
   "zonas": {
     "E": "Pradera",
@@ -61,7 +62,7 @@
     "xxxxxxhhhhhh#=hh#hhhhhhhhh=hhhhhhhxxxxxxTT.,.TTTT.TTTTT=TT.TT.TT,T.TTTTTbTTTbTbTTTTbb=bbTTTTbTbTbTTTaaaa#########aa=##aa#######a##aaaaaaaaaaaaaa=aaaaaaaaaaaaaa#",
     "xxxxxxxxhhhhh=hhhhhhhhhhhh=hhhhhxxxxxxxxT......,..T..,.=..,.....,.....bbbbbbbbbbbbbbb=bbbbTbbbbbbbbb#aaaaaaaaa#aaaa=aaaa#aaaaaaaa#aaaaaaaaaaaaaa=aaaaaaaaaaaaaa#",
     "xxxxxxxxxhhhh=hhhhh#hhhh#h=hhhhxxxxxxxxxT.........T....=,...,....,,...TbbbbbbbbbTbbbb=bbTbbbbbbbbbbb#aaaaaaaaaaaaaa=aaaa#vaaaaaaa##aaaaaaaa#aaaa=aaaaaa##aaaa#a#",
-    "xxxxxxxxxhhhh=hhhhhh#hhhhh=hhh#xxxxxxxxxT.......,.T....=....,.........bbbbbbbbbbbbbbb=bbbbbbbbbbbbbb#aaaaaaaaa#aaaa=aaaaaaaaaaaaa#aaaaaaaaaaaaaa=aaaaaaaaaaa#aa#",
+    "xxxxxxxxxhhhh=hhhhhh#hhhhh=hhh#xxxxxxxxxT.......,.T....=....,.........bbbbbbbbbbbbbbb=bbbbbbbbbbbbbb#aaaaaaaaa#aaaa=aaaaaaaaaaaaa#aaaaaaaaaaaaaa=aaaaOaaaaaa#aa#",
     "xxxxxxxxxhhhx=hx#hxhhxhhxh=xhhhxxxxxxxxxT..,...=================.....,Tbbbbbb=================bbbbbbaaaaaaa=================aaaaa#aaaaaaaaaaaaaa=#aaaaaaaaaaaaa#",
     "xxxxxxxxxhhhv=hhhhhhhhhhhh=hhhhxxxxxxxxxT.........,....=.....,........TbbbbbbbbbTbbbb=bbbbTbbbbbbbbb#aaaaaaa#a#aaaa=aaaa#aaaaaaaa#aaaa#aaaaaa#aa=aaaaaaaaaaaaaa#",
     "xxxxxxxxxhhhh=hhhhhhhhhhhh=hhhhxxxxxxxxxT,..,.....T...,=....,...,...,.TbbbbbbbTbTbbbb=bbbbbbbbbbbbbb#aaaaaaaaa#aaaa=aaaaaaaaaaaaa##aaaaaaaaaaaaa=aaaaaaaaaaaaaa#",
@@ -102,10 +103,10 @@
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,.....,..,,,..........,.,...TTbbbbbbbbTbbbbbTbbTbbbTbbbbTbbTaaaaaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa=aaaaaa##aaaa#a#",
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.T.,,,T......T.....T.........TTbbbbbbbbbTbbbbbbTbbbTbbbbbbbTaaaaa#aaaaaaaaa#aaaaaaaaaaaa#aaaaaaaaaaaaaaa=aaaaaaaaaaa#aa#",
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.................T...T.......TbbbbbbbbTTbbbbbbbTbbTbbbbbbbbTaaaaaa#aaaaaaaaaa#aaaaaaaaaaaaaaaaaaaaaaaa#a=aaaa#aaaaaaaaa#",
-    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...,...................,.....TbbbbbbbbbbbbbbbbbbbbbbTTbbTbTTa#aaaaaaaaa#aaaaaaaaa#a#aaaaaaaaaa#aaaaaaaaa=aaaaaaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...,...................,.....TbbbbbbbbbbbbbbbbbbbbbbTTbbTbTTa#aaaaaaaOa#aaaaaaaaa#a#aaaaaaaaaa#aaaaaaaaa=aaaaaaaaaaaaaa#",
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx........,.T.,..,......,......TbbbbbbbbbbbbbbbbbbbbbbbTTbbbbT#aaaaaaaaaaaaaaaaaaaaaa#a#aaaaaaaaaaaaaaaaaa=aaaaaaaaaaaa#a#",
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.,...,.......TT..T....,......TbbbbbbbbbbbbbbbbbbbbTbbbbbbbbTaaaaaaaaaaaaaaa#aaaaaaaaaaaaaaaaa#aaaaaaaaaa=aaaaaaaaaaaaaa#",
-    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.......,..........TT....,....TbbTbbbbbbbbbTbbbbTbbbbbTbbbbbTaaaaa#aaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa=aaa#aaaaaaaaaa#",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.......,..........TT....,....TbbTbbbbbbbbbTbbbbTbbbbbTbbbbbTaaaaa#aaa#aaaaaaaaaaaaaaaaaaOaaaaaaaaaaaaaaa=aaa#aaaaaaaaaa#",
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT.T.T.........TT..T..........TbbTbTbbTbbbbbbbbbbbbbbbbbTbbbTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#aaaaaaaaaaaa=aa#aaaaaaaaa#a#",
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx....,...,.......,...,.,....,.TTbTbbbbbTbbTbbbTbbbbbbbbbbbbbTaaaaaaaaaaaa#aaaaaaaaaaa#aaaaaaa#aaaaaaaaaaa=aaaaaaaaaaaaaa#",
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...,...,..............T....,.TbTbbbbbTbbbbbbbTbbbbbbTbbbbbTT#aaaaaaaaaaaaaaaaaaaaaaaa#aaaaaaaaaa##aaaaaa=aaaaaaaaaaa#aa#",
@@ -218,6 +219,16 @@
       "npc": "archivista",
       "x": 13,
       "y": 36
+    },
+    {
+      "npc": "firewall",
+      "x": 19,
+      "y": 43
+    },
+    {
+      "npc": "kira",
+      "x": 22,
+      "y": 43
     }
   ],
   "portales": [

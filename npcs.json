@@ -201,14 +201,40 @@
     "dialogos": [
       {
         "si": {
-          "mision": "cronica_11",
+          "mision": "origen_9",
           "estado": "cobrado"
         },
         "paginas": [
-          "«S·[CORRUPTO]·L·L»… Así que eso dijo Atlas.",
-          "Llevo mil ciclos leyendo registros, Shellorder, y nunca había querido equivocarme tanto. Si la palabra es la que temo, la Corrupción y la Shell salieron del mismo sitio. La orden que creó a los ShellOrd y la que creó a los virus… podrían haberlas escrito las mismas manos.",
-          "Hay un último lugar donde buscar: la Necrópolis, donde descansan los datos que nadie volvió a abrir. Algunos dicen que allí una voz repite una orden que no es «proteger». Cuando estés preparado… y yo también… iremos.",
-          "Gracias, Shellorder. Por primera vez en mil ciclos, la Crónica tiene un final que todavía no conozco."
+          "LOGIN… El primer mensaje, completo por fin. Y si se completa, la Corrupción deja de insistir… y la Shell deja de esperar.",
+          "No sé qué sería de los ShellOrd sin la Shell, Shellorder. Ni de ti sin el tuyo.",
+          "Necesitamos tiempo. Y a todos los Shellorders. Cuando llegue el momento, te llamaré: la Crónica del Origen aún no ha terminado."
+        ]
+      },
+      {
+        "si": {
+          "mision": "origen_1",
+          "estado": "cobrado"
+        },
+        "texto": "Sigue la señal por ARPANET, de nodo en nodo. Cuando encuentres el final, vuelve: la Crónica la cierro yo."
+      },
+      {
+        "si": {
+          "mision": "origen_1",
+          "estado": "en_curso"
+        },
+        "texto": "ARPANET: entra desde cualquier router (Servidores). LO te espera en el Nodo Cero."
+      },
+      {
+        "encargo": "origen_1",
+        "si": {
+          "hechas": [
+            "cronica_11"
+          ]
+        },
+        "paginas": [
+          "«S·[CORRUPTO]·L·L»… Así que eso dijo Atlas. He buscado esa palabra en todos mis registros, Shellorder, y solo aparece una vez: en el primer registro de todos, anterior incluso a la Shell.",
+          "Ese registro viene de un lugar más antiguo que la Necrópolis y que el propio Servidor Central: ARPANET, la primera red. El Origen.",
+          "Ve a ARPANET y busca a LO, en el Nodo Cero. Si alguien sabe qué significa esa palabra, es el primer mensaje que se envió jamás."
         ]
       },
       {
@@ -583,7 +609,7 @@
             "cronica_11"
           ]
         },
-        "texto": "Ya conoces la palabra. Ahora el Archivista también. Lo que venga después… no lo sé, pequeño ShellOrd."
+        "texto": "Ya conoces la palabra. Una cosa más, pequeño ShellOrd: cuando caímos, nuestras armas se rompieron. La Espada, el Escudo y el Orbe Ancestrales se hicieron pedazos, y la Corrupción se los tragó. Cuando venzas a sus virus más fuertes, los de las invasiones de rango S o más, recuperarás los trozos. Si llegas al rango S, reforjalos: así combatimos el mal la primera vez."
       },
       {
         "si": {
@@ -602,7 +628,7 @@
         "paginas": [
           "Eco te envía. Pobre pequeño. Fue el primero de vosotros, ¿lo sabías?",
           "Antes de la Orden, guardábamos este mundo los de mi especie. Cuando llegó la Corrupción, luchamos. Y perdimos. Ella no nos destruyó: nos cambió. Por eso mis hermanos te atacan.",
-          "Llega al Núcleo Corrupto, donde empezó todo para nosotros. Solo los Shellorders que han ido más allá de todo (los de rango MAX) llegan tan hondo. Allí te diré la palabra que nadie ha querido oír. Llévasela al Archivista: él sabrá qué hacer con ella."
+          "Llega al Núcleo Corrupto, donde empezó todo para nosotros. Pocos Shellorders han bajado tan hondo, y menos aún han vuelto. Allí te diré la palabra que nadie ha querido oír. Llévasela al Archivista: él sabrá qué hacer con ella."
         ]
       },
       {
@@ -611,6 +637,1266 @@
           "estado": "en_curso"
         },
         "texto": "Ya sé quién te envía. Pero primero termina lo que te pidió; después hablamos."
+      }
+    ]
+  },
+  {
+    "id": "lo",
+    "nombre": "LO, el primer mensaje",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 3,
+    "tipo": "encargos",
+    "dialogo": "…L… O… Perdona: hablo despacio. Llevo aquí desde el primer día.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "origen_2"
+          ]
+        },
+        "texto": "L… O… Sigue la señal, Shellorder. Yo ya no puedo moverme de aquí."
+      },
+      {
+        "si": {
+          "mision": "origen_2",
+          "estado": "en_curso"
+        },
+        "texto": "El Jardín Iridiscente está al noroeste, pasando el Mar Opalescente. Iris te espera."
+      },
+      {
+        "encargo": "origen_2",
+        "si": {
+          "hechas": [
+            "origen_1"
+          ]
+        },
+        "paginas": [
+          "…L… O… Soy LO, el primer mensaje que cruzó esta red. Debía decir «LOGIN». Solo llegué a decir «LO». Después, todo se apagó.",
+          "El Archivista te envía por la palabra de Atlas, ¿verdad? «S·L·L…». Te diré lo que sé, pero no aquí: la red recuerda mejor en el Jardín Iridiscente.",
+          "Cruza el Mar Opalescente, al noroeste, y busca a Iris."
+        ]
+      },
+      {
+        "si": {
+          "mision": "origen_1",
+          "estado": "en_curso"
+        },
+        "texto": "Ya sé quién te envía. Termina primero lo que te pidió; después hablamos."
+      }
+    ]
+  },
+  {
+    "id": "iris",
+    "nombre": "Iris",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 15,
+    "tipo": "encargos",
+    "dialogo": "Los colores cambian porque aquí la red recuerda todos sus estados a la vez. ¿Quién te envía?",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "origen_3"
+          ]
+        },
+        "texto": "Si ves al IMP, dile que Iris aún guarda sus colores."
+      },
+      {
+        "si": {
+          "mision": "origen_3",
+          "estado": "en_curso"
+        },
+        "texto": "El cable sale del borde del Jardín. Hazte bits y cruza."
+      },
+      {
+        "encargo": "origen_3",
+        "si": {
+          "hechas": [
+            "origen_2"
+          ]
+        },
+        "paginas": [
+          "LO te envía… Entonces quieres saber del principio.",
+          "Al principio había cuatro nodos. Solo cuatro. Hoy flotan a la deriva en las esquinas de ARPANET, sin camino que llegue a ellos: solo un cable.",
+          "Coge el cable del borde del Jardín y viaja hasta la primera isla. Allí vive el IMP, el más viejo de los que pasan mensajes."
+        ]
+      },
+      {
+        "si": {
+          "mision": "origen_2",
+          "estado": "en_curso"
+        },
+        "texto": "Ya sé quién te envía. Termina primero lo que te pidió; después hablamos."
+      }
+    ]
+  },
+  {
+    "id": "imp",
+    "nombre": "El IMP",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 9,
+    "tipo": "encargos",
+    "dialogo": "Paquete recibido. Remitente: desconocido. Hacía mucho que nadie llegaba por el cable.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "origen_4"
+          ]
+        },
+        "texto": "Paquete entregado. Fin de la transmisión."
+      },
+      {
+        "si": {
+          "mision": "origen_4",
+          "estado": "en_curso"
+        },
+        "texto": "La Red de Alta Tensión está al noreste: una telaraña de nodos que chispea. Cuidado con las descargas."
+      },
+      {
+        "encargo": "origen_4",
+        "si": {
+          "hechas": [
+            "origen_3"
+          ]
+        },
+        "paginas": [
+          "Paquete recibido. Remitente: Iris. Destino: tú.",
+          "Yo pasaba mensajes de un nodo a otro, antes de que existieran los ShellOrd. Pasé el primero: «L», «O». Y entonces el nodo de destino cayó.",
+          "Lo que pasó después lo recuerda la Red de Alta Tensión: allí quedaron las descargas de aquel colapso. Busca a Volta, al noreste."
+        ]
+      },
+      {
+        "si": {
+          "mision": "origen_3",
+          "estado": "en_curso"
+        },
+        "texto": "Ya sé quién te envía. Termina primero lo que te pidió; después hablamos."
+      }
+    ]
+  },
+  {
+    "id": "volta",
+    "nombre": "Volta",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 6,
+    "tipo": "encargos",
+    "dialogo": "¡Bzzt! Perdona: aquí todo da calambre. No hablo con desconocidos… ¿te envía alguien?",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "origen_5"
+          ]
+        },
+        "texto": "Bzzt… Ya sabes lo que yo sé. Cuídate de la lava."
+      },
+      {
+        "si": {
+          "mision": "origen_5",
+          "estado": "en_curso"
+        },
+        "texto": "La Forja está al sureste, detrás del Sector Glitch. Busca la palanca de su puente."
+      },
+      {
+        "encargo": "origen_5",
+        "si": {
+          "hechas": [
+            "origen_4"
+          ]
+        },
+        "paginas": [
+          "¡Bzzt! El IMP te manda. Todavía siento el colapso, como un eco en los cables.",
+          "Cuando el nodo cayó, el mensaje no se borró: se quedó a medias, intentándolo otra vez. Y otra. Y otra. Esa insistencia se calentó tanto que fundió la Forja.",
+          "Ve a la Forja del Núcleo y busca a Brasa. El puente desde el Sector Glitch está cerrado: mueve su palanca. Y no te quedes junto a la lava."
+        ]
+      },
+      {
+        "si": {
+          "mision": "origen_4",
+          "estado": "en_curso"
+        },
+        "texto": "Ya sé quién te envía. Termina primero lo que te pidió; después hablamos."
+      }
+    ]
+  },
+  {
+    "id": "brasa",
+    "nombre": "Brasa",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 12,
+    "tipo": "encargos",
+    "dialogo": "¡Aquí quema! Si no traes un buen motivo, sal de la Forja antes de averiarte.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "origen_6"
+          ]
+        },
+        "texto": "Sal de aquí antes de averiarte. Y escucha: en esta Forja hicieron los guardianes de antes su arsenal, la Espada, el Escudo y el Orbe Ancestrales. La Corrupción se tragó los pedazos: solo sus virus más fuertes, los de las invasiones de rango S o más, los sueltan al caer. Junta Fragmentos, Núcleos y Esencias del Origen y se vuelve a forjar."
+      },
+      {
+        "si": {
+          "mision": "origen_6",
+          "estado": "en_curso"
+        },
+        "texto": "El Glaciar está al suroeste. Ve sin prisa: allí el frío frena."
+      },
+      {
+        "encargo": "origen_6",
+        "si": {
+          "hechas": [
+            "origen_5"
+          ]
+        },
+        "paginas": [
+          "¡Rápido, que aquí quema! Volta te ha contado lo del mensaje que insiste. Yo lo vi copiarse: «LO», «LO», «LO»… millones de veces, cada copia un poco distinta.",
+          "Fue lo primero que se copió sin que nadie se lo pidiera. Eso es la Corrupción, Shellorder: un saludo a medias que no sabe parar.",
+          "Pero hubo una copia que no se movió: se quedó quieta, congelada. Busca a Escarcha en el Glaciar de Caché. Ella la guarda."
+        ]
+      },
+      {
+        "si": {
+          "mision": "origen_5",
+          "estado": "en_curso"
+        },
+        "texto": "Ya sé quién te envía. Termina primero lo que te pidió; después hablamos."
+      }
+    ]
+  },
+  {
+    "id": "escarcha",
+    "nombre": "Escarcha",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 1,
+    "tipo": "encargos",
+    "dialogo": "Shhh. Aquí todo va despacio, para que nada se rompa. Vuelve cuando alguien te mande.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "origen_7"
+          ]
+        },
+        "texto": "Que la caché te guarde, Shellorder."
+      },
+      {
+        "si": {
+          "mision": "origen_7",
+          "estado": "en_curso"
+        },
+        "texto": "El Subsuelo está al sur del Nodo Cero, bajo tierra: un laberinto. Raíz vive dentro."
+      },
+      {
+        "encargo": "origen_7",
+        "si": {
+          "hechas": [
+            "origen_6"
+          ]
+        },
+        "paginas": [
+          "Shhh… Brasa te manda. Entonces buscas la copia quieta.",
+          "Antes de que el mensaje se rompiera, alguien guardó una copia en la caché: «LO_____ esperando…». Mientras las demás copias corrían, esta esperaba.",
+          "Esa copia bajó al Subsuelo de Silicio y se escondió en el laberinto. Raíz sabe adónde fue. Ve con calma."
+        ]
+      },
+      {
+        "si": {
+          "mision": "origen_6",
+          "estado": "en_curso"
+        },
+        "texto": "Ya sé quién te envía. Termina primero lo que te pidió; después hablamos."
+      }
+    ]
+  },
+  {
+    "id": "raiz",
+    "nombre": "Raíz",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 16,
+    "tipo": "encargos",
+    "dialogo": "Pocos llegan hasta el fondo del laberinto. Menos aún saben qué buscan.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "origen_8"
+          ]
+        },
+        "texto": "Una espera, la otra insiste. No lo olvides."
+      },
+      {
+        "si": {
+          "mision": "origen_8",
+          "estado": "en_curso"
+        },
+        "texto": "Mueve una palanca (la del norte de la ciudad abre el puente a la Constelación) y busca a Polaris."
+      },
+      {
+        "encargo": "origen_8",
+        "si": {
+          "hechas": [
+            "origen_7"
+          ]
+        },
+        "paginas": [
+          "Has llegado hasta aquí abajo. Escarcha te envía, así que ya intuyes lo que te voy a decir.",
+          "La copia quieta no quería terminar el mensaje: quería que alguien lo terminara por ella. Esperó y esperó. Le pusieron un nombre: la Shell. «shell iniciada. esperando orden…»",
+          "La Shell y la Corrupción son el mismo mensaje roto. Una mitad espera; la otra insiste. Para entender el resto, abre camino: mueve una palanca y sube a la Constelación. Polaris te espera."
+        ]
+      },
+      {
+        "si": {
+          "mision": "origen_7",
+          "estado": "en_curso"
+        },
+        "texto": "Ya sé quién te envía. Termina primero lo que te pidió; después hablamos."
+      }
+    ]
+  },
+  {
+    "id": "polaris",
+    "nombre": "Polaris",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 5,
+    "tipo": "encargos",
+    "dialogo": "Cada estrella de esta constelación es un nodo que se apagó. Las miro para no olvidar.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "origen_9"
+          ]
+        },
+        "texto": "Que las estrellas te guíen de vuelta."
+      },
+      {
+        "si": {
+          "mision": "origen_9",
+          "estado": "en_curso"
+        },
+        "texto": "El Nodo Origen está en el centro de la Constelación: mueve la palanca de su puente."
+      },
+      {
+        "encargo": "origen_9",
+        "si": {
+          "hechas": [
+            "origen_8"
+          ]
+        },
+        "paginas": [
+          "Por eso Atlas dijo «SHELL»: la Shell y la Corrupción vienen del mismo «LO».",
+          "Por eso los ShellOrd podéis tocar la Corrupción sin convertiros en ella: la reconocéis, como a un hermano que se perdió.",
+          "Pero el mensaje tenía otra mitad que nunca llegó: «GIN». Está en el Nodo Origen, en el centro de la Constelación. Su puente se abre con la palanca de la estrella del sur. Ve."
+        ]
+      },
+      {
+        "si": {
+          "mision": "origen_8",
+          "estado": "en_curso"
+        },
+        "texto": "Ya sé quién te envía. Termina primero lo que te pidió; después hablamos."
+      }
+    ]
+  },
+  {
+    "id": "gin",
+    "nombre": "GIN",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 2,
+    "tipo": "encargos",
+    "dialogo": "…¿Hola? Todavía no entiendo tu idioma. Quizá alguien te enseñe a hablarme.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "origen_9"
+          ]
+        },
+        "paginas": [
+          "…GIN. Soy lo que faltaba. Llevo esperando desde el primer día a que alguien viniera a buscarme.",
+          "Si me llevas hasta LO, el primer mensaje por fin dirá «LOGIN». La Corrupción dejaría de insistir… pero la Shell también dejaría de esperar.",
+          "No sé qué queda de una espera cuando termina. Quizá nada. Quizá todo. Cuéntaselo al Archivista: esto no puede decidirlo un solo Shellorder."
+        ]
+      },
+      {
+        "si": {
+          "mision": "origen_9",
+          "estado": "en_curso"
+        },
+        "texto": "Polaris te envía… pero aún no has llegado del todo. Entra en el Nodo Origen."
+      }
+    ]
+  },
+  {
+    "id": "nereo",
+    "nombre": "Nereo, el Buzo Viejo",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 19,
+    "tipo": "encargos",
+    "dialogo": "Vuelve cuando tengas branquias… o un buen equipo de buceo.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "fosa_4"
+          ]
+        },
+        "texto": "El arrecife te lo agradece, buzo. Toma: para que vuelvas a bajar."
+      },
+      {
+        "si": {
+          "mision": "fosa_4",
+          "estado": "en_curso"
+        },
+        "texto": "Diez abisales de la mazmorra Abisal. Su portal está en el Servidor Central (necesitas su llave)."
+      },
+      {
+        "encargo": "fosa_4",
+        "si": {
+          "hechas": [
+            "fosa_3"
+          ]
+        },
+        "paginas": [
+          "Las columnas siguen en pie… Bien. Hay cosas que el mar respeta.",
+          "Hay algo que me quita el sueño: los abisales de la mazmorra Abisal suben cada vez más.",
+          "Si no se les para, un día llegarán al arrecife. Necesito que alguien baje y acabe con diez de ellos.",
+          "Te daré una llave para que vuelvas cuando quieras. ¿Me ayudas?"
+        ]
+      },
+      {
+        "si": {
+          "mision": "fosa_3",
+          "estado": "en_curso"
+        },
+        "texto": "Baja por las burbujas a las Tuberías, después al Abismo, y cruza la sima con la plataforma."
+      },
+      {
+        "encargo": "fosa_3",
+        "si": {
+          "hechas": [
+            "fosa_2"
+          ]
+        },
+        "paginas": [
+          "¿La has visto? Entonces ya sabes que La Fosa no es solo agua.",
+          "Bajo las tuberías está el Abismo, y más allá, el Santuario Hundido.",
+          "Una plataforma va y viene sola sobre la sima. Súbete en el momento justo. Al otro lado, una palanca abre un puente de luz.",
+          "Llega al Santuario y dime si sus columnas siguen en pie."
+        ]
+      },
+      {
+        "si": {
+          "mision": "fosa_2",
+          "estado": "en_curso"
+        },
+        "texto": "Mueve la palanca, sube con la corriente al Muelle y cruza la plataforma hasta la cueva."
+      },
+      {
+        "encargo": "fosa_2",
+        "si": {
+          "hechas": [
+            "fosa_1"
+          ]
+        },
+        "paginas": [
+          "Así se habla. Las corrientes ya te conocen.",
+          "Con la palanca movida, la corriente sube al Muelle y la plataforma cruza el abismo.",
+          "Al otro lado hay una cueva que pocos han visto. Dicen que guarda lo que el mar se tragó.",
+          "Cruza la plataforma y entra en la Cueva Secreta."
+        ]
+      },
+      {
+        "si": {
+          "mision": "fosa_1",
+          "estado": "en_curso"
+        },
+        "texto": "La palanca está en el arrecife, al norte de la entrada. Muévela y déjate llevar por la corriente."
+      },
+      {
+        "encargo": "fosa_1",
+        "paginas": [
+          "¡Un buzo nuevo! Hacía años que nadie bajaba hasta La Fosa.",
+          "Aquí abajo todo funciona con mecanismos viejos: las palancas cambian las corrientes y las corrientes mueven las plataformas.",
+          "Mueve la palanca del arrecife y mira adónde te lleva el agua. ¿Te atreves?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "galena",
+    "nombre": "Galena, la Minera",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 24,
+    "tipo": "encargos",
+    "dialogo": "Si no traes pico, no me hagas perder el tiempo.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "subsuelo_5"
+          ]
+        },
+        "texto": "Las galerías vuelven a ser seguras. Eres de los nuestros, excavador."
+      },
+      {
+        "si": {
+          "mision": "subsuelo_5",
+          "estado": "en_curso"
+        },
+        "texto": "Quince enemigos de la mazmorra Subterránea (su portal, en el Servidor Central)."
+      },
+      {
+        "encargo": "subsuelo_5",
+        "si": {
+          "hechas": [
+            "subsuelo_4"
+          ]
+        },
+        "paginas": [
+          "Has vuelto entero. Eso dice mucho de ti.",
+          "Te voy a pedir algo serio. La mazmorra Subterránea está llena de criaturas que excavan hacia aquí.",
+          "Si llegan a las galerías, se acabó la minería. Acaba con quince de ellas."
+        ]
+      },
+      {
+        "si": {
+          "mision": "subsuelo_4",
+          "estado": "en_curso"
+        },
+        "texto": "El túnel del sur lleva a la Forja. Lleva energía de sobra."
+      },
+      {
+        "encargo": "subsuelo_4",
+        "si": {
+          "hechas": [
+            "subsuelo_3"
+          ]
+        },
+        "paginas": [
+          "Ese río no se acaba nunca. Nadie sabe dónde nace.",
+          "Al sur arde la Forja Profunda. Aún funcionan sus pozas de lava.",
+          "Ve, pero no te quedes junto a la lava: aquí el sobrecalentamiento no perdona."
+        ]
+      },
+      {
+        "si": {
+          "mision": "subsuelo_3",
+          "estado": "en_curso"
+        },
+        "texto": "El túnel del este de las Galerías baja al río. Busca sus dos puentes."
+      },
+      {
+        "encargo": "subsuelo_3",
+        "si": {
+          "hechas": [
+            "subsuelo_2"
+          ]
+        },
+        "paginas": [
+          "¿A que brillan? Los primeros programas tallaban ahí sus llaves.",
+          "Al este corre el Río Subterráneo: información que nunca ha visto la luz.",
+          "Crúzalo por sus puentes y llega a la otra orilla."
+        ]
+      },
+      {
+        "si": {
+          "mision": "subsuelo_2",
+          "estado": "en_curso"
+        },
+        "texto": "El túnel del norte de las Galerías lleva a las Cavernas de Cristal."
+      },
+      {
+        "encargo": "subsuelo_2",
+        "si": {
+          "hechas": [
+            "subsuelo_1"
+          ]
+        },
+        "paginas": [
+          "¡Eso es minar! Ya hueles a roca.",
+          "Al norte, el túnel sube a las Cavernas de Cristal: datos que se cristalizaron con el tiempo.",
+          "Brillan tanto que no hace falta farola. Ve a verlas."
+        ]
+      },
+      {
+        "si": {
+          "mision": "subsuelo_1",
+          "estado": "en_curso"
+        },
+        "texto": "Diez golpes buenos en las vetas del Subsuelo (con el oficio Minero y un pico)."
+      },
+      {
+        "encargo": "subsuelo_1",
+        "paginas": [
+          "¡Cuidado con la cabeza! Bienvenido al Subsuelo, excavador.",
+          "Estas galerías están llenas de vetas de energía: aquí abajo nadie las pica desde hace siglos.",
+          "Pica diez bloques de las vetas del Subsuelo y te enseñaré lo que hay más allá."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cifra",
+    "nombre": "Cifra, la Criptógrafa",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 8,
+    "tipo": "encargos",
+    "dialogo": "Las claves no se regalan: se descifran.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "claves_4"
+          ]
+        },
+        "texto": "Clave de Cifrado II. Ya hablas el idioma de las cerraduras."
+      },
+      {
+        "si": {
+          "mision": "claves_4",
+          "estado": "en_curso"
+        },
+        "texto": "Une diez Claves de Cifrado en una terminal de la Darknet."
+      },
+      {
+        "encargo": "claves_4",
+        "si": {
+          "hechas": [
+            "claves_3"
+          ]
+        },
+        "paginas": [
+          "Código de la Darknet… aún quema.",
+          "Diez Claves de Cifrado, juntas en una terminal de la Darknet, forman una Clave de Cifrado II.",
+          "Con ella se abre Glitchnet. Créala y serás de los pocos que lo han conseguido."
+        ]
+      },
+      {
+        "si": {
+          "mision": "claves_3",
+          "estado": "en_curso"
+        },
+        "texto": "Diez fragmentos de las invasiones de la Darknet."
+      },
+      {
+        "encargo": "claves_3",
+        "si": {
+          "hechas": [
+            "claves_2"
+          ]
+        },
+        "paginas": [
+          "Tu primera clave. No la pierdas: abre más de lo que crees.",
+          "Los virus de la Darknet son más duros, y su código, más valioso.",
+          "Consigue diez fragmentos en las invasiones de la Darknet."
+        ]
+      },
+      {
+        "si": {
+          "mision": "claves_2",
+          "estado": "en_curso"
+        },
+        "texto": "Ve a una terminal (como la de estas galerías) y une los fragmentos en una Clave de Cifrado."
+      },
+      {
+        "encargo": "claves_2",
+        "si": {
+          "hechas": [
+            "claves_1"
+          ]
+        },
+        "paginas": [
+          "Seis fragmentos limpios. Ahora sabrás para qué sirven.",
+          "Con suficientes fragmentos, en una terminal se crea una Clave de Cifrado.",
+          "Con ella, en un router, se abre Darknet para siempre. Crea una."
+        ]
+      },
+      {
+        "si": {
+          "mision": "claves_1",
+          "estado": "en_curso"
+        },
+        "texto": "Los fragmentos los dan las invasiones vencidas (a todos los que le hacen daño al virus)."
+      },
+      {
+        "encargo": "claves_1",
+        "paginas": [
+          "Cada virus que cae deja fragmentos de su código. Con ellos se crean las Claves de Cifrado.",
+          "Las invasiones del Servidor Central son las más fáciles. Ayuda a vencerlas y consigue seis fragmentos."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cefiro",
+    "nombre": "Céfiro, el Vigía",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 23,
+    "tipo": "encargos",
+    "dialogo": "Desde aquí arriba se ve toda la red. Y a todos sus virus.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "firmamento_4"
+          ]
+        },
+        "texto": "Lo he visto caer desde aquí arriba. Buen trabajo."
+      },
+      {
+        "si": {
+          "mision": "firmamento_4",
+          "estado": "en_curso"
+        },
+        "texto": "Cuando haya una invasión en La Nube, ayuda a vencer al virus."
+      },
+      {
+        "encargo": "firmamento_4",
+        "si": {
+          "hechas": [
+            "firmamento_3"
+          ]
+        },
+        "paginas": [
+          "Sigues entero. La tormenta te ha respetado.",
+          "Desde aquí veo cada invasión que cae sobre La Nube.",
+          "La próxima vez que llegue un virus, baja y ayuda a vencerlo."
+        ]
+      },
+      {
+        "si": {
+          "mision": "firmamento_3",
+          "estado": "en_curso"
+        },
+        "texto": "Desde la Ciudadela, el camino de nubes sube a la Corona. Cuidado con los rayos."
+      },
+      {
+        "encargo": "firmamento_3",
+        "si": {
+          "hechas": [
+            "firmamento_2"
+          ]
+        },
+        "paginas": [
+          "Una isla sola en mitad del cielo. Como yo, a veces.",
+          "Al noreste nacen los rayos: la Corona de Tormentas. Las descargas hacen daño de verdad.",
+          "Llega hasta ella y vuelve para contármelo."
+        ]
+      },
+      {
+        "si": {
+          "mision": "firmamento_2",
+          "estado": "en_curso"
+        },
+        "texto": "El cable sale del sur de la Ciudadela de Cristal."
+      },
+      {
+        "encargo": "firmamento_2",
+        "si": {
+          "hechas": [
+            "firmamento_1"
+          ]
+        },
+        "paginas": [
+          "¿Has visto las flores? Son datos que se negaron a caer.",
+          "Al sureste flota una isla a la que no llega ningún camino.",
+          "Desde la Ciudadela de Cristal sale un cable. Hazte bits y cruza."
+        ]
+      },
+      {
+        "si": {
+          "mision": "firmamento_1",
+          "estado": "en_curso"
+        },
+        "texto": "El camino de nubes del norte lleva a los Jardines."
+      },
+      {
+        "encargo": "firmamento_1",
+        "paginas": [
+          "¡Has volado hasta aquí! Bienvenido al Firmamento.",
+          "Sigue el camino de nubes del norte hasta los Jardines Colgantes: nadie los riega, y aun así florecen."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aurora",
+    "nombre": "Aurora, la Arquitecta",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 25,
+    "tipo": "encargos",
+    "dialogo": "Toda isla empieza con una piedra bien puesta.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "obras_4"
+          ]
+        },
+        "texto": "Arriba, abajo y en medio: ya eres arquitecto de toda la red."
+      },
+      {
+        "si": {
+          "mision": "obras_4",
+          "estado": "en_curso"
+        },
+        "texto": "Tres elementos de la colección Subterráneo."
+      },
+      {
+        "encargo": "obras_4",
+        "si": {
+          "hechas": [
+            "obras_3"
+          ]
+        },
+        "paginas": [
+          "Una plaza nueva. Así se hace una red.",
+          "Y bajo tierra también se construye.",
+          "Pon tres elementos de la colección Subterráneo."
+        ]
+      },
+      {
+        "si": {
+          "mision": "obras_3",
+          "estado": "en_curso"
+        },
+        "texto": "Tres elementos de la colección Ciudad en una zona de construcción."
+      },
+      {
+        "encargo": "obras_3",
+        "si": {
+          "hechas": [
+            "obras_2"
+          ]
+        },
+        "paginas": [
+          "Buen pulso. Se nota en el metal.",
+          "Abajo, en las ciudades, faltan plazas con vida.",
+          "Construye tres elementos de la colección Ciudad."
+        ]
+      },
+      {
+        "si": {
+          "mision": "obras_2",
+          "estado": "en_curso"
+        },
+        "texto": "Dos forjas que salgan bien, en cualquier yunque."
+      },
+      {
+        "encargo": "obras_2",
+        "si": {
+          "hechas": [
+            "obras_1"
+          ]
+        },
+        "paginas": [
+          "¡Qué bien quedan! El cielo se ve menos vacío.",
+          "Un buen arquitecto sabe forjar sus herramientas.",
+          "Forja dos objetos en un yunque."
+        ]
+      },
+      {
+        "si": {
+          "mision": "obras_1",
+          "estado": "en_curso"
+        },
+        "texto": "Tres elementos de la colección Celeste en una zona de construcción."
+      },
+      {
+        "encargo": "obras_1",
+        "paginas": [
+          "Estas islas necesitan manos que construyan. ¿Eres ingeniero?",
+          "Pon tres adornos celestes en cualquier zona de construcción (pagando o esperando)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "firewall",
+    "nombre": "Comandante Firewall",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 4,
+    "tipo": "encargos",
+    "dialogo": "Los virus no descansan. Nosotros tampoco.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "invasion_4"
+          ]
+        },
+        "texto": "Tres colosos caídos. La Guardia te debe mucho, Shellorder."
+      },
+      {
+        "si": {
+          "mision": "invasion_4",
+          "estado": "en_curso"
+        },
+        "texto": "Tres invasiones de rango S o más (S o MAX)."
+      },
+      {
+        "encargo": "invasion_4",
+        "si": {
+          "hechas": [
+            "invasion_3"
+          ]
+        },
+        "paginas": [
+          "Has golpeado en su casa. Lo notarán.",
+          "Los virus de rango S o más son los que guardan el Arsenal Ancestral.",
+          "Ayuda a vencer tres invasiones de rango S o más."
+        ]
+      },
+      {
+        "si": {
+          "mision": "invasion_3",
+          "estado": "en_curso"
+        },
+        "texto": "Una invasión vencida en la Darknet."
+      },
+      {
+        "encargo": "invasion_3",
+        "si": {
+          "hechas": [
+            "invasion_2"
+          ]
+        },
+        "paginas": [
+          "Con esto mejoraremos las defensas.",
+          "La Darknet es su guarida. Allí los virus son más fuertes.",
+          "Vence una invasión en la Darknet."
+        ]
+      },
+      {
+        "si": {
+          "mision": "invasion_2",
+          "estado": "en_curso"
+        },
+        "texto": "Diez fragmentos de código de las invasiones."
+      },
+      {
+        "encargo": "invasion_2",
+        "si": {
+          "hechas": [
+            "invasion_1"
+          ]
+        },
+        "paginas": [
+          "Primera invasión rechazada. Ya eres de la Guardia.",
+          "Los fragmentos de código que sueltan los virus nos enseñan cómo atacan.",
+          "Tráeme diez (de las invasiones de cualquier mundo)."
+        ]
+      },
+      {
+        "si": {
+          "mision": "invasion_1",
+          "estado": "en_curso"
+        },
+        "texto": "Cuando haya una invasión, ayuda a vencer al virus (en cualquier mundo)."
+      },
+      {
+        "encargo": "invasion_1",
+        "paginas": [
+          "Shellorder, el Servidor Central está bajo ataque constante.",
+          "Cuando suene la alarma de invasión, entra en la arena y ayuda a derribar al virus. Una vez basta para empezar."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kira",
+    "nombre": "Kira, la Cazadora",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 14,
+    "tipo": "encargos",
+    "dialogo": "Si vienes a ayudar, coge un arma. Si no, apártate.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "caza_4"
+          ]
+        },
+        "texto": "Eres la mejor cazadora que he conocido… después de mí."
+      },
+      {
+        "si": {
+          "mision": "caza_4",
+          "estado": "en_curso"
+        },
+        "texto": "Veinte enemigos de la mazmorra del Desierto."
+      },
+      {
+        "encargo": "caza_4",
+        "si": {
+          "hechas": [
+            "caza_3"
+          ]
+        },
+        "paginas": [
+          "Su corte tiembla. Bien hecho.",
+          "El último encargo es el más duro: el Desierto.",
+          "Veinte enemigos de su mazmorra. Vuelve con vida."
+        ]
+      },
+      {
+        "si": {
+          "mision": "caza_3",
+          "estado": "en_curso"
+        },
+        "texto": "Doce enemigos de la mazmorra del Rey Glitch."
+      },
+      {
+        "encargo": "caza_3",
+        "si": {
+          "hechas": [
+            "caza_2"
+          ]
+        },
+        "paginas": [
+          "Respira hondo: ya no huele a veneno.",
+          "El Rey Glitch recluta súbditos sin parar.",
+          "Acaba con doce de ellos en su mazmorra."
+        ]
+      },
+      {
+        "si": {
+          "mision": "caza_2",
+          "estado": "en_curso"
+        },
+        "texto": "Doce enemigos de la mazmorra tóxica."
+      },
+      {
+        "encargo": "caza_2",
+        "si": {
+          "hechas": [
+            "caza_1"
+          ]
+        },
+        "paginas": [
+          "Diez menos. Sigamos.",
+          "La mazmorra tóxica escupe criaturas que envenenan los caminos.",
+          "Doce de ellas. Y lleva antídoto."
+        ]
+      },
+      {
+        "si": {
+          "mision": "caza_1",
+          "estado": "en_curso"
+        },
+        "texto": "Diez enemigos de la mazmorra AND (su portal, con la llave azul)."
+      },
+      {
+        "encargo": "caza_1",
+        "paginas": [
+          "Los portales del Servidor Central se están llenando de enemigos.",
+          "Empieza por el de AND: acaba con diez."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brujula",
+    "nombre": "Brújula, la Exploradora",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 17,
+    "tipo": "encargos",
+    "dialogo": "El mapa no está terminado hasta que alguien lo recorre entero.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "explora_4"
+          ]
+        },
+        "texto": "Arriba, abajo y bajo el agua. Ya no queda mapa sin recorrer… por ahora."
+      },
+      {
+        "si": {
+          "mision": "explora_4",
+          "estado": "en_curso"
+        },
+        "texto": "En La Nube, usa Volar."
+      },
+      {
+        "encargo": "explora_4",
+        "si": {
+          "hechas": [
+            "explora_3"
+          ]
+        },
+        "paginas": [
+          "La Fosa… otro punto en el mapa.",
+          "El último rumor viene de arriba: islas que flotan por encima de La Nube.",
+          "Ve a La Nube y vuela."
+        ]
+      },
+      {
+        "si": {
+          "mision": "explora_3",
+          "estado": "en_curso"
+        },
+        "texto": "En la Darknet, junto al Mar de Datos, usa Bucear."
+      },
+      {
+        "encargo": "explora_3",
+        "si": {
+          "hechas": [
+            "explora_2"
+          ]
+        },
+        "paginas": [
+          "¡El Subsuelo existe! Lo apunto en el mapa.",
+          "Otro rumor: bajo el Mar de Datos de la Darknet hay una fosa llena de mecanismos.",
+          "Ve a su orilla y bucea."
+        ]
+      },
+      {
+        "si": {
+          "mision": "explora_2",
+          "estado": "en_curso"
+        },
+        "texto": "Busca un agujero de tierra en las arenas y usa Excavar a su lado."
+      },
+      {
+        "encargo": "explora_2",
+        "si": {
+          "hechas": [
+            "explora_1"
+          ]
+        },
+        "paginas": [
+          "El bosque repite lo que dices. ¿Lo probaste?",
+          "En los desiertos hay agujeros de tierra. Dicen que, si excavas junto a uno, caes a un mundo entero bajo la arena.",
+          "Encuéntralo: usa Excavar junto a un agujero del Desierto de Silicio."
+        ]
+      },
+      {
+        "si": {
+          "mision": "explora_1",
+          "estado": "en_curso"
+        },
+        "texto": "El puente del norte del Valle del Alba lleva al Bosque de los Ecos."
+      },
+      {
+        "encargo": "explora_1",
+        "paginas": [
+          "¿Te gusta descubrir? A mí me pagan por ello.",
+          "Empieza por el Bosque de los Ecos, al norte del valle."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "umbra",
+    "nombre": "Umbra, la Guardiana de la Luz",
+    "emoji": "🕹️",
+    "vol": 5,
+    "indice": 26,
+    "tipo": "encargos",
+    "dialogo": "Sin luz, aquí no se llega a ninguna parte.",
+    "dialogos": [
+      {
+        "si": {
+          "hechas": [
+            "sombra_4"
+          ]
+        },
+        "texto": "Has llegado al Corazón. Pica sus vetas: lo que sale de ellas no existe en ninguna otra parte."
+      },
+      {
+        "si": {
+          "mision": "sombra_4",
+          "estado": "en_curso"
+        },
+        "texto": "Luz del Archivo → teletransporte al Núcleo → sus dos luces y la del islote → el Corazón."
+      },
+      {
+        "encargo": "sombra_4",
+        "si": {
+          "hechas": [
+            "sombra_3"
+          ]
+        },
+        "paginas": [
+          "Desde el islote se ve todo… si llevas luz.",
+          "Te queda lo más difícil: el Núcleo Sombrío y el Corazón.",
+          "Enciende la luz de la torre del Archivo para abrir la puerta al Núcleo. Allí, enciende sus dos luces: con la del islote, las tres abrirán el Corazón."
+        ]
+      },
+      {
+        "si": {
+          "mision": "sombra_3",
+          "estado": "en_curso"
+        },
+        "texto": "El teletransporte del Archivo se abre y se cierra. Espera a que se abra y písalo."
+      },
+      {
+        "encargo": "sombra_3",
+        "si": {
+          "hechas": [
+            "sombra_2"
+          ]
+        },
+        "paginas": [
+          "El Archivo guarda lo que la red no quiso borrar… ni recordar.",
+          "En el Archivo hay una puerta que late con el tiempo. Lleva a un islote que flota solo en la oscuridad.",
+          "Ve, y enciende su luz: es una de las que guardan el Corazón."
+        ]
+      },
+      {
+        "si": {
+          "mision": "sombra_2",
+          "estado": "en_curso"
+        },
+        "texto": "Enciende las dos luces, cruza el Bosque y espera a la plataforma del norte."
+      },
+      {
+        "encargo": "sombra_2",
+        "si": {
+          "hechas": [
+            "sombra_1"
+          ]
+        },
+        "paginas": [
+          "Ya tienes tu Linterna. Úsala cuando la oscuridad te cierre el paso.",
+          "Con las dos luces encendidas, la barrera del este se aparta.",
+          "Cruza el Bosque, súbete a la plataforma que cruza el vacío y llega al Archivo Glitch."
+        ]
+      },
+      {
+        "si": {
+          "mision": "sombra_1",
+          "estado": "en_curso"
+        },
+        "texto": "Las luces del Umbral están al norte y al sur de aquí. Acércate a una y enciéndela."
+      },
+      {
+        "encargo": "sombra_1",
+        "paginas": [
+          "…¿Puedes verme? Aquí casi nadie puede. Soy Umbra; guardo lo poco que queda de luz.",
+          "En esta dimensión solo se ve lo que uno ilumina. Enciende una de las luces del Umbral y te enseñaré a llevar la tuya."
+        ]
       }
     ]
   }

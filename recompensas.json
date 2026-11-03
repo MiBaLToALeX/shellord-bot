@@ -956,5 +956,158 @@
     "emoji": "📜",
     "indice": 0,
     "vol": 1
+  },
+  {
+    "tipo": 116,
+    "recompensa": "item",
+    "item_id": "pagina_origen_1",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 117,
+    "recompensa": "item",
+    "item_id": "pagina_origen_2",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 118,
+    "recompensa": "item",
+    "item_id": "pagina_origen_3",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 119,
+    "recompensa": "item",
+    "item_id": "pagina_origen_4",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 120,
+    "recompensa": "item",
+    "item_id": "pagina_origen_5",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 121,
+    "recompensa": "item",
+    "item_id": "pagina_origen_6",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 122,
+    "recompensa": "item",
+    "item_id": "pagina_origen_7",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 123,
+    "recompensa": "item",
+    "item_id": "pagina_origen_8",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 124,
+    "recompensa": "item",
+    "item_id": "pagina_origen_9",
+    "emoji": "📜",
+    "indice": 0,
+    "vol": 1
+  },
+  {
+    "tipo": 125,
+    "recompensa": "skill",
+    "skill_id": "aura_valor",
+    "emoji": "🔎",
+    "indice": 0,
+    "vol": 2,
+    "mensaje": "¡Has aprendido la habilidad pasiva Aura de Valor!"
+  },
+  {
+    "tipo": 126,
+    "recompensa": "skill",
+    "skill_id": "aura_bastion",
+    "emoji": "🔎",
+    "indice": 0,
+    "vol": 2,
+    "mensaje": "¡Has aprendido la habilidad pasiva Aura del Bastión!"
+  },
+  {
+    "tipo": 127,
+    "recompensa": "skill",
+    "skill_id": "aura_vital",
+    "emoji": "🔎",
+    "indice": 0,
+    "vol": 2,
+    "mensaje": "¡Has aprendido la habilidad pasiva Aura Vital!"
+  },
+  {
+    "tipo": 128,
+    "recompensa": "skill",
+    "skill_id": "aura_abisal",
+    "emoji": "🔎",
+    "indice": 0,
+    "vol": 2,
+    "mensaje": "¡Has aprendido la habilidad pasiva Aura Abisal!"
+  },
+  {
+    "tipo": 129,
+    "recompensa": "skill",
+    "skill_id": "aura_sombria",
+    "emoji": "🔎",
+    "indice": 0,
+    "vol": 2,
+    "mensaje": "¡Has aprendido la habilidad pasiva Aura Sombría!"
+  },
+  {
+    "tipo": 130,
+    "recompensa": "skill",
+    "skill_id": "aura_cifrada",
+    "emoji": "🔎",
+    "indice": 0,
+    "vol": 2,
+    "mensaje": "¡Has aprendido la habilidad pasiva Aura Cifrada!"
+  },
+  {
+    "tipo": 131,
+    "recompensa": "skill",
+    "skill_id": "aura_tormenta",
+    "emoji": "🔎",
+    "indice": 0,
+    "vol": 2,
+    "mensaje": "¡Has aprendido la habilidad pasiva Aura de Tormenta!"
+  },
+  {
+    "tipo": 132,
+    "recompensa": "skill",
+    "skill_id": "aura_exploradora",
+    "emoji": "🔎",
+    "indice": 0,
+    "vol": 2,
+    "mensaje": "¡Has aprendido la habilidad pasiva Aura Exploradora!"
+  },
+  {
+    "tipo": 133,
+    "recompensa": "skill",
+    "skill_id": "linterna",
+    "emoji": "🔦",
+    "indice": 0,
+    "vol": 2,
+    "mensaje": "¡Has aprendido la habilidad Linterna!"
   }
 ]

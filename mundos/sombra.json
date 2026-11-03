@@ -1,0 +1,651 @@
+{
+  "nombre": "La Dimensión Sombra",
+  "tema": "sombra",
+  "rango": "S",
+  "oscuro": true,
+  "origen": [
+    0,
+    0
+  ],
+  "leyenda": {
+    "0": "som_monolito",
+    "1": "som_arco",
+    "2": "som_cubo",
+    "3": "som_columna_datos",
+    "4": "som_arbol",
+    "5": "som_terminal",
+    "6": "som_pantalla",
+    "7": "som_bloque_roto",
+    "8": "som_baliza",
+    "9": "som_islote",
+    ".": "suelo",
+    ",": "ceniza",
+    "#": "muro",
+    "x": "abismo",
+    "P": "plataforma",
+    "T": "teleporte",
+    "z": "grieta_sombra",
+    "v": "veta",
+    "A": "som_valla",
+    "B": "som_barrera",
+    "D": "som_senal",
+    "E": "som_foco",
+    "F": "som_pilar",
+    "G": "som_muro",
+    "H": "som_losas",
+    "I": "som_losa_sello",
+    "J": "som_fuga",
+    "K": "som_obelisco",
+    "M": "som_teletransporte",
+    "N": "som_glitch"
+  },
+  "zonas": {
+    "A": "Umbral y Bosque",
+    "S": "Archivo e Islote",
+    "M": "Núcleo y Corazón"
+  },
+  "historia": "Cuando la red falla, por las grietas de sus zonas de sombra se cuela otro lugar: la Dimensión Sombra, donde va a parar todo lo que la red olvida. Allí no hay luz salvo la que uno lleva. Sus guardianes dejaron luces apagadas que abren el camino al Corazón de la Sombra, donde se forman materiales que no existen en ninguna otra parte. Lleva la Linterna.",
+  "filas": [
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                           ###################                            ",
+    "                                                                           ####....,,.....####                            ",
+    "                                   #############################           ###.,........v.,###                            ",
+    "                                   ####,....,..........,....####           ##...,...I,......##                            ",
+    "                                   ###.......................###           #...9..,...,v.....#                            ",
+    "                                   ##.,.....,......,...,..,...##           #,....2...,.,.,,N.#                            ",
+    "                                   #...,.,,...3...,............#           #.,.......,,.,....#                            ",
+    "                                   #.,..T...,.,..,...,.,.,.,..,#           #,,,.9.,.,....N...#                            ",
+    "                                   #...,.......,,........,.7,.,#           #.......,.....,.,.#                            ",
+    "                                   #....,.......,,.,...7..,,.2,#           #...,,.......,,...#                            ",
+    "                                   #.2...v...,,..,.....,.....,.#           #.....,.....N.....#                            ",
+    "                                   #.........,,.,.,....,,...,..#           #.9..T....,...,..,#                            ",
+    "                                   #.,.,....,...2......6...,...#           #..,....,.v,.,....#                            ",
+    "                                   #....,...I.....,.....,,..,.,#           ##.......,..,,,..##                            ",
+    "                                   #.,......................2,.#           ###....v.,,.....###                            ",
+    "                                   #.N.....,...,..,....6.......#           ####....,......####                            ",
+    "                                   #....,,.....,..6.....,..,.N.#           ###################                            ",
+    "                                   #....,.......,,...,....T...,#                                                          ",
+    "                                   #.....,......3...N..v......,#                                                          ",
+    "                                   ##..............,,..,.,....##                                                          ",
+    "                                   ###....3.........7.,..,...###                                                          ",
+    "                                   ####.,..........,....,...####                                                          ",
+    "                                   #########xx..xx##############                                                          ",
+    "                                            xxPPxx                                                                        ",
+    "                                            xxPPxx                                                                        ",
+    "                                            xxxxxx                                                                        ",
+    "                                            xxxxxx                                                                        ",
+    "                                            xxxxxx                                                                        ",
+    "                                            xxxxxx                                                                        ",
+    "                                            xxxxxx                                                                        ",
+    "                                            xxPPxx                                                                        ",
+    "                                            xxPPxx                                                                        ",
+    "   ###########################     #########xx..xx############           #############################                    ",
+    "   ####....,............,.####     ####...,...,...........####           ####,,,..........,,..,.,.####                    ",
+    "   ###...,.....,.,....K...,###     ###....,............,.,.###           ###..F....,.......G.....,.###                    ",
+    "   ##,.,...,....,..........,##     ##.............,.......,.##           ##..,,............,,.....,.##                    ",
+    "   #..............,..,.......#     #.,.........,4,.,4....,...#           #....,,...,,........G...,..,#                    ",
+    "   #.......J............,..J.#     #.....4...,........N......#           #....,......A..,,.....,...,.#                    ",
+    "   #....,.......,........,,..#     #..,.,..,,..,.....,....,..#           #.,.,...,...............,...#                    ",
+    "   #...,,.....,.............,#     #.......,,..4.......,...,.#           #,......,..A.....,...,..,...#                    ",
+    "   #....................,..,,#     #...N...,......,,,....,...#           #,.,.,,....,........,.......#   ###############  ",
+    "   #........I..,.,T......,...#     #......I....,........4..,.#           #.,..T,.,.,...,....,.......,#   ####...,,..####  ",
+    "   #....,........,,......H,..#######,.........,.........,,7..#           #.......,.,..A,.,G...G....,.#   ###...,.....###  ",
+    "   #......,....,...,.......,................,..N,,.,4.,.,....#           #..,.......,.....,,.........#   ##.....I.,v,.##  ",
+    "   #..z........,........K.J...........,...........,,.,,,,....#           #...,.,.A......,.....,......#   #,.I.,..,,,,..#  ",
+    "   #,......,,...,......,.,.,.........,.,....,.,.,..,.,.......#           #...,....,...,.I.,..,..,....#   #.,..,........#  ",
+    "   #.....,.........E.....,,..#######,,..,..,..4............,.#           #..,..,.....,.,,....,..F.F..#####.F,...2...,v.#  ",
+    "   #..,.,..................,.#     #...............,........,#           #...,.,.....,...,..,,..,,.,...............2.,.#  ",
+    "   #.........,.....,..0......#     #.......,,,,..............#           #.........,.....,.................,8,......,..#  ",
+    "   #...............K.,......,#     #.....,..........,...,....#           #..D.,.........0.,...,,.,.,.........,.,...,...#  ",
+    "   #.,.......,......,....,...#     #...7..........,.4...,....#           #.......,...,.,..,....,.....#####,,3.....3....#  ",
+    "   #.K..,.,..........,......,#     #.....,.,..,....,....4....#           #........0,,..........,,.,A.#   #....2........#  ",
+    "   #..,.E...,.,.,........H...#     #...,.J..,....,...,.,,..,.#           #...G.v................,.,..#   #..,.,..v...,.#  ",
+    "   ##......,.,....,..,...,..##     #..,.....J..v.7...........#           #...,..,,...................#   ##..,v,,..,..##  ",
+    "   ###.........,..,.,.,....###     #...,,,.,......,....,.,...#           #.,....,.D,,........B..,,...#   ###...,,.,..###  ",
+    "   ####..,..,.,.,....,....####     #..4......,.,.,...,.,,..,.#           #......,,..........,.,......#   ####.......####  ",
+    "   ###########################     #....,.4...,,........,..,.#           #.......,..........,.,,.....#   ###############  ",
+    "                                   ##...................4,..##           #.................,.......,.#                    ",
+    "                                   ###,.........,..,.,....,###           #.G,....,..A.......,.,...,..#                    ",
+    "                                   ####...,........,......####           #...A............,..,.,T...,#                    ",
+    "                                   ###########################           #.,.,...........,A.D,.......#                    ",
+    "                                                                         ##.....A,...,..........,.,.##                    ",
+    "                                                                         ###,.....,,..,,,.,.....,..###                    ",
+    "                                                                         ####,.........,..,.......####                    ",
+    "                                                                         #############################                    ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          "
+  ],
+  "rangos": [
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                                                           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS           SSSSSSSSSSSSSSSSSSS                            ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS                                                          ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS                                                          ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS                                                          ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS                                                          ",
+    "                                   SSSSSSSSSSSSSSSSSSSSSSSSSSSSS                                                          ",
+    "                                   SSSSSSSSSAAAAAASSSSSSSSSSSSSS                                                          ",
+    "                                            AAAAAA                                                                        ",
+    "                                            AAAAAA                                                                        ",
+    "                                            AAAAAA                                                                        ",
+    "                                            AAAAAA                                                                        ",
+    "                                            AAAAAA                                                                        ",
+    "                                            AAAAAA                                                                        ",
+    "                                            AAAAAA                                                                        ",
+    "                                            AAAAAA                                                                        ",
+    "                                            AAAAAA                                                                        ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM   MMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM   MMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM   MMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM   MMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM   MMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM   MMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM   MMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM   MMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM   MMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM   MMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM   MMMMMMMMMMMMMMM  ",
+    "   AAAAAAAAAAAAAAAAAAAAAAAAAAA     AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM   MMMMMMMMMMMMMMM  ",
+    "                                   AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "                                   AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "                                   AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "                                   AAAAAAAAAAAAAAAAAAAAAAAAAAA           MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "                                                                         MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "                                                                         MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "                                                                         MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "                                                                         MMMMMMMMMMMMMMMMMMMMMMMMMMMMM                    ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          "
+  ],
+  "regiones": [
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                           IIIIIIIIIIIIIIIIIII                            ",
+    "                                                                           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG           IIIIIIIIIIIIIIIIIII                            ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG                                                          ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG                                                          ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG                                                          ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG                                                          ",
+    "                                   GGGGGGGGGGGGGGGGGGGGGGGGGGGGG                                                          ",
+    "                                   GGGGGGGGGBBBBBBGGGGGGGGGGGGGG                                                          ",
+    "                                            BBBBBB                                                                        ",
+    "                                            BBBBBB                                                                        ",
+    "                                            BBBBBB                                                                        ",
+    "                                            BBBBBB                                                                        ",
+    "                                            BBBBBB                                                                        ",
+    "                                            BBBBBB                                                                        ",
+    "                                            BBBBBB                                                                        ",
+    "                                            BBBBBB                                                                        ",
+    "                                            BBBBBB                                                                        ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN   CCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN   CCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN   CCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN   CCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN   CCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN   CCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN   CCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN   CCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN   CCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN   CCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN   CCCCCCCCCCCCCCC  ",
+    "   UUUUUUUUUUUUUUUUUUUUUUUUUUU     BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN   CCCCCCCCCCCCCCC  ",
+    "                                   BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "                                   BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "                                   BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "                                   BBBBBBBBBBBBBBBBBBBBBBBBBBB           NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "                                                                         NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "                                                                         NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "                                                                         NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "                                                                         NNNNNNNNNNNNNNNNNNNNNNNNNNNNN                    ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          ",
+    "                                                                                                                          "
+  ],
+  "regiones_info": {
+    "U": {
+      "nombre": "El Umbral",
+      "color": "8a4dff",
+      "efecto": "oscuro"
+    },
+    "B": {
+      "nombre": "Bosque de Datos Muertos",
+      "color": "b84dff",
+      "efecto": "oscuro"
+    },
+    "G": {
+      "nombre": "Archivo Glitch",
+      "color": "ff2bd6",
+      "efecto": "glitch"
+    },
+    "I": {
+      "nombre": "Islote Corrupto",
+      "color": "ff4fd8",
+      "efecto": "glitch"
+    },
+    "N": {
+      "nombre": "Núcleo Sombrío",
+      "color": "6a3cff",
+      "efecto": "oscuro"
+    },
+    "C": {
+      "nombre": "Corazón de la Sombra",
+      "color": "d08cff",
+      "efecto": "neon"
+    }
+  },
+  "inicio": [
+    10,
+    47
+  ],
+  "npcs": [
+    {
+      "npc": "umbra",
+      "x": 12,
+      "y": 45
+    }
+  ],
+  "estaciones": [
+    [
+      24,
+      40
+    ],
+    [
+      90,
+      56
+    ]
+  ],
+  "routers": [
+    [
+      8,
+      52
+    ]
+  ],
+  "terminales": [],
+  "yunques": [],
+  "palancas": [
+    {
+      "x": 14,
+      "y": 40,
+      "puente": [
+        [
+          31,
+          46
+        ],
+        [
+          32,
+          46
+        ],
+        [
+          31,
+          47
+        ],
+        [
+          32,
+          47
+        ],
+        [
+          31,
+          48
+        ],
+        [
+          32,
+          48
+        ]
+      ]
+    },
+    {
+      "x": 22,
+      "y": 54,
+      "puente": [
+        [
+          31,
+          46
+        ],
+        [
+          32,
+          46
+        ],
+        [
+          31,
+          47
+        ],
+        [
+          32,
+          47
+        ],
+        [
+          31,
+          48
+        ],
+        [
+          32,
+          48
+        ]
+      ]
+    },
+    {
+      "x": 50,
+      "y": 9,
+      "puente": []
+    },
+    {
+      "x": 86,
+      "y": 10,
+      "puente": [
+        [
+          103,
+          50
+        ],
+        [
+          104,
+          50
+        ],
+        [
+          103,
+          51
+        ],
+        [
+          104,
+          51
+        ],
+        [
+          103,
+          52
+        ],
+        [
+          104,
+          52
+        ]
+      ]
+    },
+    {
+      "x": 80,
+      "y": 60,
+      "puente": [
+        [
+          103,
+          50
+        ],
+        [
+          104,
+          50
+        ],
+        [
+          103,
+          51
+        ],
+        [
+          104,
+          51
+        ],
+        [
+          103,
+          52
+        ],
+        [
+          104,
+          52
+        ]
+      ]
+    },
+    {
+      "x": 96,
+      "y": 40,
+      "puente": [
+        [
+          103,
+          50
+        ],
+        [
+          104,
+          50
+        ],
+        [
+          103,
+          51
+        ],
+        [
+          104,
+          51
+        ],
+        [
+          103,
+          52
+        ],
+        [
+          104,
+          52
+        ]
+      ]
+    }
+  ],
+  "plataformas": [
+    {
+      "posiciones": [
+        [
+          [
+            46,
+            33
+          ],
+          [
+            47,
+            33
+          ],
+          [
+            46,
+            34
+          ],
+          [
+            47,
+            34
+          ]
+        ],
+        [
+          [
+            46,
+            26
+          ],
+          [
+            47,
+            26
+          ],
+          [
+            46,
+            27
+          ],
+          [
+            47,
+            27
+          ]
+        ]
+      ],
+      "periodo": 7
+    }
+  ],
+  "teleportes": [
+    {
+      "a": [
+        58,
+        20
+      ],
+      "b": [
+        80,
+        14
+      ],
+      "periodo": 14,
+      "abierto": 6,
+      "desfase": 0
+    },
+    {
+      "a": [
+        40,
+        10
+      ],
+      "b": [
+        78,
+        44
+      ],
+      "palanca": 2
+    },
+    {
+      "a": [
+        96,
+        62
+      ],
+      "b": [
+        18,
+        44
+      ],
+      "palanca": 4
+    }
+  ],
+  "pistas": [
+    {
+      "x": 12,
+      "y": 44,
+      "texto": "Aquí solo ve quien trae luz. Usa la Linterna y enciende las dos luces del Umbral: la sombra se aparta ante ellas."
+    },
+    {
+      "x": 42,
+      "y": 44,
+      "texto": "La plataforma cruza el vacío cuando quiere, no cuando tú quieres. Espera a que llegue y súbete."
+    },
+    {
+      "x": 44,
+      "y": 16,
+      "texto": "Dos puertas en el Archivo: una late con el tiempo; la otra despierta con la luz de la torre."
+    },
+    {
+      "x": 84,
+      "y": 6,
+      "texto": "Desde el islote la luz llega lejos: lo que enciendas aquí también cuenta en el Núcleo."
+    },
+    {
+      "x": 88,
+      "y": 48,
+      "texto": "Tres luces guardan el Corazón: una en el islote y dos en el Núcleo. Enciéndelas todas."
+    },
+    {
+      "x": 112,
+      "y": 46,
+      "texto": "El Corazón de la Sombra. Lo que se pica aquí no existe en ninguna otra parte."
+    }
+  ],
+  "accesos": [
+    {
+      "x": 6,
+      "y": 47,
+      "destino": "mundo:arpanet",
+      "llegada": [
+        120,
+        212
+      ],
+      "nombre": "Grieta a La Umbra",
+      "tipo": "sombra"
+    }
+  ],
+  "cofres": {
+    "por_zona": 6,
+    "respawn_seg": 1500,
+    "botin": [
+      2,
+      4
+    ]
+  },
+  "vetas": {
+    "cargas": 5,
+    "respawn_seg": 900,
+    "extra": [
+      {
+        "id": "fragmento_sombrio",
+        "pct": 30
+      },
+      {
+        "id": "esencia_glitch",
+        "pct": 15
+      },
+      {
+        "id": "nucleo_umbral",
+        "pct": 5
+      }
+    ]
+  }
+}

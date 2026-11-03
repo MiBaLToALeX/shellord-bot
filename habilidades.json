@@ -2707,5 +2707,367 @@
         "tiempo": 5
       }
     ]
+  },
+  {
+    "id": "senda_espinosa",
+    "nombre": "Senda Espinosa",
+    "emoji": "🌵",
+    "descripcion": "Durante 20 segundos, cada casilla que avance el objetivo le hace 25 de daño. Se lo pensará antes de moverse.",
+    "recarga_seg": 40,
+    "alcance": 4,
+    "efectos": [
+      {
+        "efecto": "pasos_dolorosos",
+        "objetivo": "objetivo",
+        "valor": 25,
+        "tiempo": 20,
+        "mensaje": "🌵 ¡Senda Espinosa! Cada casilla que avance le hará {valor} de daño durante 20 segundos."
+      }
+    ]
+  },
+  {
+    "id": "eco_punzante",
+    "nombre": "Eco Punzante",
+    "emoji": "📡",
+    "descripcion": "Durante 20 segundos, cada vez que el objetivo ataque recibe 20 de daño por cada casilla de distancia a su objetivo. Se lo pensará antes de atacar desde lejos.",
+    "recarga_seg": 40,
+    "alcance": 4,
+    "efectos": [
+      {
+        "efecto": "eco_distancia",
+        "objetivo": "objetivo",
+        "valor": 20,
+        "tiempo": 20,
+        "mensaje": "📡 ¡Eco Punzante! Cada ataque le devolverá {valor} de daño por casilla de distancia durante 20 segundos."
+      }
+    ]
+  },
+  {
+    "id": "camino_oxidado",
+    "nombre": "Camino Oxidado",
+    "emoji": "🟫",
+    "descripcion": "Oxida al objetivo (−25 % de ATK y más lento durante 3 turnos) y, durante 15 segundos, cada casilla que avance le hace 20 de daño. Moverse le cuesta el doble.",
+    "recarga_seg": 45,
+    "alcance": 4,
+    "efectos": [
+      {
+        "efecto": "oxidado",
+        "objetivo": "objetivo",
+        "valor": 25,
+        "turnos": 3
+      },
+      {
+        "efecto": "pasos_dolorosos",
+        "objetivo": "objetivo",
+        "valor": 20,
+        "tiempo": 15
+      }
+    ]
+  },
+  {
+    "id": "grava_erosiva",
+    "nombre": "Grava Erosiva",
+    "emoji": "🧪",
+    "descripcion": "Durante 20 segundos, cada casilla que avance el objetivo le hace 20 de daño, y durante 3 turnos cada golpe que reciba le quita un 2 % de su energía máxima.",
+    "recarga_seg": 50,
+    "alcance": 4,
+    "efectos": [
+      {
+        "efecto": "pasos_dolorosos",
+        "objetivo": "objetivo",
+        "valor": 20,
+        "tiempo": 20
+      },
+      {
+        "efecto": "erosion",
+        "objetivo": "objetivo",
+        "valor": 2,
+        "turnos": 3
+      }
+    ]
+  },
+  {
+    "id": "eco_corrosivo",
+    "nombre": "Eco Corrosivo",
+    "emoji": "🧫",
+    "descripcion": "Durante 20 segundos, cada vez que el objetivo ataque recibe 20 de daño por cada casilla de distancia, y durante 3 turnos cada golpe que reciba le quita un 10 % de DEF.",
+    "recarga_seg": 50,
+    "alcance": 4,
+    "efectos": [
+      {
+        "efecto": "eco_distancia",
+        "objetivo": "objetivo",
+        "valor": 20,
+        "tiempo": 20
+      },
+      {
+        "efecto": "corrosion",
+        "objetivo": "objetivo",
+        "valor": 10,
+        "turnos": 3
+      }
+    ]
+  },
+  {
+    "id": "resonancia_herrumbrosa",
+    "nombre": "Resonancia Herrumbrosa",
+    "emoji": "🟫",
+    "descripcion": "Oxida al objetivo (−30 % de ATK durante 3 turnos) y, durante 20 segundos, cada ataque le devuelve 25 de daño por casilla de distancia.",
+    "recarga_seg": 50,
+    "alcance": 4,
+    "efectos": [
+      {
+        "efecto": "oxidado",
+        "objetivo": "objetivo",
+        "valor": 30,
+        "turnos": 3
+      },
+      {
+        "efecto": "eco_distancia",
+        "objetivo": "objetivo",
+        "valor": 25,
+        "tiempo": 20
+      }
+    ]
+  },
+  {
+    "id": "tormenta_de_oxido",
+    "nombre": "Tormenta de Óxido",
+    "emoji": "🌪️",
+    "descripcion": "Una nube de óxido alrededor del objetivo: los enemigos a 1 casilla quedan oxidados (−20 % de ATK, 3 turnos) y, durante 15 segundos, cada casilla que avancen les hace 15 de daño.",
+    "recarga_seg": 60,
+    "alcance": 4,
+    "efectos": [
+      {
+        "efecto": "oxidado",
+        "objetivo": "enemigos",
+        "radio": 1,
+        "valor": 20,
+        "turnos": 3
+      },
+      {
+        "efecto": "pasos_dolorosos",
+        "objetivo": "enemigos",
+        "radio": 1,
+        "valor": 15,
+        "tiempo": 15
+      }
+    ]
+  },
+  {
+    "id": "eco_de_ruina",
+    "nombre": "Eco de Ruina",
+    "emoji": "💀",
+    "descripcion": "Durante 20 segundos el objetivo no puede moverse ni atacar sin pagarlo: 20 de daño por casilla avanzada y 20 por casilla de distancia al atacar. Además, durante 3 turnos, cada golpe que reciba le quita un 5 % del daño como energía máxima.",
+    "recarga_seg": 90,
+    "alcance": 4,
+    "efectos": [
+      {
+        "efecto": "pasos_dolorosos",
+        "objetivo": "objetivo",
+        "valor": 20,
+        "tiempo": 20
+      },
+      {
+        "efecto": "eco_distancia",
+        "objetivo": "objetivo",
+        "valor": 20,
+        "tiempo": 20
+      },
+      {
+        "efecto": "erosion2",
+        "objetivo": "objetivo",
+        "valor": 5,
+        "turnos": 3
+      }
+    ]
+  },
+  {
+    "id": "aura_valor",
+    "nombre": "Aura de Valor",
+    "emoji": "🦁",
+    "descripcion": "Pasiva. A 2 casillas de ti, tus aliados (y tú) golpean un 15 % más fuerte y los enemigos pierden un 15 % de su DEF.",
+    "efectos": [],
+    "aura": {
+      "radio": 2,
+      "aliados": [
+        {
+          "efecto": "potencia",
+          "valor": 15
+        }
+      ],
+      "enemigos": [
+        {
+          "efecto": "debilidad",
+          "valor": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "aura_bastion",
+    "nombre": "Aura del Bastión",
+    "emoji": "🏰",
+    "descripcion": "Pasiva. A 2 casillas de ti, tus aliados ganan 20 de DEF y reciben un 10 % menos de daño; los enemigos pierden un 10 % de daño.",
+    "efectos": [],
+    "aura": {
+      "radio": 2,
+      "aliados": [
+        {
+          "efecto": "resistente",
+          "valor": 20
+        },
+        {
+          "efecto": "holoescudo",
+          "valor": 10
+        }
+      ],
+      "enemigos": [
+        {
+          "efecto": "poseido",
+          "valor": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": "aura_vital",
+    "nombre": "Aura Vital",
+    "emoji": "💚",
+    "descripcion": "Pasiva. A 2 casillas de ti, tus aliados tienen 300 de energía máxima más y recuperan 40 al atacar; los enemigos no pueden curarse.",
+    "efectos": [],
+    "aura": {
+      "radio": 2,
+      "aliados": [
+        {
+          "efecto": "regeneracion",
+          "valor": 40
+        },
+        {
+          "efecto": "vitalidad",
+          "valor": 300
+        }
+      ],
+      "enemigos": [
+        {
+          "efecto": "anticura",
+          "valor": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "aura_abisal",
+    "nombre": "Aura Abisal",
+    "emoji": "🌊",
+    "descripcion": "Pasiva. A 2 casillas de ti, tus aliados fallan un 15 % menos y los enemigos tienen un 15 % de probabilidad de fallar.",
+    "efectos": [],
+    "aura": {
+      "radio": 2,
+      "aliados": [
+        {
+          "efecto": "precision",
+          "valor": 15
+        }
+      ],
+      "enemigos": [
+        {
+          "efecto": "interferencia",
+          "valor": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "aura_sombria",
+    "nombre": "Aura Sombría",
+    "emoji": "🌑",
+    "descripcion": "Pasiva. A 2 casillas de ti, tus aliados tienen un 15 % más de crítico y los enemigos pierden un 15 % de daño.",
+    "efectos": [],
+    "aura": {
+      "radio": 2,
+      "aliados": [
+        {
+          "efecto": "acecho_sombrio",
+          "valor": 15
+        }
+      ],
+      "enemigos": [
+        {
+          "efecto": "terror_oscuro",
+          "valor": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "aura_cifrada",
+    "nombre": "Aura Cifrada",
+    "emoji": "🔐",
+    "descripcion": "Pasiva. A 2 casillas de ti, tus aliados tienen un 10 % más de crítico y los enemigos pierden un 15 % de DEF.",
+    "efectos": [],
+    "aura": {
+      "radio": 2,
+      "aliados": [
+        {
+          "efecto": "critico",
+          "valor": 10
+        }
+      ],
+      "enemigos": [
+        {
+          "efecto": "analizado",
+          "valor": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "aura_tormenta",
+    "nombre": "Aura de Tormenta",
+    "emoji": "⛈️",
+    "descripcion": "Pasiva. A 2 casillas de ti, tus aliados golpean un 10 % más fuerte y los enemigos pierden 20 de energía cada vez que atacan.",
+    "efectos": [],
+    "aura": {
+      "radio": 2,
+      "aliados": [
+        {
+          "efecto": "optimizacion",
+          "valor": 10
+        }
+      ],
+      "enemigos": [
+        {
+          "efecto": "electrocucion",
+          "valor": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": "aura_exploradora",
+    "nombre": "Aura Exploradora",
+    "emoji": "🧭",
+    "descripcion": "Pasiva. A 2 casillas de ti, tus aliados se mueven más deprisa y llegan una casilla más lejos; los enemigos, una menos.",
+    "efectos": [],
+    "aura": {
+      "radio": 2,
+      "aliados": [
+        {
+          "efecto": "rapidez",
+          "valor": 1
+        },
+        {
+          "efecto": "alcance",
+          "valor": 1
+        }
+      ],
+      "enemigos": [
+        {
+          "efecto": "tuerto",
+          "valor": 1
+        }
+      ]
+    }
   }
 ]

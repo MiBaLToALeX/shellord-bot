@@ -779,12 +779,509 @@
     "id": "cronica_11",
     "nombre": "Crónica XI: La palabra del gigante",
     "tipo": "visitar_zona",
-    "descripcion": "Llega al Núcleo Corrupto de La Malla (rango MAX) y lleva la palabra de Atlas al Archivista, en el Servidor Central.",
+    "descripcion": "Llega al Núcleo Corrupto de La Malla y lleva la palabra de Atlas al Archivista, en el Servidor Central.",
     "requisitos": {
       "mundo": "malla",
       "zona": "M"
     },
     "recompensa_tipo": 115,
     "entrega": "archivista"
+  },
+  {
+    "id": "origen_1",
+    "nombre": "Origen I: La señal del Origen",
+    "tipo": "visitar_mundo",
+    "descripcion": "Viaja a ARPANET (desde cualquier router) y busca a LO en el Nodo Cero.",
+    "requisitos": {
+      "mundo": "arpanet"
+    },
+    "recompensa_tipo": 116,
+    "entrega": "lo"
+  },
+  {
+    "id": "origen_2",
+    "nombre": "Origen II: Los nodos que cambian de color",
+    "tipo": "visitar_region",
+    "descripcion": "Cruza el Mar Opalescente hasta el Jardín Iridiscente y busca a Iris.",
+    "requisitos": {
+      "mundo": "arpanet",
+      "region": "I"
+    },
+    "recompensa_tipo": 117,
+    "entrega": "iris"
+  },
+  {
+    "id": "origen_3",
+    "nombre": "Origen III: Las islas a la deriva",
+    "tipo": "viajar_cable",
+    "descripcion": "Hazte bits y viaja por el cable del Jardín hasta la isla a la deriva donde vive el IMP.",
+    "requisitos": {
+      "mundo": "arpanet"
+    },
+    "recompensa_tipo": 118,
+    "entrega": "imp"
+  },
+  {
+    "id": "origen_4",
+    "nombre": "Origen IV: La red que tiembla",
+    "tipo": "visitar_region",
+    "descripcion": "Ve a la Red de Alta Tensión y busca a Volta (cuidado con las descargas).",
+    "requisitos": {
+      "mundo": "arpanet",
+      "region": "E"
+    },
+    "recompensa_tipo": 119,
+    "entrega": "volta"
+  },
+  {
+    "id": "origen_5",
+    "nombre": "Origen V: Lo que quedó en el fuego",
+    "tipo": "visitar_region",
+    "descripcion": "Abre con su palanca el puente del Sector Glitch y entra en la Forja del Núcleo: busca a Brasa (cuidado con la lava).",
+    "requisitos": {
+      "mundo": "arpanet",
+      "region": "L"
+    },
+    "recompensa_tipo": 120,
+    "entrega": "brasa"
+  },
+  {
+    "id": "origen_6",
+    "nombre": "Origen VI: La caché helada",
+    "tipo": "visitar_region",
+    "descripcion": "Ve al Glaciar de Caché y busca a Escarcha.",
+    "requisitos": {
+      "mundo": "arpanet",
+      "region": "C"
+    },
+    "recompensa_tipo": 121,
+    "entrega": "escarcha"
+  },
+  {
+    "id": "origen_7",
+    "nombre": "Origen VII: Bajo el silicio",
+    "tipo": "visitar_region",
+    "descripcion": "Baja al Subsuelo de Silicio y encuentra a Raíz en su laberinto.",
+    "requisitos": {
+      "mundo": "arpanet",
+      "region": "S"
+    },
+    "recompensa_tipo": 122,
+    "entrega": "raiz"
+  },
+  {
+    "id": "origen_8",
+    "nombre": "Origen VIII: Abrir el camino",
+    "tipo": "mover_palanca",
+    "descripcion": "Mueve una palanca de ARPANET para abrir camino y sube a la Constelación del Origen: Polaris te espera.",
+    "requisitos": {
+      "mundo": "arpanet"
+    },
+    "recompensa_tipo": 123,
+    "entrega": "polaris"
+  },
+  {
+    "id": "origen_9",
+    "nombre": "Origen IX: El Nodo Origen",
+    "tipo": "visitar_region",
+    "descripcion": "Abre el puente de la estrella del sur y llega al Nodo Origen, en el centro de la Constelación. Busca a GIN.",
+    "requisitos": {
+      "mundo": "arpanet",
+      "region": "N"
+    },
+    "recompensa_tipo": 124,
+    "entrega": "gin"
+  },
+  {
+    "id": "fosa_1",
+    "nombre": "Las corrientes del arrecife",
+    "tipo": "mover_palanca",
+    "descripcion": "La palanca está en el arrecife, al norte de la entrada. Muévela y déjate llevar por la corriente.",
+    "requisitos": {
+      "mundo": "fosa"
+    },
+    "recompensa_tipo": 2
+  },
+  {
+    "id": "fosa_2",
+    "nombre": "La Cueva Secreta",
+    "tipo": "visitar_region",
+    "descripcion": "Mueve la palanca, sube con la corriente al Muelle y cruza la plataforma hasta la cueva.",
+    "requisitos": {
+      "mundo": "fosa",
+      "region": "C"
+    },
+    "recompensa_tipo": 0
+  },
+  {
+    "id": "fosa_3",
+    "nombre": "El Santuario Hundido",
+    "tipo": "visitar_region",
+    "descripcion": "Baja por las burbujas a las Tuberías, después al Abismo, y cruza la sima con la plataforma.",
+    "requisitos": {
+      "mundo": "fosa",
+      "region": "H"
+    },
+    "recompensa_tipo": 41
+  },
+  {
+    "id": "fosa_4",
+    "nombre": "Lo que sube del abismo",
+    "tipo": "combate_mazmorra",
+    "descripcion": "Diez abisales de la mazmorra Abisal. Su portal está en el Servidor Central (necesitas su llave).",
+    "requisitos": {
+      "id_mazmorra": "abisal",
+      "cantidad": 10
+    },
+    "recompensa_tipo": 128
+  },
+  {
+    "id": "subsuelo_1",
+    "nombre": "Vetas del Subsuelo",
+    "tipo": "picar_vetas",
+    "descripcion": "Diez golpes buenos en las vetas del Subsuelo (con el oficio Minero y un pico).",
+    "requisitos": {
+      "mundo": "subsuelo",
+      "cantidad": 10
+    },
+    "recompensa_tipo": 41
+  },
+  {
+    "id": "subsuelo_2",
+    "nombre": "Las Cavernas de Cristal",
+    "tipo": "visitar_region",
+    "descripcion": "El túnel del norte de las Galerías lleva a las Cavernas de Cristal.",
+    "requisitos": {
+      "mundo": "subsuelo",
+      "region": "C"
+    },
+    "recompensa_tipo": 0
+  },
+  {
+    "id": "subsuelo_3",
+    "nombre": "El Río Subterráneo",
+    "tipo": "visitar_region",
+    "descripcion": "El túnel del este de las Galerías baja al río. Busca sus dos puentes.",
+    "requisitos": {
+      "mundo": "subsuelo",
+      "region": "R"
+    },
+    "recompensa_tipo": 2
+  },
+  {
+    "id": "subsuelo_4",
+    "nombre": "La Forja Profunda",
+    "tipo": "visitar_region",
+    "descripcion": "El túnel del sur lleva a la Forja. Lleva energía de sobra.",
+    "requisitos": {
+      "mundo": "subsuelo",
+      "region": "F"
+    },
+    "recompensa_tipo": 23
+  },
+  {
+    "id": "subsuelo_5",
+    "nombre": "Los de la mazmorra Subterránea",
+    "tipo": "combate_mazmorra",
+    "descripcion": "Quince enemigos de la mazmorra Subterránea (su portal, en el Servidor Central).",
+    "requisitos": {
+      "id_mazmorra": "subterranea",
+      "cantidad": 15
+    },
+    "recompensa_tipo": 129
+  },
+  {
+    "id": "claves_1",
+    "nombre": "Fragmentos del Servidor Central",
+    "tipo": "conseguir_fragmentos",
+    "descripcion": "Los fragmentos los dan las invasiones vencidas (a todos los que le hacen daño al virus).",
+    "requisitos": {
+      "mundo": "central",
+      "cantidad": 6
+    },
+    "recompensa_tipo": 2
+  },
+  {
+    "id": "claves_2",
+    "nombre": "Tu primera Clave de Cifrado",
+    "tipo": "crear_clave",
+    "descripcion": "Ve a una terminal (como la de estas galerías) y une los fragmentos en una Clave de Cifrado.",
+    "requisitos": {
+      "nivel": 1
+    },
+    "recompensa_tipo": 0
+  },
+  {
+    "id": "claves_3",
+    "nombre": "Fragmentos de la Darknet",
+    "tipo": "conseguir_fragmentos",
+    "descripcion": "Diez fragmentos de las invasiones de la Darknet.",
+    "requisitos": {
+      "mundo": "darknet",
+      "cantidad": 10
+    },
+    "recompensa_tipo": 41
+  },
+  {
+    "id": "claves_4",
+    "nombre": "La Clave de Cifrado II",
+    "tipo": "crear_clave",
+    "descripcion": "Une diez Claves de Cifrado en una terminal de la Darknet.",
+    "requisitos": {
+      "nivel": 2
+    },
+    "recompensa_tipo": 130
+  },
+  {
+    "id": "firmamento_1",
+    "nombre": "Los Jardines Colgantes",
+    "tipo": "visitar_region",
+    "descripcion": "El camino de nubes del norte lleva a los Jardines.",
+    "requisitos": {
+      "mundo": "firmamento",
+      "region": "J"
+    },
+    "recompensa_tipo": 0
+  },
+  {
+    "id": "firmamento_2",
+    "nombre": "La Isla a la Deriva",
+    "tipo": "viajar_cable",
+    "descripcion": "El cable sale del sur de la Ciudadela de Cristal.",
+    "requisitos": {
+      "mundo": "firmamento"
+    },
+    "recompensa_tipo": 2
+  },
+  {
+    "id": "firmamento_3",
+    "nombre": "La Corona de Tormentas",
+    "tipo": "visitar_region",
+    "descripcion": "Desde la Ciudadela, el camino de nubes sube a la Corona. Cuidado con los rayos.",
+    "requisitos": {
+      "mundo": "firmamento",
+      "region": "T"
+    },
+    "recompensa_tipo": 23
+  },
+  {
+    "id": "firmamento_4",
+    "nombre": "Virus en La Nube",
+    "tipo": "vencer_invasion",
+    "descripcion": "Cuando haya una invasión en La Nube, ayuda a vencer al virus.",
+    "requisitos": {
+      "mundo": "nube"
+    },
+    "recompensa_tipo": 131
+  },
+  {
+    "id": "obras_1",
+    "nombre": "Adornar el cielo",
+    "tipo": "construir_elemento",
+    "descripcion": "Tres elementos de la colección Celeste en una zona de construcción.",
+    "requisitos": {
+      "coleccion": "celeste",
+      "cantidad": 3
+    },
+    "recompensa_tipo": 2
+  },
+  {
+    "id": "obras_2",
+    "nombre": "Manos de forjador",
+    "tipo": "forjar_objeto",
+    "descripcion": "Dos forjas que salgan bien, en cualquier yunque.",
+    "requisitos": {
+      "cantidad": 2
+    },
+    "recompensa_tipo": 0
+  },
+  {
+    "id": "obras_3",
+    "nombre": "Una plaza en la ciudad",
+    "tipo": "construir_elemento",
+    "descripcion": "Tres elementos de la colección Ciudad en una zona de construcción.",
+    "requisitos": {
+      "coleccion": "ciudad",
+      "cantidad": 3
+    },
+    "recompensa_tipo": 2
+  },
+  {
+    "id": "obras_4",
+    "nombre": "Galerías nuevas",
+    "tipo": "construir_elemento",
+    "descripcion": "Tres elementos de la colección Subterráneo.",
+    "requisitos": {
+      "coleccion": "subterraneo",
+      "cantidad": 3
+    },
+    "recompensa_tipo": 127
+  },
+  {
+    "id": "invasion_1",
+    "nombre": "Primera línea",
+    "tipo": "vencer_invasion",
+    "descripcion": "Cuando haya una invasión, ayuda a vencer al virus (en cualquier mundo).",
+    "requisitos": {},
+    "recompensa_tipo": 2
+  },
+  {
+    "id": "invasion_2",
+    "nombre": "El código del enemigo",
+    "tipo": "conseguir_fragmentos",
+    "descripcion": "Diez fragmentos de código de las invasiones.",
+    "requisitos": {
+      "cantidad": 10
+    },
+    "recompensa_tipo": 0
+  },
+  {
+    "id": "invasion_3",
+    "nombre": "Al otro lado del cortafuegos",
+    "tipo": "vencer_invasion",
+    "descripcion": "Una invasión vencida en la Darknet.",
+    "requisitos": {
+      "mundo": "darknet"
+    },
+    "recompensa_tipo": 41
+  },
+  {
+    "id": "invasion_4",
+    "nombre": "Los virus legendarios",
+    "tipo": "vencer_invasion",
+    "descripcion": "Tres invasiones de rango S o más (S o MAX).",
+    "requisitos": {
+      "rango": "S",
+      "cantidad": 3
+    },
+    "recompensa_tipo": 126
+  },
+  {
+    "id": "caza_1",
+    "nombre": "Limpieza en AND",
+    "tipo": "combate_mazmorra",
+    "descripcion": "Diez enemigos de la mazmorra AND (su portal, con la llave azul).",
+    "requisitos": {
+      "id_mazmorra": "and",
+      "cantidad": 10
+    },
+    "recompensa_tipo": 2
+  },
+  {
+    "id": "caza_2",
+    "nombre": "El veneno de la Tóxica",
+    "tipo": "combate_mazmorra",
+    "descripcion": "Doce enemigos de la mazmorra tóxica.",
+    "requisitos": {
+      "id_mazmorra": "toxica",
+      "cantidad": 12
+    },
+    "recompensa_tipo": 22
+  },
+  {
+    "id": "caza_3",
+    "nombre": "Los súbditos del Rey Glitch",
+    "tipo": "combate_mazmorra",
+    "descripcion": "Doce enemigos de la mazmorra del Rey Glitch.",
+    "requisitos": {
+      "id_mazmorra": "glitch",
+      "cantidad": 12
+    },
+    "recompensa_tipo": 2
+  },
+  {
+    "id": "caza_4",
+    "nombre": "La plaga del Desierto",
+    "tipo": "combate_mazmorra",
+    "descripcion": "Veinte enemigos de la mazmorra del Desierto.",
+    "requisitos": {
+      "id_mazmorra": "desierto",
+      "cantidad": 20
+    },
+    "recompensa_tipo": 125
+  },
+  {
+    "id": "explora_1",
+    "nombre": "El Bosque de los Ecos",
+    "tipo": "visitar_zona",
+    "descripcion": "El puente del norte del Valle del Alba lleva al Bosque de los Ecos.",
+    "requisitos": {
+      "mundo": "horizonte",
+      "zona": "D"
+    },
+    "recompensa_tipo": 0
+  },
+  {
+    "id": "explora_2",
+    "nombre": "Bajo las arenas",
+    "tipo": "visitar_mundo",
+    "descripcion": "Busca un agujero de tierra en las arenas y usa Excavar a su lado.",
+    "requisitos": {
+      "mundo": "subsuelo"
+    },
+    "recompensa_tipo": 2
+  },
+  {
+    "id": "explora_3",
+    "nombre": "Bajo el Mar de Datos",
+    "tipo": "visitar_mundo",
+    "descripcion": "En la Darknet, junto al Mar de Datos, usa Bucear.",
+    "requisitos": {
+      "mundo": "fosa"
+    },
+    "recompensa_tipo": 2
+  },
+  {
+    "id": "explora_4",
+    "nombre": "Sobre La Nube",
+    "tipo": "visitar_mundo",
+    "descripcion": "En La Nube, usa Volar.",
+    "requisitos": {
+      "mundo": "firmamento"
+    },
+    "recompensa_tipo": 132
+  },
+  {
+    "id": "sombra_1",
+    "nombre": "La primera luz",
+    "tipo": "mover_palanca",
+    "descripcion": "Las luces del Umbral están al norte y al sur de aquí. Acércate a una y enciéndela.",
+    "requisitos": {
+      "mundo": "sombra"
+    },
+    "recompensa_tipo": 133
+  },
+  {
+    "id": "sombra_2",
+    "nombre": "El Archivo Glitch",
+    "tipo": "visitar_region",
+    "descripcion": "Enciende las dos luces, cruza el Bosque y espera a la plataforma del norte.",
+    "requisitos": {
+      "mundo": "sombra",
+      "region": "G"
+    },
+    "recompensa_tipo": 2
+  },
+  {
+    "id": "sombra_3",
+    "nombre": "El Islote Corrupto",
+    "tipo": "visitar_region",
+    "descripcion": "El teletransporte del Archivo se abre y se cierra. Espera a que se abra y písalo.",
+    "requisitos": {
+      "mundo": "sombra",
+      "region": "I"
+    },
+    "recompensa_tipo": 0
+  },
+  {
+    "id": "sombra_4",
+    "nombre": "El Corazón de la Sombra",
+    "tipo": "visitar_region",
+    "descripcion": "Luz del Archivo → teletransporte al Núcleo → sus dos luces y la del islote → el Corazón.",
+    "requisitos": {
+      "mundo": "sombra",
+      "region": "C"
+    },
+    "recompensa_tipo": 2
   }
 ]
