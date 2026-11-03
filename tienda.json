@@ -863,5 +863,29 @@
     "indice": 5,
     "vol": 100,
     "solo_venta": true
+  },
+  {
+    "id": "fragmento_ancestral",
+    "precio": 300,
+    "emoji": "⚙️",
+    "indice": 40,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "nucleo_ancestral",
+    "precio": 1200,
+    "emoji": "⚙️",
+    "indice": 41,
+    "vol": 5,
+    "solo_venta": true
+  },
+  {
+    "id": "esencia_del_origen",
+    "precio": 4000,
+    "emoji": "⚙️",
+    "indice": 42,
+    "vol": 5,
+    "solo_venta": true
   }
 ]
