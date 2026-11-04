@@ -1676,9 +1676,9 @@
     "alcance": "C2C",
     "equipable": false,
     "tipo": null,
-    "emoji": "🌑",
-    "vol": 5,
-    "indice": 43
+    "emoji": "🧩",
+    "vol": 1,
+    "indice": 4
   },
   {
     "id": "esencia_glitch",
@@ -1689,9 +1689,9 @@
     "alcance": "C2C",
     "equipable": false,
     "tipo": null,
-    "emoji": "👾",
-    "vol": 5,
-    "indice": 44
+    "emoji": "🧩",
+    "vol": 1,
+    "indice": 5
   },
   {
     "id": "nucleo_umbral",
@@ -1702,9 +1702,9 @@
     "alcance": "C2C",
     "equipable": false,
     "tipo": null,
-    "emoji": "🔮",
-    "vol": 5,
-    "indice": 45
+    "emoji": "🧩",
+    "vol": 1,
+    "indice": 6
   },
   {
     "id": "espada_sombria",

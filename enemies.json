@@ -273,6 +273,119 @@
           "volcan"
         ],
         "def_pct": 5
+      },
+      {
+        "nombre": "Cofre Pirata",
+        "is_boss": false,
+        "vol": 99,
+        "elemento": "agua",
+        "mazmorras": [
+          "pirata",
+          "pirata_barco"
+        ],
+        "drops_cazador": [
+          {
+            "id_objeto": "key_pirata",
+            "tasa": 50
+          },
+          {
+            "id_objeto": "ficha_a",
+            "tasa": 10
+          }
+        ],
+        "mensaje_ataque": "lanza monedas a",
+        "ia": "cobarde",
+        "energy_extra": 4200,
+        "atk_extra": 420,
+        "def_extra": 25,
+        "def_pct": 5,
+        "alcance": 1,
+        "botin_exit": [
+          {
+            "aleatorio": [
+              2,
+              4,
+              5,
+              6,
+              7,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              97
+            ]
+          }
+        ],
+        "habilidades": [
+          {
+            "id": "saqueo_sombrio",
+            "probabilidad": 20
+          }
+        ],
+        "pesado": true
+      },
+      {
+        "nombre": "Monkramaestre",
+        "is_boss": true,
+        "vol": 99,
+        "elemento": "agua",
+        "mazmorras": [
+          "pirata",
+          "pirata_barco"
+        ],
+        "drops_cazador": [
+          {
+            "id_objeto": "key_pirata",
+            "tasa": 50
+          },
+          {
+            "id_objeto": "ficha_a",
+            "tasa": 10
+          }
+        ],
+        "mensaje_ataque": "ensarta a",
+        "ia": "guardian",
+        "energy_extra": 9500,
+        "atk_extra": 540,
+        "def_extra": 20,
+        "def_pct": 10,
+        "alcance": 2,
+        "botin_exit": [
+          {
+            "aleatorio": [
+              2,
+              4,
+              5,
+              6,
+              7,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              97
+            ]
+          }
+        ],
+        "xp_extra": 120,
+        "energia_botin": 1200,
+        "habilidades": [
+          {
+            "id": "andanada",
+            "probabilidad": 40
+          },
+          {
+            "id": "red_pescador",
+            "probabilidad": 30
+          },
+          {
+            "id": "torbellino",
+            "probabilidad": 30
+          }
+        ]
       }
     ]
   },
@@ -442,6 +555,134 @@
           }
         ],
         "modo_estados": "todos"
+      },
+      {
+        "nombre": "Monkanero",
+        "is_boss": false,
+        "vol": 99,
+        "elemento": "agua",
+        "mazmorras": [
+          "pirata",
+          "pirata_barco"
+        ],
+        "drops_cazador": [
+          {
+            "id_objeto": "key_pirata",
+            "tasa": 50
+          },
+          {
+            "id_objeto": "ficha_a",
+            "tasa": 10
+          }
+        ],
+        "mensaje_ataque": "acuchilla a",
+        "ia": "agresiva",
+        "energy_extra": 4600,
+        "atk_extra": 450,
+        "def_extra": 10,
+        "def_pct": 5,
+        "botin_exit": [
+          {
+            "aleatorio": [
+              2,
+              4,
+              5,
+              6,
+              7,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              97
+            ]
+          }
+        ],
+        "habilidades": [
+          {
+            "id": "red_pescador",
+            "probabilidad": 50
+          },
+          {
+            "id": "tridente_mareas",
+            "probabilidad": 50
+          }
+        ],
+        "velocidad": 1.2
+      },
+      {
+        "nombre": "Capitán Monkraken",
+        "is_boss": true,
+        "vol": 99,
+        "elemento": "agua",
+        "mazmorras": [
+          "pirata",
+          "pirata_barco"
+        ],
+        "drops_cazador": [
+          {
+            "id_objeto": "key_pirata",
+            "tasa": 50
+          },
+          {
+            "id_objeto": "ficha_a",
+            "tasa": 10
+          },
+          {
+            "id_objeto": "key_volcan",
+            "tasa": 100
+          }
+        ],
+        "mensaje_ataque": "da un sablazo a",
+        "ia": "agresiva",
+        "energy_extra": 14000,
+        "atk_extra": 620,
+        "def_extra": 25,
+        "def_pct": 15,
+        "alcance": 3,
+        "exit_portal": true,
+        "botin_exit": [
+          {
+            "fijo": 103
+          },
+          {
+            "aleatorio": [
+              2,
+              4,
+              5,
+              6,
+              7,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              97
+            ]
+          }
+        ],
+        "xp_extra": 825,
+        "energia_botin": 5500,
+        "habilidades": [
+          {
+            "id": "andanada",
+            "probabilidad": 35
+          },
+          {
+            "id": "tridente_mareas",
+            "probabilidad": 25
+          },
+          {
+            "id": "red_pescador",
+            "probabilidad": 20
+          },
+          {
+            "id": "saqueo_sombrio",
+            "probabilidad": 15
+          }
+        ]
       }
     ]
   },
@@ -660,6 +901,59 @@
           },
           {
             "fijo": 49
+          }
+        ]
+      },
+      {
+        "nombre": "Monkirsario",
+        "is_boss": false,
+        "vol": 99,
+        "elemento": "agua",
+        "mazmorras": [
+          "pirata",
+          "pirata_barco"
+        ],
+        "drops_cazador": [
+          {
+            "id_objeto": "key_pirata",
+            "tasa": 50
+          },
+          {
+            "id_objeto": "ficha_a",
+            "tasa": 10
+          }
+        ],
+        "mensaje_ataque": "engancha a",
+        "ia": "flanqueador",
+        "energy_extra": 4400,
+        "atk_extra": 470,
+        "def_extra": 10,
+        "def_pct": 5,
+        "botin_exit": [
+          {
+            "aleatorio": [
+              2,
+              4,
+              5,
+              6,
+              7,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26
+            ]
+          }
+        ],
+        "habilidades": [
+          {
+            "id": "asalto_fantasma",
+            "probabilidad": 20
+          },
+          {
+            "id": "torbellino",
+            "probabilidad": 15
           }
         ]
       }
@@ -4180,7 +4474,7 @@
         "alcance": 3,
         "exit_portal": true,
         "capturable": true,
-        "xp_extra": 1000,
+        "xp_extra": 750,
         "energia_botin": 5000,
         "def_pct": 5,
         "infligir_estados": [
@@ -9346,7 +9640,7 @@
         "mensaje_ataque": "muerde a",
         "ia": "tanque",
         "elemento": "fuego",
-        "energy_extra": 2950,
+        "energy_extra": 2450,
         "atk_extra": 380,
         "mazmorras": [
           "shellorween",
@@ -9382,7 +9676,7 @@
             "tasa": 10
           }
         ],
-        "zombi": 2,
+        "zombi": 1,
         "mensaje_zombi": "Droidiente se vuelve a levantar",
         "def_fijo": 40
       }

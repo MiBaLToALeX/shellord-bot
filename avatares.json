@@ -1290,19 +1290,18 @@
     "nombre": "ShellOrd Umbrío",
     "descripcion": "Un ShellOrd nacido en la Dimensión Sombra: ve en la oscuridad y se mueve entre sombras. Se forja con recursos de la Dimensión Sombra.",
     "emoji": "🕹",
-    "vol": 5,
-    "indice": 49,
+    "vol": 102,
+    "indice": 2,
     "tipo": "dps",
     "elementos": [
       "oscuridad"
     ],
     "skills": [
       "linterna",
-      "senda_sombras",
       "manto_de_sombras",
       "remolino_sombras"
     ],
-    "dmg_bonus_pct": 20,
+    "dmg_bonus_pct": 1,
     "energia_max_bonus": 3000,
     "formula": [
       {
@@ -1317,6 +1316,173 @@
         "id_objeto": "nucleo_umbral",
         "cantidad": 4
       }
-    ]
+    ],
+    "skill": "senda_sombras",
+    "antirobo": true
+  },
+  {
+    "id": "avatar_ninja",
+    "nombre": "ShellOrd Ninja",
+    "formula": [
+      {
+        "id_objeto": "ficha_a",
+        "cantidad": 5
+      },
+      {
+        "id_objeto": "key_ninja",
+        "cantidad": 2
+      }
+    ],
+    "emoji": "🕹",
+    "vol": 102,
+    "indice": 3,
+    "elementos": [
+      "aire"
+    ],
+    "descripcion": "Este avatar de rango A es un asesino silencioso: se mueve entre la niebla, golpea por la espalda y desaparece antes de que el enemigo pueda reaccionar",
+    "tipo": "dps",
+    "skill": "emboscada",
+    "skills": [
+      "shuriken_cruzado",
+      "asalto_fantasma",
+      "parpadeo",
+      "neblina",
+      "salto"
+    ],
+    "energia_max_bonus": 1000,
+    "dmg_fijo": 50,
+    "dmg_bonus_pct": 50,
+    "dmg_bonus_fijo": true,
+    "def_fijo": 15,
+    "vel_bonus_pct": 20,
+    "per_bonus_pct": 20,
+    "neutralizador_pct": 10,
+    "antirobo": true
+  },
+  {
+    "id": "avatar_samurai",
+    "nombre": "ShellOrd Samurai",
+    "formula": [
+      {
+        "id_objeto": "ficha_a",
+        "cantidad": 5
+      },
+      {
+        "id_objeto": "key_ninja",
+        "cantidad": 3
+      }
+    ],
+    "indice": 4,
+    "emoji": "🕹",
+    "vol": 102,
+    "elementos": [
+      "tierra"
+    ],
+    "descripcion": "Este avatar de rango A sigue el camino de la katana: aguanta en primera línea con su armadura y cada tajo barre a los enemigos que tiene delante",
+    "tipo": "tanque",
+    "skill": "tajo_guerrero",
+    "skills": [
+      "coraza",
+      "rabia",
+      "paso_espejo",
+      "prediccion",
+      "desarmar"
+    ],
+    "energia_max_bonus": 1400,
+    "dmg_fijo": 55,
+    "dmg_bonus_pct": 35,
+    "dmg_bonus_fijo": true,
+    "def_fijo": 45,
+    "def_bonus_pct": 10,
+    "def_bonus_fijo": true,
+    "vel_bonus_pct": 5,
+    "neutralizador_pct": 15,
+    "antihackeo": true,
+    "antirobo": false
+  },
+  {
+    "id": "avatar_legionario",
+    "nombre": "ShellOrd Legionario",
+    "formula": [
+      {
+        "id_objeto": "ficha_a",
+        "cantidad": 5
+      },
+      {
+        "id_objeto": "key_volcan",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "gold",
+        "cantidad": 5
+      }
+    ],
+    "emoji": "🕹",
+    "vol": 102,
+    "indice": 5,
+    "elementos": [
+      "tierra"
+    ],
+    "descripcion": "Este avatar de rango A forma en primera línea con su escudo: protege a los aliados que tiene cerca, reparte los golpes entre la formación y lanza su pilum contra la fila enemiga",
+    "tipo": "protector",
+    "skill": "bastion_energia",
+    "skills": [
+      "aura_bastion",
+      "repartir",
+      "coraza",
+      "flecha_perforante"
+    ],
+    "energia_max_bonus": 1600,
+    "dmg_fijo": 40,
+    "dmg_bonus_pct": 25,
+    "dmg_bonus_fijo": true,
+    "def_fijo": 50,
+    "def_bonus_pct": 15,
+    "def_bonus_fijo": true,
+    "vel_bonus_pct": 3,
+    "neutralizador_pct": 20,
+    "antirobo": true
+  },
+  {
+    "id": "avatar_radiactivo",
+    "nombre": "ShellOrd Radiactivo",
+    "formula": [
+      {
+        "id_objeto": "ficha_a",
+        "cantidad": 5
+      },
+      {
+        "id_objeto": "nucleo",
+        "cantidad": 1
+      },
+      {
+        "id_objeto": "block_energy",
+        "cantidad": 50
+      }
+    ],
+    "emoji": "🕹",
+    "vol": 102,
+    "indice": 6,
+    "elementos": [
+      "luz"
+    ],
+    "descripcion": "Este avatar de rango A lleva un núcleo inestable en el pecho: contamina la zona, debilita a todo el que se le acerca y, cuando se sobrecalienta, su pulso nuclear arrasa con lo que tenga alrededor",
+    "tipo": "controlador",
+    "skill": "pulso_nuclear",
+    "skills": [
+      "nube_radiactiva",
+      "nucleo_inestable",
+      "veneno",
+      "purificar"
+    ],
+    "energia_max_bonus": 1200,
+    "dmg_fijo": 50,
+    "dmg_bonus_pct": 45,
+    "dmg_bonus_fijo": true,
+    "def_fijo": 25,
+    "vel_bonus_pct": 5,
+    "int_bonus_pct": 15,
+    "neutralizador_pct": 30,
+    "antihackeo": true
   }
 ]
