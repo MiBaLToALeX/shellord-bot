@@ -9,7 +9,6 @@
         "all_dirs": true,
         "hoja": "calojo",
         "mensaje_ataque": "muerde a ",
-        "ia": "agresiva",
         "elemento": "tierra",
         "mazmorras": [
           "guarida_calojos"
@@ -956,6 +955,106 @@
             "probabilidad": 15
           }
         ]
+      },
+      {
+        "nombre": "Sorius",
+        "is_boss": true,
+        "vol": 99,
+        "elemento": "fuego",
+        "ia": "experta",
+        "mensaje_ataque": "descarga su mandoble ardiente sobre",
+        "energy_extra": 20000,
+        "atk_extra": 720,
+        "def_extra": 30,
+        "def_pct": 15,
+        "alcance": 2,
+        "modo_estados": "aleatorio",
+        "infligir_estados": [
+          {
+            "tipo": "quemado",
+            "probabilidad": 30,
+            "valor": 8,
+            "ataques": 3,
+            "tiempo": null,
+            "condicion": "siempre",
+            "mensaje": "🔥 ¡El fuego negro del mandoble te quema!",
+            "objetivo": "objetivo"
+          },
+          {
+            "tipo": "ejecucion",
+            "probabilidad": 50,
+            "valor": 25,
+            "ataques": 1,
+            "tiempo": null,
+            "condicion": "siempre",
+            "mensaje": "",
+            "valor2": 2
+          },
+          {
+            "tipo": "tajo_mandoble",
+            "probabilidad": 15,
+            "valor": 250,
+            "ataques": 0,
+            "tiempo": null,
+            "condicion": "siempre"
+          },
+          {
+            "tipo": "salto_devastador",
+            "probabilidad": 12,
+            "valor": 220,
+            "ataques": 0,
+            "tiempo": null,
+            "condicion": "siempre"
+          }
+        ],
+        "habilidades": [
+          {
+            "id": "escaneo_tactico",
+            "probabilidad": 25
+          },
+          {
+            "id": "manto_de_sombras",
+            "probabilidad": 15
+          },
+          {
+            "id": "aura_sombria",
+            "probabilidad": 100
+          }
+        ],
+        "botin_exit": [
+          {
+            "aleatorio": [
+              2,
+              4,
+              5,
+              6,
+              7,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              134
+            ]
+          }
+        ],
+        "drops_cazador": [
+          {
+            "id_objeto": "ficha_a",
+            "tasa": 25
+          }
+        ],
+        "xp_extra": 1350,
+        "energia_botin": 9000,
+        "mazmorras": [
+          "sombras"
+        ],
+        "rabia_atk_por_pct": 1,
+        "velocidad": 1.3,
+        "escala": 1.1,
+        "all_dirs": true,
+        "hoja": "sorius"
       }
     ]
   },
@@ -1169,6 +1268,61 @@
           }
         ],
         "modo_estados": "todos"
+      },
+      {
+        "nombre": "Umbra",
+        "is_boss": false,
+        "vol": 99,
+        "elemento": "oscuridad",
+        "drops_cazador": [
+          {
+            "id_objeto": "esencia_glitch",
+            "tasa": 50
+          },
+          {
+            "id_objeto": "fragmento_sombrio",
+            "tasa": 50
+          }
+        ],
+        "mensaje_ataque": "ataca a",
+        "ia": "agresiva",
+        "energy_extra": 4950,
+        "atk_extra": 450,
+        "def_extra": 10,
+        "def_pct": 12,
+        "botin_exit": [
+          {
+            "aleatorio": [
+              2,
+              4,
+              5,
+              6,
+              7,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26
+            ]
+          }
+        ],
+        "velocidad": 1.2,
+        "aspecto": "sombra",
+        "atraviesa": true,
+        "fusionar": true,
+        "fusion_nombre": "Umbra fusionada",
+        "habilidades": [
+          {
+            "id": "zarpas_de_sombra",
+            "probabilidad": 100
+          }
+        ],
+        "mazmorras": [
+          "sombras"
+        ],
+        "alcance": 2,
+        "escala_fusion": 1.2
       }
     ]
   },

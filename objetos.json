@@ -1646,11 +1646,11 @@
     "equipable": true,
     "tipo": "orbe_magico",
     "emoji": "🔮",
-    "vol": 5,
-    "indice": 0,
-    "energia_max_bonus": 1200,
+    "vol": 101,
+    "indice": 1,
+    "energia_max_bonus": 2000,
     "dmg_bonus_pct": 8,
-    "def_bonus_pct": 8,
+    "def_bonus_pct": 5,
     "critico_pct": 5,
     "formula": [
       {
@@ -1665,6 +1665,9 @@
         "id_objeto": "esencia_del_origen",
         "cantidad": 2
       }
+    ],
+    "elementos": [
+      "luz"
     ]
   },
   {
@@ -1708,7 +1711,7 @@
   },
   {
     "id": "espada_sombria",
-    "nivel": 9,
+    "nivel": 10,
     "dmg_min": 170,
     "dmg_max": 250,
     "critico_pct": 12,
@@ -1719,8 +1722,8 @@
     "equipable": true,
     "tipo": "arma",
     "emoji": "🗡",
-    "indice": 46,
-    "vol": 5,
+    "indice": 1,
+    "vol": 101,
     "dmg_bonus_pct": 8,
     "dmg_bonus_fijo": false,
     "energia_max_bonus": 700,
@@ -1741,11 +1744,14 @@
         "id_objeto": "nucleo_umbral",
         "cantidad": 1
       }
+    ],
+    "elementos": [
+      "oscuridad"
     ]
   },
   {
     "id": "escudo_glitch",
-    "nivel": 9,
+    "nivel": 10,
     "rango": "S",
     "energia_max_bonus": 800,
     "atk": 0,
@@ -1755,8 +1761,8 @@
     "equipable": true,
     "tipo": "escudo",
     "emoji": "🛡",
-    "indice": 47,
-    "vol": 5,
+    "indice": 2,
+    "vol": 101,
     "def_bonus_pct": 28,
     "def_bonus_fijo": true,
     "tipos_avatar": [
@@ -1777,23 +1783,26 @@
         "id_objeto": "nucleo_umbral",
         "cantidad": 1
       }
+    ],
+    "elementos": [
+      "oscuridad"
     ]
   },
   {
     "id": "orbe_umbral",
     "atk": 0,
     "def": 0,
-    "nivel": 9,
+    "nivel": 10,
     "rango": "S",
     "alcance": "C2C",
     "equipable": true,
     "tipo": "orbe_magico",
     "emoji": "🔮",
-    "vol": 5,
-    "indice": 48,
-    "energia_max_bonus": 1000,
+    "vol": 101,
+    "indice": 0,
+    "energia_max_bonus": 1350,
     "dmg_bonus_pct": 6,
-    "def_bonus_pct": 6,
+    "def_bonus_pct": 4,
     "critico_pct": 6,
     "formula": [
       {
@@ -1808,6 +1817,51 @@
         "id_objeto": "nucleo_umbral",
         "cantidad": 2
       }
+    ],
+    "elementos": [
+      "oscuridad"
     ]
+  },
+  {
+    "id": "mandoble_igneo",
+    "atk": 5,
+    "def": 0,
+    "nivel": 10,
+    "rango": "A",
+    "alcance": "C2C",
+    "equipable": true,
+    "tipo": "arma",
+    "emoji": "🗡",
+    "vol": 101,
+    "indice": 2,
+    "dmg_min": 300,
+    "dmg_max": 360,
+    "dmg_bonus_pct": 5,
+    "dmg_bonus_fijo": false,
+    "critico_pct": 6,
+    "energia_max_bonus": 900,
+    "castigo_tipo": "quemadura",
+    "castigo_pct": 5,
+    "castigo_seg": 10,
+    "elementos": [
+      "fuego",
+      "oscuridad"
+    ],
+    "danos_elementales": [
+      {
+        "min": 300,
+        "max": 360
+      },
+      {
+        "min": 280,
+        "max": 330
+      }
+    ],
+    "tipos_avatar": [
+      "dps",
+      "protector",
+      "hibrido"
+    ],
+    "skill": "tajo_mandoble"
   }
 ]

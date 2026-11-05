@@ -1196,7 +1196,7 @@
     "indice": 0,
     "elemento": "fuego",
     "descripcion": "Este avatar sabe lo que se hace cuando se trata de detonar cosas",
-    "all_dirs": false,
+    "all_dirs": true,
     "skill": "bomba",
     "skills": [
       "detonar",
