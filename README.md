@@ -175,7 +175,7 @@ cada día en el mantenimiento, así que un cambio aceptado aquí llega al juego 
 
 ## Colaboradores
 
-[@Jriverof](https://github.com/Jriverof) : Ideas, Enemigos, Mazmorras, Objetos.
+[@JKRiveroF](https://github.com/JKRiveroF) : Ideas, Enemigos, Mazmorras, Objetos.
 
 ---
 
