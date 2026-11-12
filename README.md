@@ -31,6 +31,7 @@
 - [Herramientas para la comunidad](#herramientas-para-la-comunidad)
 - [Contribuir con contenido](#contribuir-con-contenido)
 - [Canales y comunidad](#canales-y-comunidad)
+- [Créditos y Licencias de terceros](#cr%C3%A9ditos-y-licencias-de-terceros)
 - [Licencia](#licencia)
 
 ---
@@ -176,6 +177,24 @@ cada día en el mantenimiento, así que un cambio aceptado aquí llega al juego 
 ## Colaboradores
 
 [@JKRiveroF](https://github.com/JKRiveroF) : Ideas, Enemigos, Mazmorras, Objetos.
+
+---
+
+## Créditos y licencias de terceros
+
+### Mapa de España — OpenStreetMap
+
+El mundo **España** está construido a partir de datos de
+[OpenStreetMap](https://www.openstreetmap.org), transformados al estilo digital del juego.
+Los edificios, las calles, los parques, el agua y los árboles se generan a partir de esos datos.
+
+> Datos de mapas © [colaboradores de OpenStreetMap](https://www.openstreetmap.org/copyright),
+> disponibles bajo la [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/).
+
+- Las zonas se descargan a través de la API pública de [Overpass](https://overpass-api.de)
+  y se guardan ya convertidas en el servidor del juego.
+- Las zonas convertidas son una base de datos derivada de OpenStreetMap: si se distribuyen,
+  lo hacen bajo la misma licencia ODbL.
 
 ---
 
